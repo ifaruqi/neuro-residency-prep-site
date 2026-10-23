@@ -15,13 +15,17 @@
   var QMAP = {};
   QB.forEach(function (q) { q.id = q.t + '-' + hash(q.q); QMAP[q.id] = q; });
   // Book references (data/refs.js): { id: { v: volume, p: 'pages', quote: 'short supporting quote' } }
+  // nib = not found in the book: kept in data but excluded from try-outs, since every answer must be grounded.
   var REFS = window.REFS || {};
   QB.forEach(function (q) {
     var r = REFS[q.id];
     if (!r) return;
+    if (r.nib) { q.nib = true; return; }
     q.src = 'Buku Ajar Neurologi Ed. 2, Vol. ' + r.v + ', hlm. ' + r.p;
-    if (r.quote) q.quote = r.quote;
+    if (r.a) q.o[0] = r.a;
+    if (r.e) q.e = r.e;
   });
+  var POOL = QB.filter(function (q) { return !q.nib; });
 
   // ---------- storage ----------
   var store = {
@@ -78,7 +82,7 @@
     var seen = store.get('seen', {});
     var pools = {};
     topics.forEach(function (t) {
-      pools[t] = shuffle(QB.filter(function (q) { return q.t === t; }))
+      pools[t] = shuffle(POOL.filter(function (q) { return q.t === t; }))
         .sort(function (a, b) { return (seen[a.id] || 0) - (seen[b.id] || 0); });
     });
     var total = topics.reduce(function (s, t) { return s + pools[t].length; }, 0);
@@ -176,7 +180,7 @@
       html += '<div class="notice">Ada try out yang belum selesai. <a href="#/ujian">Lanjutkan</a></div>';
     }
     html += '<div class="grid">' +
-      '<div class="card"><div class="muted small">Bank soal</div><div class="stat">' + QB.length + '</div><div class="small muted">' + TOPICS.length + ' topik</div></div>' +
+      '<div class="card"><div class="muted small">Bank soal</div><div class="stat">' + POOL.length + '</div><div class="small muted">' + TOPICS.length + ' topik</div></div>' +
       '<div class="card"><div class="muted small">Try out selesai</div><div class="stat">' + attempts.length + '</div></div>' +
       '<div class="card"><div class="muted small">Skor terakhir</div><div class="stat">' + (last ? pct(last.correct, last.total) + '%' : '–') + '</div></div>' +
       '</div>' +
@@ -195,7 +199,7 @@
     var n = last ? last.n : 50;
     var timed = last ? last.timed : true;
     var counts = {};
-    QB.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
+    POOL.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
     var html = '<h1>Atur Try Out</h1>' +
       '<div class="card">' +
       '<div class="field"><span>Jumlah soal</span><select id="n">' +
@@ -385,7 +389,7 @@
       b.n += qstats[id].n; b.c += qstats[id].c;
     });
     var counts = {};
-    QB.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
+    POOL.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
     var coverage = Object.keys(qstats).filter(function (id) { return QMAP[id]; }).length;
 
     var html = '<h1>Progres</h1>';
@@ -396,7 +400,7 @@
     var weak = Object.keys(byTopic).filter(function (t) { return byTopic[t].n >= 3; })
       .sort(function (x, y) { return pct(byTopic[x].c, byTopic[x].n) - pct(byTopic[y].c, byTopic[y].n); }).slice(0, 3);
     html += '<div class="grid"><div class="card"><div class="muted small">Try out</div><div class="stat">' + attempts.length + '</div></div>' +
-      '<div class="card"><div class="muted small">Soal unik dikerjakan</div><div class="stat">' + coverage + '<span class="small muted"> / ' + QB.length + '</span></div></div>' +
+      '<div class="card"><div class="muted small">Soal unik dikerjakan</div><div class="stat">' + coverage + '<span class="small muted"> / ' + POOL.length + '</span></div></div>' +
       '<div class="card"><div class="muted small">Rata-rata 3 terakhir</div><div class="stat">' +
       Math.round(attempts.slice(-3).reduce(function (s, a) { return s + pct(a.correct, a.total); }, 0) / Math.min(3, attempts.length)) + '%</div></div></div>';
     if (weak.length) {
