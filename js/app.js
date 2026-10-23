@@ -23,6 +23,7 @@
     if (r.nib) { q.nib = true; return; }
     q.src = 'Buku Ajar Neurologi Ed. 2, Vol. ' + r.v + ', hlm. ' + r.p;
     if (r.a) q.o[0] = r.a;
+    if (r.q) q.q = r.q; // id stays based on the original stem, so progress is kept
     if (r.e) q.e = r.e;
   });
   var POOL = QB.filter(function (q) { return !q.nib; });
