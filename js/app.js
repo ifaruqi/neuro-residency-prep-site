@@ -14,6 +14,14 @@
   }
   var QMAP = {};
   QB.forEach(function (q) { q.id = q.t + '-' + hash(q.q); QMAP[q.id] = q; });
+  // Book references (data/refs.js): { id: { v: volume, p: 'pages', quote: 'short supporting quote' } }
+  var REFS = window.REFS || {};
+  QB.forEach(function (q) {
+    var r = REFS[q.id];
+    if (!r) return;
+    q.src = 'Buku Ajar Neurologi Ed. 2, Vol. ' + r.v + ', hlm. ' + r.p;
+    if (r.quote) q.quote = r.quote;
+  });
 
   // ---------- storage ----------
   var store = {
@@ -338,7 +346,8 @@
             var mark = oi === 0 ? ' ✓' : (oi === ans ? ' ✗ (jawaban Anda)' : '');
             return '<div class="opt' + cls + '"><span class="key">' + LETTERS[k] + '.</span><span>' + esc(q.o[oi]) + '<b>' + mark + '</b></span></div>';
           }).join('') +
-          '<div class="exp"><b>Pembahasan.</b> ' + esc(q.e) + '</div>' +
+          '<div class="exp"><b>Pembahasan.</b> ' + esc(q.e) +
+          (q.quote ? '<div class="small" style="margin-top:6px"><i>Buku Ajar: “' + esc(q.quote) + '”</i></div>' : '') + '</div>' +
           '<div class="row spread small" style="margin-top:8px"><span class="muted">Sumber: ' + (q.src === 'AI' ? 'pengetahuan umum (belum diverifikasi dengan buku)' : esc(q.src)) + '</span>' +
           '<button class="btn ghost small" data-r="' + qid + '">' + (reported[qid] ? 'Dilaporkan ✓' : 'Laporkan soal') + '</button></div></div>';
       });
