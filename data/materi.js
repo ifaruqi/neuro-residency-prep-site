@@ -286,7 +286,7 @@ H: `
 <p>HINTS (hanya untuk sindrom vestibular akut): "INFARCT" = Impulse Normal, Fast-phase Alternating, Refixation on Cover Test.</p>
 <h3>Diagnosis spesifik</h3>
 <table><tr><th>Penyakit</th><th>Durasi</th><th>Pendengaran</th><th>Kunci</th></tr>
-<tr><td>BPPV</td><td>Detik</td><td>Normal</td><td>Posisional; posterior: upbeat-torsional, latensi 1–5 dtk, &lt; 60 dtk, fatigable; Epley</td></tr>
+<tr><td>BPPV</td><td>Detik</td><td>Normal</td><td>Posisional; posterior: upbeat-torsional, latensi 2–5 dtk, hilang &lt; 1 menit, fatigable; Epley</td></tr>
 <tr><td>Neuritis vestibular</td><td>Hari</td><td>Normal</td><td>Pasca ISPA, HIT abnormal</td></tr>
 <tr><td>Labirinitis</td><td>Hari</td><td>Turun</td><td></td></tr>
 <tr><td>Ménière</td><td>20 menit–12 jam</td><td>SNHL fluktuatif</td><td>Tinnitus, penuh</td></tr>

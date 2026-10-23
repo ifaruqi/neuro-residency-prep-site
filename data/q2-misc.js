@@ -1,7 +1,7 @@
 // M — batch 2
 Q('M', 'Indikasi pemberian profilaksis migren?',
-  ['Serangan ≥ 4 hari per bulan atau serangan yang sangat mengganggu meski terapi akut adekuat', 'Satu serangan per tahun', 'Semua pasien migren tanpa kecuali', 'Hanya bila migren dengan aura', 'Hanya pada anak-anak'],
-  'Profilaksis juga dipertimbangkan bila terapi akut gagal/kontraindikasi atau ada risiko medication overuse. Target: frekuensi turun ≥ 50%.');
+  ['Serangan sedang-berat lebih dari 3 hari per bulan yang tidak responsif terapi abortif, atau serangan yang tetap mengganggu aktivitas meski sudah diterapi', 'Satu serangan per tahun', 'Semua pasien migren tanpa kecuali', 'Hanya bila migren dengan aura', 'Hanya pada anak-anak'],
+  'Indikasi lain: serangan cukup sering sehingga berisiko medication overuse, atau serangan berulang > 2 kali/minggu yang mengganggu walau terapi abortif adekuat. Bila migren terkontrol 6–12 bulan, profilaksis diturunkan perlahan lalu dihentikan.', 'Buku Ajar Neurologi Ed. 2, hlm. 739–740');
 
 Q('M', 'Efek samping flunarizin, profilaksis migren yang banyak dipakai di Indonesia, yang perlu diwaspadai pada lansia?',
   ['Parkinsonisme dan depresi', 'Hiperplasia gingiva', 'Batu ginjal', 'Hipoglikemia', 'Ototoksisitas'],

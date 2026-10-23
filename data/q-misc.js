@@ -16,8 +16,8 @@ Q('M', 'Nyeri kepala bilateral seperti diikat/ditekan, intensitas ringan-sedang,
   'TTH adalah nyeri kepala primer tersering. Terapi akut: parasetamol/NSAID. Profilaksis TTH kronik: amitriptilin. Pemeriksaan tenderness perikranial (temporalis, masseter, SCM, trapezius) membantu.');
 
 Q('M', 'Pria 30 tahun dengan nyeri hebat periorbital kanan 45 menit, terjadi setiap malam selama beberapa minggu, disertai mata merah, lakrimasi, rinore ipsilateral, dan gelisah. Terapi akut pilihan?',
-  ['Oksigen 100% 12–15 L/menit dengan masker atau sumatriptan subkutan', 'Parasetamol oral', 'Amitriptilin', 'Carbamazepine', 'Morfin'],
-  'Cluster headache (trigeminal autonomic cephalalgia): unilateral orbital 15–180 menit, gejala otonom ipsilateral, pasien gelisah (berbeda dengan migren). Profilaksis: verapamil; bridging: steroid.');
+  ['Oksigen 100% dengan sungkup (7 L/menit selama 15 menit) atau sumatriptan 6 mg subkutan', 'Parasetamol oral', 'Amitriptilin', 'Carbamazepine', 'Morfin'],
+  'Cluster headache (trigeminal autonomic cephalalgia): unilateral orbital 15–180 menit, gejala otonom ipsilateral, pasien gelisah (berbeda dengan migren). Buku Ajar mencantumkan oksigen 7 L/menit selama 15 menit; pedoman internasional memakai 12–15 L/menit. Profilaksis: verapamil.', 'Buku Ajar Neurologi Ed. 2, hlm. 752');
 
 Q('M', 'Nyeri wajah unilateral seperti tersetrum, berlangsung detik, dipicu menyikat gigi atau mengunyah, tanpa defisit neurologis. Terapi lini pertama?',
   ['Carbamazepine', 'Parasetamol', 'Sumatriptan', 'Amitriptilin', 'Gabapentin dosis tunggal'],

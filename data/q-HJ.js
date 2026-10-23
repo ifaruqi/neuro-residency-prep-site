@@ -1,7 +1,7 @@
 // H — Vestibular & vertigo
 Q('H', 'Vertigo berputar beberapa detik saat berbaring atau berguling di tempat tidur, tanpa gangguan pendengaran. Dix-Hallpike kanan memicu nistagmus upbeat-torsional dengan latensi beberapa detik dan durasi < 1 menit. Diagnosis?',
   ['BPPV kanalis posterior kanan', 'Neuritis vestibular kanan', 'Penyakit Ménière', 'BPPV kanalis horizontal kiri', 'Stroke serebelum'],
-  'BPPV kanal posterior (tersering): nistagmus upbeat-torsional (kutub atas mata berputar ke telinga bawah), latensi 1–5 detik, durasi < 60 detik, fatigable. Terapi: manuver Epley.');
+  'BPPV kanal posterior (tersering): nistagmus upbeat-torsional (kutub atas mata berputar ke telinga bawah), latensi 2–5 detik, menghilang dalam 1 menit (biasanya ~30 detik), fatigable. Terapi: manuver Epley atau Semont.', 'Buku Ajar Neurologi Ed. 2, hlm. 1092');
 
 Q('H', 'Manuver berikut BUKAN manuver reposisi kanalit pada BPPV?',
   ['Dix-Hallpike', 'Epley', 'Semont', 'Barbecue roll (Lempert)', 'Gufoni'],
