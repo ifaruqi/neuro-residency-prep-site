@@ -26,7 +26,12 @@
     if (r.q) q.q = r.q; // id stays based on the original stem, so progress is kept
     if (r.e) q.e = r.e;
   });
-  var POOL = QB.filter(function (q) { return !q.nib; });
+  // Grounded = answer verified against the book with a page citation. Questions outside the book are only
+  // included when the user opts in ("Sertakan soal di luar Buku Ajar").
+  QB.forEach(function (q) { q.grounded = !q.nib && q.src !== 'AI'; });
+  var POOL = QB.filter(function (q) { return q.grounded; });
+  var OUTSIDE = QB.filter(function (q) { return !q.grounded; });
+  function poolFor(outside) { return outside ? QB : POOL; }
 
   // ---------- storage ----------
   var store = {
@@ -79,11 +84,11 @@
   }
 
   // Quota per topic proportional to weight; least-seen questions first.
-  function pickQuestions(n, topics) {
+  function pickQuestions(n, topics, outside) {
     var seen = store.get('seen', {});
     var pools = {};
     topics.forEach(function (t) {
-      pools[t] = shuffle(POOL.filter(function (q) { return q.t === t; }))
+      pools[t] = shuffle(poolFor(outside).filter(function (q) { return q.t === t; }))
         .sort(function (a, b) { return (seen[a.id] || 0) - (seen[b.id] || 0); });
     });
     var total = topics.reduce(function (s, t) { return s + pools[t].length; }, 0);
@@ -111,7 +116,7 @@
 
   // ---------- exam state ----------
   function startExam(settings) {
-    var qs = pickQuestions(settings.n, settings.topics);
+    var qs = pickQuestions(settings.n, settings.topics, !!settings.outside);
     if (!qs.length) { alert('Tidak ada soal untuk topik yang dipilih.'); return; }
     var exam = {
       id: 'a' + Date.now().toString(36),
@@ -199,8 +204,10 @@
     var preset = params.topic ? [params.topic] : (last ? last.topics : TOPICS.map(function (t) { return t.id; }));
     var n = last ? last.n : 50;
     var timed = last ? last.timed : true;
-    var counts = {};
+    var outside = last ? !!last.outside : false;
+    var counts = {}, extra = {};
     POOL.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
+    OUTSIDE.forEach(function (q) { extra[q.t] = (extra[q.t] || 0) + 1; });
     var html = '<h1>Atur Try Out</h1>' +
       '<div class="card">' +
       '<div class="field"><span>Jumlah soal</span><select id="n">' +
@@ -214,13 +221,20 @@
       '<div class="row small"><a href="javascript:void 0" id="all">Pilih semua</a><a href="javascript:void 0" id="none">Kosongkan</a></div>' +
       TOPICS.map(function (t) {
         return '<label class="check"><input type="checkbox" value="' + t.id + '"' + (preset.indexOf(t.id) >= 0 ? ' checked' : '') + '>' +
-          '<span>' + esc(t.name) + ' <span class="muted small">(' + (counts[t.id] || 0) + ' soal)</span></span></label>';
+          '<span>' + esc(t.name) + ' <span class="muted small">(' + (counts[t.id] || 0) + ' soal' +
+          (extra[t.id] ? '<span class="outside-count"' + (outside ? '' : ' hidden') + '> + ' + extra[t.id] + ' di luar buku</span>' : '') +
+          ')</span></span></label>';
       }).join('') +
       '</div>' +
+      '<label class="check"><input type="checkbox" id="outside"' + (outside ? ' checked' : '') + '>' +
+      '<span><b>Sertakan soal di luar Buku Ajar</b><br><span class="small muted">' + OUTSIDE.length + ' soal (terutama neuroanatomi dan serebelum) yang jawabannya tidak ditemukan di Buku Ajar Neurologi. Ditandai jelas saat pembahasan.</span></span></label>' +
       '<p class="small muted">Soal dibagi per topik sesuai bobot frekuensi soal lalu. Soal yang paling jarang Anda kerjakan diprioritaskan, sehingga setiap set berbeda.</p>' +
       '<button class="btn" id="go">Mulai</button></div>';
     app.innerHTML = html;
-    var boxes = app.querySelectorAll('input[type=checkbox]');
+    var boxes = app.querySelectorAll('input[type=checkbox]:not(#outside)');
+    document.getElementById('outside').onchange = function (e) {
+      app.querySelectorAll('.outside-count').forEach(function (el) { el.hidden = !e.target.checked; });
+    };
     document.getElementById('all').onclick = function () { boxes.forEach(function (b) { b.checked = true; }); };
     document.getElementById('none').onclick = function () { boxes.forEach(function (b) { b.checked = false; }); };
     document.getElementById('go').onclick = function () {
@@ -228,7 +242,8 @@
       boxes.forEach(function (b) { if (b.checked) topics.push(b.value); });
       if (!topics.length) { alert('Pilih minimal satu topik.'); return; }
       var sec = parseInt(document.getElementById('timed').value, 10);
-      startExam({ n: parseInt(document.getElementById('n').value, 10), timed: sec > 0, secPerQ: sec || 60, topics: topics });
+      startExam({ n: parseInt(document.getElementById('n').value, 10), timed: sec > 0, secPerQ: sec || 60, topics: topics,
+        outside: document.getElementById('outside').checked });
     };
   }
 
@@ -353,7 +368,7 @@
           }).join('') +
           '<div class="exp"><b>Pembahasan.</b> ' + esc(q.e) +
           (q.quote ? '<div class="small" style="margin-top:6px"><i>Buku Ajar: “' + esc(q.quote) + '”</i></div>' : '') + '</div>' +
-          '<div class="row spread small" style="margin-top:8px"><span class="muted">Sumber: ' + (q.src === 'AI' ? 'pengetahuan umum (belum diverifikasi dengan buku)' : esc(q.src)) + '</span>' +
+          '<div class="row spread small" style="margin-top:8px">' + (q.grounded ? '<span class="muted">Sumber: ' + esc(q.src) + '</span>' : '<span class="tag warn">Di luar Buku Ajar — pengetahuan umum, tidak ditemukan di buku</span>') +
           '<button class="btn ghost small" data-r="' + qid + '">' + (reported[qid] ? 'Dilaporkan ✓' : 'Laporkan soal') + '</button></div></div>';
       });
       app.innerHTML = html;
