@@ -33,6 +33,30 @@
   var OUTSIDE = QB.filter(function (q) { return !q.grounded; });
   function poolFor(outside) { return outside ? QB : POOL; }
 
+  // Bank Soal Lama: rewritten past-paper items (data/past.js). Kept separate from the Buku Ajar bank.
+  var PASTQ = (window.PAST || []).map(function (r) {
+    var q = { t: r.t, q: r.q, o: r.o.slice(), e: r.e, src: r.src || null,
+      past: { paper: r.paper, no: r.no, key: r.key, agree: r.agree } };
+    q.id = 'PP-' + hash(r.paper + '#' + r.no);
+    q.grounded = !!r.src;
+    QMAP[q.id] = q;
+    return q;
+  });
+  var PAPERS = [];
+  PASTQ.forEach(function (q) { if (PAPERS.indexOf(q.past.paper) < 0) PAPERS.push(q.past.paper); });
+  PAPERS.sort();
+
+  function pickPast(settings) {
+    var list = PASTQ.filter(function (q) {
+      return (settings.paper === 'all' || q.past.paper === settings.paper) && settings.topics.indexOf(q.t) >= 0;
+    });
+    if (settings.order === 'urut' && settings.paper !== 'all') {
+      return list.sort(function (a, b) { return a.past.no - b.past.no; });
+    }
+    var seen = store.get('seen', {});
+    return shuffle(list).sort(function (a, b) { return (seen[a.id] || 0) - (seen[b.id] || 0); }).slice(0, settings.n);
+  }
+
   // ---------- storage ----------
   var store = {
     get: function (k, d) {
@@ -116,7 +140,7 @@
 
   // ---------- exam state ----------
   function startExam(settings) {
-    var qs = pickQuestions(settings.n, settings.topics, !!settings.outside);
+    var qs = settings.bank === 'lama' ? pickPast(settings) : pickQuestions(settings.n, settings.topics, !!settings.outside);
     if (!qs.length) { alert('Tidak ada soal untuk topik yang dipilih.'); return; }
     var exam = {
       id: 'a' + Date.now().toString(36),
@@ -208,8 +232,25 @@
     var counts = {}, extra = {};
     POOL.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
     OUTSIDE.forEach(function (q) { extra[q.t] = (extra[q.t] || 0) + 1; });
+    var bank = params.bank || (last && last.bank) || 'buku';
+    if (!PASTQ.length) bank = 'buku';
+    var paper = (last && last.paper) || 'all', order = (last && last.order) || 'acak';
     var html = '<h1>Atur Try Out</h1>' +
       '<div class="card">' +
+      '<div class="field"><span>Sumber soal</span><select id="bank">' +
+      '<option value="buku"' + (bank === 'buku' ? ' selected' : '') + '>Bank Buku Ajar (' + POOL.length + ' soal)</option>' +
+      (PASTQ.length ? '<option value="lama"' + (bank === 'lama' ? ' selected' : '') + '>Bank Soal Lama — soal CBT tahun lalu (' + PASTQ.length + ' soal)</option>' : '') +
+      '</select></div>' +
+      '<div id="lama-opts"' + (bank === 'lama' ? '' : ' hidden') + '>' +
+      '<div class="field"><span>Paket</span><select id="paper"><option value="all">Semua paket</option>' +
+      PAPERS.map(function (pp) {
+        var c = PASTQ.filter(function (q) { return q.past.paper === pp; }).length;
+        return '<option value="' + esc(pp) + '"' + (pp === paper ? ' selected' : '') + '>' + esc(pp) + ' (' + c + ' soal)</option>';
+      }).join('') + '</select></div>' +
+      '<div class="field"><span>Urutan</span><select id="order">' +
+      '<option value="acak"' + (order === 'acak' ? ' selected' : '') + '>Acak (sesuai jumlah soal)</option>' +
+      '<option value="urut"' + (order === 'urut' ? ' selected' : '') + '>Satu paket utuh, urut nomor asli</option>' +
+      '</select></div></div>' +
       '<div class="field"><span>Jumlah soal</span><select id="n">' +
       [10, 25, 50, 75, 100].map(function (v) { return '<option' + (v === n ? ' selected' : '') + '>' + v + '</option>'; }).join('') +
       '</select></div>' +
@@ -226,12 +267,17 @@
           ')</span></span></label>';
       }).join('') +
       '</div>' +
-      '<label class="check"><input type="checkbox" id="outside"' + (outside ? ' checked' : '') + '>' +
+      '<label class="check" id="outside-wrap"' + (bank === 'lama' ? ' hidden' : '') + '><input type="checkbox" id="outside"' + (outside ? ' checked' : '') + '>' +
       '<span><b>Sertakan soal di luar Buku Ajar</b><br><span class="small muted">' + OUTSIDE.length + ' soal (terutama neuroanatomi dan serebelum) yang jawabannya tidak ditemukan di Buku Ajar Neurologi. Ditandai jelas saat pembahasan.</span></span></label>' +
       '<p class="small muted">Soal dibagi per topik sesuai bobot frekuensi soal lalu. Soal yang paling jarang Anda kerjakan diprioritaskan, sehingga setiap set berbeda.</p>' +
       '<button class="btn" id="go">Mulai</button></div>';
     app.innerHTML = html;
     var boxes = app.querySelectorAll('input[type=checkbox]:not(#outside)');
+    document.getElementById('bank').onchange = function (e) {
+      var lama = e.target.value === 'lama';
+      document.getElementById('lama-opts').hidden = !lama;
+      document.getElementById('outside-wrap').hidden = lama;
+    };
     document.getElementById('outside').onchange = function (e) {
       app.querySelectorAll('.outside-count').forEach(function (el) { el.hidden = !e.target.checked; });
     };
@@ -243,7 +289,10 @@
       if (!topics.length) { alert('Pilih minimal satu topik.'); return; }
       var sec = parseInt(document.getElementById('timed').value, 10);
       startExam({ n: parseInt(document.getElementById('n').value, 10), timed: sec > 0, secPerQ: sec || 60, topics: topics,
-        outside: document.getElementById('outside').checked });
+        outside: document.getElementById('outside').checked,
+        bank: document.getElementById('bank').value,
+        paper: document.getElementById('paper') ? document.getElementById('paper').value : 'all',
+        order: document.getElementById('order') ? document.getElementById('order').value : 'acak' });
     };
   }
 
@@ -359,7 +408,8 @@
         if (filter === 'wrong' && ok) return;
         if (filter === 'flag' && !a.flags[i]) return;
         var status = ok ? '<span class="tag ok">Benar</span>' : ans === null ? '<span class="tag warn">Tidak dijawab</span>' : '<span class="tag bad">Salah</span>';
-        html += '<div class="card"><div class="row spread"><div class="qtopic">' + (i + 1) + '. ' + esc(TOPIC[q.t].name) + '</div>' + status + '</div>' +
+        var pastTag = q.past ? ' · ' + esc(q.past.paper) + ' no. ' + q.past.no : '';
+        html += '<div class="card"><div class="row spread"><div class="qtopic">' + (i + 1) + '. ' + esc(TOPIC[q.t].name) + pastTag + '</div>' + status + '</div>' +
           '<div class="stem">' + esc(q.q) + '</div>' +
           a.orders[i].map(function (oi, k) {
             var cls = oi === 0 ? ' correct' : (oi === ans ? ' wrong' : '');
@@ -367,8 +417,9 @@
             return '<div class="opt' + cls + '"><span class="key">' + LETTERS[k] + '.</span><span>' + esc(q.o[oi]) + '<b>' + mark + '</b></span></div>';
           }).join('') +
           '<div class="exp"><b>Pembahasan.</b> ' + esc(q.e) +
-          (q.quote ? '<div class="small" style="margin-top:6px"><i>Buku Ajar: “' + esc(q.quote) + '”</i></div>' : '') + '</div>' +
-          '<div class="row spread small" style="margin-top:8px">' + (q.grounded ? '<span class="muted">Sumber: ' + esc(q.src) + '</span>' : '<span class="tag warn">Di luar Buku Ajar — pengetahuan umum, tidak ditemukan di buku</span>') +
+          (q.quote ? '<div class="small" style="margin-top:6px"><i>Buku Ajar: “' + esc(q.quote) + '”</i></div>' : '') +
+          (q.past && q.past.agree === false ? '<div class="small" style="margin-top:6px"><span class="tag warn">Kunci di rekap soal: ' + esc(q.past.key || '-') + '</span> Jawaban di sini mengikuti ' + (q.grounded ? 'Buku Ajar' : 'literatur standar') + '.</div>' : '') + '</div>' +
+          '<div class="row spread small" style="margin-top:8px">' + (q.grounded ? '<span class="muted">Sumber: ' + esc(q.src) + '</span>' : '<span class="tag warn">' + (q.past ? 'Tidak ditemukan di Buku Ajar — jawaban dari literatur standar' : 'Di luar Buku Ajar — pengetahuan umum, tidak ditemukan di buku') + '</span>') +
           '<button class="btn ghost small" data-r="' + qid + '">' + (reported[qid] ? 'Dilaporkan ✓' : 'Laporkan soal') + '</button></div></div>';
       });
       app.innerHTML = html;
