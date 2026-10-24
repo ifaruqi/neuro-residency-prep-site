@@ -9,7 +9,15 @@
   function poly(points,fill){return '<polygon points="'+points+'" fill="'+(fill||'none')+'"/>';}
   function dots(n,cx,cy,step){var s='';n=num(n,20);for(var i=0;i<n;i++)s+='<circle cx="'+(cx+(i%4)*step)+'" cy="'+(cy+Math.floor(i/4)*step)+'" r="3" fill="currentColor"/>';return s;}
   var shapes={
-    rightTriangle:function(l){return poly('100,230 100,60 360,230')+line(100,213,117,213)+line(117,213,117,230)+text(75,145,l.a)+text(230,255,l.b)+text(245,130,l.c)+text(90,45,'A')+text(80,248,'B')+text(380,240,'C');},
+    numberCross:function(_,f){var s='';(f.values||[]).slice(0,3).forEach(function(row,i){var x=20+i*170,y=65,size=47;[[1,0],[0,1],[1,1],[2,1],[1,2]].forEach(function(cell,j){var cx=x+cell[0]*size,cy=y+cell[1]*size;s+=rect(cx,cy,size,size)+text(cx+size/2,cy+size/2+6,row[j]);});});return s;},
+    symbolEquations:function(l){return text(260,80,l.a)+text(260,155,l.b)+text(260,230,l.c);},
+    barChart:function(_,f){var s='',series=(f.series||[]).slice(0,2),categories=(f.categories||[]).slice(0,4),max=50;
+      series.forEach(function(row){(row.values||[]).forEach(function(v){max=Math.max(max,Math.ceil(num(v,100000)/50)*50);});});
+      s+=line(65,260,490,260)+line(65,260,65,55);
+      for(var tick=0;tick<=3;tick++){var value=max*tick/3,y=260-190*tick/3;s+=line(60,y,490,y,'stroke-opacity=".2"')+text(35,y+6,Math.round(value*10)/10);}
+      categories.forEach(function(c,i){var x=100+i*100;s+=text(x+25,285,c);series.forEach(function(row,j){var height=num(row.values[i],100000)/max*190;s+=rect(x+j*30,260-height,25,height,j?'var(--muted)':'var(--accent)');});});
+      return s+text(155,27,series[0]?series[0].name:'')+rect(110,12,15,15,'var(--accent)')+text(345,27,series[1]?series[1].name:'')+rect(300,12,15,15,'var(--muted)');},
+    rightTriangle:function(l){return poly('100,230 100,60 360,230')+line(100,213,117,213)+line(117,213,117,230)+text(75,145,l.a)+text(230,255,l.b)+text(245,130,l.c)+text(90,45,'A')+text(80,248,'B')+text(380,240,'C')+(l.angle?text(320,218,l.angle):'');},
     triangleAngles:function(l){return poly('80,230 400,230 190,55')+text(180,95,l.a)+text(115,217,l.b)+text(350,218,l.c);},
     exteriorAngle:function(l){return poly('75,225 335,225 180,55')+line(335,225,465,225)+text(175,95,l.a)+text(112,213,l.b)+text(365,201,l.c)+text(175,40,'A')+text(60,246,'B')+text(330,246,'C')+text(460,247,'D');},
     parallel:function(l){return line(45,80,470,80)+line(45,190,470,190)+line(115,250,340,20)+text(55,65,'p')+text(55,175,'q')+text(310,65,l.a)+text(205,175,l.b);},

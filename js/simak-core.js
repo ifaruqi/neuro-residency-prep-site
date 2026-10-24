@@ -28,10 +28,12 @@
     return shuffle(order);
   }
 
+  function presentationOrder(q) { return q.marked ? q.marked.map(function(m){return m.oi;}) : optionOrder(q); }
+
   function validate(bank) {
     var ids = {}, stems = {};
     bank.forEach(function (q) {
-      var key = q.section + '|' + q.q + '|' + (q.passage ? q.passage.id : '') + '|' + (q.table ? q.table.id : '') + '|' + JSON.stringify(q.figure || {}) + '|' + JSON.stringify(q.marked || []);
+      var key = q.section + '|' + q.q + '|' + (q.passage ? q.passage.id : '') + '|' + (q.table ? q.table.id : '') + '|' + JSON.stringify(q.figure || {}) + '|' + JSON.stringify(q.marked || []) + '|' + JSON.stringify(q.segments || []);
       if (!/^SM-[a-f0-9]{16}$/.test(q.id) || ids[q.id]) throw new Error('ID SIMAK tidak valid/duplikat: ' + q.id);
       if (!sectionMap[q.section] || !q.q || !q.e || q.origin !== 'original' || stems[key]) throw new Error('Soal SIMAK tidak valid: ' + q.id);
       if (q.difficulty !== undefined && ['foundation','standard','challenge'].indexOf(q.difficulty)<0) throw new Error('Tingkat soal tidak valid: '+q.id);
@@ -66,6 +68,26 @@
     return chosen;
   }
 
+  function referencePick(bank, section, seen) {
+    function select(pool,n){return pick(pool,section,n,seen);}
+    function groups(pool,n,perGroup){
+      var units={};pool.forEach(function(q){if(q.passage)(units[q.passage.id]||(units[q.passage.id]=[])).push(q);});
+      var eligible=Object.keys(units).filter(function(id){return units[id].length>=perGroup;});
+      eligible=shuffle(eligible).sort(function(a,b){
+        function exposure(id){return units[id].reduce(function(sum,q){return sum+(seen[q.id]||0);},0)/units[id].length;}
+        return exposure(a)-exposure(b);
+      });
+      if(eligible.length<n)throw new Error('Kumpulan bacaan untuk format acuan belum cukup.');
+      return eligible.slice(0,n).reduce(function(all,id){return all.concat(units[id].slice(0,perGroup));},[]);
+    }
+    var pool=bank.filter(function(q){return q.section===section;});
+    if(section==='verbal')return select(pool.filter(function(q){return q.skill==='Analogi'&&!q.passage;}),28).concat(groups(pool.filter(function(q){return q.passage;}),3,4));
+    if(section==='structure')return select(pool.filter(function(q){return !q.marked&&q.o.length===4;}),15).concat(select(pool.filter(function(q){return q.marked&&q.o.length===4;}),25));
+    if(section==='reading')return groups(pool.filter(function(q){return q.style==='reference'&&q.o.length===4;}),5,10);
+    if(section==='logic')return select(pool.filter(function(q){return !q.passage&&q.skill!=='Pola visual';}),15).concat(groups(pool.filter(function(q){return q.passage;}),2,5));
+    return select(pool,35);
+  }
+
   function create(bank, settings, seen, now) {
     bank = bank.filter(function(q){return (!settings.difficulty||settings.difficulty==='mixed'||q.difficulty===settings.difficulty)&&(!settings.packageId||settings.packageId==='mixed'||q.package===settings.packageId)&&(!settings.skill||q.skill===settings.skill);});
     var ids = settings.mode === 'full' ? sections.map(function (s) { return s.id; }) :
@@ -76,11 +98,11 @@
       if (!s) throw new Error('Subtes tidak dikenal.');
       var count = settings.mode === 'focus' ? Math.min(settings.n, bank.filter(function (q) { return q.section === id; }).length) : s.n;
       if (!Number.isInteger(count) || count < 1) throw new Error('Jumlah soal tidak valid.');
-      var qs = pick(bank, id, count, seen || {});
+      var qs = settings.format==='reference'&&settings.mode!=='focus'?referencePick(bank,id,seen||{}):pick(bank,id,count,seen||{});
       return { section: id, questions: qs, answers: qs.map(function () { return null; }),
         flags: qs.map(function () { return false; }), revealed: qs.map(function () { return false; }),
         spent: qs.map(function(){return 0;}), confidence: qs.map(function(){return null;}),
-        orders: qs.map(optionOrder),
+        orders: qs.map(presentationOrder),
         duration: Math.round(s.minutes * 60000 * count / s.n), endedAt: null, cur: 0 };
     });
     // Snapshots preserve historical review when the original bank changes in the future.
@@ -94,7 +116,7 @@
     var questions=items.slice(0,n).map(function(item){return item.q;}),blocks=[];
     if(!questions.length)throw new Error('Tidak ada soal pada daftar ulasan ini.');
     sections.forEach(function(s){var qs=questions.filter(function(q){return q.section===s.id;});if(!qs.length)return;
-      blocks.push({section:s.id,questions:qs,answers:qs.map(function(){return null;}),flags:qs.map(function(){return false;}),revealed:qs.map(function(){return false;}),spent:qs.map(function(){return 0;}),confidence:qs.map(function(){return null;}),orders:qs.map(optionOrder),duration:Math.round(s.minutes*60000*qs.length/s.n),endedAt:null,cur:0});
+      blocks.push({section:s.id,questions:qs,answers:qs.map(function(){return null;}),flags:qs.map(function(){return false;}),revealed:qs.map(function(){return false;}),spent:qs.map(function(){return 0;}),confidence:qs.map(function(){return null;}),orders:qs.map(presentationOrder),duration:Math.round(s.minutes*60000*qs.length/s.n),endedAt:null,cur:0});
     });
     return {version:1,id:'SM-attempt-'+now+'-'+Math.random().toString(36).slice(2,8),status:'active',settings:{bank:'simak',mode:'review',timed:false,sessionMode:'flexible',difficulty:'mixed'},start:now,blockStart:now,blockIndex:0,blocks:JSON.parse(JSON.stringify(blocks)),deadline:null,end:null};
   }
@@ -163,5 +185,5 @@
     return { rows: rows, totals: totals };
   }
 
-  window.SIMAK_ENGINE = { validate: validate, create: create, createReview:createReview, pick: pick, advance: advance, catchUp: catchUp, pause:pause, resume:resume, active:active, score: score, sections: sectionMap };
+  window.SIMAK_ENGINE = { validate: validate, create: create, createReview:createReview, pick: pick, referencePick:referencePick, advance: advance, catchUp: catchUp, pause:pause, resume:resume, active:active, score: score, sections: sectionMap };
 })();

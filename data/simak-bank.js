@@ -16100,5 +16100,11188 @@ window.SIMAK_BANK = [
       "evidence": "rather than the effect of withholding all maintenance"
     },
     "difficulty": "challenge"
+  },
+  {
+    "id": "SM-ccb772b92c938f7c",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "MOZAIK : KEPING = ...",
+    "o": [
+      "RANTAI : MATA RANTAI",
+      "JARUM : BENANG",
+      "KUNCI : PINTU",
+      "PENA : TINTA",
+      "LAMPU : CAHAYA"
+    ],
+    "e": "Keseluruhan tersusun dari satuan berulang: mozaik dari keping, rantai dari mata rantai. Tinta adalah isi pena, bukan satuan penyusunnya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Keseluruhan tersusun dari satuan berulang: mozaik dari keping, rantai dari mata rantai. Tinta adalah isi pena, bukan satuan penyusunnya."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-232b7a0aeefee4d5",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PUPIL : MATA = ...",
+    "o": [
+      "STOMATA : DAUN",
+      "AKAR : TANAH",
+      "BUNGA : MADU",
+      "GETAH : BATANG",
+      "BIJI : PERKEBUNAN"
+    ],
+    "e": "Pupil dan stomata merupakan bukaan pada organ yang disebut sesudahnya; bukan produk, lingkungan, atau isi organ.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pupil dan stomata merupakan bukaan pada organ yang disebut sesudahnya; bukan produk, lingkungan, atau isi organ."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-67aa82fa6201e2da",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PAHAT : MEMAHAT = ...",
+    "o": [
+      "BOR : MENGEBOR",
+      "PALU : PAKU",
+      "GERGAJI : PAPAN",
+      "KUAS : CAT",
+      "TANG : KABEL"
+    ],
+    "e": "Alat dengan tindakan khas yang dilakukan memakai alat tersebut, bukan alat dengan bahan atau objeknya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Alat dengan tindakan khas yang dilakukan memakai alat tersebut, bukan alat dengan bahan atau objeknya."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-8564610bf7efb60e",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KOMPOS : PENGURAIAN = ...",
+    "o": [
+      "ES : PEMBEKUAN",
+      "AIR : PENGUAPAN",
+      "ABU : PENYIRAMAN",
+      "KAYU : PENEBANGAN",
+      "BENIH : PENYIMPANAN"
+    ],
+    "e": "Hasil dengan proses pembentukannya. Penguapan menghasilkan uap, bukan air cair; penebangan hanya memisahkan kayu yang sudah ada.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Hasil dengan proses pembentukannya. Penguapan menghasilkan uap, bukan air cair; penebangan hanya memisahkan kayu yang sudah ada."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c262ea161be1f0cf",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "LARVA : SERANGGA DEWASA = ...",
+    "o": [
+      "KECEBONG : KATAK DEWASA",
+      "TELUR : SARANG",
+      "KEPOMPONG : DAUN",
+      "INSANG : IKAN",
+      "BIJI : KULIT"
+    ],
+    "e": "Tahap belum dewasa dengan tahap dewasa dalam daur hidup organisme yang sama.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tahap belum dewasa dengan tahap dewasa dalam daur hidup organisme yang sama."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-30d96b708868800c",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "HEMAT : BOROS = ...",
+    "o": [
+      "CERMAT : CEROBOH",
+      "CEPAT : LANCAR",
+      "TEPAT : BENAR",
+      "RINGKAS : PADAT",
+      "RAPI : TERATUR"
+    ],
+    "e": "Kedua pasangan berlawanan makna; pasangan lain bersinonim atau hanya berkaitan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kedua pasangan berlawanan makna; pasangan lain bersinonim atau hanya berkaitan."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-2d2c802edc932c8b",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "USANG : BARU = ...",
+    "o": [
+      "KUSAM : CEMERLANG",
+      "RAPUH : PECAH",
+      "BASAH : LEMBAP",
+      "PADAT : PENUH",
+      "LENGANG : SEPI"
+    ],
+    "e": "Lawan sifat. Rapuh dan pecah adalah kecenderungan dan hasil, bukan antonim.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Lawan sifat. Rapuh dan pecah adalah kecenderungan dan hasil, bukan antonim."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e80ff90b517b1252",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "TUKANG JILID : BUKU = ...",
+    "o": [
+      "PENALA : PIANO",
+      "KURIR : ALAMAT",
+      "KOKI : MENU",
+      "PENYIAR : PENDENGAR",
+      "WASIT : ATURAN"
+    ],
+    "e": "Pekerja dengan objek yang ditangani secara teknis: penjilid menangani buku, penala menyetel piano.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pekerja dengan objek yang ditangani secara teknis: penjilid menangani buku, penala menyetel piano."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b7d412711b0e3e04",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KISI : JENDELA = ...",
+    "o": [
+      "JERUJI : KANDANG",
+      "RANTING : AKAR",
+      "TALI : SIMPUL",
+      "PAPAN : GERGAJI",
+      "JALAN : KENDARAAN"
+    ],
+    "e": "Bagian pembatas berupa bilah dengan struktur tempatnya dipasang. Simpul merupakan bentuk pada tali sehingga arah relasinya berbeda.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Bagian pembatas berupa bilah dengan struktur tempatnya dipasang. Simpul merupakan bentuk pada tali sehingga arah relasinya berbeda."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-570e70f1e950aa5e",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PANAS : TERMOMETER = ...",
+    "o": [
+      "TEKANAN : MANOMETER",
+      "PANJANG : TIMBANGAN",
+      "MASSA : METERAN",
+      "WAKTU : KOMPAS",
+      "ARAH : STOPWATCH"
+    ],
+    "e": "Besaran yang diukur dengan alatnya. Relasi harus menjaga pasangan besaran-alat, bukan sekadar memilih alat ukur apa pun.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Besaran yang diukur dengan alatnya. Relasi harus menjaga pasangan besaran-alat, bukan sekadar memilih alat ukur apa pun."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-bc81ead53dd8fe68",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "BENING : JERNIH = ...",
+    "o": [
+      "LESTARI : LANGGENG",
+      "KOKOH : RAPUH",
+      "CUKUP : KURANG",
+      "TAJAM : TUMPUL",
+      "SUBUR : GERSANG"
+    ],
+    "e": "Sinonim dengan arah yang sama; pilihan lain berupa antonim.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Sinonim dengan arah yang sama; pilihan lain berupa antonim."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e34d80bb52f58bd2",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KULIT : MELINDUNGI = ...",
+    "o": [
+      "REM : MEMPERLAMBAT",
+      "RODA : BERPUTAR",
+      "JENDELA : TERBUKA",
+      "BATU : KERAS",
+      "PINTU : ENGSEL"
+    ],
+    "e": "Benda atau bagian dengan fungsinya. Berputar adalah gerak roda, bukan tujuan yang dinyatakan dalam relasi fungsi ini.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Benda atau bagian dengan fungsinya. Berputar adalah gerak roda, bukan tujuan yang dinyatakan dalam relasi fungsi ini."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-6f64f9196357f2a7",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "DANAU : CEKUNGAN = ...",
+    "o": [
+      "AIR TERJUN : TEBING",
+      "MUARA : GARAM",
+      "GUNUNG : LAVA",
+      "PANTAI : PERAHU",
+      "TELUK : ANGIN"
+    ],
+    "e": "Kenampakan air dengan bentuk medan tempatnya berada atau mengalir. Pasangan lain mengaitkan isi, benda, atau kondisi.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kenampakan air dengan bentuk medan tempatnya berada atau mengalir. Pasangan lain mengaitkan isi, benda, atau kondisi."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-aa8bd6e9fc147a8e",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "EKSKAVASI : ARKEOLOGI = ...",
+    "o": [
+      "DISKRESI : ADMINISTRASI",
+      "DIAGNOSIS : GEOGRAFI",
+      "KATALOG : BIOLOGI",
+      "DEDUKSI : BOTANI",
+      "FERMENTASI : ASTRONOMI"
+    ],
+    "e": "Kegiatan atau kewenangan yang menjadi praktik bidang di kanan. Diskresi digunakan dalam administrasi; pilihan lain tidak tepat memasangkan bidangnya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kegiatan atau kewenangan yang menjadi praktik bidang di kanan. Diskresi digunakan dalam administrasi; pilihan lain tidak tepat memasangkan bidangnya."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-2e5459cff9fc19ac",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "INOKULASI : KULTUR = ...",
+    "o": [
+      "PENYEMAIAN : BIBIT",
+      "PENGUKURAN : JARAK",
+      "PENGERINGAN : PANAS",
+      "PEMBACAAN : AKSARA",
+      "PENGEMASAN : WADAH"
+    ],
+    "e": "Tindakan yang memulai pertumbuhan menuju hasil di kanan, bukan sekadar mengukur, memakai, atau menempatkan objek.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tindakan yang memulai pertumbuhan menuju hasil di kanan, bukan sekadar mengukur, memakai, atau menempatkan objek."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-8dfa992605992c65",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "EPILOG : PENUTUP = ...",
+    "o": [
+      "PREAMBULE : PEMBUKA",
+      "SINOPSIS : TOKOH",
+      "INDEKS : CERITA",
+      "LAMPIRAN : HALAMAN",
+      "CATATAN : PENA"
+    ],
+    "e": "Istilah bagian teks dengan fungsi atau makna umumnya. Sinopsis merangkum cerita, bukan berarti tokoh.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Istilah bagian teks dengan fungsi atau makna umumnya. Sinopsis merangkum cerita, bukan berarti tokoh."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b49bd89536ce06e3",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "RETRAKSI : MENARIK KEMBALI = ...",
+    "o": [
+      "RATIFIKASI : MENGESAHKAN",
+      "KODIFIKASI : MENGABAIKAN",
+      "DIVERSIFIKASI : MENYERAGAMKAN",
+      "RELOKASI : MEMPERTAHANKAN TEMPAT",
+      "KONSOLIDASI : MEMECAH"
+    ],
+    "e": "Nomina tindakan dengan arti verbanya. Pengecoh memakai tindakan kebalikan atau tidak sesuai.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Nomina tindakan dengan arti verbanya. Pengecoh memakai tindakan kebalikan atau tidak sesuai."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b8b238755946fcd1",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "DUAL : DUA = ...",
+    "o": [
+      "TRIPARTIT : TIGA PIHAK",
+      "BILATERAL : TIGA SISI",
+      "MONOLINGUAL : DUA BAHASA",
+      "TRIWULAN : EMPAT BULAN",
+      "KUADRAT : LIMA SISI"
+    ],
+    "e": "Istilah dengan jumlah yang terkandung dalam maknanya. Tripartit melibatkan tiga pihak.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Istilah dengan jumlah yang terkandung dalam maknanya. Tripartit melibatkan tiga pihak."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-5ae8b521be7cf0cd",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "ANOMALI : POLA = ...",
+    "o": [
+      "PENGECUALIAN : KAIDAH",
+      "KONSENSUS : SEPAKAT",
+      "DEFINISI : ISTILAH",
+      "CONTOH : OBJEK",
+      "HIPOTESIS : DUGAAN"
+    ],
+    "e": "Hal yang menyimpang dari acuan umum di kanan. Pilihan lain adalah kesepadanan makna atau penjelasan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Hal yang menyimpang dari acuan umum di kanan. Pilihan lain adalah kesepadanan makna atau penjelasan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-4ed4ad35bbef781b",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "BENUA : PULAU = ...",
+    "o": [
+      "SAMUDRA : DANAU",
+      "DELTA : SUNGAI",
+      "HUJAN : AWAN",
+      "MUARA : LAUT",
+      "TEBING : BATU"
+    ],
+    "e": "Dua kategori kenampakan sejenis yang dibedakan terutama oleh skala dan cakupan, bukan bagian dengan keseluruhan atau sebab.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dua kategori kenampakan sejenis yang dibedakan terutama oleh skala dan cakupan, bukan bagian dengan keseluruhan atau sebab."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c2ef5b23027e2868",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PENERIMA : RESIPIEN = ...",
+    "o": [
+      "PENYUMBANG : DONATUR",
+      "PENGIRIM : PENERIMA",
+      "PENULIS : PENERBIT",
+      "PENYIMPAN : PEMINJAM",
+      "PEMBELI : PENJUAL"
+    ],
+    "e": "Dua penamaan untuk peran yang sama. Pilihan lain membedakan peran, bukan memberi padanan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dua penamaan untuk peran yang sama. Pilihan lain membedakan peran, bukan memberi padanan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a475509187d49170",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "TERSEMBUNYI : LATEN = ...",
+    "o": [
+      "TERSURAT : EKSPLISIT",
+      "SEMENTARA : PERMANEN",
+      "TERBATAS : UNIVERSAL",
+      "TERUKUR : ABSTRAK",
+      "TERATUR : ACAK"
+    ],
+    "e": "Makna umum dengan istilah sepadannya, bukan sifat yang berlawanan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Makna umum dengan istilah sepadannya, bukan sifat yang berlawanan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-355bf0becaaf50ad",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "NASKAH : PENYUNTING = ...",
+    "o": [
+      "TUTURAN : PENAFSIR",
+      "NILAI : PENGGARIS",
+      "RUTE : PENIMBANG",
+      "BANGUNAN : PENERJEMAH",
+      "RESEP : ARSIPARIS"
+    ],
+    "e": "Objek kebahasaan dengan orang yang mengolah atau menafsirkan isinya secara profesional.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Objek kebahasaan dengan orang yang mengolah atau menafsirkan isinya secara profesional."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-45d2e0d0793636e2",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KAPASITAS : DAYA TAMPUNG = ...",
+    "o": [
+      "DURASI : LAMA WAKTU",
+      "FREKUENSI : BESAR RUANG",
+      "VOLUME : JUMLAH ULANGAN",
+      "INTENSITAS : ARAH GERAK",
+      "KECEPATAN : SELISIH MASSA"
+    ],
+    "e": "Istilah pengukuran dengan pengertian yang tepat. Durasi adalah lamanya waktu.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Istilah pengukuran dengan pengertian yang tepat. Durasi adalah lamanya waktu."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-168c55030e174eef",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PRASANGKA : PENILAIAN = ...",
+    "o": [
+      "PRAKONSEPSI : GAGASAN",
+      "PEMERIKSAAN : HASIL",
+      "PENGULANGAN : JUMLAH",
+      "PENJABARAN : RINCIAN",
+      "PERTANYAAN : JAWABAN"
+    ],
+    "e": "Bentuk yang telah dimiliki sebelum pemeriksaan memadai, dalam kategori yang disebut di kanan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Bentuk yang telah dimiliki sebelum pemeriksaan memadai, dalam kategori yang disebut di kanan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-af78f8793f5d112b",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KARTOGRAF : PETA = ...",
+    "o": [
+      "KOREOGRAFER : SUSUNAN TARI",
+      "GEOLOG : GEMPA",
+      "METEOROLOG : HUJAN",
+      "BIOLOG : SEL",
+      "ASTRONOM : PLANET"
+    ],
+    "e": "Perancang dengan karya yang disusunnya. Ilmuwan pada pengecoh mempelajari fenomena, bukan menciptakannya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Perancang dengan karya yang disusunnya. Ilmuwan pada pengecoh mempelajari fenomena, bukan menciptakannya."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-8adb363d55adc7b5",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KERAPUHAN : PECAH = ...",
+    "o": [
+      "KERENTANAN : TERDAMPAK",
+      "KEPADATAN : BERAT",
+      "KELUASAN : PANJANG",
+      "KETINGGIAN : JAUH",
+      "KETEBALAN : BESAR"
+    ],
+    "e": "Sifat yang menunjukkan kemudahan mengalami kejadian di kanan; bukan ukuran yang sekadar berkorelasi.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Sifat yang menunjukkan kemudahan mengalami kejadian di kanan; bukan ukuran yang sekadar berkorelasi."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-14b993ee5c0f1ec5",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PENAPISAN : PARTIKEL = ...",
+    "o": [
+      "SELEKSI : KANDIDAT",
+      "PENCATATAN : PENA",
+      "PEMBAGIAN : RUANG",
+      "PENIMBANGAN : TIMBANGAN",
+      "PENGUKURAN : ANGKA"
+    ],
+    "e": "Proses pemilahan dengan objek yang dipilah, bukan alat atau hasil angka.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Proses pemilahan dengan objek yang dipilah, bukan alat atau hasil angka."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2b04fe37f9e9397d",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KONSISTEN : AJEG = ...",
+    "o": [
+      "KONTINU : BERKESINAMBUNGAN",
+      "KONKRET : ABSTRAK",
+      "KOMPLEKS : TUNGGAL",
+      "KOMPREHENSIF : SEBAGIAN",
+      "KONTINGEN : NISCAYA"
+    ],
+    "e": "Padanan makna searah. Kontinu berarti berkesinambungan, sedangkan kontingen dan niscaya bukan sinonim.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Padanan makna searah. Kontinu berarti berkesinambungan, sedangkan kontingen dan niscaya bukan sinonim."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7c3a8e14af3c99f1",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "HULU : HILIR = ...",
+    "o": [
+      "ANTERIOR : POSTERIOR",
+      "PROKSIMAL : DEKAT",
+      "DORSAL : PUNGGUNG",
+      "MEDIAL : TENGAH",
+      "VENTRAL : PERUT"
+    ],
+    "e": "Dua posisi pada arah yang berlawanan. Pengecoh lain memasangkan istilah dengan artinya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dua posisi pada arah yang berlawanan. Pengecoh lain memasangkan istilah dengan artinya."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-60ea176c88ea604a",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "ABSTRAKSI : RINCIAN KHUSUS = ...",
+    "o": [
+      "GENERALISASI : KASUS INDIVIDUAL",
+      "KATALOGISASI : URUTAN",
+      "IDENTIFIKASI : NAMA",
+      "KUANTIFIKASI : ANGKA",
+      "DUPLIKASI : SALINAN"
+    ],
+    "e": "Proses bergerak dari kekhususan di kanan menuju rumusan lebih umum; pengecoh lain lebih dekat pada proses dengan hasilnya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Proses bergerak dari kekhususan di kanan menuju rumusan lebih umum; pengecoh lain lebih dekat pada proses dengan hasilnya."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-8bc0ce74cee12be1",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "REPLIKA : OBJEK ASLI = ...",
+    "o": [
+      "FAKSIMILE : DOKUMEN ASLI",
+      "UKURAN : PENGGARIS",
+      "KESIMPULAN : PREMIS",
+      "TANDA : MAKNA",
+      "BAHAN : PRODUK"
+    ],
+    "e": "Salinan yang dibuat menyerupai sumbernya; bukan hubungan penalaran, simbol, atau bahan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Salinan yang dibuat menyerupai sumbernya; bukan hubungan penalaran, simbol, atau bahan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-387af9602c14eb25",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "SUBORDINAT : ATASAN = ...",
+    "o": [
+      "ANAK SUNGAI : SUNGAI UTAMA",
+      "BAHAN BAKAR : MESIN",
+      "PENUMPANG : KURSI",
+      "HUJAN : PAYUNG",
+      "GUDANG : ARSIP"
+    ],
+    "e": "Unsur bawahan dalam struktur bertingkat dengan unsur utama. Kedua hubungan juga memiliki arah subordinasi yang sama.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Unsur bawahan dalam struktur bertingkat dengan unsur utama. Kedua hubungan juga memiliki arah subordinasi yang sama."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-12a673ed0d0d6489",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "DISIPASI : ENERGI = ...",
+    "o": [
+      "EROSI : TANAH",
+      "EVAPORASI : ANGIN",
+      "KONDENSASI : BATU",
+      "ABRASI : CAHAYA",
+      "SEDIMENTASI : UDARA"
+    ],
+    "e": "Proses pengurangan atau penyebaran dengan objek yang mengalami proses tersebut. Pasangan lain salah menunjuk objek.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Proses pengurangan atau penyebaran dengan objek yang mengalami proses tersebut. Pasangan lain salah menunjuk objek."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-199475cd32ec4bfb",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PRESEDEN : PUTUSAN = ...",
+    "o": [
+      "PURWARUPA : RANCANGAN",
+      "ANTITESIS : KEPATUHAN",
+      "APENDIKS : PENGANTAR",
+      "SINTESIS : PENGHAPUSAN",
+      "DIKSI : PENGHITUNGAN"
+    ],
+    "e": "Contoh awal atau terdahulu dalam kategori di kanan yang dapat menjadi rujukan bagi yang berikutnya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Contoh awal atau terdahulu dalam kategori di kanan yang dapat menjadi rujukan bagi yang berikutnya."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-70be97fea0deaab9",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "ORNITOLOGI : BURUNG = ...",
+    "o": [
+      "MIKOLOGI : JAMUR",
+      "IKTIOLOGI : SERANGGA",
+      "BOTANI : BATUAN",
+      "GEOLOGI : TUMBUHAN",
+      "SITOLOGI : IKLIM"
+    ],
+    "e": "Bidang ilmu dengan objek kajian tepatnya. Mikologi mempelajari jamur.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Bidang ilmu dengan objek kajian tepatnya. Mikologi mempelajari jamur."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-1a97ab6539be1074",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PENJELASAN : EKSPLANATORIS = ...",
+    "o": [
+      "PENGGAMBARAN : DESKRIPTIF",
+      "PERINTAH : NARATIF",
+      "CERITA : NORMATIF",
+      "ATURAN : HISTORIS",
+      "URUTAN : KAUSAL"
+    ],
+    "e": "Kegiatan atau isi dengan sifat yang menyatakannya. Deskriptif bersifat menggambarkan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kegiatan atau isi dengan sifat yang menyatakannya. Deskriptif bersifat menggambarkan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-eb0c90df81f0227a",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "DENOTASI : MAKNA LUGAS = ...",
+    "o": [
+      "KONOTASI : MAKNA TAMBAHAN",
+      "POLISEMI : SATU MAKNA",
+      "HOMONIMI : SATU PELAFALAN SAJA",
+      "SINONIMI : MAKNA BERLAWANAN",
+      "ANTONIMI : MAKNA SEPADAN"
+    ],
+    "e": "Istilah dengan jenis maknanya. Konotasi mengandung asosiasi tambahan; opsi lain mendefinisikan istilah secara keliru.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Istilah dengan jenis maknanya. Konotasi mengandung asosiasi tambahan; opsi lain mendefinisikan istilah secara keliru."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b23831ddcaf8ff86",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "ONTOLOGI : KEBERADAAN = ...",
+    "o": [
+      "EPISTEMOLOGI : PENGETAHUAN",
+      "ETIKA : PELAFALAN",
+      "ESTETIKA : KEWAJIBAN MORAL",
+      "LOGIKA : KEINDAHAN",
+      "FONOLOGI : PENILAIAN BENAR-SALAH"
+    ],
+    "e": "Cabang kajian dengan persoalan intinya. Epistemologi mengkaji pengetahuan dan pembenarannya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Cabang kajian dengan persoalan intinya. Epistemologi mengkaji pengetahuan dan pembenarannya."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-0959994891bc157a",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "POSTERIOR : ANTERIOR = ...",
+    "o": [
+      "RETROAKTIF : PROSPEKTIF",
+      "SINKRETISME : KECEPATAN",
+      "OPTIMISME : UKURAN",
+      "EMPIRISME : WARNA",
+      "FORMALISME : SUHU"
+    ],
+    "e": "Pasangan pertama membedakan posisi belakang dan depan; pasangan kedua membedakan keberlakuan ke masa sebelumnya dan arah ke depan. Kedua pasangan menjaga arah pertentangan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pasangan pertama membedakan posisi belakang dan depan; pasangan kedua membedakan keberlakuan ke masa sebelumnya dan arah ke depan. Kedua pasangan menjaga arah pertentangan."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e5c679f86769dac5",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "SINEKDOKE : BAGIAN–KESELURUHAN = ...",
+    "o": [
+      "METONIMIA : PERTAUTAN ASOSIASI",
+      "HIPERBOLA : PENGURANGAN",
+      "LITOTES : PEMBESARAN",
+      "IRONI : PERNYATAAN HARFIAH",
+      "PERSONIFIKASI : PENGHILANGAN SIFAT MANUSIA"
+    ],
+    "e": "Majas dengan dasar mekanismenya. Metonimia mengganti penyebutan melalui hubungan asosiasi, bukan identik dengan bagian-keseluruhan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Majas dengan dasar mekanismenya. Metonimia mengganti penyebutan melalui hubungan asosiasi, bukan identik dengan bagian-keseluruhan."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-42766c36b05e4342",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "LEGALITAS : SESUAI HUKUM = ...",
+    "o": [
+      "LEGITIMITAS : DIAKUI KEABSAHANNYA",
+      "POPULARITAS : TERBUKTI BENAR",
+      "OTORITAS : TIDAK TERBATAS",
+      "EFISIENSI : TANPA BIAYA",
+      "EFEKTIVITAS : TANPA RISIKO"
+    ],
+    "e": "Konsep dengan makna yang tidak melampaui batasnya. Pengakuan keabsahan tidak identik dengan sekadar terkenal.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Konsep dengan makna yang tidak melampaui batasnya. Pengakuan keabsahan tidak identik dengan sekadar terkenal."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-862ccea5e0cc78a6",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "INFERENSI : PREMIS = ...",
+    "o": [
+      "INTERPOLASI : TITIK DATA PENGAPIT",
+      "DEFINISI : HASIL UJI",
+      "OBSERVASI : KESIMPULAN AKHIR",
+      "KONVENSI : HUKUM ALAM",
+      "AKSIOMA : CONTOH TANDINGAN"
+    ],
+    "e": "Proses menghasilkan informasi baru dari dasar yang mendukungnya. Interpolasi mengestimasi di antara titik pengapit.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Proses menghasilkan informasi baru dari dasar yang mendukungnya. Interpolasi mengestimasi di antara titik pengapit."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-bd3b61b5e88c23f5",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "NISCAYA : KONTINGEN = ...",
+    "o": [
+      "APODIKTIS : PROBLEMATIS",
+      "ANALITIS : TERURAI",
+      "EMPIRIS : TERAMATI",
+      "TENTATIF : SEMENTARA",
+      "IMPLISIT : TERSIRAT"
+    ],
+    "e": "Pertentangan status kepastian: niscaya lawan kontingen, apodiktis menyatakan kepastian sedangkan problematis menyatakan kemungkinan. Opsi lain berupa padanan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pertentangan status kepastian: niscaya lawan kontingen, apodiktis menyatakan kepastian sedangkan problematis menyatakan kemungkinan. Opsi lain berupa padanan."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-d68249a99e85c4a3",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "DISKRET : KONTINU = ...",
+    "o": [
+      "KARDINAL : ORDINAL",
+      "LATEN : TERSEMBUNYI",
+      "EMPIRIS : BERBUKTI",
+      "NORMATIF : SEHARUSNYA",
+      "KAUSAL : SEBAB"
+    ],
+    "e": "Dua kategori konsep yang berbeda tetapi dalam ranah klasifikasi yang sama. Opsi lain memasangkan istilah dengan penjelasan, bukan kategori sejajar.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dua kategori konsep yang berbeda tetapi dalam ranah klasifikasi yang sama. Opsi lain memasangkan istilah dengan penjelasan, bukan kategori sejajar."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-111e17dbc19ad6d8",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "AKSIOMA : SISTEM DEDUKTIF = ...",
+    "o": [
+      "ATURAN PRODUKSI : TATA BAHASA FORMAL",
+      "PENGECUALIAN : KEPASTIAN",
+      "HASIL UKUR : SATUAN",
+      "PENULIS : PENERBIT",
+      "KORELASI : SEBAB TUNGGAL"
+    ],
+    "e": "Unsur dasar pembangkit dalam suatu sistem aturan. Aturan produksi membangkitkan bentuk yang diizinkan tata bahasa formal.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Unsur dasar pembangkit dalam suatu sistem aturan. Aturan produksi membangkitkan bentuk yang diizinkan tata bahasa formal."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-78e741ea0b43489a",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KOMPATIBEL : DAPAT BERDAMPINGAN = ...",
+    "o": [
+      "KOMENSURABEL : DAPAT DIBANDINGKAN",
+      "ROBUST : TIDAK PERNAH SALAH",
+      "VALID : POPULER",
+      "RELIABEL : IDENTIK DENGAN BENAR",
+      "PROBABILISTIK : PASTI"
+    ],
+    "e": "Sifat dengan kemampuan yang tepat tanpa jaminan berlebihan. Reliabilitas tidak otomatis berarti akurasi atau kebenaran.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Sifat dengan kemampuan yang tepat tanpa jaminan berlebihan. Reliabilitas tidak otomatis berarti akurasi atau kebenaran."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-0dadae1b0015d43f",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "FALSIFIKASI : PENYANGKALAN = ...",
+    "o": [
+      "KOROBORASI : PENGUATAN",
+      "VERIFIKASI : PENYEMBUNYIAN",
+      "REPLIKASI : PENOLAKAN",
+      "JUSTIFIKASI : PENGHAPUSAN ALASAN",
+      "KUALIFIKASI KLAIM : PERLUASAN TANPA BATAS"
+    ],
+    "e": "Istilah proses argumentatif dengan makna searah. Koroborasi menguatkan dukungan; tidak otomatis mengubahnya menjadi kepastian.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Istilah proses argumentatif dengan makna searah. Koroborasi menguatkan dukungan; tidak otomatis mengubahnya menjadi kepastian."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-33fbd528fe74eae8",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "HEGEMONI : DOMINASI = ...",
+    "o": [
+      "RESIPROSITAS : TIMBAL BALIK",
+      "ASIMETRI : KESEIMBANGAN",
+      "DIVERGENSI : PEMUSATAN",
+      "ANTAGONISME : KESELARASAN",
+      "FRAGMENTASI : PENYATUAN"
+    ],
+    "e": "Padanan konsep. Pengecoh memakai antonim atau arah proses yang terbalik.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Padanan konsep. Pengecoh memakai antonim atau arah proses yang terbalik."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-cbd53523b0be50a9",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PROVENANS : ASAL-USUL = ...",
+    "o": [
+      "GENEALOGI : GARIS KETURUNAN",
+      "KRONOLOGI : SEBAB TUNGGAL",
+      "TAKSONOMI : JALAN PERJALANAN",
+      "ETIMOLOGI : BENTUK TULIS SAAT INI",
+      "MORFOLOGI : URUTAN TANGGAL"
+    ],
+    "e": "Konsep penelusuran sumber atau keterkaitan dengan objek yang ditelusuri secara tepat.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Konsep penelusuran sumber atau keterkaitan dengan objek yang ditelusuri secara tepat."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-4daeb06e7ec66b33",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "ABDUKSI : PENJELASAN TERBAIK = ...",
+    "o": [
+      "DEDUKSI : KONSEKUENSI LOGIS",
+      "INDUKSI : KEPASTIAN UNIVERSAL",
+      "ANALOGI : KESAMAAN SEMUA SIFAT",
+      "KORELASI : PEMBUKTIAN KAUSAL",
+      "APROKSIMASI : KESAMAAN EKSAK"
+    ],
+    "e": "Jenis penalaran dengan hasil yang memang dijaminnya. Deduksi sah menjaga konsekuensi logis; pilihan lain memberi jaminan berlebihan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jenis penalaran dengan hasil yang memang dijaminnya. Deduksi sah menjaga konsekuensi logis; pilihan lain memberi jaminan berlebihan."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e2bb952b583b8532",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "PARADOKS : KETEGANGAN SEMU = ...",
+    "o": [
+      "KONTRADIKSI : KETAKSESUAIAN LOGIS",
+      "TAUTOLOGI : KETIDAKPASTIAN",
+      "EKUIVOKASI : KEJELASAN TUNGGAL",
+      "DILEMA : SATU PILIHAN",
+      "ANTINOMI : KESEPAKATAN"
+    ],
+    "e": "Pasangan menghubungkan istilah dengan ciri pokoknya. Paradoks tampak bertentangan dan memerlukan penjelasan, sedangkan kontradiksi menyatakan ketidakcocokan logis.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pasangan menghubungkan istilah dengan ciri pokoknya. Paradoks tampak bertentangan dan memerlukan penjelasan, sedangkan kontradiksi menyatakan ketidakcocokan logis."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-67e04e8a1a1c1997",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "SINTAKSIS : SUSUNAN = ...",
+    "o": [
+      "PRAGMATIK : KONTEKS PENGGUNAAN",
+      "SEMANTIK : TANDA BACA SAJA",
+      "FONETIK : MAKNA SOSIAL",
+      "ORTOGRAFI : BUNYI ALAM",
+      "MORFOLOGI : TANGGAL PENULISAN"
+    ],
+    "e": "Cabang linguistik dengan ranah kajiannya. Pragmatik mengaitkan makna ujaran dengan konteks penggunaan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Cabang linguistik dengan ranah kajiannya. Pragmatik mengaitkan makna ujaran dengan konteks penggunaan."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-04750398f9f28c34",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KONSTITUTIF : MEMBENTUK = ...",
+    "o": [
+      "REGULATIF : MENGATUR",
+      "PRESKRIPTIF : MENGGAMBARKAN SAJA",
+      "DESKRIPTIF : MEWAJIBKAN",
+      "FORMATIF : MENIADAKAN",
+      "KOREKTIF : MEMPERTAHANKAN KESALAHAN"
+    ],
+    "e": "Adjektiva dengan fungsi yang tepat. Aturan regulatif mengatur tindakan, sedangkan konstitutif ikut membentuk suatu praktik.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Adjektiva dengan fungsi yang tepat. Aturan regulatif mengatur tindakan, sedangkan konstitutif ikut membentuk suatu praktik."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9426d61f0c422bcf",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "HERMENEUTIKA : PENAFSIRAN = ...",
+    "o": [
+      "HEURISTIK : PENEMUAN CARA",
+      "ESTETIKA : PENGHITUNGAN",
+      "DIALEKTIKA : DIAM",
+      "FENOMENOLOGI : PENIMBANGAN MASSA",
+      "TELEOLOGI : PELAFALAN"
+    ],
+    "e": "Kajian atau pendekatan dengan kegiatan yang menjadi pusat perhatiannya. Heuristik membantu menemukan pemecahan tanpa menjamin solusi optimal.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kajian atau pendekatan dengan kegiatan yang menjadi pusat perhatiannya. Heuristik membantu menemukan pemecahan tanpa menjamin solusi optimal."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-94aaf3c54e9d8866",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "IDIOMATIS : MAKNA TAK SEPENUHNYA KOMPOSISIONAL = ...",
+    "o": [
+      "HARFIAH : MAKNA LUGAS",
+      "METAFORIS : TANPA PEMINDAHAN MAKNA",
+      "AMBIGU : SATU TAFSIR SAJA",
+      "ELIPTIS : SEMUA UNSUR DIULANG",
+      "REDUNDAN : SEMUA UNSUR WAJIB"
+    ],
+    "e": "Sifat ungkapan dengan ciri pemaknaannya. Harfiah memakai makna lugas; idiom tidak selalu dapat diturunkan dari arti unsur satu per satu.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Sifat ungkapan dengan ciri pemaknaannya. Harfiah memakai makna lugas; idiom tidak selalu dapat diturunkan dari arti unsur satu per satu."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-77a1fc732ba658e7",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "SENTRIPETAL : MENUJU PUSAT = ...",
+    "o": [
+      "SENTRIFUGAL : MENJAUHI PUSAT",
+      "KONVERGEN : MAKIN BERJAUHAN",
+      "DIVERGEN : MAKIN MENDEKAT",
+      "VERTIKAL : MENDATAR",
+      "TANGENSIAL : MENUJU PUSAT"
+    ],
+    "e": "Istilah dengan arah tepatnya. Tangensial searah garis singgung, bukan menuju pusat.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Istilah dengan arah tepatnya. Tangensial searah garis singgung, bukan menuju pusat."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-71de83ec4961a3a8",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "KONTRAFAKTUAL : KEADAAN YANG TIDAK TERJADI = ...",
+    "o": [
+      "KONDISIONAL : HUBUNGAN BERSYARAT",
+      "HIPOTETIS : FAKTA TERKONFIRMASI",
+      "KAUSAL : KEBETULAN SEMATA",
+      "ANALOGIS : IDENTIK DALAM SEGALA HAL",
+      "STATISTIS : TANPA KETIDAKPASTIAN"
+    ],
+    "e": "Konsep dengan ciri yang mempertahankan batas maknanya. Kondisional tidak otomatis menyatakan hubungan sebab-akibat.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Konsep dengan ciri yang mempertahankan batas maknanya. Kondisional tidak otomatis menyatakan hubungan sebab-akibat."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-780df597248a0f42",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "INVARIAN : TETAP DI BAWAH TRANSFORMASI = ...",
+    "o": [
+      "EKUIVALEN : SETARA MENURUT KRITERIA",
+      "IDENTIK : MIRIP PADA SATU SIFAT SAJA",
+      "INDEPENDEN : BERASAL DARI SALINAN SAMA",
+      "HOMOGEN : TERDIRI DARI JENIS BERBEDA",
+      "SIMETRIS : SELALU LEBIH BESAR"
+    ],
+    "e": "Definisi relasional yang menyertakan kondisi pembanding. Ekuivalensi memerlukan kriteria yang menentukan kesetaraannya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Definisi relasional yang menyertakan kondisi pembanding. Ekuivalensi memerlukan kriteria yang menentukan kesetaraannya."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-4813abb537f5412a",
+    "section": "verbal",
+    "skill": "Gagasan utama",
+    "q": "Gagasan utama bacaan adalah ...",
+    "o": [
+      "pencatatan bersama yang membantu penyiraman sesuai keadaan petak",
+      "penambahan air menurut jadwal yang tidak boleh berubah",
+      "pergantian seluruh pengurus kebun secara berkala",
+      "pencatatan hujan sebagai tujuan tunggal kegiatan",
+      "peningkatan jumlah tulisan sebagai ukuran hasil"
+    ],
+    "e": "Masalah koordinasi pada paragraf pertama dijawab catatan bersama yang mempertimbangkan kondisi tanah; kalimat (9) menetapkan hasil yang dituju.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-1",
+      "title": "Catatan untuk kebun bersama",
+      "text": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "solution": {
+      "steps": [
+        "Masalah koordinasi pada paragraf pertama dijawab catatan bersama yang mempertimbangkan kondisi tanah; kalimat (9) menetapkan hasil yang dituju."
+      ],
+      "evidence": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-83d243a674656d4b",
+    "section": "verbal",
+    "skill": "Penyisipan kalimat",
+    "q": "Kalimat yang paling tepat mengisi [...] adalah ...",
+    "o": [
+      "Karena itu, petugas pengganti perlu membaca keadaan petak sebelum memutuskan penyiraman.",
+      "Dengan demikian, setiap petak harus disiram setiap kali seseorang datang.",
+      "Sebaliknya, semua catatan lama perlu dihapus sesudah hujan pertama.",
+      "Oleh sebab itu, jumlah tulisan menentukan banyaknya air yang harus ditambahkan.",
+      "Selain itu, jadwal harus dipatuhi tanpa memeriksa kondisi tanah."
+    ],
+    "e": "Kalimat (6)–(7) menekankan variasi keadaan tanah. Sisipan yang tepat menghubungkannya dengan fungsi papan sebagai alat koordinasi pada (8).",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-1",
+      "title": "Catatan untuk kebun bersama",
+      "text": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat (6)–(7) menekankan variasi keadaan tanah. Sisipan yang tepat menghubungkannya dengan fungsi papan sebagai alat koordinasi pada (8)."
+      ],
+      "evidence": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c2b4f903c86daedc",
+    "section": "verbal",
+    "skill": "Hubungan antarkalimat",
+    "q": "Hubungan kalimat (2) dan (3) adalah ...",
+    "o": [
+      "sebab dan akibat",
+      "definisi dan istilah",
+      "perbandingan dua pendapat",
+      "syarat dan pengecualian",
+      "penegasan dua perintah"
+    ],
+    "e": "Pengganti tidak mengetahui status penyiraman, akibatnya ada petak disiram dua kali dan ada yang terlewat.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-1",
+      "title": "Catatan untuk kebun bersama",
+      "text": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "solution": {
+      "steps": [
+        "Pengganti tidak mengetahui status penyiraman, akibatnya ada petak disiram dua kali dan ada yang terlewat."
+      ],
+      "evidence": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-d914928a384febbc",
+    "section": "verbal",
+    "skill": "Pernyataan tidak sesuai",
+    "q": "Pernyataan yang TIDAK sesuai dengan bacaan adalah ...",
+    "o": [
+      "Setiap anggota wajib menyiram menurut jadwal meskipun tanah masih basah.",
+      "Papan diletakkan di dekat pintu masuk kebun.",
+      "Pengganti sebelumnya dapat kehilangan informasi penyiraman.",
+      "Kondisi tanah termasuk informasi yang dicatat.",
+      "Pengurus menilai hasil setelah satu bulan."
+    ],
+    "e": "Kalimat (7) secara eksplisit mengizinkan penyesuaian ketika tanah masih basah; keempat pilihan lainnya sesuai teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-1",
+      "title": "Catatan untuk kebun bersama",
+      "text": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat (7) secara eksplisit mengizinkan penyesuaian ketika tanah masih basah; keempat pilihan lainnya sesuai teks."
+      ],
+      "evidence": "(1) Pengurus kebun bersama dahulu menyimpan jadwal penyiraman dalam percakapan telepon masing-masing anggota. (2) Ketika seorang anggota berhalangan, penggantinya tidak selalu mengetahui petak mana yang sudah disiram. (3) Beberapa petak menerima air dua kali, sedangkan petak lain terlewat. (4) Pengurus kemudian menempatkan papan catatan di dekat pintu masuk.\n\n(5) Setiap penyiram diminta menulis waktu, petak, dan kondisi tanah sebelum meninggalkan kebun. (6) Catatan tentang kondisi tanah diperlukan karena hujan tidak membasahi semua petak secara merata. (7) Anggota tidak diwajibkan mengikuti jadwal secara kaku apabila tanah masih basah. [...] (8) Papan itu menjadi alat koordinasi, bukan perintah untuk selalu menambah air. (9) Setelah satu bulan, pengurus menilai keberhasilan papan dari berkurangnya petak yang terlewat atau disiram berlebihan, bukan dari banyaknya tulisan yang terkumpul."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-8d63a59bc9f6a93d",
+    "section": "verbal",
+    "skill": "Gagasan utama",
+    "q": "Rumusan paling tepat untuk gagasan utama bacaan adalah ...",
+    "o": [
+      "kegunaan peta bergantung pada kejelasan representasi dan tujuan pembacanya",
+      "peta yang disukai selalu memberikan jarak paling akurat",
+      "dua lapisan menjamin semua pembaca memahami setiap lambang",
+      "hubungan jalur tidak dapat disajikan dalam peta sederhana",
+      "keseragaman panjang garis merupakan tujuan utama semua peta"
+    ],
+    "e": "Paragraf pertama membedakan fungsi skema jalur dan jarak; paragraf kedua menunjukkan perancangan dan pengujian menurut tugas.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-2",
+      "title": "Memisahkan dua lapisan peta",
+      "text": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "solution": {
+      "steps": [
+        "Paragraf pertama membedakan fungsi skema jalur dan jarak; paragraf kedua menunjukkan perancangan dan pengujian menurut tugas."
+      ],
+      "evidence": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-593c27c18fcda035",
+    "section": "verbal",
+    "skill": "Pembagian paragraf",
+    "q": "Jika paragraf kedua dibagi menjadi dua, kalimat yang paling tepat membuka bagian tentang evaluasi pemakaian adalah ...",
+    "o": [
+      "kalimat (6)",
+      "kalimat (5)",
+      "kalimat (7)",
+      "kalimat (8)",
+      "kalimat (9)"
+    ],
+    "e": "Kalimat (4)–(5) menjelaskan rancangan dua lapisan. Kalimat (6) beralih ke hasil uji awal, dilanjutkan revisi dan uji berikutnya.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-2",
+      "title": "Memisahkan dua lapisan peta",
+      "text": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat (4)–(5) menjelaskan rancangan dua lapisan. Kalimat (6) beralih ke hasil uji awal, dilanjutkan revisi dan uji berikutnya."
+      ],
+      "evidence": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-545e7206a228ed34",
+    "section": "verbal",
+    "skill": "Hubungan antarkalimat",
+    "q": "Fungsi kalimat (7) terhadap kalimat (6) adalah ...",
+    "o": [
+      "menyatakan tanggapan atas masalah yang ditemukan",
+      "memberi definisi istilah yang baru diperkenalkan",
+      "membantah bahwa pengujian pernah dilakukan",
+      "menyatakan syarat agar pengujian awal dapat dimulai",
+      "mengulang hasil pengujian tanpa tindakan lanjutan"
+    ],
+    "e": "Kesalahan tafsir pada (6) diikuti perbaikan legenda dan tampilan pada (7). Urutannya temuan lalu respons.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-2",
+      "title": "Memisahkan dua lapisan peta",
+      "text": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "solution": {
+      "steps": [
+        "Kesalahan tafsir pada (6) diikuti perbaikan legenda dan tampilan pada (7). Urutannya temuan lalu respons."
+      ],
+      "evidence": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-9009dee1c881cb11",
+    "section": "verbal",
+    "skill": "Inferensi",
+    "q": "Mengapa pertanyaan tentang kesukaan saja tidak cukup untuk evaluasi berikutnya?",
+    "o": [
+      "Kesukaan belum memastikan bahwa pengguna memilih informasi yang sesuai dengan tugas.",
+      "Pengguna yang menyukai peta pasti salah memilih rute.",
+      "Informasi jarak tidak dapat diperiksa dengan tugas perjalanan.",
+      "Legenda baru menghilangkan semua kemungkinan salah tafsir.",
+      "Hubungan jalur dan jarak jalan selalu menuntut pilihan yang sama."
+    ],
+    "e": "Kalimat (8) meminta pemilihan rute untuk tugas berbeda; (9) menekankan kecocokan informasi, bukan penilaian selera saja.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-2",
+      "title": "Memisahkan dua lapisan peta",
+      "text": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat (8) meminta pemilihan rute untuk tugas berbeda; (9) menekankan kecocokan informasi, bukan penilaian selera saja."
+      ],
+      "evidence": "(1) Peta jalur perjalanan mengutamakan kemudahan menemukan titik perpindahan. (2) Untuk tujuan itu, perancang dapat merapikan garis dan mengubah jarak antartitik pada gambar. (3) Perubahan tersebut membantu pembaca mengikuti hubungan jalur, tetapi panjang garis tidak lagi dapat langsung dibaca sebagai jarak berjalan kaki.\n\n(4) Sebuah pengelola kawasan menambahkan lapisan jarak berjalan kaki pada petanya. (5) Lapisan pertama tetap menunjukkan hubungan jalur, sedangkan lapisan kedua menampilkan jarak pada ruas tertentu. (6) Dalam uji awal, beberapa pengguna masih menganggap panjang garis pada lapisan pertama mewakili panjang jalan. (7) Pengelola lalu memperjelas legenda dan membedakan tampilan kedua lapisan. (8) Pengujian berikutnya tidak hanya menanyakan apakah peta disukai, tetapi juga meminta pengguna memilih rute untuk tujuan yang berbeda. (9) Peta dinilai dari kecocokan informasi dengan tugas pembacanya, bukan semata dari keseragaman bentuk."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1d8bdeadb3b97119",
+    "section": "verbal",
+    "skill": "Simpulan",
+    "q": "Simpulan paling tepat berdasarkan keseluruhan bacaan adalah ...",
+    "o": [
+      "penilaian minat dari tayangan perlu mempertimbangkan cara foto ditampilkan",
+      "foto yang paling sering dibuka pasti paling bernilai secara artistik",
+      "urutan bergilir harus menggantikan seluruh sistem pencarian",
+      "minat pengguna tidak mungkin dipelajari melalui perilaku",
+      "pengaruh posisi meniadakan kemungkinan adanya preferensi awal"
+    ],
+    "e": "Kalimat (3)–(4) mengidentifikasi dua arah pengaruh; percobaan pada paragraf kedua menguji peran posisi tanpa menolak preferensi awal.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-3",
+      "title": "Koleksi yang mudah ditemukan",
+      "text": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat (3)–(4) mengidentifikasi dua arah pengaruh; percobaan pada paragraf kedua menguji peran posisi tanpa menolak preferensi awal."
+      ],
+      "evidence": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c3a6b36011ac54b7",
+    "section": "verbal",
+    "skill": "Penyisipan kalimat",
+    "q": "Kalimat paling tepat untuk [...] adalah ...",
+    "o": [
+      "Dengan menjaga unsur tersebut tetap sama, perbandingan difokuskan pada perbedaan urutan tampilan.",
+      "Karena itu, nilai artistik foto dapat ditentukan hanya dari jumlah bukaan.",
+      "Akibatnya, setiap pengunjung dipastikan memiliki minat awal yang identik.",
+      "Sebaliknya, setiap kelompok perlu diberi koleksi yang berbeda agar urutannya lebih jelas.",
+      "Dengan demikian, pengarsipan tampilan tidak lagi diperlukan."
+    ],
+    "e": "Kalimat (6) menyebut unsur yang dijaga sama; sisipan menjelaskan fungsi pengendalian itu sebelum (7) menyatakan penggunaan selisih pilihan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-3",
+      "title": "Koleksi yang mudah ditemukan",
+      "text": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat (6) menyebut unsur yang dijaga sama; sisipan menjelaskan fungsi pengendalian itu sebelum (7) menyatakan penggunaan selisih pilihan."
+      ],
+      "evidence": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e00c43ee7039a859",
+    "section": "verbal",
+    "skill": "Makna kontekstual",
+    "q": "Makna \"bukan penjelasan yang sudah selesai\" pada kalimat (10) adalah ...",
+    "o": [
+      "jumlah tayangan belum dengan sendirinya menjelaskan mekanisme yang menghasilkan popularitas",
+      "seluruh data tayangan tidak mempunyai nilai informasi",
+      "kurator tidak boleh menarik simpulan apa pun",
+      "selera artistik hanya boleh dinilai oleh pengguna halaman pertama",
+      "setiap foto seharusnya mendapatkan jumlah tayangan yang sama"
+    ],
+    "e": "Tayangan sendiri dipengaruhi keterlihatan; menyebut suatu foto populer belum memisahkan minat awal dari efek posisi.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-3",
+      "title": "Koleksi yang mudah ditemukan",
+      "text": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "solution": {
+      "steps": [
+        "Tayangan sendiri dipengaruhi keterlihatan; menyebut suatu foto populer belum memisahkan minat awal dari efek posisi."
+      ],
+      "evidence": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-ad28b2745c80e225",
+    "section": "verbal",
+    "skill": "Pernyataan tidak sesuai",
+    "q": "Pernyataan yang TIDAK didukung rancangan percobaan adalah ...",
+    "o": [
+      "Perbedaan bukaan menentukan peringkat mutu artistik foto.",
+      "Kelompok memperoleh akses pada koleksi yang sama.",
+      "Sebagian kunjungan dipilih secara acak untuk urutan bergilir.",
+      "Perbandingan digunakan untuk menilai efek posisi dalam galeri.",
+      "Arsip urutan membantu menafsirkan perubahan pilihan."
+    ],
+    "e": "Kalimat (8) secara langsung membatasi simpulan artistik. Opsi lain mengulang unsur rancangan dan tujuan yang disebut teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PV-3",
+      "title": "Koleksi yang mudah ditemukan",
+      "text": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat (8) secara langsung membatasi simpulan artistik. Opsi lain mengulang unsur rancangan dan tujuan yang disebut teks."
+      ],
+      "evidence": "(1) Sebuah galeri digital mengurutkan foto berdasarkan jumlah tayangan sebelumnya. (2) Foto di halaman pertama semakin sering dibuka, lalu dipakai untuk membenarkan bahwa urutan tersebut sekadar mengikuti minat pengunjung. (3) Penjelasan itu mengabaikan kemungkinan bahwa keterlihatan juga membentuk pilihan. (4) Tayangan merupakan hasil perilaku pengguna sekaligus dipengaruhi cara koleksi disajikan.\n\n(5) Kurator menguji urutan bergilir bagi sebagian kunjungan yang dipilih secara acak. (6) Seluruh kelompok tetap dapat mengakses foto yang sama dan memperoleh lama akses yang sama. [...] (7) Selisih pilihan antarkelompok digunakan untuk menilai pengaruh posisi dalam galeri itu. (8) Percobaan tersebut tidak menentukan foto mana yang secara artistik paling bernilai. (9) Kurator juga mempertahankan arsip urutan agar perubahan pilihan tidak ditafsirkan tanpa mengetahui tampilan yang dilihat pengunjung. (10) Dengan demikian, popularitas diperlakukan sebagai hasil yang perlu dijelaskan, bukan penjelasan yang sudah selesai."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-f9aeb87549f75a1e",
+    "section": "quant",
+    "skill": "Aljabar simbolik",
+    "q": "Untuk bilangan bulat n ≥ 2, bentuk n! / ((n−2)! × (n+1)) sama dengan ...",
+    "o": [
+      "n(n−1)/(n+1)",
+      "n/(n+1)",
+      "(n−1)/(n+1)",
+      "n(n+1)/(n−1)",
+      "n−1"
+    ],
+    "e": "n! = n(n−1)(n−2)!. Batalkan faktor (n−2)!; faktor n+1 tetap di penyebut.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "n! = n(n−1)(n−2)!. Batalkan faktor (n−2)!; faktor n+1 tetap di penyebut."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-55be52cf437cdf60",
+    "section": "quant",
+    "skill": "Logaritma dan eksponen",
+    "q": "Nilai log₂32 + log₃81 − log₅25 adalah ...",
+    "o": [
+      "7",
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "e": "log₂32=5, log₃81=4, dan log₅25=2. Jadi 5+4−2=7.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "log₂32=5, log₃81=4, dan log₅25=2. Jadi 5+4−2=7."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-aec713530c14d8d2",
+    "section": "quant",
+    "skill": "Aljabar simbolik",
+    "q": "Bentuk sederhana √48 + √75 − √27 adalah ...",
+    "o": [
+      "6√3",
+      "2√3",
+      "4√3",
+      "6√2",
+      "12√3"
+    ],
+    "e": "√48=4√3, √75=5√3, √27=3√3. Gabungkan koefisien: (4+5−3)√3=6√3.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "√48=4√3, √75=5√3, √27=3√3. Gabungkan koefisien: (4+5−3)√3=6√3."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1d0da938f513e943",
+    "section": "quant",
+    "skill": "Logaritma dan eksponen",
+    "q": "Jika 2^(x+1) = 32, maka nilai 3x−2 adalah ...",
+    "o": [
+      "10",
+      "7",
+      "9",
+      "11",
+      "13"
+    ],
+    "e": "32=2⁵, maka x+1=5 dan x=4. Yang diminta 3x−2=10.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "32=2⁵, maka x+1=5 dan x=4. Yang diminta 3x−2=10."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-eb769834658d88e2",
+    "section": "quant",
+    "skill": "Aljabar simbolik",
+    "q": "Himpunan penyelesaian real √(3x+4) = x adalah ...",
+    "o": [
+      "{4}",
+      "{−1, 4}",
+      "{−1}",
+      "{1, 4}",
+      "{−4}"
+    ],
+    "e": "Ruas kiri tidak negatif sehingga x≥0. Penguadratan memberi x²−3x−4=0, akar 4 dan −1. Akar −1 tidak memenuhi persamaan awal.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ruas kiri tidak negatif sehingga x≥0. Penguadratan memberi x²−3x−4=0, akar 4 dan −1. Akar −1 tidak memenuhi persamaan awal."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-961d00c6a3db8c57",
+    "section": "quant",
+    "skill": "Operasi terdefinisi",
+    "q": "Didefinisikan a ◇ b = a²−3b. Nilai (4 ◇ 2) ◇ 3 adalah ...",
+    "o": [
+      "91",
+      "1",
+      "13",
+      "37",
+      "100"
+    ],
+    "e": "4◇2=16−6=10, lalu 10◇3=100−9=91. Operasi bersarang dihitung dari dalam.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "4◇2=16−6=10, lalu 10◇3=100−9=91. Operasi bersarang dihitung dari dalam."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c1c595fd0da9d98b",
+    "section": "quant",
+    "skill": "Kalkulus dasar",
+    "q": "Jika f(x)=3x²−4x+1, nilai f′(2) adalah ...",
+    "o": [
+      "8",
+      "4",
+      "6",
+      "10",
+      "12"
+    ],
+    "e": "Turunan f′(x)=6x−4. Substitusi x=2 menghasilkan 12−4=8.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Turunan f′(x)=6x−4. Substitusi x=2 menghasilkan 12−4=8."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-022ae514847b3858",
+    "section": "quant",
+    "skill": "Aljabar simbolik",
+    "q": "Jika f(x)=(2x+5)/(x−1), x ≠ 1, dan f(x)=7, nilai x adalah ...",
+    "o": [
+      "12/5",
+      "2/5",
+      "5/2",
+      "7/5",
+      "12/7"
+    ],
+    "e": "2x+5=7x−7 memberi 12=5x, jadi x=12/5. Nilai itu bukan titik terlarang x=1.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "2x+5=7x−7 memberi 12=5x, jadi x=12/5. Nilai itu bukan titik terlarang x=1."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-5a0989f0af1e5c80",
+    "section": "quant",
+    "skill": "Matriks",
+    "q": "Diketahui matriks A mempunyai baris pertama (2, 1) dan baris kedua (3, 4). Determinan A adalah ...",
+    "o": [
+      "5",
+      "−5",
+      "2",
+      "8",
+      "11"
+    ],
+    "e": "Determinan matriks 2×2 adalah ad−bc: 2×4−1×3=5.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Determinan matriks 2×2 adalah ad−bc: 2×4−1×3=5."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-18ae1e23fe6de004",
+    "section": "quant",
+    "skill": "Logaritma dan eksponen",
+    "q": "Untuk x,y > 0, log₁₀x + log₁₀y = 3 dan x/y=10. Nilai x+y adalah ...",
+    "o": [
+      "110",
+      "55",
+      "101",
+      "120",
+      "1001"
+    ],
+    "e": "xy=1000 dan x=10y. Maka 10y²=1000; karena positif y=10 dan x=100. Jumlah 110.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "xy=1000 dan x=10y. Maka 10y²=1000; karena positif y=10 dan x=100. Jumlah 110."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-cf2039b9cee05c08",
+    "section": "quant",
+    "skill": "Aljabar simbolik",
+    "q": "Nilai 1 / (1 + 1 / (1 + 1/2)) adalah ...",
+    "o": [
+      "3/5",
+      "2/5",
+      "2/3",
+      "3/4",
+      "5/3"
+    ],
+    "e": "Dari dalam: 1+1/2=3/2, kebalikannya 2/3. Penyebut luar 1+2/3=5/3; hasil 3/5.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dari dalam: 1+1/2=3/2, kebalikannya 2/3. Penyebut luar 1+2/3=5/3; hasil 3/5."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-dda4cec44932e4f1",
+    "section": "quant",
+    "skill": "Aljabar simbolik",
+    "q": "Himpunan semua penyelesaian |x−3| + |x+1| = 8 adalah ...",
+    "o": [
+      "{−3, 5}",
+      "{−5, 3}",
+      "{−1, 3}",
+      "{−3, 3}",
+      "{1, 5}"
+    ],
+    "e": "Di antara −1 dan 3, jumlah tetap 4. Untuk x≥3, 2x−2=8 memberi 5. Untuk x≤−1, 2−2x=8 memberi −3. Keduanya memenuhi.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Di antara −1 dan 3, jumlah tetap 4. Untuk x≥3, 2x−2=8 memberi 5. Untuk x≤−1, 2−2x=8 memberi −3. Keduanya memenuhi."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-4cee032e59be3bff",
+    "section": "quant",
+    "skill": "Logaritma dan eksponen",
+    "q": "Nilai x yang memenuhi 3^(2x−1) = 27^(x−2) adalah ...",
+    "o": [
+      "5",
+      "−5",
+      "1",
+      "3",
+      "7"
+    ],
+    "e": "Ubah 27 menjadi 3³. Eksponen sama: 2x−1=3x−6, jadi x=5.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ubah 27 menjadi 3³. Eksponen sama: 2x−1=3x−6, jadi x=5."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-658eaba13d4869b3",
+    "section": "quant",
+    "skill": "Teori bilangan",
+    "q": "Dua bilangan bulat positif mempunyai FPB 12 dan KPK 180. Jumlah terkecil kedua bilangan itu adalah ...",
+    "o": [
+      "96",
+      "72",
+      "84",
+      "108",
+      "192"
+    ],
+    "e": "Tuliskan a=12u,b=12v dengan FPB(u,v)=1. Karena KPK=12uv=180, uv=15. Pasangan koprima 1,15 dan 3,5 memberi jumlah 192 atau 96. Minimum 96.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tuliskan a=12u,b=12v dengan FPB(u,v)=1. Karena KPK=12uv=180, uv=15. Pasangan koprima 1,15 dan 3,5 memberi jumlah 192 atau 96. Minimum 96."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-d8826c534e88af8f",
+    "section": "quant",
+    "skill": "Deret angka",
+    "q": "2, 9, 4, 12, 8, 15, 16, ..., ... . Dua suku berikutnya adalah ...",
+    "o": [
+      "18, 32",
+      "19, 20",
+      "18, 24",
+      "17, 32",
+      "21, 24"
+    ],
+    "e": "Posisi ganjil 2,4,8,16,32 berlipat dua; posisi genap 9,12,15,18 bertambah tiga. Isian mengikuti dua subbarisan tersebut.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Posisi ganjil 2,4,8,16,32 berlipat dua; posisi genap 9,12,15,18 bertambah tiga. Isian mengikuti dua subbarisan tersebut."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-f06b54bc4a8d2d7c",
+    "section": "quant",
+    "skill": "Deret angka",
+    "q": "2/3, 4/5, 8/9, 16/17, ... . Suku berikutnya adalah ...",
+    "o": [
+      "32/33",
+      "17/18",
+      "24/25",
+      "32/34",
+      "33/34"
+    ],
+    "e": "Pembilang berlipat dua; penyebut selalu satu lebih besar. Setelah 16/17 adalah 32/33.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pembilang berlipat dua; penyebut selalu satu lebih besar. Setelah 16/17 adalah 32/33."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a4b5cbfa29ee5f81",
+    "section": "quant",
+    "skill": "Deret huruf",
+    "q": "A, Z, C, X, E, V, ..., ... . Dua huruf berikutnya adalah ...",
+    "o": [
+      "G, T",
+      "F, U",
+      "G, U",
+      "F, T",
+      "H, S"
+    ],
+    "e": "Subbarisan ganjil A,C,E,G maju dua; subbarisan genap Z,X,V,T mundur dua.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Subbarisan ganjil A,C,E,G maju dua; subbarisan genap Z,X,V,T mundur dua."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-aab7c04638174347",
+    "section": "quant",
+    "skill": "Deret angka",
+    "q": "3, 5, 13, 31, ... . Kelanjutan berdasarkan pola dua suku sebelumnya adalah ...",
+    "o": [
+      "75",
+      "57",
+      "62",
+      "65",
+      "93"
+    ],
+    "e": "Pola yang dimaksud uₙ=2uₙ₋₁+uₙ₋₂: 2×5+3=13 dan 2×13+5=31. Berikutnya 2×31+13=75.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pola yang dimaksud uₙ=2uₙ₋₁+uₙ₋₂: 2×5+3=13 dan 2×13+5=31. Berikutnya 2×31+13=75."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-78d7cd5036994784",
+    "section": "quant",
+    "skill": "Pola angka bergambar",
+    "q": "Nilai yang menggantikan tanda tanya dengan aturan hitung yang sama pada ketiga salib adalah ...",
+    "o": [
+      "9",
+      "7",
+      "8",
+      "10",
+      "11"
+    ],
+    "e": "Aturan yang digunakan: tengah = atas × bawah − kiri − kanan. Dua salib awal: 4×5−3−2=15 dan 6×4−4−3=17. Pada salib akhir 3x−5−2=20, sehingga x=9.",
+    "origin": "original",
+    "figure": {
+      "kind": "numberCross",
+      "alt": "Tiga salib: pertama atas 4, kiri 3, tengah 15, kanan 2, bawah 5; kedua atas 6, kiri 4, tengah 17, kanan 3, bawah 4; ketiga atas tanda tanya, kiri 5, tengah 20, kanan 2, bawah 3.",
+      "values": [
+        [
+          4,
+          3,
+          15,
+          2,
+          5
+        ],
+        [
+          6,
+          4,
+          17,
+          3,
+          4
+        ],
+        [
+          "?",
+          5,
+          20,
+          2,
+          3
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Aturan yang digunakan: tengah = atas × bawah − kiri − kanan. Dua salib awal: 4×5−3−2=15 dan 6×4−4−3=17. Pada salib akhir 3x−5−2=20, sehingga x=9."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-9fee51243d68d13e",
+    "section": "quant",
+    "skill": "Persamaan simbol",
+    "q": "Berdasarkan persamaan pada gambar, nilai ○ + △ + □ adalah ...",
+    "o": [
+      "13",
+      "11",
+      "12",
+      "14",
+      "15"
+    ],
+    "e": "Misalkan lingkaran c, segitiga t, persegi s. c+t=11, 2c+s=18, t−s=1. Substitusi t=11−c dan s=18−2c memberi c−7=1, jadi c=8,t=3,s=2; jumlah 13.",
+    "origin": "original",
+    "figure": {
+      "kind": "symbolEquations",
+      "alt": "Tiga persamaan: lingkaran ditambah segitiga sama dengan 11; dua lingkaran ditambah persegi sama dengan 18; segitiga dikurangi persegi sama dengan 1.",
+      "labels": {
+        "a": "○ + △ = 11",
+        "b": "2○ + □ = 18",
+        "c": "△ − □ = 1"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Misalkan lingkaran c, segitiga t, persegi s. c+t=11, 2c+s=18, t−s=1. Substitusi t=11−c dan s=18−2c memberi c−7=1, jadi c=8,t=3,s=2; jumlah 13."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-5370f05e59867734",
+    "section": "quant",
+    "skill": "Geometri acuan",
+    "q": "Segitiga siku-siku pada gambar mempunyai jari-jari lingkaran dalam sebesar ... cm.",
+    "o": [
+      "4",
+      "3",
+      "5",
+      "6",
+      "8"
+    ],
+    "e": "Sisi miring √(9²+40²)=41. Luas 180 dan semikeliling 45, sehingga jari-jari lingkaran dalam r=180/45=4.",
+    "origin": "original",
+    "figure": {
+      "kind": "rightTriangle",
+      "alt": "Segitiga siku-siku dengan kedua sisi siku-siku 9 cm dan 40 cm; sisi miring berlabel c.",
+      "labels": {
+        "a": "9 cm",
+        "b": "40 cm",
+        "c": "c"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Sisi miring √(9²+40²)=41. Luas 180 dan semikeliling 45, sehingga jari-jari lingkaran dalam r=180/45=4."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-d098d2fd1f74643f",
+    "section": "quant",
+    "skill": "Geometri acuan",
+    "q": "Kedua segitiga pada gambar sebangun. Luas segitiga yang lebih besar adalah ... cm².",
+    "o": [
+      "150",
+      "60",
+      "96",
+      "120",
+      "180"
+    ],
+    "e": "Faktor panjang 20/8=2,5, sehingga tinggi besar 15. Luas ½×20×15=150. Faktor luas adalah kuadrat faktor panjang.",
+    "origin": "original",
+    "figure": {
+      "kind": "similar",
+      "alt": "Segitiga kecil alas 8 cm tinggi 6 cm; segitiga besar sebangun dengan alas 20 cm dan tinggi x.",
+      "labels": {
+        "a": "8 cm",
+        "b": "6 cm",
+        "c": "20 cm",
+        "d": "x"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Faktor panjang 20/8=2,5, sehingga tinggi besar 15. Luas ½×20×15=150. Faktor luas adalah kuadrat faktor panjang."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-9410e61f46915a9f",
+    "section": "quant",
+    "skill": "Geometri acuan",
+    "q": "Lingkaran menyinggung keempat sisi persegi. Luas daerah di luar lingkaran tetapi di dalam persegi adalah ... cm².",
+    "o": [
+      "324−81π",
+      "324−18π",
+      "324−36π",
+      "81−324π",
+      "162−81π"
+    ],
+    "e": "Jari-jari lingkaran 9 cm. Selisih luas =18²−π×9²=324−81π.",
+    "origin": "original",
+    "figure": {
+      "kind": "inscribedCircle",
+      "alt": "Persegi sisi 18 cm mengelilingi lingkaran yang menyinggung semua sisinya; sudut di luar lingkaran berarsir.",
+      "labels": {
+        "s": "18 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Jari-jari lingkaran 9 cm. Selisih luas =18²−π×9²=324−81π."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-ddfa15e431179fd5",
+    "section": "quant",
+    "skill": "Geometri acuan",
+    "q": "Seluruh air dari tabung pada gambar dipindah ke tabung kosong berjari-jari 9 cm. Tinggi air di tabung kedua adalah ... cm.",
+    "o": [
+      "20/3",
+      "5",
+      "15/2",
+      "10",
+      "40/3"
+    ],
+    "e": "Volume awal π×6²×15=540π. Pada tabung kedua, 81πh=540π, maka h=20/3 cm.",
+    "origin": "original",
+    "figure": {
+      "kind": "cylinder",
+      "alt": "Tabung berisi air dengan jari-jari 6 cm dan tinggi 15 cm.",
+      "labels": {
+        "r": "6 cm",
+        "h": "15 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Volume awal π×6²×15=540π. Pada tabung kedua, 81πh=540π, maka h=20/3 cm."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-7c844bb410aab7cd",
+    "section": "quant",
+    "skill": "Geometri acuan",
+    "q": "Tiang tegak berada pada tanah datar. Dari titik yang berjarak 18 m dari kaki tiang, sudut elevasi ke puncaknya 30°. Tinggi x adalah ... m.",
+    "o": [
+      "6√3",
+      "3√3",
+      "9",
+      "9√3",
+      "18√3"
+    ],
+    "e": "tan 30°=x/18=1/√3. Maka x=18/√3=6√3 meter.",
+    "origin": "original",
+    "figure": {
+      "kind": "rightTriangle",
+      "alt": "Segitiga siku-siku dengan sisi tegak x, sisi alas 18 m, dan sudut pada ujung kanan alas 30 derajat.",
+      "labels": {
+        "a": "x",
+        "b": "18 m",
+        "c": "",
+        "angle": "30°"
+      }
+    },
+    "solution": {
+      "steps": [
+        "tan 30°=x/18=1/√3. Maka x=18/√3=6√3 meter."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3c50b58381006871",
+    "section": "quant",
+    "skill": "Soal cerita majemuk",
+    "q": "Luas danau berbentuk lingkaran adalah 81π km². Pada peta berskala 1:300.000, diameter danau adalah ... cm.",
+    "o": [
+      "6",
+      "3",
+      "9",
+      "12",
+      "18"
+    ],
+    "e": "Jari-jari nyata 9 km=900.000 cm. Jari-jari peta 3 cm; diameter 6 cm.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jari-jari nyata 9 km=900.000 cm. Jari-jari peta 3 cm; diameter 6 cm."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-56e502f059c5c0d3",
+    "section": "quant",
+    "skill": "Soal cerita majemuk",
+    "q": "Larutan 20 liter berkadar 40% diambil 5 liter, lalu diganti 5 liter larutan berkadar 60%. Setelah tercampur, kadar akhirnya adalah ...",
+    "o": [
+      "45%",
+      "40%",
+      "42.5%",
+      "47.5%",
+      "50%"
+    ],
+    "e": "Zat terlarut tersisa 15×0,4=6 liter. Tambahan 5×0,6=3 liter. Dalam total 20 liter terdapat 9 liter zat terlarut, yaitu 45%.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Zat terlarut tersisa 15×0,4=6 liter. Tambahan 5×0,6=3 liter. Dalam total 20 liter terdapat 9 liter zat terlarut, yaitu 45%."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-bffad9272f79a0b8",
+    "section": "quant",
+    "skill": "Soal cerita majemuk",
+    "q": "Rata-rata 16 nilai adalah 70. Empat nilai dengan rata-rata 60 dikeluarkan, lalu ditambahkan 8 nilai dengan rata-rata 82. Rata-rata akhir adalah ...",
+    "o": [
+      "76.8",
+      "74",
+      "75.2",
+      "77.6",
+      "79.2"
+    ],
+    "e": "Jumlah akhir=16×70−4×60+8×82=1536. Banyak nilai akhir 16−4+8=20. Rata-rata 1536/20=76,8.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jumlah akhir=16×70−4×60+8×82=1536. Banyak nilai akhir 16−4+8=20. Rata-rata 1536/20=76,8."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-7e66e5d1a73d5389",
+    "section": "quant",
+    "skill": "Soal cerita majemuk",
+    "q": "A sendiri menyelesaikan pekerjaan dalam 6 jam dan B dalam 10 jam. Mereka bekerja bersama 2 jam, lalu A berhenti. Waktu tambahan yang dibutuhkan B adalah ... jam.",
+    "o": [
+      "14/3",
+      "7/3",
+      "4",
+      "5",
+      "16/3"
+    ],
+    "e": "Laju bersama 1/6+1/10=4/15. Dalam 2 jam selesai 8/15; sisa 7/15. B perlu (7/15)/(1/10)=14/3 jam tambahan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Laju bersama 1/6+1/10=4/15. Dalam 2 jam selesai 8/15; sisa 7/15. B perlu (7/15)/(1/10)=14/3 jam tambahan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-45c5e09ab14096b2",
+    "section": "quant",
+    "skill": "Soal cerita majemuk",
+    "q": "Sebuah kotak berisi 5 bola merah, 3 biru, dan 2 hijau. Dua bola diambil acak tanpa pengembalian. Peluang tepat satu hijau terambil adalah ...",
+    "o": [
+      "16/45",
+      "1/5",
+      "8/45",
+      "1/3",
+      "17/45"
+    ],
+    "e": "Pasangan seluruhnya C(10,2)=45. Tepat satu hijau: 2×8=16 pasangan. Peluang 16/45.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pasangan seluruhnya C(10,2)=45. Tepat satu hijau: 2×8=16 pasangan. Peluang 16/45."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-477352cb32f8545b",
+    "section": "quant",
+    "skill": "Soal cerita majemuk",
+    "q": "Dari 6 perempuan dan 4 laki-laki dipilih tim 3 orang. Tim harus memuat sedikitnya satu orang dari setiap jenis kelamin. Banyak tim adalah ...",
+    "o": [
+      "96",
+      "60",
+      "80",
+      "100",
+      "120"
+    ],
+    "e": "Seluruh tim C(10,3)=120. Kurangi tim semua perempuan C(6,3)=20 dan semua laki-laki C(4,3)=4: 96.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Seluruh tim C(10,3)=120. Kurangi tim semua perempuan C(6,3)=20 dan semua laki-laki C(4,3)=4: 96."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1831820d59727bd1",
+    "section": "quant",
+    "skill": "Kalkulus dasar",
+    "q": "Nilai integral tentu ∫₀² (3x²+1) dx adalah ...",
+    "o": [
+      "10",
+      "6",
+      "8",
+      "12",
+      "14"
+    ],
+    "e": "Antiturunannya x³+x. Nilai pada batas atas 2 adalah 8+2=10, sedangkan pada 0 adalah 0. Selisihnya 10.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Antiturunannya x³+x. Nilai pada batas atas 2 adalah 8+2=10, sedangkan pada 0 adalah 0. Selisihnya 10."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e7ca81db348959c5",
+    "section": "quant",
+    "skill": "Interpretasi grafik",
+    "q": "Jika laba per unit R Rp2.000 dan K Rp1.000, triwulan dengan total laba tertinggi adalah ...",
+    "o": [
+      "IV",
+      "I",
+      "II",
+      "III",
+      "I dan II"
+    ],
+    "e": "Laba dalam ribu rupiah per triwulan: I=220, II=320, III=340, IV=380. Maksimum pada IV. Jumlah unit terbesar saja belum cukup karena bobot labanya berbeda.",
+    "origin": "original",
+    "figure": {
+      "kind": "barChart",
+      "alt": "Diagram penjualan empat triwulan. Produk R: 80,120,100,140 unit. Produk K: 60,80,140,100 unit. Sumbu vertikal unit.",
+      "categories": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "series": [
+        {
+          "name": "R",
+          "values": [
+            80,
+            120,
+            100,
+            140
+          ]
+        },
+        {
+          "name": "K",
+          "values": [
+            60,
+            80,
+            140,
+            100
+          ]
+        }
+      ]
+    },
+    "table": {
+      "id": "SM-PC-DATA",
+      "caption": "Penjualan dalam unit",
+      "columns": [
+        "Triwulan",
+        "R",
+        "K"
+      ],
+      "rows": [
+        [
+          "I",
+          "80",
+          "60"
+        ],
+        [
+          "II",
+          "120",
+          "80"
+        ],
+        [
+          "III",
+          "100",
+          "140"
+        ],
+        [
+          "IV",
+          "140",
+          "100"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Laba dalam ribu rupiah per triwulan: I=220, II=320, III=340, IV=380. Maksimum pada IV. Jumlah unit terbesar saja belum cukup karena bobot labanya berbeda."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-df4d0d76cb1b7614",
+    "section": "quant",
+    "skill": "Interpretasi grafik",
+    "q": "Rata-rata total penjualan kedua produk per triwulan adalah ... unit.",
+    "o": [
+      "205",
+      "180",
+      "200",
+      "210",
+      "220"
+    ],
+    "e": "Total per triwulan 140,200,240,240. Jumlah 820 dibagi 4 memberi rata-rata 205 unit.",
+    "origin": "original",
+    "figure": {
+      "kind": "barChart",
+      "alt": "Diagram penjualan empat triwulan. Produk R: 80,120,100,140 unit. Produk K: 60,80,140,100 unit. Sumbu vertikal unit.",
+      "categories": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "series": [
+        {
+          "name": "R",
+          "values": [
+            80,
+            120,
+            100,
+            140
+          ]
+        },
+        {
+          "name": "K",
+          "values": [
+            60,
+            80,
+            140,
+            100
+          ]
+        }
+      ]
+    },
+    "table": {
+      "id": "SM-PC-DATA",
+      "caption": "Penjualan dalam unit",
+      "columns": [
+        "Triwulan",
+        "R",
+        "K"
+      ],
+      "rows": [
+        [
+          "I",
+          "80",
+          "60"
+        ],
+        [
+          "II",
+          "120",
+          "80"
+        ],
+        [
+          "III",
+          "100",
+          "140"
+        ],
+        [
+          "IV",
+          "140",
+          "100"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Total per triwulan 140,200,240,240. Jumlah 820 dibagi 4 memberi rata-rata 205 unit."
+      ]
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1c698e934222bce2",
+    "section": "quant",
+    "skill": "Interpretasi grafik",
+    "q": "Persentase kenaikan penjualan K dari triwulan I ke III adalah ...",
+    "o": [
+      "133⅓%",
+      "57⅐%",
+      "75%",
+      "100%",
+      "175%"
+    ],
+    "e": "K naik dari 60 menjadi 140, selisih 80. Kenaikan relatif terhadap awal =80/60×100%=133⅓%. Penyebutnya 60, bukan 140.",
+    "origin": "original",
+    "figure": {
+      "kind": "barChart",
+      "alt": "Diagram penjualan empat triwulan. Produk R: 80,120,100,140 unit. Produk K: 60,80,140,100 unit. Sumbu vertikal unit.",
+      "categories": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "series": [
+        {
+          "name": "R",
+          "values": [
+            80,
+            120,
+            100,
+            140
+          ]
+        },
+        {
+          "name": "K",
+          "values": [
+            60,
+            80,
+            140,
+            100
+          ]
+        }
+      ]
+    },
+    "table": {
+      "id": "SM-PC-DATA",
+      "caption": "Penjualan dalam unit",
+      "columns": [
+        "Triwulan",
+        "R",
+        "K"
+      ],
+      "rows": [
+        [
+          "I",
+          "80",
+          "60"
+        ],
+        [
+          "II",
+          "120",
+          "80"
+        ],
+        [
+          "III",
+          "100",
+          "140"
+        ],
+        [
+          "IV",
+          "140",
+          "100"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "K naik dari 60 menjadi 140, selisih 80. Kenaikan relatif terhadap awal =80/60×100%=133⅓%. Penyebutnya 60, bukan 140."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-fb90f9ffefe59d4d",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Semua berkas bersegel merupakan berkas terindeks. Sebagian berkas bersegel merupakan berkas dipindai. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Sebagian berkas terindeks merupakan berkas dipindai.",
+      "Semua berkas terindeks merupakan berkas bersegel.",
+      "Semua berkas dipindai merupakan berkas bersegel.",
+      "Tidak ada berkas terindeks yang merupakan berkas dipindai.",
+      "Semua berkas terindeks merupakan berkas dipindai."
+    ],
+    "e": "Saksi yang berada pada A dan C juga berada pada B karena A⊆B. Jadi ada B∩C; tidak ada dasar membalik inklusi menjadi B⊆A.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Saksi yang berada pada A dan C juga berada pada B karena A⊆B. Jadi ada B∩C; tidak ada dasar membalik inklusi menjadi B⊆A."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-253ac9fd7536969d",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Tidak ada berkas bersegel yang merupakan berkas terindeks. Semua berkas dipindai merupakan berkas bersegel, dan ada berkas dipindai. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Tidak ada berkas dipindai yang merupakan berkas terindeks.",
+      "Semua berkas bersegel merupakan berkas dipindai.",
+      "Semua berkas terindeks merupakan berkas dipindai.",
+      "Sebagian berkas dipindai merupakan berkas terindeks.",
+      "Tidak ada berkas bersegel yang merupakan berkas dipindai."
+    ],
+    "e": "C⊆A dan A∩B kosong mengharuskan C∩B kosong. Keberadaan C dinyatakan, tetapi tidak membuktikan A⊆C.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "C⊆A dan A∩B kosong mengharuskan C∩B kosong. Keberadaan C dinyatakan, tetapi tidak membuktikan A⊆C."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-fa1dc0d72314aee5",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Jika tiket dikonfirmasi, maka kursi dialokasikan. Diketahui tidak benar bahwa tiket dikonfirmasi. Yang tepat mengenai kursi dialokasikan adalah ...",
+    "o": [
+      "Belum dapat dipastikan dari premis.",
+      "Pasti terjadi.",
+      "Pasti tidak terjadi.",
+      "Premis mengharuskan tiket dikonfirmasi.",
+      "Premis mengharuskan tiket dikonfirmasi dan kursi dialokasikan."
+    ],
+    "e": "Menyangkal anteseden tidak menetapkan konsekuen. Model dengan Q benar maupun Q salah masih memenuhi semua premis.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Menyangkal anteseden tidak menetapkan konsekuen. Model dengan Q benar maupun Q salah masih memenuhi semua premis."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-ac1721f283b22840",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Diketahui pernyataan “Jika sensor mendeteksi asap, maka kipas menyala” benar. Kondisi yang TIDAK MUNGKIN adalah ...",
+    "o": [
+      "Sensor mendeteksi asap, tetapi tidak benar bahwa kipas menyala",
+      "Sensor mendeteksi asap dan kipas menyala",
+      "Tidak benar bahwa sensor mendeteksi asap, tetapi kipas menyala",
+      "Baik sensor mendeteksi asap maupun kipas menyala tidak terjadi",
+      "Kipas menyala"
+    ],
+    "e": "Implikasi hanya salah pada P benar dan Q salah. Tiga kombinasi nilai lainnya diperbolehkan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Implikasi hanya salah pada P benar dan Q salah. Tiga kombinasi nilai lainnya diperbolehkan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-64b660914b71a914",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Pernyataan yang setara dengan “Jika ruang arsip dibuka, maka penjaga hadir” adalah ...",
+    "o": [
+      "Jika tidak benar bahwa penjaga hadir, maka tidak benar bahwa ruang arsip dibuka.",
+      "Jika penjaga hadir, maka ruang arsip dibuka.",
+      "Jika tidak benar bahwa ruang arsip dibuka, maka tidak benar bahwa penjaga hadir.",
+      "Ruang arsip dibuka dan penjaga hadir.",
+      "Ruang arsip dibuka dan tidak benar bahwa penjaga hadir."
+    ],
+    "e": "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-224c0ac90e6faeb2",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Pernyataan yang merupakan negasi dari “Jika kode valid, maka sistem menerima berkas” adalah ...",
+    "o": [
+      "Kode valid dan tidak benar bahwa sistem menerima berkas.",
+      "Jika sistem menerima berkas, maka kode valid.",
+      "Tidak benar bahwa kode valid atau sistem menerima berkas.",
+      "Kode valid dan sistem menerima berkas.",
+      "Tidak benar bahwa kode valid dan tidak benar bahwa sistem menerima berkas."
+    ],
+    "e": "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1f040ba4f020286d",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Semua berkas bersegel merupakan berkas terindeks. Semua berkas terindeks merupakan berkas dipindai. Keberadaan anggota tidak dinyatakan. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Semua berkas bersegel merupakan berkas dipindai.",
+      "Semua berkas dipindai merupakan berkas bersegel.",
+      "Semua berkas dipindai merupakan berkas terindeks.",
+      "Tidak ada berkas bersegel yang merupakan berkas dipindai.",
+      "Setidaknya ada satu berkas bersegel."
+    ],
+    "e": "Transitivitas inklusi memberi A⊆C. Pernyataan universal saja tidak menjamin A mempunyai anggota.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Transitivitas inklusi memberi A⊆C. Pernyataan universal saja tidak menjamin A mempunyai anggota."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-894756bb368719bf",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Rak tersedia merupakan syarat cukup bagi buku ditempatkan. Diketahui buku ditempatkan. Yang dapat dipastikan mengenai rak tersedia adalah ...",
+    "o": [
+      "Belum dapat dipastikan dari premis.",
+      "Pasti terjadi.",
+      "Pasti tidak terjadi.",
+      "Tidak mungkin buku ditempatkan.",
+      "Rak tersedia dan buku ditempatkan pasti sama-sama tidak terjadi."
+    ],
+    "e": "Syarat cukup tidak otomatis syarat perlu. Q benar dapat terjadi bersama P benar atau P salah.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Syarat cukup tidak otomatis syarat perlu. Q benar dapat terjadi bersama P benar atau P salah."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-6ccfb5432fce1c00",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Tepat satu dari keadaan berikut terjadi: mesin A berjalan; mesin B berjalan. Diketahui mesin A berjalan. Simpulan yang benar adalah ...",
+    "o": [
+      "Tidak benar bahwa mesin B berjalan",
+      "Mesin B berjalan",
+      "Tidak benar bahwa mesin A berjalan",
+      "Mesin A berjalan dan mesin B berjalan",
+      "Daya cadangan aktif pasti terjadi"
+    ],
+    "e": "Tepat satu adalah disjungsi eksklusif. Karena P benar, Q harus salah; R tidak dibatasi.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tepat satu adalah disjungsi eksklusif. Karena P benar, Q harus salah; R tidak dibatasi."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-05be01d35e267878",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Setidaknya satu dari keadaan ini terjadi: pameran memakai ruang utara; pameran memakai ruang selatan. Tidak benar bahwa pameran memakai ruang utara. Simpulan yang tepat adalah ...",
+    "o": [
+      "Pameran memakai ruang selatan",
+      "Pameran memakai ruang utara",
+      "Tidak benar bahwa pameran memakai ruang selatan",
+      "Pameran memakai ruang utara dan pameran memakai ruang selatan",
+      "Pemandu hadir pasti terjadi"
+    ],
+    "e": "P∨Q dan ¬P mengharuskan Q. Ungkapan setidaknya satu tidak sama dengan tepat satu, tetapi informasi ¬P cukup untuk menetapkan Q.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P∨Q dan ¬P mengharuskan Q. Ungkapan setidaknya satu tidak sama dengan tepat satu, tetapi informasi ¬P cukup untuk menetapkan Q."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-09a149cf5117a60f",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Jika tidak benar bahwa baterai diganti, maka indikator merah menyala. Diketahui tidak benar bahwa indikator merah menyala. Simpulan yang tepat adalah ...",
+    "o": [
+      "Baterai diganti",
+      "Tidak benar bahwa baterai diganti",
+      "Indikator merah menyala",
+      "Baterai diganti dan indikator merah menyala",
+      "Pengujian selesai pasti terjadi"
+    ],
+    "e": "Kontraposisi ¬P→Q adalah ¬Q→P. Negasi ganda harus disederhanakan dengan tepat.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kontraposisi ¬P→Q adalah ¬Q→P. Negasi ganda harus disederhanakan dengan tepat."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-df7328a89d59ae41",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Sebagian berkas bersegel bukan berkas terindeks. Semua berkas bersegel merupakan berkas dipindai. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Sebagian berkas dipindai bukan berkas terindeks.",
+      "Semua berkas dipindai merupakan berkas bersegel.",
+      "Semua berkas dipindai bukan berkas terindeks.",
+      "Sebagian berkas bersegel merupakan berkas terindeks.",
+      "Tidak ada berkas bersegel yang merupakan berkas dipindai."
+    ],
+    "e": "Ambil saksi di A yang bukan B. Karena A⊆C, saksi itu berada di C dan bukan B; ini tidak menyatakan seluruh C bukan B.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ambil saksi di A yang bukan B. Karena A⊆C, saksi itu berada di C dan bukan B; ini tidak menyatakan seluruh C bukan B."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-91a3fc6551fe97b0",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Setidaknya satu terjadi: jalur timur dipakai atau jalur barat dipakai. Jika jalur timur dipakai, maka pos pengawasan dibuka. Diketahui tidak benar bahwa pos pengawasan dibuka. Simpulan yang tepat adalah ...",
+    "o": [
+      "Jalur barat dipakai",
+      "Jalur timur dipakai",
+      "Pos pengawasan dibuka",
+      "Tidak benar bahwa jalur barat dipakai",
+      "Jalur timur dipakai dan jalur barat dipakai"
+    ],
+    "e": "Dari P→R dan ¬R diperoleh ¬P. Gabungkan dengan P∨Q untuk memperoleh Q.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dari P→R dan ¬R diperoleh ¬P. Gabungkan dengan P∨Q untuk memperoleh Q."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2e9a0170689f5186",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Tidak semua berkas bersegel merupakan berkas terindeks. Semua berkas dipindai merupakan berkas terindeks. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Sebagian berkas bersegel bukan berkas dipindai.",
+      "Semua berkas bersegel bukan berkas dipindai.",
+      "Semua berkas terindeks merupakan berkas dipindai.",
+      "Sebagian berkas dipindai bukan berkas terindeks.",
+      "Tidak ada berkas bersegel yang merupakan berkas terindeks."
+    ],
+    "e": "Tidak semua A adalah B berarti ada A di luar B. Karena C⊆B, anggota itu juga di luar C. Pernyataan tersebut tidak mengeluarkan seluruh A dari C.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tidak semua A adalah B berarti ada A di luar B. Karena C⊆B, anggota itu juga di luar C. Pernyataan tersebut tidak mengeluarkan seluruh A dari C."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-b869ef069edb925b",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Jika pengeras suara aktif, maka mikrofon aktif dan penonton masuk. Diketahui tidak benar bahwa penonton masuk. Simpulan yang tepat adalah ...",
+    "o": [
+      "Tidak benar bahwa pengeras suara aktif",
+      "Pengeras suara aktif",
+      "Penonton masuk",
+      "Pengeras suara aktif dan mikrofon aktif",
+      "Mikrofon aktif pasti terjadi"
+    ],
+    "e": "P memerlukan Q dan R sekaligus. Karena R salah, P tidak mungkin benar. Q sendiri belum dapat dipastikan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P memerlukan Q dan R sekaligus. Karena R salah, P tidak mungkin benar. Q sendiri belum dapat dipastikan."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-6a0c4b8ace3e1d68",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Semua objek berkode M merupakan objek lolos pemeriksaan. Sebagian objek berkode M merupakan objek berlabel Q. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Sebagian objek lolos pemeriksaan merupakan objek berlabel Q.",
+      "Semua objek lolos pemeriksaan merupakan objek berkode M.",
+      "Semua objek berlabel Q merupakan objek berkode M.",
+      "Tidak ada objek lolos pemeriksaan yang merupakan objek berlabel Q.",
+      "Semua objek lolos pemeriksaan merupakan objek berlabel Q."
+    ],
+    "e": "Saksi yang berada pada A dan C juga berada pada B karena A⊆B. Jadi ada B∩C; tidak ada dasar membalik inklusi menjadi B⊆A.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Saksi yang berada pada A dan C juga berada pada B karena A⊆B. Jadi ada B∩C; tidak ada dasar membalik inklusi menjadi B⊆A."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-79f39db03fb90d1c",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Tidak ada objek berkode M yang merupakan objek lolos pemeriksaan. Semua objek berlabel Q merupakan objek berkode M, dan ada objek berlabel Q. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Tidak ada objek berlabel Q yang merupakan objek lolos pemeriksaan.",
+      "Semua objek berkode M merupakan objek berlabel Q.",
+      "Semua objek lolos pemeriksaan merupakan objek berlabel Q.",
+      "Sebagian objek berlabel Q merupakan objek lolos pemeriksaan.",
+      "Tidak ada objek berkode M yang merupakan objek berlabel Q."
+    ],
+    "e": "C⊆A dan A∩B kosong mengharuskan C∩B kosong. Keberadaan C dinyatakan, tetapi tidak membuktikan A⊆C.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "C⊆A dan A∩B kosong mengharuskan C∩B kosong. Keberadaan C dinyatakan, tetapi tidak membuktikan A⊆C."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-247497f6bef0a18e",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Jika kedua kunci diputar, maka panel terbuka. Diketahui tidak benar bahwa kedua kunci diputar. Yang tepat mengenai panel terbuka adalah ...",
+    "o": [
+      "Belum dapat dipastikan dari premis.",
+      "Pasti terjadi.",
+      "Pasti tidak terjadi.",
+      "Premis mengharuskan kedua kunci diputar.",
+      "Premis mengharuskan kedua kunci diputar dan panel terbuka."
+    ],
+    "e": "Menyangkal anteseden tidak menetapkan konsekuen. Model dengan Q benar maupun Q salah masih memenuhi semua premis.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Menyangkal anteseden tidak menetapkan konsekuen. Model dengan Q benar maupun Q salah masih memenuhi semua premis."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b4d5546235c52ada",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Diketahui pernyataan “Jika batas suhu terlampaui, maka pendingin bekerja” benar. Kondisi yang TIDAK MUNGKIN adalah ...",
+    "o": [
+      "Batas suhu terlampaui, tetapi tidak benar bahwa pendingin bekerja",
+      "Batas suhu terlampaui dan pendingin bekerja",
+      "Tidak benar bahwa batas suhu terlampaui, tetapi pendingin bekerja",
+      "Baik batas suhu terlampaui maupun pendingin bekerja tidak terjadi",
+      "Pendingin bekerja"
+    ],
+    "e": "Implikasi hanya salah pada P benar dan Q salah. Tiga kombinasi nilai lainnya diperbolehkan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Implikasi hanya salah pada P benar dan Q salah. Tiga kombinasi nilai lainnya diperbolehkan."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-db7e084d1b866f2d",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Pernyataan yang setara dengan “Jika format baru dipakai, maka hasil dapat dibaca alat lama” adalah ...",
+    "o": [
+      "Jika tidak benar bahwa hasil dapat dibaca alat lama, maka tidak benar bahwa format baru dipakai.",
+      "Jika hasil dapat dibaca alat lama, maka format baru dipakai.",
+      "Jika tidak benar bahwa format baru dipakai, maka tidak benar bahwa hasil dapat dibaca alat lama.",
+      "Format baru dipakai dan hasil dapat dibaca alat lama.",
+      "Format baru dipakai dan tidak benar bahwa hasil dapat dibaca alat lama."
+    ],
+    "e": "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-4584f0da0e97320c",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Pernyataan yang merupakan negasi dari “Jika sertifikat sah, maka pemilik tercatat” adalah ...",
+    "o": [
+      "Sertifikat sah dan tidak benar bahwa pemilik tercatat.",
+      "Jika pemilik tercatat, maka sertifikat sah.",
+      "Tidak benar bahwa sertifikat sah atau pemilik tercatat.",
+      "Sertifikat sah dan pemilik tercatat.",
+      "Tidak benar bahwa sertifikat sah dan tidak benar bahwa pemilik tercatat."
+    ],
+    "e": "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P→Q setara dengan ¬Q→¬P dan ¬P∨Q; negasinya adalah P∧¬Q. Membalik implikasi tidak mempertahankan makna."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-2c910b3dc954129c",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Semua objek berkode M merupakan objek lolos pemeriksaan. Semua objek lolos pemeriksaan merupakan objek berlabel Q. Keberadaan anggota tidak dinyatakan. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Semua objek berkode M merupakan objek berlabel Q.",
+      "Semua objek berlabel Q merupakan objek berkode M.",
+      "Semua objek berlabel Q merupakan objek lolos pemeriksaan.",
+      "Tidak ada objek berkode M yang merupakan objek berlabel Q.",
+      "Setidaknya ada satu objek berkode M."
+    ],
+    "e": "Transitivitas inklusi memberi A⊆C. Pernyataan universal saja tidak menjamin A mempunyai anggota.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Transitivitas inklusi memberi A⊆C. Pernyataan universal saja tidak menjamin A mempunyai anggota."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a3db48eebcf84c17",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Pengiriman dipercepat merupakan syarat cukup bagi biaya tambahan dibayar. Diketahui biaya tambahan dibayar. Yang dapat dipastikan mengenai pengiriman dipercepat adalah ...",
+    "o": [
+      "Belum dapat dipastikan dari premis.",
+      "Pasti terjadi.",
+      "Pasti tidak terjadi.",
+      "Tidak mungkin biaya tambahan dibayar.",
+      "Pengiriman dipercepat dan biaya tambahan dibayar pasti sama-sama tidak terjadi."
+    ],
+    "e": "Syarat cukup tidak otomatis syarat perlu. Q benar dapat terjadi bersama P benar atau P salah.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Syarat cukup tidak otomatis syarat perlu. Q benar dapat terjadi bersama P benar atau P salah."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-3bc59d7c390cbe33",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Tepat satu dari keadaan berikut terjadi: kelompok A lolos; kelompok B lolos. Diketahui kelompok A lolos. Simpulan yang benar adalah ...",
+    "o": [
+      "Tidak benar bahwa kelompok B lolos",
+      "Kelompok B lolos",
+      "Tidak benar bahwa kelompok A lolos",
+      "Kelompok A lolos dan kelompok B lolos",
+      "Penilaian tambahan dilakukan pasti terjadi"
+    ],
+    "e": "Tepat satu adalah disjungsi eksklusif. Karena P benar, Q harus salah; R tidak dibatasi.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tepat satu adalah disjungsi eksklusif. Karena P benar, Q harus salah; R tidak dibatasi."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-ef0f027f59771267",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Setidaknya satu dari keadaan ini terjadi: jalur arsip daring tersedia; jalur arsip fisik tersedia. Tidak benar bahwa jalur arsip daring tersedia. Simpulan yang tepat adalah ...",
+    "o": [
+      "Jalur arsip fisik tersedia",
+      "Jalur arsip daring tersedia",
+      "Tidak benar bahwa jalur arsip fisik tersedia",
+      "Jalur arsip daring tersedia dan jalur arsip fisik tersedia",
+      "Petugas pendamping bertugas pasti terjadi"
+    ],
+    "e": "P∨Q dan ¬P mengharuskan Q. Ungkapan setidaknya satu tidak sama dengan tepat satu, tetapi informasi ¬P cukup untuk menetapkan Q.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P∨Q dan ¬P mengharuskan Q. Ungkapan setidaknya satu tidak sama dengan tepat satu, tetapi informasi ¬P cukup untuk menetapkan Q."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-4f5a65849e845018",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Jika tidak benar bahwa akses utama gagal, maka rute cadangan dipakai. Diketahui tidak benar bahwa rute cadangan dipakai. Simpulan yang tepat adalah ...",
+    "o": [
+      "Akses utama gagal",
+      "Tidak benar bahwa akses utama gagal",
+      "Rute cadangan dipakai",
+      "Akses utama gagal dan rute cadangan dipakai",
+      "Hasil tertunda pasti terjadi"
+    ],
+    "e": "Kontraposisi ¬P→Q adalah ¬Q→P. Negasi ganda harus disederhanakan dengan tepat.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kontraposisi ¬P→Q adalah ¬Q→P. Negasi ganda harus disederhanakan dengan tepat."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7f529e9924eae316",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Sebagian objek berkode M bukan objek lolos pemeriksaan. Semua objek berkode M merupakan objek berlabel Q. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Sebagian objek berlabel Q bukan objek lolos pemeriksaan.",
+      "Semua objek berlabel Q merupakan objek berkode M.",
+      "Semua objek berlabel Q bukan objek lolos pemeriksaan.",
+      "Sebagian objek berkode M merupakan objek lolos pemeriksaan.",
+      "Tidak ada objek berkode M yang merupakan objek berlabel Q."
+    ],
+    "e": "Ambil saksi di A yang bukan B. Karena A⊆C, saksi itu berada di C dan bukan B; ini tidak menyatakan seluruh C bukan B.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ambil saksi di A yang bukan B. Karena A⊆C, saksi itu berada di C dan bukan B; ini tidak menyatakan seluruh C bukan B."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2d05668fbf9dbd88",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Setidaknya satu terjadi: pengajuan masuk putaran satu atau pengajuan masuk putaran dua. Jika pengajuan masuk putaran satu, maka panel khusus dibentuk. Diketahui tidak benar bahwa panel khusus dibentuk. Simpulan yang tepat adalah ...",
+    "o": [
+      "Pengajuan masuk putaran dua",
+      "Pengajuan masuk putaran satu",
+      "Panel khusus dibentuk",
+      "Tidak benar bahwa pengajuan masuk putaran dua",
+      "Pengajuan masuk putaran satu dan pengajuan masuk putaran dua"
+    ],
+    "e": "Dari P→R dan ¬R diperoleh ¬P. Gabungkan dengan P∨Q untuk memperoleh Q.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dari P→R dan ¬R diperoleh ¬P. Gabungkan dengan P∨Q untuk memperoleh Q."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-da0fa43930153d24",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Tidak semua objek berkode M merupakan objek lolos pemeriksaan. Semua objek berlabel Q merupakan objek lolos pemeriksaan. Simpulan yang pasti benar adalah ...",
+    "o": [
+      "Sebagian objek berkode M bukan objek berlabel Q.",
+      "Semua objek berkode M bukan objek berlabel Q.",
+      "Semua objek lolos pemeriksaan merupakan objek berlabel Q.",
+      "Sebagian objek berlabel Q bukan objek lolos pemeriksaan.",
+      "Tidak ada objek berkode M yang merupakan objek lolos pemeriksaan."
+    ],
+    "e": "Tidak semua A adalah B berarti ada A di luar B. Karena C⊆B, anggota itu juga di luar C. Pernyataan tersebut tidak mengeluarkan seluruh A dari C.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tidak semua A adalah B berarti ada A di luar B. Karena C⊆B, anggota itu juga di luar C. Pernyataan tersebut tidak mengeluarkan seluruh A dari C."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-785fa24fc82bb97e",
+    "section": "logic",
+    "skill": "Logika formal",
+    "q": "Jika hasil disimpan lokal, maka hasil disimpan daring dan salinan sinkron dibuat. Diketahui tidak benar bahwa salinan sinkron dibuat. Simpulan yang tepat adalah ...",
+    "o": [
+      "Tidak benar bahwa hasil disimpan lokal",
+      "Hasil disimpan lokal",
+      "Salinan sinkron dibuat",
+      "Hasil disimpan lokal dan hasil disimpan daring",
+      "Hasil disimpan daring pasti terjadi"
+    ],
+    "e": "P memerlukan Q dan R sekaligus. Karena R salah, P tidak mungkin benar. Q sendiri belum dapat dipastikan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "P memerlukan Q dan R sekaligus. Karena R salah, P tidak mungkin benar. Q sendiri belum dapat dipastikan."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-ece1d01cf493213b",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Banyak urutan yang memenuhi semua syarat adalah ...",
+    "o": [
+      "3",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "e": "Penyaringan seluruh 720 urutan menghasilkan 3 urutan sah. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-1",
+      "title": "Enam presentasi",
+      "text": "Enam pembicara Raka, Sinta, Tara, Uma, Vito, dan Wina mengisi slot 1–6, masing-masing sekali. Sinta tepat setelah Raka. Tara sebelum Uma. Wina sesudah Uma. Vito bukan di slot 1 atau 6. Raka sebelum Tara."
+    },
+    "solution": {
+      "steps": [
+        "Penyaringan seluruh 720 urutan menghasilkan 3 urutan sah. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3960c2acddf4a0c6",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Daftar lengkap yang mungkin di slot pertama adalah ...",
+    "o": [
+      "Raka",
+      "Raka, Sinta",
+      "Raka, Tara",
+      "Raka, Uma",
+      "Raka, Vito"
+    ],
+    "e": "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Raka}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-1",
+      "title": "Enam presentasi",
+      "text": "Enam pembicara Raka, Sinta, Tara, Uma, Vito, dan Wina mengisi slot 1–6, masing-masing sekali. Sinta tepat setelah Raka. Tara sebelum Uma. Wina sesudah Uma. Vito bukan di slot 1 atau 6. Raka sebelum Tara."
+    },
+    "solution": {
+      "steps": [
+        "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Raka}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1140f88b357f9864",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Daftar lengkap yang mungkin di slot terakhir adalah ...",
+    "o": [
+      "Wina",
+      "Raka, Wina",
+      "Sinta, Wina",
+      "Tara, Wina",
+      "Uma, Wina"
+    ],
+    "e": "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Wina}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-1",
+      "title": "Enam presentasi",
+      "text": "Enam pembicara Raka, Sinta, Tara, Uma, Vito, dan Wina mengisi slot 1–6, masing-masing sekali. Sinta tepat setelah Raka. Tara sebelum Uma. Wina sesudah Uma. Vito bukan di slot 1 atau 6. Raka sebelum Tara."
+    },
+    "solution": {
+      "steps": [
+        "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Wina}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-6f27fb9c36cc6820",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Daftar lengkap slot yang mungkin bagi Tara adalah ...",
+    "o": [
+      "3, 4",
+      "1, 3, 4",
+      "2, 3, 4",
+      "3",
+      "3, 4, 5"
+    ],
+    "e": "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {3, 4}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-1",
+      "title": "Enam presentasi",
+      "text": "Enam pembicara Raka, Sinta, Tara, Uma, Vito, dan Wina mengisi slot 1–6, masing-masing sekali. Sinta tepat setelah Raka. Tara sebelum Uma. Wina sesudah Uma. Vito bukan di slot 1 atau 6. Raka sebelum Tara."
+    },
+    "solution": {
+      "steps": [
+        "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {3, 4}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c36310c3b11beb79",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Urutan yang dapat terjadi adalah ...",
+    "o": [
+      "Raka – Sinta – Vito – Tara – Uma – Wina",
+      "Raka – Sinta – Tara – Uma – Wina – Vito",
+      "Raka – Sinta – Tara – Vito – Wina – Uma",
+      "Raka – Sinta – Tara – Wina – Uma – Vito",
+      "Raka – Sinta – Tara – Wina – Vito – Uma"
+    ],
+    "e": "Urutan yang memenuhi seluruh syarat adalah Raka – Sinta – Vito – Tara – Uma – Wina. Keempat pengecoh sudah diperiksa dan masing-masing melanggar paling sedikit satu syarat. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-1",
+      "title": "Enam presentasi",
+      "text": "Enam pembicara Raka, Sinta, Tara, Uma, Vito, dan Wina mengisi slot 1–6, masing-masing sekali. Sinta tepat setelah Raka. Tara sebelum Uma. Wina sesudah Uma. Vito bukan di slot 1 atau 6. Raka sebelum Tara."
+    },
+    "solution": {
+      "steps": [
+        "Urutan yang memenuhi seluruh syarat adalah Raka – Sinta – Vito – Tara – Uma – Wina. Keempat pengecoh sudah diperiksa dan masing-masing melanggar paling sedikit satu syarat. Contoh urutan sah: Raka–Sinta–Tara–Uma–Vito–Wina; Raka–Sinta–Tara–Vito–Uma–Wina; Raka–Sinta–Vito–Tara–Uma–Wina."
+      ]
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a770af98fbe12b2d",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Banyak urutan yang memenuhi semua syarat adalah ...",
+    "o": [
+      "5",
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "e": "Penyaringan seluruh 720 urutan menghasilkan 5 urutan sah. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-2",
+      "title": "Urutan pemeriksaan",
+      "text": "Enam paket Aruna, Bima, Celia, Danu, Eris, Fara diperiksa sekali pada slot 1–6. Aruna sebelum Danu dan Fara. Celia tepat sebelum Eris. Bima sesudah Fara. Danu sebelum Bima tetapi tidak tepat sebelum Bima. Eris bukan paket terakhir."
+    },
+    "solution": {
+      "steps": [
+        "Penyaringan seluruh 720 urutan menghasilkan 5 urutan sah. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-49e33d282111ac1e",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Daftar lengkap yang mungkin di slot pertama adalah ...",
+    "o": [
+      "Aruna, Celia",
+      "Aruna",
+      "Aruna, Bima, Celia",
+      "Aruna, Celia, Danu",
+      "Aruna, Celia, Eris"
+    ],
+    "e": "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Aruna, Celia}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-2",
+      "title": "Urutan pemeriksaan",
+      "text": "Enam paket Aruna, Bima, Celia, Danu, Eris, Fara diperiksa sekali pada slot 1–6. Aruna sebelum Danu dan Fara. Celia tepat sebelum Eris. Bima sesudah Fara. Danu sebelum Bima tetapi tidak tepat sebelum Bima. Eris bukan paket terakhir."
+    },
+    "solution": {
+      "steps": [
+        "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Aruna, Celia}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-05473d45c0f31550",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Daftar lengkap yang mungkin di slot terakhir adalah ...",
+    "o": [
+      "Bima",
+      "Aruna, Bima",
+      "Bima, Celia",
+      "Bima, Danu",
+      "Bima, Eris"
+    ],
+    "e": "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Bima}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-2",
+      "title": "Urutan pemeriksaan",
+      "text": "Enam paket Aruna, Bima, Celia, Danu, Eris, Fara diperiksa sekali pada slot 1–6. Aruna sebelum Danu dan Fara. Celia tepat sebelum Eris. Bima sesudah Fara. Danu sebelum Bima tetapi tidak tepat sebelum Bima. Eris bukan paket terakhir."
+    },
+    "solution": {
+      "steps": [
+        "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {Bima}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-f25e867a1eb47165",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Daftar lengkap slot yang mungkin bagi Celia adalah ...",
+    "o": [
+      "1, 2, 3, 4",
+      "1, 2, 3",
+      "1, 2, 3, 4, 5",
+      "1, 2, 3, 4, 6",
+      "1, 2, 4"
+    ],
+    "e": "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {1, 2, 3, 4}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-2",
+      "title": "Urutan pemeriksaan",
+      "text": "Enam paket Aruna, Bima, Celia, Danu, Eris, Fara diperiksa sekali pada slot 1–6. Aruna sebelum Danu dan Fara. Celia tepat sebelum Eris. Bima sesudah Fara. Danu sebelum Bima tetapi tidak tepat sebelum Bima. Eris bukan paket terakhir."
+    },
+    "solution": {
+      "steps": [
+        "Periksa seluruh urutan sah lalu kumpulkan nilai pada posisi yang ditanyakan. Hasil tepatnya {1, 2, 3, 4}; daftar lain menghilangkan kemungkinan atau memasukkan yang mustahil. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-87b692b6491d6d45",
+    "section": "logic",
+    "skill": "Analitis acuan",
+    "q": "Urutan yang dapat terjadi adalah ...",
+    "o": [
+      "Celia – Eris – Aruna – Danu – Fara – Bima",
+      "Aruna – Bima – Celia – Danu – Eris – Fara",
+      "Aruna – Bima – Celia – Danu – Fara – Eris",
+      "Aruna – Bima – Celia – Eris – Danu – Fara",
+      "Aruna – Bima – Celia – Eris – Fara – Danu"
+    ],
+    "e": "Urutan yang memenuhi seluruh syarat adalah Celia – Eris – Aruna – Danu – Fara – Bima. Keempat pengecoh sudah diperiksa dan masing-masing melanggar paling sedikit satu syarat. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PL-2",
+      "title": "Urutan pemeriksaan",
+      "text": "Enam paket Aruna, Bima, Celia, Danu, Eris, Fara diperiksa sekali pada slot 1–6. Aruna sebelum Danu dan Fara. Celia tepat sebelum Eris. Bima sesudah Fara. Danu sebelum Bima tetapi tidak tepat sebelum Bima. Eris bukan paket terakhir."
+    },
+    "solution": {
+      "steps": [
+        "Urutan yang memenuhi seluruh syarat adalah Celia – Eris – Aruna – Danu – Fara – Bima. Keempat pengecoh sudah diperiksa dan masing-masing melanggar paling sedikit satu syarat. Contoh urutan sah: Aruna–Celia–Eris–Danu–Fara–Bima; Aruna–Danu–Celia–Eris–Fara–Bima; Aruna–Danu–Fara–Celia–Eris–Bima."
+      ]
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-17fb93f5de0f47b6",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The report explains ___ the coastal paths become inaccessible after heavy rain.",
+    "o": [
+      "why",
+      "which",
+      "whose",
+      "what"
+    ],
+    "e": "Why memperkenalkan penjelasan alasan dalam klausa lengkap the coastal paths become inaccessible.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Why memperkenalkan penjelasan alasan dalam klausa lengkap the coastal paths become inaccessible."
+      ],
+      "rule": "Why memperkenalkan penjelasan alasan dalam klausa lengkap the coastal paths become inaccessible."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-d7236e0791c7a85c",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The specimens ___ from the northern site were catalogued separately.",
+    "o": [
+      "collected",
+      "collecting",
+      "were collected",
+      "which collecting"
+    ],
+    "e": "Collected adalah reduced passive relative: specimens that were collected. Were collected akan membuat dua predikat finite tanpa penghubung.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Collected adalah reduced passive relative: specimens that were collected. Were collected akan membuat dua predikat finite tanpa penghubung."
+      ],
+      "rule": "Collected adalah reduced passive relative: specimens that were collected. Were collected akan membuat dua predikat finite tanpa penghubung."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-0d1d80982f1007b8",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The craftsperson selected a ___ box for the display.",
+    "o": [
+      "small square wooden",
+      "wooden square small",
+      "square wooden small",
+      "small wooden square"
+    ],
+    "e": "Urutan normal sifat ukuran–bentuk–bahan: small square wooden.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Urutan normal sifat ukuran–bentuk–bahan: small square wooden."
+      ],
+      "rule": "Urutan normal sifat ukuran–bentuk–bahan: small square wooden."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-d2a4b38bf666ccb4",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "If the gate had remained open that night, the animals ___ from the enclosure.",
+    "o": [
+      "could have escaped",
+      "can escape",
+      "could escape tomorrow",
+      "had escaping"
+    ],
+    "e": "Kondisi lampau tidak nyata memakai past perfect dan akibat modal perfect: could have escaped.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kondisi lampau tidak nyata memakai past perfect dan akibat modal perfect: could have escaped."
+      ],
+      "rule": "Kondisi lampau tidak nyata memakai past perfect dan akibat modal perfect: could have escaped."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-09009150d4ae30d2",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The regulations require that every stored sample ___ with its collection date.",
+    "o": [
+      "be marked",
+      "is marked",
+      "was marking",
+      "to be marked"
+    ],
+    "e": "Require that menggunakan subjunctive dasar; bentuk pasifnya be marked.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Require that menggunakan subjunctive dasar; bentuk pasifnya be marked."
+      ],
+      "rule": "Require that menggunakan subjunctive dasar; bentuk pasifnya be marked."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e35ee85b7e198625",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "Only after the final inspection ___ the public to enter.",
+    "o": [
+      "did the staff allow",
+      "the staff allowed",
+      "did allow the staff",
+      "the staff had allowing"
+    ],
+    "e": "Only after di depan memicu inversi did + subjek + allow pada klausa utama.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Only after di depan memicu inversi did + subjek + allow pada klausa utama."
+      ],
+      "rule": "Only after di depan memicu inversi did + subjek + allow pada klausa utama."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b37f6f1e87e3eefa",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The course teaches students to compare sources, identify assumptions, and ___ their conclusions.",
+    "o": [
+      "justify",
+      "justification",
+      "justifying",
+      "justified"
+    ],
+    "e": "Tiga verba setelah to tersusun sejajar: compare, identify, justify.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tiga verba setelah to tersusun sejajar: compare, identify, justify."
+      ],
+      "rule": "Tiga verba setelah to tersusun sejajar: compare, identify, justify."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-0e926928c33da92c",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "Before the opening, the manager had the broken window ___.",
+    "o": [
+      "replaced",
+      "replace",
+      "replacing",
+      "to replace"
+    ],
+    "e": "Causative had + object + past participle menunjukkan pekerjaan dilakukan pada objek: window replaced.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Causative had + object + past participle menunjukkan pekerjaan dilakukan pada objek: window replaced."
+      ],
+      "rule": "Causative had + object + past participle menunjukkan pekerjaan dilakukan pada objek: window replaced."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-866403c8b1bcf9a3",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The survey yielded too ___ reliable responses to support a district-level estimate.",
+    "o": [
+      "few",
+      "little",
+      "much",
+      "less"
+    ],
+    "e": "Responses terhitung jamak; too few menyatakan jumlah terlalu sedikit. Little untuk nomina tak terhitung.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Responses terhitung jamak; too few menyatakan jumlah terlalu sedikit. Little untuk nomina tak terhitung."
+      ],
+      "rule": "Responses terhitung jamak; too few menyatakan jumlah terlalu sedikit. Little untuk nomina tak terhitung."
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b662f45508f2f686",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The second coating dried more ___ than the first because the room was warmer.",
+    "o": [
+      "quickly",
+      "quick",
+      "quickerly",
+      "quickness"
+    ],
+    "e": "Dried dimodifikasi adverb quickly; more quickly than membentuk perbandingan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Dried dimodifikasi adverb quickly; more quickly than membentuk perbandingan."
+      ],
+      "rule": "Dried dimodifikasi adverb quickly; more quickly than membentuk perbandingan."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-73cce5ab30a5ed7a",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The engineer with ___ the board consulted proposed a different support system.",
+    "o": [
+      "whom",
+      "whose",
+      "which",
+      "that"
+    ],
+    "e": "Pronomina relatif objek orang setelah preposisi with dalam ragam formal adalah whom.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pronomina relatif objek orang setelah preposisi with dalam ragam formal adalah whom."
+      ],
+      "rule": "Pronomina relatif objek orang setelah preposisi with dalam ragam formal adalah whom."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c688314fbe6fd3da",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The rooms would be usable today if the repairs ___ last week.",
+    "o": [
+      "had been completed",
+      "will be completed",
+      "would complete",
+      "have completing"
+    ],
+    "e": "Akibat sekarang dan kondisi lampau memakai mixed conditional: would be ... if ... had been completed.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Akibat sekarang dan kondisi lampau memakai mixed conditional: would be ... if ... had been completed."
+      ],
+      "rule": "Akibat sekarang dan kondisi lampau memakai mixed conditional: would be ... if ... had been completed."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-946cfd113ed102dc",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "Not only the labels but also the storage cabinet ___ replacement.",
+    "o": [
+      "needs",
+      "need",
+      "have needed",
+      "needing"
+    ],
+    "e": "Pada not only ... but also, agreement mengikuti unsur terdekat the storage cabinet yang tunggal.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pada not only ... but also, agreement mengikuti unsur terdekat the storage cabinet yang tunggal."
+      ],
+      "rule": "Pada not only ... but also, agreement mengikuti unsur terdekat the storage cabinet yang tunggal."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-f869672733ffb805",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The director questioned the ___ of combining measurements from different instruments.",
+    "o": [
+      "validity",
+      "valid",
+      "validly",
+      "validate"
+    ],
+    "e": "Setelah the dan sebelum of dibutuhkan nomina validity.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Setelah the dan sebelum of dibutuhkan nomina validity."
+      ],
+      "rule": "Setelah the dan sebelum of dibutuhkan nomina validity."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-ea8c6ade6820722b",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The reason that the earliest estimates differ from the revised ones ___ now clear.",
+    "o": [
+      "is",
+      "are",
+      "have been",
+      "being"
+    ],
+    "e": "Inti subjek reason tunggal; estimates dan ones berada dalam klausa penjelas dan tidak menentukan agreement utama.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Inti subjek reason tunggal; estimates dan ones berada dalam klausa penjelas dan tidak menentukan agreement utama."
+      ],
+      "rule": "Inti subjek reason tunggal; estimates dan ones berada dalam klausa penjelas dan tidak menentukan agreement utama."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e3da9b6759a7ae46",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The smaller the delay between collection and analysis, ___ the measurements are likely to be.",
+    "o": [
+      "the more consistent",
+      "more consistent",
+      "the most consistent",
+      "most consistently"
+    ],
+    "e": "Pola korelatif the smaller ..., the more ... memakai adjective consistent setelah be.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pola korelatif the smaller ..., the more ... memakai adjective consistent setelah be."
+      ],
+      "rule": "Pola korelatif the smaller ..., the more ... memakai adjective consistent setelah be."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-6d8ece1569c62f3e",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The review contains three appendices, none of ___ was available in the initial release.",
+    "o": [
+      "which",
+      "whom",
+      "that",
+      "whose"
+    ],
+    "e": "Konstruksi relatif partitif none of which merujuk appendices; klausa nonrestriktif tidak memakai that.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Konstruksi relatif partitif none of which merujuk appendices; klausa nonrestriktif tidak memakai that."
+      ],
+      "rule": "Konstruksi relatif partitif none of which merujuk appendices; klausa nonrestriktif tidak memakai that."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e5f83b2574252014",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "It was the unusual pattern of missing entries ___ prompted the auditors to investigate.",
+    "o": [
+      "that",
+      "what",
+      "whose",
+      "where"
+    ],
+    "e": "Cleft sentence it was X that ... menyoroti unusual pattern sebagai subjek prompted.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Cleft sentence it was X that ... menyoroti unusual pattern sebagai subjek prompted."
+      ],
+      "rule": "Cleft sentence it was X that ... menyoroti unusual pattern sebagai subjek prompted."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9a282d637bdcc6ef",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The analyst would have revised the estimate earlier ___ the revised figures been supplied.",
+    "o": [
+      "had",
+      "if",
+      "were",
+      "would"
+    ],
+    "e": "Inversi kondisi lampau: had the figures been supplied menggantikan if the figures had been supplied.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Inversi kondisi lampau: had the figures been supplied menggantikan if the figures had been supplied."
+      ],
+      "rule": "Inversi kondisi lampau: had the figures been supplied menggantikan if the figures had been supplied."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-39a4e43de60bdf07",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The consultant made the committee ___ its original assumptions.",
+    "o": [
+      "reconsider",
+      "to reconsider",
+      "reconsidered",
+      "reconsidering"
+    ],
+    "e": "Causative make + object diikuti bare infinitive reconsider.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Causative make + object diikuti bare infinitive reconsider."
+      ],
+      "rule": "Causative make + object diikuti bare infinitive reconsider."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-f2284717afcccc31",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The more detailed explanation is preferable to ___ in the preliminary note.",
+    "o": [
+      "the one given",
+      "that was giving",
+      "those giving",
+      "one was given"
+    ],
+    "e": "The one menggantikan explanation tunggal; given adalah reduced passive relative.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "The one menggantikan explanation tunggal; given adalah reduced passive relative."
+      ],
+      "rule": "The one menggantikan explanation tunggal; given adalah reduced passive relative."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-664603956d7fb04e",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The question of whether the instruments can be compared ___ unresolved.",
+    "o": [
+      "remains",
+      "remain",
+      "have remained",
+      "remaining"
+    ],
+    "e": "Inti subjek question tunggal; klausa apakah instrumen dapat dibandingkan tidak mengubah agreement.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Inti subjek question tunggal; klausa apakah instrumen dapat dibandingkan tidak mengubah agreement."
+      ],
+      "rule": "Inti subjek question tunggal; klausa apakah instrumen dapat dibandingkan tidak mengubah agreement."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-106d0704b2876502",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "Rarely in the history of the archive ___ such a complete set of records.",
+    "o": [
+      "have researchers found",
+      "researchers have found",
+      "have found researchers",
+      "researchers finding"
+    ],
+    "e": "Rarely di depan memicu inversi auxiliary-subjek: have researchers found.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Rarely di depan memicu inversi auxiliary-subjek: have researchers found."
+      ],
+      "rule": "Rarely di depan memicu inversi auxiliary-subjek: have researchers found."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-291e73dc0d155725",
+    "section": "structure",
+    "skill": "Sentence completion",
+    "q": "The team attributed the discrepancy to the samples ___ at different temperatures.",
+    "o": [
+      "having been stored",
+      "to be stored",
+      "had been stored",
+      "have stored"
+    ],
+    "e": "Setelah preposisi to, frasa the samples having been stored memakai perfect passive gerund untuk penyimpanan sebelumnya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Setelah preposisi to, frasa the samples having been stored memakai perfect passive gerund untuk penyimpanan sebelumnya."
+      ],
+      "rule": "Setelah preposisi to, frasa the samples having been stored memakai perfect passive gerund untuk penyimpanan sebelumnya."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-23550bfef1ac3713",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "have been",
+      "list of participants",
+      "carefully checked",
+      "this morning"
+    ],
+    "e": "Ganti “have been” menjadi “has been”. Inti subjek list tunggal, sehingga has been; participants berada dalam frasa of.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "list of participants",
+        "oi": 1
+      },
+      {
+        "text": "have been",
+        "oi": 0
+      },
+      {
+        "text": "carefully checked",
+        "oi": 2
+      },
+      {
+        "text": "this morning",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “have been” menjadi “has been”. Inti subjek list tunggal, sehingga has been; participants berada dalam frasa of."
+      ],
+      "rule": "Ganti “have been” menjadi “has been”. Inti subjek list tunggal, sehingga has been; participants berada dalam frasa of."
+    },
+    "segments": [
+      "The ",
+      {
+        "text": "list of participants",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "have been",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "carefully checked",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "this morning",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-ac01ad110ff90274",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "wears",
+      "Each technician",
+      "must",
+      "a protective coat"
+    ],
+    "e": "Ganti “wears” menjadi “wear”. Modal must diikuti bentuk dasar wear, tanpa akhiran -s.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Each technician",
+        "oi": 1
+      },
+      {
+        "text": "must",
+        "oi": 2
+      },
+      {
+        "text": "wears",
+        "oi": 0
+      },
+      {
+        "text": "a protective coat",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “wears” menjadi “wear”. Modal must diikuti bentuk dasar wear, tanpa akhiran -s."
+      ],
+      "rule": "Ganti “wears” menjadi “wear”. Modal must diikuti bentuk dasar wear, tanpa akhiran -s."
+    },
+    "segments": [
+      {
+        "text": "Each technician",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "must",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "wears",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "a protective coat",
+        "oi": 3
+      },
+      " inside the laboratory."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-e4e77d5ba299d3e2",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "several useful informations",
+      "gave",
+      "the visitors",
+      "before the tour"
+    ],
+    "e": "Ganti “several useful informations” menjadi “several useful pieces of information”. Information tak terhitung. Gunakan pieces of information untuk menyatakan beberapa butir.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "gave",
+        "oi": 1
+      },
+      {
+        "text": "the visitors",
+        "oi": 2
+      },
+      {
+        "text": "several useful informations",
+        "oi": 0
+      },
+      {
+        "text": "before the tour",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “several useful informations” menjadi “several useful pieces of information”. Information tak terhitung. Gunakan pieces of information untuk menyatakan beberapa butir."
+      ],
+      "rule": "Ganti “several useful informations” menjadi “several useful pieces of information”. Information tak terhitung. Gunakan pieces of information untuk menyatakan beberapa butir."
+    },
+    "segments": [
+      "The guide ",
+      {
+        "text": "gave",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the visitors",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "several useful informations",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "before the tour",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-9832f0fb1420cb1f",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "more safer",
+      "The restored bridge",
+      "than the temporary crossing",
+      "used last year"
+    ],
+    "e": "Ganti “more safer” menjadi “safer”. Safer sudah merupakan bentuk komparatif; more tidak ditambahkan.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The restored bridge",
+        "oi": 1
+      },
+      {
+        "text": "more safer",
+        "oi": 0
+      },
+      {
+        "text": "than the temporary crossing",
+        "oi": 2
+      },
+      {
+        "text": "used last year",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “more safer” menjadi “safer”. Safer sudah merupakan bentuk komparatif; more tidak ditambahkan."
+      ],
+      "rule": "Ganti “more safer” menjadi “safer”. Safer sudah merupakan bentuk komparatif; more tidak ditambahkan."
+    },
+    "segments": [
+      {
+        "text": "The restored bridge",
+        "oi": 1
+      },
+      " is ",
+      {
+        "text": "more safer",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "than the temporary crossing",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "used last year",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-4a6536bfd6460e1f",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "since three months",
+      "has worked",
+      "at this site",
+      "without interruption"
+    ],
+    "e": "Ganti “since three months” menjadi “for three months”. Rentang durasi memakai for; since dipakai untuk titik awal.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "has worked",
+        "oi": 1
+      },
+      {
+        "text": "at this site",
+        "oi": 2
+      },
+      {
+        "text": "since three months",
+        "oi": 0
+      },
+      {
+        "text": "without interruption",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “since three months” menjadi “for three months”. Rentang durasi memakai for; since dipakai untuk titik awal."
+      ],
+      "rule": "Ganti “since three months” menjadi “for three months”. Rentang durasi memakai for; since dipakai untuk titik awal."
+    },
+    "segments": [
+      "The team ",
+      {
+        "text": "has worked",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "at this site",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "since three months",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "without interruption",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-60dbe3bfee42eaa1",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "checking",
+      "asked",
+      "the assistant",
+      "the cabinet locks"
+    ],
+    "e": "Ganti “checking” menjadi “to check”. Ask + object + to-infinitive: asked the assistant to check.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "asked",
+        "oi": 1
+      },
+      {
+        "text": "the assistant",
+        "oi": 2
+      },
+      {
+        "text": "checking",
+        "oi": 0
+      },
+      {
+        "text": "the cabinet locks",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “checking” menjadi “to check”. Ask + object + to-infinitive: asked the assistant to check."
+      ],
+      "rule": "Ganti “checking” menjadi “to check”. Ask + object + to-infinitive: asked the assistant to check."
+    },
+    "segments": [
+      "The curator ",
+      {
+        "text": "asked",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the assistant",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "checking",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "the cabinet locks",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-4550f5ef25a402a9",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "Although the heavy rain",
+      "the surveyors",
+      "completed the work",
+      "before sunset"
+    ],
+    "e": "Ganti “Although the heavy rain” menjadi “Despite the heavy rain”. Although diikuti klausa. Untuk frasa nomina the heavy rain gunakan despite.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Although the heavy rain",
+        "oi": 0
+      },
+      {
+        "text": "the surveyors",
+        "oi": 1
+      },
+      {
+        "text": "completed the work",
+        "oi": 2
+      },
+      {
+        "text": "before sunset",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “Although the heavy rain” menjadi “Despite the heavy rain”. Although diikuti klausa. Untuk frasa nomina the heavy rain gunakan despite."
+      ],
+      "rule": "Ganti “Although the heavy rain” menjadi “Despite the heavy rain”. Although diikuti klausa. Untuk frasa nomina the heavy rain gunakan despite."
+    },
+    "segments": [
+      {
+        "text": "Although the heavy rain",
+        "oi": 0
+      },
+      ", ",
+      {
+        "text": "the surveyors",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "completed the work",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "before sunset",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-5ed510c62334ce92",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "clear",
+      "were printed",
+      "so that visitors",
+      "could read them easily"
+    ],
+    "e": "Ganti “clear” menjadi “clearly”. Kata yang menerangkan cara pencetakan adalah adverb clearly, bukan adjective clear.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "were printed",
+        "oi": 1
+      },
+      {
+        "text": "clear",
+        "oi": 0
+      },
+      {
+        "text": "so that visitors",
+        "oi": 2
+      },
+      {
+        "text": "could read them easily",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “clear” menjadi “clearly”. Kata yang menerangkan cara pencetakan adalah adverb clearly, bukan adjective clear."
+      ],
+      "rule": "Ganti “clear” menjadi “clearly”. Kata yang menerangkan cara pencetakan adalah adverb clearly, bukan adjective clear."
+    },
+    "segments": [
+      "The labels ",
+      {
+        "text": "were printed",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "clear",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "so that visitors",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "could read them easily",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-159784a305894385",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "of detect",
+      "is capable",
+      "small changes",
+      "in pressure"
+    ],
+    "e": "Ganti “of detect” menjadi “of detecting”. Preposisi of diikuti gerund: capable of detecting.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "is capable",
+        "oi": 1
+      },
+      {
+        "text": "of detect",
+        "oi": 0
+      },
+      {
+        "text": "small changes",
+        "oi": 2
+      },
+      {
+        "text": "in pressure",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “of detect” menjadi “of detecting”. Preposisi of diikuti gerund: capable of detecting."
+      ],
+      "rule": "Ganti “of detect” menjadi “of detecting”. Preposisi of diikuti gerund: capable of detecting."
+    },
+    "segments": [
+      "The device ",
+      {
+        "text": "is capable",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "of detect",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "small changes",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "in pressure",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-88f6745d87a5b343",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "was stored",
+      "containing the samples",
+      "in a locked room",
+      "overnight"
+    ],
+    "e": "Ganti “was stored” menjadi “were stored”. Inti subjek boxes jamak, sehingga were stored.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "containing the samples",
+        "oi": 1
+      },
+      {
+        "text": "was stored",
+        "oi": 0
+      },
+      {
+        "text": "in a locked room",
+        "oi": 2
+      },
+      {
+        "text": "overnight",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “was stored” menjadi “were stored”. Inti subjek boxes jamak, sehingga were stored."
+      ],
+      "rule": "Ganti “was stored” menjadi “were stored”. Inti subjek boxes jamak, sehingga were stored."
+    },
+    "segments": [
+      "The boxes ",
+      {
+        "text": "containing the samples",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "was stored",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "in a locked room",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "overnight",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-41337abc00b6f367",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "how can visitors reach it",
+      "shows",
+      "where the entrance is",
+      "from the station"
+    ],
+    "e": "Ganti “how can visitors reach it” menjadi “how visitors can reach it”. Pertanyaan tak langsung memakai urutan subjek-auxiliary: how visitors can reach it.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "shows",
+        "oi": 1
+      },
+      {
+        "text": "where the entrance is",
+        "oi": 2
+      },
+      {
+        "text": "how can visitors reach it",
+        "oi": 0
+      },
+      {
+        "text": "from the station",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “how can visitors reach it” menjadi “how visitors can reach it”. Pertanyaan tak langsung memakai urutan subjek-auxiliary: how visitors can reach it."
+      ],
+      "rule": "Ganti “how can visitors reach it” menjadi “how visitors can reach it”. Pertanyaan tak langsung memakai urutan subjek-auxiliary: how visitors can reach it."
+    },
+    "segments": [
+      "The revised map ",
+      {
+        "text": "shows",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "where the entrance is",
+        "oi": 2
+      },
+      " and ",
+      {
+        "text": "how can visitors reach it",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "from the station",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-37a6bb715b9c1696",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "an advice",
+      "The committee",
+      "received",
+      "from an independent engineer"
+    ],
+    "e": "Ganti “an advice” menjadi “advice”. Advice tak terhitung dan tidak memakai an; dapat pula a piece of advice.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The committee",
+        "oi": 1
+      },
+      {
+        "text": "received",
+        "oi": 2
+      },
+      {
+        "text": "an advice",
+        "oi": 0
+      },
+      {
+        "text": "from an independent engineer",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “an advice” menjadi “advice”. Advice tak terhitung dan tidak memakai an; dapat pula a piece of advice."
+      ],
+      "rule": "Ganti “an advice” menjadi “advice”. Advice tak terhitung dan tidak memakai an; dapat pula a piece of advice."
+    },
+    "segments": [
+      {
+        "text": "The committee",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "received",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "an advice",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "from an independent engineer",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9f0ea847453d6cc2",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "and convenient",
+      "The new route",
+      "is shorter",
+      "than the old one"
+    ],
+    "e": "Ganti “and convenient” menjadi “and more convenient”. Dua sifat yang dibandingkan perlu bentuk komparatif sejajar: shorter and more convenient than.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The new route",
+        "oi": 1
+      },
+      {
+        "text": "is shorter",
+        "oi": 2
+      },
+      {
+        "text": "and convenient",
+        "oi": 0
+      },
+      {
+        "text": "than the old one",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “and convenient” menjadi “and more convenient”. Dua sifat yang dibandingkan perlu bentuk komparatif sejajar: shorter and more convenient than."
+      ],
+      "rule": "Ganti “and convenient” menjadi “and more convenient”. Dua sifat yang dibandingkan perlu bentuk komparatif sejajar: shorter and more convenient than."
+    },
+    "segments": [
+      {
+        "text": "The new route",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "is shorter",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "and convenient",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "than the old one",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9ceb80fc0175f2bf",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "to install",
+      "finished",
+      "the new lights",
+      "before opening time"
+    ],
+    "e": "Ganti “to install” menjadi “installing”. Finish diikuti gerund, sehingga finished installing.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "finished",
+        "oi": 1
+      },
+      {
+        "text": "to install",
+        "oi": 0
+      },
+      {
+        "text": "the new lights",
+        "oi": 2
+      },
+      {
+        "text": "before opening time",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “to install” menjadi “installing”. Finish diikuti gerund, sehingga finished installing."
+      ],
+      "rule": "Ganti “to install” menjadi “installing”. Finish diikuti gerund, sehingga finished installing."
+    },
+    "segments": [
+      "The workers ",
+      {
+        "text": "finished",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "to install",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "the new lights",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "before opening time",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2543fbe011c9ad3e",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "many photograph",
+      "The archive",
+      "contains",
+      "from the early expedition"
+    ],
+    "e": "Ganti “many photograph” menjadi “many photographs”. Many membutuhkan nomina jamak terhitung: photographs.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The archive",
+        "oi": 1
+      },
+      {
+        "text": "contains",
+        "oi": 2
+      },
+      {
+        "text": "many photograph",
+        "oi": 0
+      },
+      {
+        "text": "from the early expedition",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “many photograph” menjadi “many photographs”. Many membutuhkan nomina jamak terhitung: photographs."
+      ],
+      "rule": "Ganti “many photograph” menjadi “many photographs”. Many membutuhkan nomina jamak terhitung: photographs."
+    },
+    "segments": [
+      {
+        "text": "The archive",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "contains",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "many photograph",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "from the early expedition",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-51a48c4f061e839c",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "providing clear instructions",
+      "aims to",
+      "reduce delays",
+      "improve access"
+    ],
+    "e": "Ganti “providing clear instructions” menjadi “provide clear instructions”. Verba setelah aims to sejajar: reduce, improve, provide.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "aims to",
+        "oi": 1
+      },
+      {
+        "text": "reduce delays",
+        "oi": 2
+      },
+      {
+        "text": "improve access",
+        "oi": 3
+      },
+      {
+        "text": "providing clear instructions",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “providing clear instructions” menjadi “provide clear instructions”. Verba setelah aims to sejajar: reduce, improve, provide."
+      ],
+      "rule": "Ganti “providing clear instructions” menjadi “provide clear instructions”. Verba setelah aims to sejajar: reduce, improve, provide."
+    },
+    "segments": [
+      "The policy ",
+      {
+        "text": "aims to",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "reduce delays",
+        "oi": 2
+      },
+      ", ",
+      {
+        "text": "improve access",
+        "oi": 3
+      },
+      ", and ",
+      {
+        "text": "providing clear instructions",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-453ee51be1ead169",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "need immediate repair",
+      "cabinet",
+      "whose hinges",
+      "are damaged"
+    ],
+    "e": "Ganti “need immediate repair” menjadi “needs immediate repair”. Inti subjek cabinet tunggal. Hinges hanya subjek klausa relatif.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "cabinet",
+        "oi": 1
+      },
+      {
+        "text": "whose hinges",
+        "oi": 2
+      },
+      {
+        "text": "are damaged",
+        "oi": 3
+      },
+      {
+        "text": "need immediate repair",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “need immediate repair” menjadi “needs immediate repair”. Inti subjek cabinet tunggal. Hinges hanya subjek klausa relatif."
+      ],
+      "rule": "Ganti “need immediate repair” menjadi “needs immediate repair”. Inti subjek cabinet tunggal. Hinges hanya subjek klausa relatif."
+    },
+    "segments": [
+      "The ",
+      {
+        "text": "cabinet",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "whose hinges",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "are damaged",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "need immediate repair",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3c344da293c97adc",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "to draw",
+      "avoided",
+      "firm conclusions",
+      "from the small sample"
+    ],
+    "e": "Ganti “to draw” menjadi “drawing”. Avoid diikuti gerund drawing, bukan to-infinitive.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "avoided",
+        "oi": 1
+      },
+      {
+        "text": "to draw",
+        "oi": 0
+      },
+      {
+        "text": "firm conclusions",
+        "oi": 2
+      },
+      {
+        "text": "from the small sample",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “to draw” menjadi “drawing”. Avoid diikuti gerund drawing, bukan to-infinitive."
+      ],
+      "rule": "Ganti “to draw” menjadi “drawing”. Avoid diikuti gerund drawing, bukan to-infinitive."
+    },
+    "segments": [
+      "The researchers ",
+      {
+        "text": "avoided",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "to draw",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "firm conclusions",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "from the small sample",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-2950a6f182c4fc22",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "is superior than it in precision",
+      "Unlike",
+      "the older instrument",
+      "the new one"
+    ],
+    "e": "Ganti “is superior than it in precision” menjadi “is superior to it in precision”. Superior berpasangan dengan to, bukan than.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Unlike",
+        "oi": 1
+      },
+      {
+        "text": "the older instrument",
+        "oi": 2
+      },
+      {
+        "text": "the new one",
+        "oi": 3
+      },
+      {
+        "text": "is superior than it in precision",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “is superior than it in precision” menjadi “is superior to it in precision”. Superior berpasangan dengan to, bukan than."
+      ],
+      "rule": "Ganti “is superior than it in precision” menjadi “is superior to it in precision”. Superior berpasangan dengan to, bukan than."
+    },
+    "segments": [
+      {
+        "text": "Unlike",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the older instrument",
+        "oi": 2
+      },
+      ", ",
+      {
+        "text": "the new one",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "is superior than it in precision",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-35df80a1095b9d3e",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "will it arrive",
+      "explains",
+      "why the shipment was delayed",
+      "and when"
+    ],
+    "e": "Ganti “will it arrive” menjadi “it will arrive”. Klausa pertanyaan tak langsung setelah explains memakai when it will arrive.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "explains",
+        "oi": 1
+      },
+      {
+        "text": "why the shipment was delayed",
+        "oi": 2
+      },
+      {
+        "text": "and when",
+        "oi": 3
+      },
+      {
+        "text": "will it arrive",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “will it arrive” menjadi “it will arrive”. Klausa pertanyaan tak langsung setelah explains memakai when it will arrive."
+      ],
+      "rule": "Ganti “will it arrive” menjadi “it will arrive”. Klausa pertanyaan tak langsung setelah explains memakai when it will arrive."
+    },
+    "segments": [
+      "The note ",
+      {
+        "text": "explains",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "why the shipment was delayed",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "and when",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "will it arrive",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-660d47b4d0065bf3",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "the auditors noticed",
+      "Not until the records were compared",
+      "that one transaction",
+      "had been entered twice"
+    ],
+    "e": "Ganti “the auditors noticed” menjadi “did the auditors notice”. Not until di depan menghendaki inversi pada klausa utama: did the auditors notice.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Not until the records were compared",
+        "oi": 1
+      },
+      {
+        "text": "the auditors noticed",
+        "oi": 0
+      },
+      {
+        "text": "that one transaction",
+        "oi": 2
+      },
+      {
+        "text": "had been entered twice",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “the auditors noticed” menjadi “did the auditors notice”. Not until di depan menghendaki inversi pada klausa utama: did the auditors notice."
+      ],
+      "rule": "Ganti “the auditors noticed” menjadi “did the auditors notice”. Not until di depan menghendaki inversi pada klausa utama: did the auditors notice."
+    },
+    "segments": [
+      {
+        "text": "Not until the records were compared",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the auditors noticed",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "that one transaction",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "had been entered twice",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3c74e31af99a39e3",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "would detect",
+      "Had the valve been inspected",
+      "the defect",
+      "before the failure last night"
+    ],
+    "e": "Ganti “would detect” menjadi “would have detected”. Kondisi dan akibat sama-sama lampau tak nyata: had been inspected ... would have detected.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Had the valve been inspected",
+        "oi": 1
+      },
+      {
+        "text": "would detect",
+        "oi": 0
+      },
+      {
+        "text": "the defect",
+        "oi": 2
+      },
+      {
+        "text": "before the failure last night",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “would detect” menjadi “would have detected”. Kondisi dan akibat sama-sama lampau tak nyata: had been inspected ... would have detected."
+      ],
+      "rule": "Ganti “would detect” menjadi “would have detected”. Kondisi dan akibat sama-sama lampau tak nyata: had been inspected ... would have detected."
+    },
+    "segments": [
+      {
+        "text": "Had the valve been inspected",
+        "oi": 1
+      },
+      ", the operator ",
+      {
+        "text": "would detect",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "the defect",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "before the failure last night",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-36ffb8ebd3a78ca1",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "was removed",
+      "recommended that",
+      "the disputed figure",
+      "from the final summary"
+    ],
+    "e": "Ganti “was removed” menjadi “be removed”. Mandative subjunctive pasif setelah recommended that memakai be removed.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "recommended that",
+        "oi": 1
+      },
+      {
+        "text": "the disputed figure",
+        "oi": 2
+      },
+      {
+        "text": "was removed",
+        "oi": 0
+      },
+      {
+        "text": "from the final summary",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “was removed” menjadi “be removed”. Mandative subjunctive pasif setelah recommended that memakai be removed."
+      ],
+      "rule": "Ganti “was removed” menjadi “be removed”. Mandative subjunctive pasif setelah recommended that memakai be removed."
+    },
+    "segments": [
+      "The panel ",
+      {
+        "text": "recommended that",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the disputed figure",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "was removed",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "from the final summary",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-5ae6700a7d76e38c",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "Having completed the measurements",
+      "the equipment",
+      "was packed",
+      "by the field team"
+    ],
+    "e": "Ganti “Having completed the measurements” menjadi “After the measurements had been completed”. Partisip Having completed seharusnya mengacu pada pelaku di subjek. Equipment bukan pelaku yang menyelesaikan pengukuran; ubah pembuka menjadi klausa pasif.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Having completed the measurements",
+        "oi": 0
+      },
+      {
+        "text": "the equipment",
+        "oi": 1
+      },
+      {
+        "text": "was packed",
+        "oi": 2
+      },
+      {
+        "text": "by the field team",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “Having completed the measurements” menjadi “After the measurements had been completed”. Partisip Having completed seharusnya mengacu pada pelaku di subjek. Equipment bukan pelaku yang menyelesaikan pengukuran; ubah pembuka menjadi klausa pasif."
+      ],
+      "rule": "Ganti “Having completed the measurements” menjadi “After the measurements had been completed”. Partisip Having completed seharusnya mengacu pada pelaku di subjek. Equipment bukan pelaku yang menyelesaikan pengukuran; ubah pembuka menjadi klausa pasif."
+    },
+    "segments": [
+      {
+        "text": "Having completed the measurements",
+        "oi": 0
+      },
+      ", ",
+      {
+        "text": "the equipment",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "was packed",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "by the field team",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-7935e9045238d327",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "what did the witnesses infer",
+      "distinguishes",
+      "what was directly observed",
+      "from"
+    ],
+    "e": "Ganti “what did the witnesses infer” menjadi “what the witnesses inferred”. Klausa nominal setelah from memakai urutan biasa, tanpa inversi pertanyaan.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "distinguishes",
+        "oi": 1
+      },
+      {
+        "text": "what was directly observed",
+        "oi": 2
+      },
+      {
+        "text": "from",
+        "oi": 3
+      },
+      {
+        "text": "what did the witnesses infer",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “what did the witnesses infer” menjadi “what the witnesses inferred”. Klausa nominal setelah from memakai urutan biasa, tanpa inversi pertanyaan."
+      ],
+      "rule": "Ganti “what did the witnesses infer” menjadi “what the witnesses inferred”. Klausa nominal setelah from memakai urutan biasa, tanpa inversi pertanyaan."
+    },
+    "segments": [
+      "The account ",
+      {
+        "text": "distinguishes",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "what was directly observed",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "from",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "what did the witnesses infer",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-8d9b9957bf457d04",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "have fallen",
+      "that satisfy the new criteria",
+      "although total enrolment",
+      "has remained stable"
+    ],
+    "e": "Ganti “have fallen” menjadi “has fallen”. Inti subjek the number tunggal. Applications di dalam frasa tidak menjadikannya plural.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "that satisfy the new criteria",
+        "oi": 1
+      },
+      {
+        "text": "have fallen",
+        "oi": 0
+      },
+      {
+        "text": "although total enrolment",
+        "oi": 2
+      },
+      {
+        "text": "has remained stable",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “have fallen” menjadi “has fallen”. Inti subjek the number tunggal. Applications di dalam frasa tidak menjadikannya plural."
+      ],
+      "rule": "Ganti “have fallen” menjadi “has fallen”. Inti subjek the number tunggal. Applications di dalam frasa tidak menjadikannya plural."
+    },
+    "segments": [
+      "The number of applications ",
+      {
+        "text": "that satisfy the new criteria",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "have fallen",
+        "oi": 0
+      },
+      ", ",
+      {
+        "text": "although total enrolment",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "has remained stable",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a8ead616c2b1a9b1",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "when",
+      "No sooner had the team departed",
+      "the weather changed",
+      "without warning"
+    ],
+    "e": "Ganti “when” menjadi “than”. Pasangan baku no sooner ... than; when dipakai dalam hardly/scarcely ... when.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "No sooner had the team departed",
+        "oi": 1
+      },
+      {
+        "text": "when",
+        "oi": 0
+      },
+      {
+        "text": "the weather changed",
+        "oi": 2
+      },
+      {
+        "text": "without warning",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “when” menjadi “than”. Pasangan baku no sooner ... than; when dipakai dalam hardly/scarcely ... when."
+      ],
+      "rule": "Ganti “when” menjadi “than”. Pasangan baku no sooner ... than; when dipakai dalam hardly/scarcely ... when."
+    },
+    "segments": [
+      {
+        "text": "No sooner had the team departed",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "when",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "the weather changed",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "without warning",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-f5842b06518daf8c",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "those used in the pilot was",
+      "was based on",
+      "the same assumptions",
+      "as"
+    ],
+    "e": "Ganti “those used in the pilot was” menjadi “those used in the pilot”. Frasa pembanding those used in the pilot sudah lengkap; was di akhir tidak mempunyai struktur paralel yang benar.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "was based on",
+        "oi": 1
+      },
+      {
+        "text": "the same assumptions",
+        "oi": 2
+      },
+      {
+        "text": "as",
+        "oi": 3
+      },
+      {
+        "text": "those used in the pilot was",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “those used in the pilot was” menjadi “those used in the pilot”. Frasa pembanding those used in the pilot sudah lengkap; was di akhir tidak mempunyai struktur paralel yang benar."
+      ],
+      "rule": "Ganti “those used in the pilot was” menjadi “those used in the pilot”. Frasa pembanding those used in the pilot sudah lengkap; was di akhir tidak mempunyai struktur paralel yang benar."
+    },
+    "segments": [
+      "The final comparison ",
+      {
+        "text": "was based on",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the same assumptions",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "as",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "those used in the pilot was",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1a48a923292e4ae6",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "having been contaminated",
+      "are believed",
+      "during transport",
+      "rather than at the collection site"
+    ],
+    "e": "Ganti “having been contaminated” menjadi “to have been contaminated”. Reported passive are believed diikuti infinitive; perfect passive to have been contaminated menandai kejadian sebelumnya.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "are believed",
+        "oi": 1
+      },
+      {
+        "text": "having been contaminated",
+        "oi": 0
+      },
+      {
+        "text": "during transport",
+        "oi": 2
+      },
+      {
+        "text": "rather than at the collection site",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “having been contaminated” menjadi “to have been contaminated”. Reported passive are believed diikuti infinitive; perfect passive to have been contaminated menandai kejadian sebelumnya."
+      ],
+      "rule": "Ganti “having been contaminated” menjadi “to have been contaminated”. Reported passive are believed diikuti infinitive; perfect passive to have been contaminated menandai kejadian sebelumnya."
+    },
+    "segments": [
+      "The samples ",
+      {
+        "text": "are believed",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "having been contaminated",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "during transport",
+        "oi": 2
+      },
+      ", ",
+      {
+        "text": "rather than at the collection site",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1156cd0b9c26dd12",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "the less errors",
+      "carefully",
+      "the data are checked",
+      "remain in the register"
+    ],
+    "e": "Ganti “the less errors” menjadi “the fewer errors”. Errors terhitung jamak sehingga fewer, bukan less. Pola korelatif the more ... the fewer ... tetap berlaku.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "carefully",
+        "oi": 1
+      },
+      {
+        "text": "the data are checked",
+        "oi": 2
+      },
+      {
+        "text": "the less errors",
+        "oi": 0
+      },
+      {
+        "text": "remain in the register",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “the less errors” menjadi “the fewer errors”. Errors terhitung jamak sehingga fewer, bukan less. Pola korelatif the more ... the fewer ... tetap berlaku."
+      ],
+      "rule": "Ganti “the less errors” menjadi “the fewer errors”. Errors terhitung jamak sehingga fewer, bukan less. Pola korelatif the more ... the fewer ... tetap berlaku."
+    },
+    "segments": [
+      "The more ",
+      {
+        "text": "carefully",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the data are checked",
+        "oi": 2
+      },
+      ", ",
+      {
+        "text": "the less errors",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "remain in the register",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-5587d22e2a7fc09b",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "bears",
+      "It is essential that",
+      "every amended record",
+      "the original reference number"
+    ],
+    "e": "Ganti “bears” menjadi “bear”. Mandative subjunctive setelah essential that memakai bentuk dasar bear, walaupun subjek every record tunggal.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "It is essential that",
+        "oi": 1
+      },
+      {
+        "text": "every amended record",
+        "oi": 2
+      },
+      {
+        "text": "bears",
+        "oi": 0
+      },
+      {
+        "text": "the original reference number",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “bears” menjadi “bear”. Mandative subjunctive setelah essential that memakai bentuk dasar bear, walaupun subjek every record tunggal."
+      ],
+      "rule": "Ganti “bears” menjadi “bear”. Mandative subjunctive setelah essential that memakai bentuk dasar bear, walaupun subjek every record tunggal."
+    },
+    "segments": [
+      {
+        "text": "It is essential that",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "every amended record",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "bears",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "the original reference number",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a353a8bf273f07b8",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "be destroyed",
+      "to",
+      "the original files",
+      "before an independent copy was made"
+    ],
+    "e": "Ganti “be destroyed” menjadi “being destroyed”. To dalam objected to adalah preposisi; objeknya gerund pasif the files being destroyed.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "to",
+        "oi": 1
+      },
+      {
+        "text": "the original files",
+        "oi": 2
+      },
+      {
+        "text": "be destroyed",
+        "oi": 0
+      },
+      {
+        "text": "before an independent copy was made",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “be destroyed” menjadi “being destroyed”. To dalam objected to adalah preposisi; objeknya gerund pasif the files being destroyed."
+      ],
+      "rule": "Ganti “be destroyed” menjadi “being destroyed”. To dalam objected to adalah preposisi; objeknya gerund pasif the files being destroyed."
+    },
+    "segments": [
+      "The manager objected ",
+      {
+        "text": "to",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the original files",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "be destroyed",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "before an independent copy was made",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7775b2b425ffb44e",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "did the editor found",
+      "Only after",
+      "the final page had been examined",
+      "the missing citation"
+    ],
+    "e": "Ganti “did the editor found” menjadi “did the editor find”. Inversi did sudah membawa tense lampau; verba utama harus bentuk dasar find.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Only after",
+        "oi": 1
+      },
+      {
+        "text": "the final page had been examined",
+        "oi": 2
+      },
+      {
+        "text": "did the editor found",
+        "oi": 0
+      },
+      {
+        "text": "the missing citation",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “did the editor found” menjadi “did the editor find”. Inversi did sudah membawa tense lampau; verba utama harus bentuk dasar find."
+      ],
+      "rule": "Ganti “did the editor found” menjadi “did the editor find”. Inversi did sudah membawa tense lampau; verba utama harus bentuk dasar find."
+    },
+    "segments": [
+      {
+        "text": "Only after",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the final page had been examined",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "did the editor found",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "the missing citation",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7587c0707156ae78",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "remain",
+      "on which the estimates depend",
+      "incomplete",
+      "despite repeated searches"
+    ],
+    "e": "Ganti “remain” menjadi “remains”. Evidence tak terhitung, sehingga predikat utama remains tunggal. Estimates berada di klausa relatif.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "on which the estimates depend",
+        "oi": 1
+      },
+      {
+        "text": "remain",
+        "oi": 0
+      },
+      {
+        "text": "incomplete",
+        "oi": 2
+      },
+      {
+        "text": "despite repeated searches",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “remain” menjadi “remains”. Evidence tak terhitung, sehingga predikat utama remains tunggal. Estimates berada di klausa relatif."
+      ],
+      "rule": "Ganti “remain” menjadi “remains”. Evidence tak terhitung, sehingga predikat utama remains tunggal. Estimates berada di klausa relatif."
+    },
+    "segments": [
+      "The evidence ",
+      {
+        "text": "on which the estimates depend",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "remain",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "incomplete",
+        "oi": 2
+      },
+      ", ",
+      {
+        "text": "despite repeated searches",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-f0aea90c4e558c91",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "has been revised",
+      "Not only",
+      "the schedule",
+      "but also the transport arrangements"
+    ],
+    "e": "Ganti “has been revised” menjadi “have been revised”. Pada not only ... but also, agreement mengikuti unsur terdekat arrangements yang jamak.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Not only",
+        "oi": 1
+      },
+      {
+        "text": "the schedule",
+        "oi": 2
+      },
+      {
+        "text": "but also the transport arrangements",
+        "oi": 3
+      },
+      {
+        "text": "has been revised",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “has been revised” menjadi “have been revised”. Pada not only ... but also, agreement mengikuti unsur terdekat arrangements yang jamak."
+      ],
+      "rule": "Ganti “has been revised” menjadi “have been revised”. Pada not only ... but also, agreement mengikuti unsur terdekat arrangements yang jamak."
+    },
+    "segments": [
+      {
+        "text": "Not only",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the schedule",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "but also the transport arrangements",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "has been revised",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-4f8ecc2c0a298149",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "which was developed it last year",
+      "requires fewer assumptions",
+      "than",
+      "the one"
+    ],
+    "e": "Ganti “which was developed it last year” menjadi “which was developed last year”. Pronomina relatif which sudah menjadi subjek pasif; it tambahan tidak diperlukan.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "requires fewer assumptions",
+        "oi": 1
+      },
+      {
+        "text": "than",
+        "oi": 2
+      },
+      {
+        "text": "the one",
+        "oi": 3
+      },
+      {
+        "text": "which was developed it last year",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “which was developed it last year” menjadi “which was developed last year”. Pronomina relatif which sudah menjadi subjek pasif; it tambahan tidak diperlukan."
+      ],
+      "rule": "Ganti “which was developed it last year” menjadi “which was developed last year”. Pronomina relatif which sudah menjadi subjek pasif; it tambahan tidak diperlukan."
+    },
+    "segments": [
+      "The new model ",
+      {
+        "text": "requires fewer assumptions",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "than",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "the one",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "which was developed it last year",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9e5f48b803f0b943",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "those of replacement",
+      "compares the cost of repair",
+      "with",
+      "under the same conditions"
+    ],
+    "e": "Ganti “those of replacement” menjadi “that of replacement”. Cost tunggal digantikan that, bukan those. Kedua biaya dibandingkan dalam kondisi yang sama.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "compares the cost of repair",
+        "oi": 1
+      },
+      {
+        "text": "with",
+        "oi": 2
+      },
+      {
+        "text": "those of replacement",
+        "oi": 0
+      },
+      {
+        "text": "under the same conditions",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “those of replacement” menjadi “that of replacement”. Cost tunggal digantikan that, bukan those. Kedua biaya dibandingkan dalam kondisi yang sama."
+      ],
+      "rule": "Ganti “those of replacement” menjadi “that of replacement”. Cost tunggal digantikan that, bukan those. Kedua biaya dibandingkan dalam kondisi yang sama."
+    },
+    "segments": [
+      "The report ",
+      {
+        "text": "compares the cost of repair",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "with",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "those of replacement",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "under the same conditions",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9448b80298d0599f",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "the method was expensive",
+      "Despite",
+      "the laboratory retained it",
+      "for its precision"
+    ],
+    "e": "Ganti “the method was expensive” menjadi “the expense of the method”. Despite membutuhkan noun/gerund phrase; klausa finite the method was expensive perlu penghubung although bila tidak diubah.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Despite",
+        "oi": 1
+      },
+      {
+        "text": "the method was expensive",
+        "oi": 0
+      },
+      {
+        "text": "the laboratory retained it",
+        "oi": 2
+      },
+      {
+        "text": "for its precision",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “the method was expensive” menjadi “the expense of the method”. Despite membutuhkan noun/gerund phrase; klausa finite the method was expensive perlu penghubung although bila tidak diubah."
+      ],
+      "rule": "Ganti “the method was expensive” menjadi “the expense of the method”. Despite membutuhkan noun/gerund phrase; klausa finite the method was expensive perlu penghubung although bila tidak diubah."
+    },
+    "segments": [
+      {
+        "text": "Despite",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the method was expensive",
+        "oi": 0
+      },
+      ", ",
+      {
+        "text": "the laboratory retained it",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "for its precision",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a0c43700ce2890da",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "clarifies",
+      "would rather",
+      "the supplier",
+      "the specifications before the next shipment"
+    ],
+    "e": "Ganti “clarifies” menjadi “clarified”. Would rather dengan subjek berbeda memakai past form untuk preferensi sekarang atau masa depan.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "would rather",
+        "oi": 1
+      },
+      {
+        "text": "the supplier",
+        "oi": 2
+      },
+      {
+        "text": "clarifies",
+        "oi": 0
+      },
+      {
+        "text": "the specifications before the next shipment",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “clarifies” menjadi “clarified”. Would rather dengan subjek berbeda memakai past form untuk preferensi sekarang atau masa depan."
+      ],
+      "rule": "Ganti “clarifies” menjadi “clarified”. Would rather dengan subjek berbeda memakai past form untuk preferensi sekarang atau masa depan."
+    },
+    "segments": [
+      "The team ",
+      {
+        "text": "would rather",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the supplier",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "clarifies",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "the specifications before the next shipment",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-1b4f8d3683a215b5",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "that the method was reliability",
+      "were consistent with",
+      "those reported independently",
+      "suggesting"
+    ],
+    "e": "Ganti “that the method was reliability” menjadi “that the method was reliable”. Pelengkap be adalah adjective reliable, bukan nomina reliability.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "were consistent with",
+        "oi": 1
+      },
+      {
+        "text": "those reported independently",
+        "oi": 2
+      },
+      {
+        "text": "suggesting",
+        "oi": 3
+      },
+      {
+        "text": "that the method was reliability",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “that the method was reliability” menjadi “that the method was reliable”. Pelengkap be adalah adjective reliable, bukan nomina reliability."
+      ],
+      "rule": "Ganti “that the method was reliability” menjadi “that the method was reliable”. Pelengkap be adalah adjective reliable, bukan nomina reliability."
+    },
+    "segments": [
+      "The results ",
+      {
+        "text": "were consistent with",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "those reported independently",
+        "oi": 2
+      },
+      ", ",
+      {
+        "text": "suggesting",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "that the method was reliability",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7f6f20e37229ec42",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "identifying",
+      "was designed",
+      "to help participants",
+      "uncertainty in short reports"
+    ],
+    "e": "Ganti “identifying” menjadi “identify”. Help + object diikuti bentuk dasar (atau to-infinitive), bukan identifying dalam konstruksi ini.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "was designed",
+        "oi": 1
+      },
+      {
+        "text": "to help participants",
+        "oi": 2
+      },
+      {
+        "text": "identifying",
+        "oi": 0
+      },
+      {
+        "text": "uncertainty in short reports",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “identifying” menjadi “identify”. Help + object diikuti bentuk dasar (atau to-infinitive), bukan identifying dalam konstruksi ini."
+      ],
+      "rule": "Ganti “identifying” menjadi “identify”. Help + object diikuti bentuk dasar (atau to-infinitive), bukan identifying dalam konstruksi ini."
+    },
+    "segments": [
+      "The workshop ",
+      {
+        "text": "was designed",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "to help participants",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "identifying",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "uncertainty in short reports",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-823be37f97ba053f",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "which key is missing",
+      "to which the letter refers",
+      "are stored",
+      "in a cabinet"
+    ],
+    "e": "Ganti “which key is missing” menjadi “whose key is missing”. Kepemilikan dalam klausa relatif memakai whose: a cabinet whose key is missing.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "to which the letter refers",
+        "oi": 1
+      },
+      {
+        "text": "are stored",
+        "oi": 2
+      },
+      {
+        "text": "in a cabinet",
+        "oi": 3
+      },
+      {
+        "text": "which key is missing",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “which key is missing” menjadi “whose key is missing”. Kepemilikan dalam klausa relatif memakai whose: a cabinet whose key is missing."
+      ],
+      "rule": "Ganti “which key is missing” menjadi “whose key is missing”. Kepemilikan dalam klausa relatif memakai whose: a cabinet whose key is missing."
+    },
+    "segments": [
+      "The documents ",
+      {
+        "text": "to which the letter refers",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "are stored",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "in a cabinet",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "which key is missing",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a2eab37dded55ab5",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "the available storage was",
+      "So limited",
+      "that",
+      "several collections had to be moved"
+    ],
+    "e": "Ganti “the available storage was” menjadi “was the available storage”. So + adjective yang diletakkan di awal diikuti inversi be dan subjek.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "So limited",
+        "oi": 1
+      },
+      {
+        "text": "the available storage was",
+        "oi": 0
+      },
+      {
+        "text": "that",
+        "oi": 2
+      },
+      {
+        "text": "several collections had to be moved",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “the available storage was” menjadi “was the available storage”. So + adjective yang diletakkan di awal diikuti inversi be dan subjek."
+      ],
+      "rule": "Ganti “the available storage was” menjadi “was the available storage”. So + adjective yang diletakkan di awal diikuti inversi be dan subjek."
+    },
+    "segments": [
+      {
+        "text": "So limited",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "the available storage was",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "that",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "several collections had to be moved",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-6db4c4b75dd51fec",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "how should it be cleaned",
+      "specify",
+      "whether the material can be reused",
+      "and"
+    ],
+    "e": "Ganti “how should it be cleaned” menjadi “how it should be cleaned”. Kedua klausa objek instructions specify memakai urutan biasa: how it should be cleaned.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "specify",
+        "oi": 1
+      },
+      {
+        "text": "whether the material can be reused",
+        "oi": 2
+      },
+      {
+        "text": "and",
+        "oi": 3
+      },
+      {
+        "text": "how should it be cleaned",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “how should it be cleaned” menjadi “how it should be cleaned”. Kedua klausa objek instructions specify memakai urutan biasa: how it should be cleaned."
+      ],
+      "rule": "Ganti “how should it be cleaned” menjadi “how it should be cleaned”. Kedua klausa objek instructions specify memakai urutan biasa: how it should be cleaned."
+    },
+    "segments": [
+      "The instructions ",
+      {
+        "text": "specify",
+        "oi": 1
+      },
+      " ",
+      {
+        "text": "whether the material can be reused",
+        "oi": 2
+      },
+      " ",
+      {
+        "text": "and",
+        "oi": 3
+      },
+      " ",
+      {
+        "text": "how should it be cleaned",
+        "oi": 0
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-43ebb522976ca127",
+    "section": "structure",
+    "skill": "Written expression",
+    "q": "Choose the underlined part that must be corrected.",
+    "o": [
+      "requires",
+      "A number of the devices",
+      "each with a separate sensor",
+      "regular calibration"
+    ],
+    "e": "Ganti “requires” menjadi “require”. A number of bermakna beberapa dan berpredikat plural require. Sisipan each tidak mengubah inti subjek.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "A number of the devices",
+        "oi": 1
+      },
+      {
+        "text": "each with a separate sensor",
+        "oi": 2
+      },
+      {
+        "text": "requires",
+        "oi": 0
+      },
+      {
+        "text": "regular calibration",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "steps": [
+        "Ganti “requires” menjadi “require”. A number of bermakna beberapa dan berpredikat plural require. Sisipan each tidak mengubah inti subjek."
+      ],
+      "rule": "Ganti “requires” menjadi “require”. A number of bermakna beberapa dan berpredikat plural require. Sisipan each tidak mengubah inti subjek."
+    },
+    "segments": [
+      {
+        "text": "A number of the devices",
+        "oi": 1
+      },
+      ", ",
+      {
+        "text": "each with a separate sensor",
+        "oi": 2
+      },
+      ", ",
+      {
+        "text": "requires",
+        "oi": 0
+      },
+      " ",
+      {
+        "text": "regular calibration",
+        "oi": 3
+      },
+      "."
+    ],
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-dc24171023855b52",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "What is the passage mainly about?",
+    "o": [
+      "How a library layout was adjusted to support several uses.",
+      "Why courtyards should replace all indoor reading rooms.",
+      "How a library selected the books for its children’s collection.",
+      "Why temporary furniture was removed from a library."
+    ],
+    "e": "Jawaban: How a library layout was adjusted to support several uses. Bukti: “a framework that could accommodate adjustments”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: How a library layout was adjusted to support several uses. Bukti: “a framework that could accommodate adjustments”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "a framework that could accommodate adjustments"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3b1b93294344aef1",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What could evening visitors do because of the covered walkway?",
+    "o": [
+      "Reach the hall while the main reading room was closed.",
+      "Cross the quietest collection to reach every activity.",
+      "Enter the gardeners’ storage area without staff.",
+      "Use all reading rooms outside normal opening hours."
+    ],
+    "e": "Jawaban: Reach the hall while the main reading room was closed. Bukti: “use the hall while the main reading room remained closed”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Reach the hall while the main reading room was closed. Bukti: “use the hall while the main reading room remained closed”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "use the hall while the main reading room remained closed"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-8964c9a33b64d625",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "The word \"These\" in paragraph 2 refers to ...",
+    "o": [
+      "the adjustable screens",
+      "the outdoor seats",
+      "the library visitors",
+      "the connected destinations"
+    ],
+    "e": "Jawaban: the adjustable screens Bukti: “These reduced direct sunlight”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the adjustable screens Bukti: “These reduced direct sunlight”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "These reduced direct sunlight"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-6231fd98e28faedb",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"accommodate\" in the last sentence is closest in meaning to ...",
+    "o": [
+      "allow for",
+      "prevent",
+      "record permanently",
+      "depend entirely on"
+    ],
+    "e": "Jawaban: allow for Bukti: “accommodate adjustments”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: allow for Bukti: “accommodate adjustments”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "accommodate adjustments"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1c5676d205dc2652",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "Why were the drain covers inspected after heavy rain?",
+    "o": [
+      "A blocked cover could keep water from entering the drain.",
+      "Rain permanently removed the need for tree shade.",
+      "The screens could fall into the drainage pipes.",
+      "All tree roots were expected to enter the drains."
+    ],
+    "e": "Jawaban: A blocked cover could keep water from entering the drain. Bukti: “a blocked cover could prevent water from entering the drain”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: A blocked cover could keep water from entering the drain. Bukti: “a blocked cover could prevent water from entering the drain”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "a blocked cover could prevent water from entering the drain"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a23bfd7e64594129",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "All of the following are mentioned as screen functions EXCEPT ...",
+    "o": [
+      "increasing the size of the meeting hall",
+      "reducing direct sunlight",
+      "allowing the route to remain available",
+      "being moved for deliveries"
+    ],
+    "e": "Jawaban: increasing the size of the meeting hall Bukti: “move them aside when a delivery needed additional space”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: increasing the size of the meeting hall Bukti: “move them aside when a delivery needed additional space”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "move them aside when a delivery needed additional space"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c2d8a45947ee0378",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What can be inferred about the movable chairs?",
+    "o": [
+      "They allowed a limited response to observed use.",
+      "They were intended to replace all fixed benches immediately.",
+      "They showed that the original building could not be used.",
+      "They were installed before any visitor observations were made."
+    ],
+    "e": "Jawaban: They allowed a limited response to observed use. Bukti: “a few additional movable chairs, not a complete reconstruction”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: They allowed a limited response to observed use. Bukti: “a few additional movable chairs, not a complete reconstruction”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "a few additional movable chairs, not a complete reconstruction"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-699f6d2233fdd901",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why does paragraph 3 discuss both trees and drain covers?",
+    "o": [
+      "To show that shade decisions had consequences for water management.",
+      "To explain why all trees had to be removed.",
+      "To compare indoor and outdoor book storage.",
+      "To show that gardeners had no role in the project."
+    ],
+    "e": "Jawaban: To show that shade decisions had consequences for water management. Bukti: “Shade and drainage were considered together”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To show that shade decisions had consequences for water management. Bukti: “Shade and drainage were considered together”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "Shade and drainage were considered together"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-1d3acb9793da231d",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Accompanying adults\" in paragraph 4 means adults who ...",
+    "o": [
+      "came with the children",
+      "organized the evening events",
+      "worked as library designers",
+      "maintained the courtyard drains"
+    ],
+    "e": "Jawaban: came with the children Bukti: “popular with accompanying adults”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: came with the children Bukti: “popular with accompanying adults”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "popular with accompanying adults"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-22b318db252d467f",
+    "section": "reading",
+    "skill": "Paragraph location",
+    "q": "Which paragraph explains how access could be separated from opening the main reading room?",
+    "o": [
+      "Paragraph 1",
+      "Paragraph 2",
+      "Paragraph 3",
+      "Paragraph 4"
+    ],
+    "e": "Jawaban: Paragraph 1 Bukti: “use the hall while the main reading room remained closed”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-1",
+      "title": "The courtyard building",
+      "text": "A public library was built around an open courtyard rather than along a single enclosed corridor. Its designers wanted visitors to reach the reading rooms without crossing the quietest part of the collection. A covered walkway connected the entrance, the children's room, and the meeting hall. People attending an evening event could therefore use the hall while the main reading room remained closed. The courtyard was not simply a decorative space; it helped organize movement through the building.\n\nThe arrangement also created a problem. When the afternoon sun reached the western walkway, visitors tended to wait inside the entrance instead of using the outdoor seats. The library installed adjustable screens along that side. These reduced direct sunlight without permanently blocking the route. Staff could open them during cooler periods or move them aside when a delivery needed additional space. The screens changed how the walkway could be used, rather than changing the destinations it connected.\n\nPlanting required another set of decisions. Trees offered shade, but their roots and fallen leaves could affect the walkway. The gardeners selected small species, left space around their trunks, and placed leaf-catching covers over the drains. They inspected the covers after heavy rain because a blocked cover could prevent water from entering the drain. Shade and drainage were considered together instead of being assigned to unrelated parts of the project.\n\nAfter the first year, the library reviewed which areas people actually used. The seats beside the children's room were popular with accompanying adults, while the central benches were used mainly between events. This did not mean that one set of seats had failed. Different positions served different activities at different times. The review led to a few additional movable chairs, not a complete reconstruction. The designers regarded the building as a framework that could accommodate adjustments as staff learned more about its use."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Paragraph 1 Bukti: “use the hall while the main reading room remained closed”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "use the hall while the main reading room remained closed"
+    },
+    "difficulty": "foundation",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-ee8b977d7c1f8f5b",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage primarily examines ...",
+    "o": [
+      "why seed movement and seedling establishment are different stages of regeneration",
+      "why trees benefit equally from every animal that removes fruit",
+      "how researchers can maximize the number of seeds produced",
+      "why all seeds should remain close to parent trees"
+    ],
+    "e": "Jawaban: why seed movement and seedling establishment are different stages of regeneration Bukti: “distinguished dispersal from successful establishment”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: why seed movement and seedling establishment are different stages of regeneration Bukti: “distinguished dispersal from successful establishment”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "distinguished dispersal from successful establishment"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-6f63ae827af0823d",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "How did the researchers trace deposited seeds?",
+    "o": [
+      "They marked small samples of seeds.",
+      "They counted only seedlings beside adult trees.",
+      "They removed all fallen branches.",
+      "They observed only fruit left on the trees."
+    ],
+    "e": "Jawaban: They marked small samples of seeds. Bukti: “attached harmless identifying marks”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: They marked small samples of seeds. Bukti: “attached harmless identifying marks”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "attached harmless identifying marks"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-f436613e3e9e4e5b",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"The latter behavior\" in paragraph 2 refers to ...",
+    "o": [
+      "storing several seeds together beneath branches",
+      "leaving seeds in scattered locations",
+      "damaging seeds before transport",
+      "placing seeds at selected research distances"
+    ],
+    "e": "Jawaban: storing several seeds together beneath branches Bukti: “some ground animals stored several together beneath fallen branches”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: storing several seeds together beneath branches Bukti: “some ground animals stored several together beneath fallen branches”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "some ground animals stored several together beneath fallen branches"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-94cf751dd8bf020b",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why was easy discovery of stores not necessarily beneficial to the plant?",
+    "o": [
+      "The seeds might later be recovered and eaten.",
+      "Researchers’ marks prevented every seed from germinating.",
+      "Birds always moved the stores to unsuitable places.",
+      "All seeds under branches were already damaged."
+    ],
+    "e": "Jawaban: The seeds might later be recovered and eaten. Bukti: “Several stores were revisited and emptied by the animals.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: The seeds might later be recovered and eaten. Bukti: “Several stores were revisited and emptied by the animals.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "Several stores were revisited and emptied by the animals."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-9781353f0ac4e308",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which condition was NOT reported as affecting seed success?",
+    "o": [
+      "A requirement that fruit be produced in a single season only.",
+      "Damage from an insect near adult trees.",
+      "Dry soil in exposed sites.",
+      "Later visits to stored seeds by animals."
+    ],
+    "e": "Jawaban: A requirement that fruit be produced in a single season only. Bukti: “dry soil limited survival in exposed sites”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: A requirement that fruit be produced in a single season only. Bukti: “dry soil limited survival in exposed sites”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "dry soil limited survival in exposed sites"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-7a873e1b8148e2c0",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Without qualification\" in paragraph 3 most nearly means ...",
+    "o": [
+      "without stating limits or conditions",
+      "without obtaining research training",
+      "without recording the tree species",
+      "without completing a written form"
+    ],
+    "e": "Jawaban: without stating limits or conditions Bukti: “not beneficial without qualification”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: without stating limits or conditions Bukti: “not beneficial without qualification”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "not beneficial without qualification"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-d02366fcb8e4f76c",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why did the team place seeds at selected distances?",
+    "o": [
+      "To study location while separating it from differences caused by transport.",
+      "To demonstrate that animals never contribute to regeneration.",
+      "To guarantee that the farthest site produced the most seedlings.",
+      "To replace every naturally deposited seed with a marked one."
+    ],
+    "e": "Jawaban: To study location while separating it from differences caused by transport. Bukti: “examine the effect of location separately from transport”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To study location while separating it from differences caused by transport. Bukti: “examine the effect of location separately from transport”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "examine the effect of location separately from transport"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c10cedbf1b177087",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"Its contribution\" in paragraph 4 refers to the contribution of ...",
+    "o": [
+      "an animal as a seed disperser",
+      "the adult tree as an insect habitat",
+      "the identifying mark on each seed",
+      "fruit production as a completed generation"
+    ],
+    "e": "Jawaban: an animal as a seed disperser Bukti: “a single animal as universally the best disperser”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: an animal as a seed disperser Bukti: “a single animal as universally the best disperser”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "a single animal as universally the best disperser"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b6cb32ba274406d9",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Which claim would the report most likely reject?",
+    "o": [
+      "The number of fruits carried away alone identifies the best disperser.",
+      "Some stored seeds can eventually germinate.",
+      "Conditions after germination affect establishment.",
+      "A more distant location can still be unsuitable."
+    ],
+    "e": "Jawaban: The number of fruits carried away alone identifies the best disperser. Bukti: “Counting fruit carried away measured an opportunity for movement”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: The number of fruits carried away alone identifies the best disperser. Bukti: “Counting fruit carried away measured an opportunity for movement”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "Counting fruit carried away measured an opportunity for movement"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3b544bef5a64ff60",
+    "section": "reading",
+    "skill": "Paragraph location",
+    "q": "Which paragraph explains why increasing distance was not always helpful?",
+    "o": [
+      "Paragraph 3",
+      "Paragraph 1",
+      "Paragraph 2",
+      "Paragraph 4"
+    ],
+    "e": "Jawaban: Paragraph 3 Bukti: “dry soil limited survival in exposed sites”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-2",
+      "title": "Seeds beyond the parent tree",
+      "text": "The fruit of a tree in the fictional Aruna forest attracts both large birds and smaller ground-dwelling animals. A research team studying the forest noticed that many young trees grew far from the nearest adult of the same species. The team investigated how the location of a seed, rather than simply the number produced, might influence its chances of becoming a seedling. Fruit removal was only the beginning of the process: a seed carried away could still be damaged, eaten, or left in an unsuitable place.\n\nThe researchers attached harmless identifying marks to small samples of seeds and recorded where they were deposited. Birds usually left them in scattered locations, whereas some ground animals stored several together beneath fallen branches. The latter behavior made the seeds easier for researchers to find, but ease of discovery was not itself a benefit to the plant. Several stores were revisited and emptied by the animals. Others remained long enough for some seeds to germinate. A store could therefore be a temporary food supply for an animal and, under certain conditions, a place where seedlings began to grow.\n\nTo examine the effect of location separately from transport, the team also placed undamaged seeds at selected distances from adult trees. Seeds close to an adult experienced more damage from a particular insect in this study. At greater distances that source of damage was less frequent, although dry soil limited survival in exposed sites. Moving farther away was consequently not beneficial without qualification. The relevant destination had to provide both escape from some local pressures and conditions suitable for growth.\n\nThe report distinguished dispersal from successful establishment. Counting fruit carried away measured an opportunity for movement, not a completed contribution to the next generation. The researchers did not identify a single animal as universally the best disperser. Its contribution depended on where seeds were left, whether they survived later visits, and what happened after germination. Protecting the forest's regeneration therefore required attention to relationships among animals, seeds, and sites rather than to fruit production alone."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Paragraph 3 Bukti: “dry soil limited survival in exposed sites”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "dry soil limited survival in exposed sites"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-0b69ba13012db61d",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "What is the passage mainly concerned with?",
+    "o": [
+      "How a portable stage system influenced both travel and performance.",
+      "Why every theatrical tradition requires an unchanged stage.",
+      "How the museum proved that puppetry began in Lantara.",
+      "Why lighter materials eliminated the need for carpenters."
+    ],
+    "e": "Jawaban: How a portable stage system influenced both travel and performance. Bukti: “Travel changed the performances as well as the equipment.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: How a portable stage system influenced both travel and performance. Bukti: “Travel changed the performances as well as the equipment.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "Travel changed the performances as well as the equipment."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a6813074a33d732b",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What made the original platform difficult to transport and rebuild?",
+    "o": [
+      "Its boards were heavy and not standardized.",
+      "It was permanently built into a public hall.",
+      "Its corner supports could not carry any puppets.",
+      "It had matching joints on all panels."
+    ],
+    "e": "Jawaban: Its boards were heavy and not standardized. Bukti: “a heavy collection of boards whose sizes were not standardized”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Its boards were heavy and not standardized. Bukti: “a heavy collection of boards whose sizes were not standardized”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "a heavy collection of boards whose sizes were not standardized"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-88a4e61aba1677b6",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"Each panel\" in paragraph 2 refers to a component of ...",
+    "o": [
+      "the first portable stage",
+      "the merchant’s courtyard floor",
+      "the museum’s written travel record",
+      "a puppet’s carved body"
+    ],
+    "e": "Jawaban: the first portable stage Bukti: “The troupe's first portable stage”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the first portable stage Bukti: “The troupe's first portable stage”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "The troupe's first portable stage"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c13278c809f4841b",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Interchangeable\" in paragraph 4 is closest in meaning to ...",
+    "o": [
+      "able to be used in one another’s place",
+      "required to remain in one fixed position",
+      "made for display but not assembly",
+      "identical in every visible detail of performance"
+    ],
+    "e": "Jawaban: able to be used in one another’s place Bukti: “interchangeable panels”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: able to be used in one another’s place Bukti: “interchangeable panels”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "interchangeable panels"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-841cc81abaf6106a",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why could the new stage save assembly time despite heavier supports?",
+    "o": [
+      "Workers spent less time locating parts that fit only a single place.",
+      "All panels became too light to require loading.",
+      "The troupe stopped performing in smaller halls.",
+      "The stronger corners removed every need for joints."
+    ],
+    "e": "Jawaban: Workers spent less time locating parts that fit only a single place. Bukti: “no longer searched for individual boards that fitted only one location”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Workers spent less time locating parts that fit only a single place. Bukti: “no longer searched for individual boards that fitted only one location”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "no longer searched for individual boards that fitted only one location"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-859ae3a3c8c2ac71",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which change is NOT mentioned as a response to smaller halls?",
+    "o": [
+      "Replacing the main story with an unrelated one.",
+      "Showing fewer puppets at once.",
+      "Using a narrower opening.",
+      "Altering entrances and transitions."
+    ],
+    "e": "Jawaban: Replacing the main story with an unrelated one. Bukti: “They retained the main story but altered entrances and transitions.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Replacing the main story with an unrelated one. Bukti: “They retained the main story but altered entrances and transitions.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "They retained the main story but altered entrances and transitions."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-fdcd337989fc51ed",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "The last sentence of paragraph 3 explains ...",
+    "o": [
+      "how a practical adjustment became an artistic convention",
+      "why all spectators rejected the new style",
+      "why the troupe abandoned temporary venues",
+      "how the museum selected its construction materials"
+    ],
+    "e": "Jawaban: how a practical adjustment became an artistic convention Bukti: “A practical restriction had become a recognizable artistic convention.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: how a practical adjustment became an artistic convention Bukti: “A practical restriction had become a recognizable artistic convention.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "A practical restriction had become a recognizable artistic convention."
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3d0e5d744e698139",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"Those variations\" in paragraph 4 refers to ...",
+    "o": [
+      "the different stage layouts used by the troupe",
+      "the unrelated stories proposed by spectators",
+      "the names of replacement carpenters",
+      "the changing ownership of the merchant’s house"
+    ],
+    "e": "Jawaban: the different stage layouts used by the troupe Bukti: “the troupe deliberately used different layouts”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the different stage layouts used by the troupe Bukti: “the troupe deliberately used different layouts”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "the troupe deliberately used different layouts"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-7429ff6112d38f51",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "The curator’s approach suggests that authenticity may concern ...",
+    "o": [
+      "a historically used system of variation rather than one frozen layout",
+      "whatever arrangement is easiest for a museum to build",
+      "a claim that no reconstruction can convey any history",
+      "only the heaviest boards surviving from the original platform"
+    ],
+    "e": "Jawaban: a historically used system of variation rather than one frozen layout Bukti: “emphasized the system that made those variations possible”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: a historically used system of variation rather than one frozen layout Bukti: “emphasized the system that made those variations possible”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "emphasized the system that made those variations possible"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a88cc8c9995b083a",
+    "section": "reading",
+    "skill": "Paragraph location",
+    "q": "Which paragraph introduces the trade-off between heavier supports and faster assembly?",
+    "o": [
+      "Paragraph 2",
+      "Paragraph 1",
+      "Paragraph 3",
+      "Paragraph 4"
+    ],
+    "e": "Jawaban: Paragraph 2 Bukti: “stronger corner supports added weight”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-3",
+      "title": "The portable stage",
+      "text": "In the fictional port of Lantara, a puppet troupe originally performed in the courtyard of a merchant's house. Its raised wooden platform remained there between performances, and spectators stood around three sides. The arrangement suited local evening audiences but made travel difficult. A visiting invitation meant transporting both the puppets and a heavy collection of boards whose sizes were not standardized. Carpenters often had to rebuild part of the platform after arrival.\n\nThe troupe's first portable stage used panels with matching joints. Each panel could fit more than one position, reducing the need to carry a unique replacement for every part. The new stage was not lighter in every respect: stronger corner supports added weight. Nevertheless, loading and assembly took less time because workers no longer searched for individual boards that fitted only one location. Standardizing the connections mattered more than minimizing the weight of each separate piece.\n\nTravel changed the performances as well as the equipment. In smaller halls, the troupe could not extend the platform to its original width. Performers reduced the number of puppets visible at once and used a narrower opening to focus attention. They retained the main story but altered entrances and transitions. Some spectators later described these arrangements as the troupe's traditional style, even though they had developed partly in response to the dimensions of temporary venues. A practical restriction had become a recognizable artistic convention.\n\nWhen a museum reconstructed the portable stage, it displayed interchangeable panels beside drawings of several arrangements. The display did not present one arrangement as the sole authentic form. Records of travel showed that the troupe deliberately used different layouts. The curator instead emphasized the system that made those variations possible. Visitors were invited to join model panels and consider why identical connections could permit different overall shapes. The exhibit thus treated the stage as both a technical object and a participant in the history of performance, rather than as a fixed background that had no effect on what audiences saw."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Paragraph 2 Bukti: “stronger corner supports added weight”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "stronger corner supports added weight"
+    },
+    "difficulty": "standard",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-bea5e09e3403b23d",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage chiefly explains ...",
+    "o": [
+      "how multiple acoustic observations can constrain alternative subsurface models",
+      "why every returning vibration directly outlines a chamber",
+      "why drilling makes acoustic measurements unnecessary",
+      "how the simplest-looking drawing is always selected"
+    ],
+    "e": "Jawaban: how multiple acoustic observations can constrain alternative subsurface models Bukti: “organizing uncertainty into testable alternatives”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: how multiple acoustic observations can constrain alternative subsurface models Bukti: “organizing uncertainty into testable alternatives”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "organizing uncertainty into testable alternatives"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-a19baf7732fea2c0",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What must be assumed to convert elapsed time into distance?",
+    "o": [
+      "A speed of propagation.",
+      "The exact artistic scale of the final drawing.",
+      "That every return uses a single route.",
+      "That no reflecting surfaces are present."
+    ],
+    "e": "Jawaban: A speed of propagation. Bukti: “requires an assumed speed of propagation”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: A speed of propagation. Bukti: “requires an assumed speed of propagation”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "requires an assumed speed of propagation"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-78624ceebb195f8e",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"This\" in paragraph 2 refers to ...",
+    "o": [
+      "the revised interpretation from receiver positions",
+      "the complete absence of earlier recordings",
+      "the decision to ignore all signal paths",
+      "a direct drilling observation of the entire ridge"
+    ],
+    "e": "Jawaban: the revised interpretation from receiver positions Bukti: “This did not make the earlier recordings fictitious.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the revised interpretation from receiver positions Bukti: “This did not make the earlier recordings fictitious.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "This did not make the earlier recordings fictitious."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-0ed050447c9ef38f",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Discriminate between\" in the last sentence means ...",
+    "o": [
+      "distinguish among",
+      "combine without checking",
+      "give equal support to",
+      "conceal differences between"
+    ],
+    "e": "Jawaban: distinguish among Bukti: “discriminate between competing models”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: distinguish among Bukti: “discriminate between competing models”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "discriminate between competing models"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-67e9e3ecc98afca3",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What can be inferred about the initial cavity interpretation?",
+    "o": [
+      "It depended on assumptions beyond the recorded returns themselves.",
+      "It could only have arisen from fabricated measurements.",
+      "It had already been verified by every exploratory hole.",
+      "It established the same boundary at all frequencies."
+    ],
+    "e": "Jawaban: It depended on assumptions beyond the recorded returns themselves. Bukti: “different geometrical interpretations under different assumptions”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: It depended on assumptions beyond the recorded returns themselves. Bukti: “different geometrical interpretations under different assumptions”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "different geometrical interpretations under different assumptions"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-3703755be7ace574",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which practice would conflict with paragraph 3?",
+    "o": [
+      "Keeping only the recordings that fit a visually simple model.",
+      "Examining returns from multiple receiver positions.",
+      "Considering the pattern of missing returns.",
+      "Comparing how proposed models account for several frequencies."
+    ],
+    "e": "Jawaban: Keeping only the recordings that fit a visually simple model. Bukti: “ignoring the others was not preferred merely because its drawing looked simpler”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Keeping only the recordings that fit a visually simple model. Bukti: “ignoring the others was not preferred merely because its drawing looked simpler”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "ignoring the others was not preferred merely because its drawing looked simpler"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-40fe4e5908815d5d",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why does paragraph 4 contrast drilling with the survey?",
+    "o": [
+      "To explain how point observations and spatially related measurements can complement each other.",
+      "To prove that drilling yields a complete picture of the ridge.",
+      "To show that no indirect measurement can guide a decision.",
+      "To establish that exploratory holes were never considered."
+    ],
+    "e": "Jawaban: To explain how point observations and spatially related measurements can complement each other. Bukti: “Drilling could provide a direct observation at a point”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To explain how point observations and spatially related measurements can complement each other. Bukti: “Drilling could provide a direct observation at a point”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "Drilling could provide a direct observation at a point"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-16a9e53a4bb864ce",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"Them\" in paragraph 4 refers to ...",
+    "o": [
+      "exploratory holes",
+      "returning frequencies",
+      "alternative interpretations",
+      "well-supported boundaries"
+    ],
+    "e": "Jawaban: exploratory holes Bukti: “not to eliminate the need for them”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: exploratory holes Bukti: “not to eliminate the need for them”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "not to eliminate the need for them"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-33634346640ccf57",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why can a missing return be informative rather than merely inconvenient?",
+    "o": [
+      "Its relation to positions and frequencies can help compare model explanations.",
+      "It proves that no cavity exists anywhere nearby.",
+      "It removes the need to consider propagation speed.",
+      "It establishes that all other returns are false."
+    ],
+    "e": "Jawaban: Its relation to positions and frequencies can help compare model explanations. Bukti: “the full pattern of strong, weak, and missing returns”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Its relation to positions and frequencies can help compare model explanations. Bukti: “the full pattern of strong, weak, and missing returns”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "the full pattern of strong, weak, and missing returns"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c40c4177f7dd8662",
+    "section": "reading",
+    "skill": "Paragraph location",
+    "q": "Which paragraph describes the change from one large cavity to two smaller spaces?",
+    "o": [
+      "Paragraph 2",
+      "Paragraph 1",
+      "Paragraph 3",
+      "Paragraph 4"
+    ],
+    "e": "Jawaban: Paragraph 2 Bukti: “two smaller spaces separated by rock”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-4",
+      "title": "Echoes beneath the ridge",
+      "text": "An illustrative geological survey uses brief sound pulses to investigate a ridge containing hidden cavities. A receiver records returning vibrations, and the elapsed time provides information about possible reflecting surfaces. The team does not convert every delay directly into a distance. Such a conversion requires an assumed speed of propagation, which can differ between materials. A pulse may also reach a receiver by more than one route. Consequently, a distinct return on a recording is evidence of a signal path, not automatically a complete outline of a chamber.\n\nAt one site, the first measurements suggested a large uninterrupted cavity. The interpretation assumed that several returns came from different parts of the same boundary. When receivers were moved to new positions, however, some returns shifted in a way that was more consistent with two smaller spaces separated by rock. This did not make the earlier recordings fictitious. It showed that the same observations could support different geometrical interpretations under different assumptions about the paths followed by the pulses.\n\nThe team then combined measurements from several positions and frequencies. Some frequencies produced weaker returns from one region, while others remained detectable. The researchers treated the disagreement as information about the method's interaction with the site, rather than simply deleting the less convenient recordings. They compared proposed models by asking which could account for the full pattern of strong, weak, and missing returns. A model that explained one striking echo while ignoring the others was not preferred merely because its drawing looked simpler.\n\nThe final map therefore distinguished well-supported boundaries from regions where alternative interpretations remained. It was intended to guide the placement of a limited number of exploratory holes, not to eliminate the need for them. Drilling could provide a direct observation at a point, whereas the acoustic survey related many positions across the ridge. Neither source supplied every part of the desired picture alone. The value of the survey lay in organizing uncertainty into testable alternatives, including specifying which new observation would best discriminate between competing models before further work began."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Paragraph 2 Bukti: “two smaller spaces separated by rock”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "two smaller spaces separated by rock"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-cf4335d977dcacaa",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage primarily advocates ...",
+    "o": [
+      "distinguishing signal detection from its interpretation and model-dependent estimates",
+      "counting repeated files as independent confirmation",
+      "accepting every recurring dimming as proof of a transit",
+      "avoiding estimates until all uncertainty has disappeared"
+    ],
+    "e": "Jawaban: distinguishing signal detection from its interpretation and model-dependent estimates Bukti: “separates detection, interpretation, and estimation”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: distinguishing signal detection from its interpretation and model-dependent estimates Bukti: “separates detection, interpretation, and estimation”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "separates detection, interpretation, and estimation"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-c602fa2a1f4f4a2b",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "In this project, a transit is ...",
+    "o": [
+      "an orbiting object crossing the visible face of the star",
+      "a telescope changing its observing channel",
+      "the star changing its position between files",
+      "an instrument averaging all light over a year"
+    ],
+    "e": "Jawaban: an orbiting object crossing the visible face of the star Bukti: “an orbiting object passes across the visible face of the star”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: an orbiting object crossing the visible face of the star Bukti: “an orbiting object passes across the visible face of the star”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "an orbiting object passes across the visible face of the star"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-7d4d0a297182b064",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"That possibility\" in paragraph 2 refers to ...",
+    "o": [
+      "a recurring instrumental disturbance",
+      "a complete lack of repeated observations",
+      "an orbiting object emitting extra light",
+      "a single file containing several stars’ names"
+    ],
+    "e": "Jawaban: a recurring instrumental disturbance Bukti: “A recurring instrumental disturbance could also repeat.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: a recurring instrumental disturbance Bukti: “A recurring instrumental disturbance could also repeat.”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "A recurring instrumental disturbance could also repeat."
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-5d271f2906383783",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Conditional on\" in paragraph 4 is closest to ...",
+    "o": [
+      "dependent on",
+      "unrelated to",
+      "decisively disproving",
+      "occurring before"
+    ],
+    "e": "Jawaban: dependent on Bukti: “conditional on that interpretation”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: dependent on Bukti: “conditional on that interpretation”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "conditional on that interpretation"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-680594e3442efc54",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why is a second instrument not automatically an independent confirmation?",
+    "o": [
+      "The instruments may share the relevant source of error.",
+      "Its observations must always contradict the first instrument.",
+      "The star cannot be observed from two instruments.",
+      "Separate instruments necessarily average light identically."
+    ],
+    "e": "Jawaban: The instruments may share the relevant source of error. Bukti: “do not share the same relevant source of error”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: The instruments may share the relevant source of error. Bukti: “do not share the same relevant source of error”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "do not share the same relevant source of error"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-129de4d3abc084e5",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which proposed interpretation is NOT supported by paragraph 3?",
+    "o": [
+      "A shallower recorded dip necessarily means a physically different event.",
+      "Averaging intervals can alter an event’s apparent depth.",
+      "Records may mix light from before and after a short event.",
+      "Production methods matter when records are compared."
+    ],
+    "e": "Jawaban: A shallower recorded dip necessarily means a physically different event. Bukti: “an apparent disagreement about the star could arise from different methods”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: A shallower recorded dip necessarily means a physically different event. Bukti: “an apparent disagreement about the star could arise from different methods”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "an apparent disagreement about the star could arise from different methods"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-dd389cfecc3b3850",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "What is the main role of paragraph 3?",
+    "o": [
+      "To explain a measurement difference that need not reflect a change in the star.",
+      "To show that every instrument suffers the same defect.",
+      "To define a transit for the first time.",
+      "To establish that shorter averaging always removes uncertainty."
+    ],
+    "e": "Jawaban: To explain a measurement difference that need not reflect a change in the star. Bukti: “different methods of summarizing its light”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To explain a measurement difference that need not reflect a change in the star. Bukti: “different methods of summarizing its light”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "different methods of summarizing its light"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-971a88f03190c5f5",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"These\" in paragraph 4 refers to ...",
+    "o": [
+      "detection, interpretation, and estimation",
+      "the star and its neighboring sources",
+      "the separate observing instruments",
+      "the intervals used within one channel"
+    ],
+    "e": "Jawaban: detection, interpretation, and estimation Bukti: “These are related achievements”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: detection, interpretation, and estimation Bukti: “These are related achievements”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "These are related achievements"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-7834103745b75fef",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What does greater precision within a model fail to establish on its own?",
+    "o": [
+      "That every alternative model has been excluded.",
+      "That a numerical estimate has been produced.",
+      "That assumptions were used in the estimation.",
+      "That the estimate concerns the selected interpretation."
+    ],
+    "e": "Jawaban: That every alternative model has been excluded. Bukti: “does not, by itself, exclude every competing model”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: That every alternative model has been excluded. Bukti: “does not, by itself, exclude every competing model”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "does not, by itself, exclude every competing model"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-b52492ec63d479fd",
+    "section": "reading",
+    "skill": "Paragraph location",
+    "q": "Which paragraph explains why repeated dips do not identify their cause by repetition alone?",
+    "o": [
+      "Paragraph 2",
+      "Paragraph 1",
+      "Paragraph 3",
+      "Paragraph 4"
+    ],
+    "e": "Jawaban: Paragraph 2 Bukti: “repetition alone does not identify its cause”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-PR-5",
+      "title": "A dimming star",
+      "text": "In an illustrative observatory project, astronomers examine a star whose recorded brightness decreases at nearly regular intervals. One possible explanation is that an orbiting object passes across the visible face of the star. The project calls such a crossing a transit. During a transit, the object blocks part of the light reaching the telescope. Yet a decrease in a recorded signal is not unique to this mechanism. Changes within the star, light from a neighboring source, or an instrument's response may also affect the measurement.\n\nThe observers therefore look beyond the existence of a dip. They compare its shape, duration, recurrence, and behavior in different observing channels. Repeated dips with similar properties strengthen the case for a repeating event, but repetition alone does not identify its cause. A recurring instrumental disturbance could also repeat. Observations made with a separate instrument help evaluate that possibility, provided the two instruments do not share the same relevant source of error. Independence concerns the origin of the evidence, not simply the number of files containing it.\n\nCombining observations introduces another difficulty. Different instruments can average incoming light over different intervals. A short event may then appear shallower in one record because it is mixed with light measured before and after the event. The project preserves information about those intervals rather than treating every numerical sample as an instantaneous observation. Otherwise, an apparent disagreement about the star could arise from different methods of summarizing its light. Matching records requires attention to how they were produced as well as to the values they contain.\n\nThe team's report separates detection, interpretation, and estimation. It can identify a recurring signal, assess whether a transit explains it better than specified alternatives, and estimate properties conditional on that interpretation. These are related achievements, but none should silently stand for all the others. A more precise estimate under a model does not, by itself, exclude every competing model. The astronomers accordingly present the measurements, the assumptions used to combine them, and the observations that could challenge their preferred explanation, so that later work can revise one part of the account without losing the evidence underlying the rest."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Paragraph 2 Bukti: “repetition alone does not identify its cause”. Pilihan lain mengganti rujukan, membalik hubungan, atau memperluas klaim melampaui teks."
+      ],
+      "evidence": "repetition alone does not identify its cause"
+    },
+    "difficulty": "challenge",
+    "style": "reference",
+    "package": "C"
+  },
+  {
+    "id": "SM-93f1263a4b6c915b",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "What is the main purpose of the passage?",
+    "o": [
+      "Improving a seed exchange through better information.",
+      "Comparing the growth rates of different plant species.",
+      "Explaining how to guarantee the success of stored seeds.",
+      "Tracing the history of gardening in the neighborhood."
+    ],
+    "e": "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-37f8d577d00121e1",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What information was missing from many seed packets?",
+    "o": [
+      "missing collection dates",
+      "the names of exchange volunteers",
+      "the price originally paid for the seeds",
+      "the size of the monthly exchange table"
+    ],
+    "e": "Detail yang sesuai dengan bacaan adalah missing collection dates. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah missing collection dates. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-966f74a1e78f9e5c",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What did the new cards provide?",
+    "o": [
+      "information about growing conditions",
+      "a guarantee that the seeds would grow",
+      "a schedule for watering every neighborhood plot",
+      "the cost of seeds sold at nearby shops"
+    ],
+    "e": "Bacaan menyebut information about growing conditions. Pilihan lain mengubah tindakan atau tujuannya.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut information about growing conditions. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-012ccc119772ed49",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Which conclusion is best supported by the passage?",
+    "o": [
+      "They help gardeners make informed choices without guaranteeing success.",
+      "The cards eliminate the need to observe germination.",
+      "Unopened packets prove that the seeds were damaged.",
+      "Monthly exchanges are suitable for every gardener."
+    ],
+    "e": "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7ec18ba3ab85ae38",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"discarded\" in the passage is closest in meaning to ...",
+    "o": [
+      "thrown away",
+      "distributed",
+      "examined",
+      "stored"
+    ],
+    "e": "Discarded berarti dibuang, sesuai konteks paket yang tidak digunakan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Discarded berarti dibuang, sesuai konteks paket yang tidak digunakan."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7bfd229cd1a9ff07",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"These\" at the beginning of paragraph 2 refers to ...",
+    "o": [
+      "the separate envelopes",
+      "the collection months",
+      "the mature plants",
+      "the volunteers’ photographs"
+    ],
+    "e": "Jawaban: the separate envelopes Bukti: “separate envelopes. These”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the separate envelopes Bukti: “separate envelopes. These”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "separate envelopes. These"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e477f96f07fa12ac",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What does paragraph 2 explicitly say about a photograph attached to a packet?",
+    "o": [
+      "It does not replace written plant identification.",
+      "It guarantees that the seeds will germinate.",
+      "It removes the need to identify similar-looking plants.",
+      "It is required on every packet before exchange."
+    ],
+    "e": "Jawaban: It does not replace written plant identification. Bukti: “the photograph did not replace the written identification”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: It does not replace written plant identification. Bukti: “the photograph did not replace the written identification”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "the photograph did not replace the written identification"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-fcae1f1d15474ac0",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why does paragraph 3 mention water and planting depth?",
+    "o": [
+      "To show why a failed packet need not prove poor seed quality.",
+      "To guarantee that the packet itself was sound.",
+      "To rank participants by their gardening skills.",
+      "To prohibit reports of unsuccessful planting."
+    ],
+    "e": "Jawaban: To show why a failed packet need not prove poor seed quality. Bukti: “lack of water or unsuitable planting depth could also affect the result”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To show why a failed packet need not prove poor seed quality. Bukti: “lack of water or unsuitable planting depth could also affect the result”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "lack of water or unsuitable planting depth could also affect the result"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-8461c4097be76362",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Recurring\" in paragraph 3 is closest in meaning to ...",
+    "o": [
+      "happening repeatedly",
+      "deliberately hidden",
+      "already solved",
+      "occurring before storage"
+    ],
+    "e": "Jawaban: happening repeatedly Bukti: “recurring problems”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: happening repeatedly Bukti: “recurring problems”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "recurring problems"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c917749a78388975",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What does the last paragraph suggest about the purpose of the paper guide?",
+    "o": [
+      "It lets visitors consult instructions after leaving the table.",
+      "It replaces all discussion with experienced gardeners.",
+      "It proves that every plant needs identical conditions.",
+      "It removes the need to label packets."
+    ],
+    "e": "Jawaban: It lets visitors consult instructions after leaving the table. Bukti: “read the instructions later”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-01",
+      "title": "A table for seeds",
+      "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange.\n\nPackets whose collection month was uncertain were placed in separate envelopes. These were clearly marked so that visitors would not mistake an estimate for a recorded date. A volunteer sometimes attached a photograph of the mature plant, but the photograph did not replace the written identification. Similar-looking plants could require different growing conditions. When a donor could not identify a packet reliably, the organizers kept it off the exchange table rather than assigning it an attractive but unsupported label.\n\nFollow-up reports were collected on a simple form. Gardeners noted when they planted the seeds, whether shoots appeared, and the conditions in their plots. A failed packet did not automatically establish poor seed quality, since lack of water or unsuitable planting depth could also affect the result. The reports were intended to reveal recurring problems and improve advice, not to rank gardeners by skill. Volunteers discussed patterns across several reports before recommending a change in storage or handling.\n\nThe table also became a meeting point for new participants. Experienced gardeners explained the cards without assuming that every visitor understood specialist vocabulary. The organizers retained a short paper guide for people who wanted to read the instructions later. They viewed the exchange as a combination of material and information: passing on a packet was more useful when the next gardener could understand what was known about it and what remained uncertain."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: It lets visitors consult instructions after leaving the table. Bukti: “read the instructions later”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "read the instructions later"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e0a6d615dd78aa73",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "What is the main purpose of the passage?",
+    "o": [
+      "Refining a delivery trial while considering different groups.",
+      "Explaining why markets should open later each day.",
+      "Comparing delivery costs across several markets.",
+      "Describing adjustments to the products sold by vendors."
+    ],
+    "e": "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-662f1735a481bcc4",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What initially disturbed nearby residents?",
+    "o": [
+      "noise from metal gates at dawn",
+      "carts blocking the aisles during shopping hours",
+      "vendors unloading after the market closed",
+      "a rise in delivery fees charged to residents"
+    ],
+    "e": "Detail yang sesuai dengan bacaan adalah noise from metal gates at dawn. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah noise from metal gates at dawn. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-0c4421c339a98de9",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What changes did the market make?",
+    "o": [
+      "rubber pads and later noisy unloading",
+      "closing the market for an additional hour",
+      "reducing the number of deliveries by half",
+      "replacing deliveries with customer collection"
+    ],
+    "e": "Bacaan menyebut rubber pads and later noisy unloading. Pilihan lain mengubah tindakan atau tujuannya.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut rubber pads and later noisy unloading. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-429bb9de32265746",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Which conclusion is best supported by the passage?",
+    "o": [
+      "The improvement needs observation over a longer period.",
+      "The quieter week proves the new schedule is permanently successful.",
+      "Fewer deliveries fully explain the decline in complaints.",
+      "Residents preferred the original unloading arrangement."
+    ],
+    "e": "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-90c583ece6a8b20e",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"insufficient\" in the passage is closest in meaning to ...",
+    "o": [
+      "not enough",
+      "unexpected",
+      "unrecorded",
+      "unnecessary"
+    ],
+    "e": "Insufficient berarti tidak cukup; satu minggu belum cukup untuk menilai hasil jangka panjang.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Insufficient berarti tidak cukup; satu minggu belum cukup untuk menilai hasil jangka panjang."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9831872c2bbca2ff",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"This distinction\" in paragraph 2 refers to separating ...",
+    "o": [
+      "arrival from the timing of particular unloading tasks",
+      "residents from all contact with the market",
+      "quiet mornings from every working day",
+      "drivers from written instructions"
+    ],
+    "e": "Jawaban: arrival from the timing of particular unloading tasks Bukti: “arrive before opening without every crate being unloaded immediately”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: arrival from the timing of particular unloading tasks Bukti: “arrive before opening without every crate being unloaded immediately”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "arrive before opening without every crate being unloaded immediately"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-44451b7842e9db54",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which claim is NOT made in the passage?",
+    "o": [
+      "Every sound heard at dawn came from a market vehicle.",
+      "Observers recorded the time of reported noise.",
+      "Pads could be checked after gate-related reports.",
+      "Some loud work could be delayed after a vehicle arrived."
+    ],
+    "e": "Jawaban: Every sound heard at dawn came from a market vehicle. Bukti: “did not assume that every sound at dawn came from a market vehicle”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Every sound heard at dawn came from a market vehicle. Bukti: “did not assume that every sound at dawn came from a market vehicle”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "did not assume that every sound at dawn came from a market vehicle"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-00b2e98ee60e15e3",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Feasible\" in paragraph 4 is closest to ...",
+    "o": [
+      "practical to carry out",
+      "free from every possible cost",
+      "permanently unchanged",
+      "approved without observation"
+    ],
+    "e": "Jawaban: practical to carry out Bukti: “feasible on busy days”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: practical to carry out Bukti: “feasible on busy days”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "feasible on busy days"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c25641bdba839c6f",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why are crowded delivery periods mentioned in the final paragraph?",
+    "o": [
+      "To test whether procedures work under demanding ordinary conditions.",
+      "To justify collecting observations only on the quietest morning.",
+      "To prove that residents prefer later construction work.",
+      "To make every vehicle unload all crates immediately."
+    ],
+    "e": "Jawaban: To test whether procedures work under demanding ordinary conditions. Bukti: “tested during a crowded delivery period”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To test whether procedures work under demanding ordinary conditions. Bukti: “tested during a crowded delivery period”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "tested during a crowded delivery period"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-422391fefbd0c298",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why could a smaller group’s repeated problem still require attention?",
+    "o": [
+      "A lower total complaint count could conceal a continuing local disturbance.",
+      "Any decline in complaints proves all gates are quiet.",
+      "Only households with several drivers may contact the market.",
+      "A complaint cannot be related to a specific noise source."
+    ],
+    "e": "Jawaban: A lower total complaint count could conceal a continuing local disturbance. Bukti: “a repeated problem affecting a smaller number of households”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-02",
+      "title": "The delivery trial",
+      "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent.\n\nThe staff separated the trial into several tasks rather than treating an early delivery as one indivisible event. A vehicle could arrive before opening without every crate being unloaded immediately. This distinction allowed quiet preparation to continue while the loudest work waited. Drivers received a short sequence of instructions, including where to stop and which doors to use. The market also kept a contact number for residents who wanted to report a specific disturbance rather than a general complaint about the schedule.\n\nObservers recorded the time and source of reported noise. They did not assume that every sound at dawn came from a market vehicle, since street cleaning and nearby construction sometimes occurred then as well. Reports that could be linked to a particular gate were useful for checking whether its pads remained secure. A fall in total complaints was welcome, but it did not remove the need to investigate a repeated problem affecting a smaller number of households.\n\nBefore deciding on a permanent arrangement, the manager compared vendor convenience with residents' experience over several weeks. A workable schedule needed to remain understandable to new drivers and feasible on busy days. Written procedures were therefore tested during a crowded delivery period as well as during quiet mornings. The objective was a routine that could continue under ordinary operating conditions, not simply a successful demonstration arranged for an unusually easy week."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: A lower total complaint count could conceal a continuing local disturbance. Bukti: “a repeated problem affecting a smaller number of households”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "a repeated problem affecting a smaller number of households"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-359c6bfcc445d2c9",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "What is the main purpose of the passage?",
+    "o": [
+      "Adapting shared-resource rules to actual patterns of use.",
+      "Explaining why each research group needs its own microscope.",
+      "Comparing the accuracy of different microscopes.",
+      "Describing how to extend a laboratory’s opening hours."
+    ],
+    "e": "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-57dbf6b90da41c76",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What caused the booking difficulty?",
+    "o": [
+      "identical time allocations despite different needs",
+      "a shortage of trained microscope operators",
+      "different prices for the same reservation",
+      "frequent equipment failures during long sessions"
+    ],
+    "e": "Detail yang sesuai dengan bacaan adalah identical time allocations despite different needs. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah identical time allocations despite different needs. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e70b33f305f644f1",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What did the revised booking rules require?",
+    "o": [
+      "releasing unused slots in advance",
+      "paying for all reserved slots in advance",
+      "giving every group additional hours automatically",
+      "buying a second instrument before changing the rules"
+    ],
+    "e": "Bacaan menyebut releasing unused slots in advance. Pilihan lain mengubah tindakan atau tujuannya.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut releasing unused slots in advance. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-64a5ce53b3bbef75",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Which conclusion is best supported by the passage?",
+    "o": [
+      "Equal allocations may not produce useful access for everyone.",
+      "Long imaging sessions should never be permitted.",
+      "Sharing is useful only when all groups have identical tasks.",
+      "Lower purchase costs guarantee fair access."
+    ],
+    "e": "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-3673c034d76f263d",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"allocations\" in the passage is closest in meaning to ...",
+    "o": [
+      "assigned shares",
+      "technical faults",
+      "financial losses",
+      "research findings"
+    ],
+    "e": "Allocations adalah bagian sumber daya yang dibagikan atau ditetapkan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Allocations adalah bagian sumber daya yang dibagikan atau ditetapkan."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-802116b14f56d25e",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"These categories\" in paragraph 2 refers to ...",
+    "o": [
+      "the approximate types of requested sessions",
+      "the different microscope manufacturers",
+      "the names of all participating institutions",
+      "the dates on which the instrument was purchased"
+    ],
+    "e": "Jawaban: the approximate types of requested sessions Bukti: “Approximate session categories”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the approximate types of requested sessions Bukti: “Approximate session categories”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "Approximate session categories"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-ae800e65a681f28e",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why might an empty slot fail to help a waiting researcher?",
+    "o": [
+      "Required supervision might be unavailable at that time.",
+      "The instrument could never be used for a short session.",
+      "Every booking had to last an entire day.",
+      "The revised system prohibited a waiting list."
+    ],
+    "e": "Jawaban: Required supervision might be unavailable at that time. Bukti: “required a supervisor who was available only during part of the day”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Required supervision might be unavailable at that time. Bukti: “required a supervisor who was available only during part of the day”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "required a supervisor who was available only during part of the day"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-3b981b3ded95b0ee",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which action was NOT reported as a way to improve access?",
+    "o": [
+      "Buying a second instrument after the rules changed.",
+      "Dividing some released long reservations.",
+      "Recording users’ supervision requirements.",
+      "Providing occasional training sessions."
+    ],
+    "e": "Jawaban: Buying a second instrument after the rules changed. Bukti: “not by increasing the number of instruments”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Buying a second instrument after the rules changed. Bukti: “not by increasing the number of instruments”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "not by increasing the number of instruments"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2f34b296b98c54eb",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Continuous\" in the final paragraph is closest in meaning to ...",
+    "o": [
+      "uninterrupted",
+      "independently supervised",
+      "equally divided",
+      "recorded in advance"
+    ],
+    "e": "Jawaban: uninterrupted Bukti: “a project requiring a continuous run”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: uninterrupted Bukti: “a project requiring a continuous run”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "a project requiring a continuous run"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-aa5e6b13f12b42b2",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "What is the function of the final paragraph?",
+    "o": [
+      "To explain how the groups assessed whether the rules served different work needs.",
+      "To establish the purchase price of another microscope.",
+      "To replace all long bookings with short sessions.",
+      "To show that equal access requires identical reservations."
+    ],
+    "e": "Jawaban: To explain how the groups assessed whether the rules served different work needs. Bukti: “recognizing relevant differences in the work”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-03",
+      "title": "Booking a shared microscope",
+      "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper.\n\nThe revised system asked users to describe the kind of session they needed when making a reservation. It did not ask them to predict every detail of the experiment. Approximate session categories were sufficient to distinguish a short check from an extended imaging run. These categories helped the coordinator offer suitable openings to people on a waiting list. When a long reservation was released, it could sometimes be divided among several groups requiring shorter periods.\n\nTraining created a further constraint. Some users could operate the instrument independently, while others required a supervisor who was available only during part of the day. An empty slot was therefore not equally useful to every waiting researcher. The coordinator recorded supervision needs alongside the requested duration. The laboratory also arranged occasional training sessions so that more users could eventually work without direct assistance. This expanded access by changing what users could do, not by increasing the number of instruments.\n\nThe groups reviewed the rules after several months. They examined waiting times and unused reservations rather than simply counting the total number of bookings. A large number of short sessions might look impressive but would not meet the needs of a project requiring a continuous run. The review kept the distinction between equal treatment and identical allocations: a shared resource could serve participants fairly while recognizing relevant differences in the work they needed to complete."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To explain how the groups assessed whether the rules served different work needs. Bukti: “recognizing relevant differences in the work”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "recognizing relevant differences in the work"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a4f15355305ebe51",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "What is the main purpose of the passage?",
+    "o": [
+      "Broadening observations to identify different problems on a path.",
+      "Showing that weekend visitors use a path incorrectly.",
+      "Arguing that widening is the only useful improvement.",
+      "Comparing the cost of riverside housing projects."
+    ],
+    "e": "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-895f5730f6345711",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "Under what conditions were the initial pedestrian counts made?",
+    "o": [
+      "sunny weekends",
+      "rainy weekday mornings",
+      "several months of overnight observation",
+      "winter evenings with restricted entrances"
+    ],
+    "e": "Detail yang sesuai dengan bacaan adalah sunny weekends. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah sunny weekends. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-cbac13d2192086ed",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What additional observations did planners collect?",
+    "o": [
+      "weekday counts and observations after rain",
+      "ticket prices and vehicle ownership",
+      "the ages of all local residents",
+      "the number of nearby apartment buildings"
+    ],
+    "e": "Bacaan menyebut weekday counts and observations after rain. Pilihan lain mengubah tindakan atau tujuannya.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut weekday counts and observations after rain. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-4f845329305a5be2",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Which conclusion is best supported by the passage?",
+    "o": [
+      "Initial observations did not cover all important conditions.",
+      "The later observations ruled out widening under all circumstances.",
+      "Crowding and access problems necessarily have the same solution.",
+      "Weekend counts alone represented all regular users."
+    ],
+    "e": "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-50465b2b286f151f",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"priority\" in the passage is closest in meaning to ...",
+    "o": [
+      "matter given greater importance",
+      "permanent obstacle",
+      "completed task",
+      "unrelated suggestion"
+    ],
+    "e": "Priority adalah hal yang diprioritaskan atau diberi kepentingan lebih besar.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Priority adalah hal yang diprioritaskan atau diberi kepentingan lebih besar."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-6b5a0e08ad9b63f7",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"Their absence\" in paragraph 2 refers to the absence of ...",
+    "o": [
+      "commuters from the northern entrance after rain",
+      "planners from every counting point",
+      "visitors from all weekend events",
+      "drainage workers from the main gate"
+    ],
+    "e": "Jawaban: commuters from the northern entrance after rain Bukti: “Commuters using a narrow northern entrance”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: commuters from the northern entrance after rain Bukti: “Commuters using a narrow northern entrance”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "Commuters using a narrow northern entrance"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-0f977c0c869a10ac",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which conclusion is NOT supported?",
+    "o": [
+      "Repairing an entrance proves that widening is unnecessary under every condition.",
+      "People may change entrances after rain.",
+      "A central count may miss some access patterns.",
+      "Occasional crowding remains a separate planning issue."
+    ],
+    "e": "Jawaban: Repairing an entrance proves that widening is unnecessary under every condition. Bukti: “would not automatically settle the question”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Repairing an entrance proves that widening is unnecessary under every condition. Bukti: “would not automatically settle the question”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "would not automatically settle the question"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e3701b877a7cab7b",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Committing to\" in paragraph 3 most nearly means ...",
+    "o": [
+      "deciding to undertake",
+      "measuring the entrance of",
+      "requesting complaints about",
+      "finishing an observation of"
+    ],
+    "e": "Jawaban: deciding to undertake Bukti: “before committing to a larger construction project”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: deciding to undertake Bukti: “before committing to a larger construction project”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "before committing to a larger construction project"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c88db854ea39e158",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why is the drainage trial discussed?",
+    "o": [
+      "To illustrate a targeted response to an access problem.",
+      "To prove the original weekend counts were invented.",
+      "To replace all observations of crowded events.",
+      "To establish that the whole path was too narrow."
+    ],
+    "e": "Jawaban: To illustrate a targeted response to an access problem. Bukti: “tested a small drainage improvement”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To illustrate a targeted response to an access problem. Bukti: “tested a small drainage improvement”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "tested a small drainage improvement"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e909638f9ae77198",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why does the revised proposal separate places and conditions?",
+    "o": [
+      "Different observations support different parts of the proposed work.",
+      "One weekend provides all information needed for every decision.",
+      "The number of users is irrelevant to crowding.",
+      "Every entrance has exactly the same drainage problem."
+    ],
+    "e": "Jawaban: Different observations support different parts of the proposed work. Bukti: “which parts of the proposal addressed everyday access”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-04",
+      "title": "Access to the riverside path",
+      "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access.\n\nThe additional survey recorded where people entered the path as well as how many passed a central counting point. Commuters using a narrow northern entrance were easy to miss if observers watched only the busiest section. Some avoided that entrance after rain and took a longer route through the main gate. Their absence from the northern entrance did not necessarily mean that they had stopped using the path. It could reflect a change in access rather than a change in demand.\n\nPlanners tested a small drainage improvement before committing to a larger construction project. They marked the trial area and observed whether water remained after ordinary rainfall. They also asked users whether the entrance was easier to cross. These observations addressed a different issue from the maximum number of people the central path could hold. A successful entrance repair would not automatically settle the question of whether the whole path needed widening during crowded events.\n\nThe revised proposal described the two issues separately. It included an estimate for improving the entrances and retained widening as a later option to be assessed with additional counts. By keeping the observations linked to particular places and conditions, planners could explain which parts of the proposal addressed everyday access and which concerned occasional crowding. They expected future decisions to depend on both patterns rather than on one especially busy weekend being treated as a complete description of the path."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Different observations support different parts of the proposed work. Bukti: “which parts of the proposal addressed everyday access”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "which parts of the proposal addressed everyday access"
+    },
+    "difficulty": "foundation",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a4c9ff7cc1606288",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The central concern of the passage is ...",
+    "o": [
+      "the relationship between a measurement and the phenomenon it is intended to represent",
+      "the superiority of brightly lit paths for insect conservation",
+      "the need to replace all trapping with plant observations",
+      "the impossibility of studying insects under varying weather"
+    ],
+    "e": "Trap counts and plant visits measure different aspects of activity; neither directly settles total abundance.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Trap counts and plant visits measure different aspects of activity; neither directly settles total abundance."
+      ],
+      "evidence": "a convenient measurement should not silently become a definition of the phenomenon being studied"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-05b6cc0e7c4287a1",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "Why could a low trap count beside a dark path be misleading?",
+    "o": [
+      "The trapping method itself could attract insects less effectively there.",
+      "The traps were deliberately made smaller at dark sites.",
+      "Observers counted plants only at brightly lit sites.",
+      "The sites had already been proven to contain identical insect populations."
+    ],
+    "e": "The team distinguishes low abundance from lower capture effectiveness.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "The team distinguishes low abundance from lower capture effectiveness."
+      ],
+      "evidence": "the traps themselves depended partly on light to attract insects"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-240e1ec261dd8351",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What does the disagreement between the two methods suggest?",
+    "o": [
+      "Site rankings can depend on which aspect of activity is observed.",
+      "Both methods must have been used incorrectly.",
+      "One ranking must describe all insect behavior accurately.",
+      "Weather can be excluded from any further analysis."
+    ],
+    "e": "Different observations target different behavior, so rankings need not coincide.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Different observations target different behavior, so rankings need not coincide."
+      ],
+      "evidence": "Each sampled a different aspect of activity"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-3d35a1d719301de9",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"abundance\" is closest in meaning to ...",
+    "o": [
+      "number present",
+      "movement speed",
+      "physical size",
+      "degree of brightness"
+    ],
+    "e": "Abundance here refers to how many insects are present, not their speed or size.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Abundance here refers to how many insects are present, not their speed or size."
+      ],
+      "evidence": "local abundance"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-ff3842455bcd3819",
+    "section": "reading",
+    "skill": "Author purpose",
+    "q": "Why were capture rates and plant visits reported separately?",
+    "o": [
+      "To avoid implying that they were interchangeable measures of a single quantity.",
+      "To conceal the sites where the results disagreed.",
+      "To show that all uncertainty had been removed.",
+      "To ensure that readers would use only the trap data."
+    ],
+    "e": "Separate reporting preserves the distinction between observation types.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Separate reporting preserves the distinction between observation types."
+      ],
+      "evidence": "It described which behavior each measure could detect"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e19c7865a85f7a15",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"This\" in paragraph 4 refers to ...",
+    "o": [
+      "publishing the diagram of observation positions",
+      "switching every light off permanently",
+      "merging all nights into one ranking",
+      "replacing every trap with a brighter one"
+    ],
+    "e": "Jawaban: publishing the diagram of observation positions Bukti: “published a diagram showing where each instrument and observer had been positioned. This”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: publishing the diagram of observation positions Bukti: “published a diagram showing where each instrument and observer had been positioned. This”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "published a diagram showing where each instrument and observer had been positioned. This"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-d06d96a1cf53f4f6",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which practice is NOT recommended or described?",
+    "o": [
+      "Silently removing unusual-weather records from the project.",
+      "Reporting capture rates separately from plant visits.",
+      "Showing positions of instruments and observers.",
+      "Restricting principal comparisons to similar conditions."
+    ],
+    "e": "Jawaban: Silently removing unusual-weather records from the project. Bukti: “rather than silently discarding them”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Silently removing unusual-weather records from the project. Bukti: “rather than silently discarding them”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "rather than silently discarding them"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-57cf22068d30c768",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why does paragraph 4 discuss a separate unusual-weather file?",
+    "o": [
+      "To distinguish preservation of observations from their suitability for a particular comparison.",
+      "To establish that unusual weather can never affect insects.",
+      "To prove that the main ranking used all nights identically.",
+      "To replace the positional diagram with a single index."
+    ],
+    "e": "Jawaban: To distinguish preservation of observations from their suitability for a particular comparison. Bukti: “unsuitable for one comparison without presenting them as interchangeable”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To distinguish preservation of observations from their suitability for a particular comparison. Bukti: “unsuitable for one comparison without presenting them as interchangeable”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "unsuitable for one comparison without presenting them as interchangeable"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a22e95cfb38fa257",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Abundance\" in paragraph 1 is closest in meaning to ...",
+    "o": [
+      "the number present",
+      "the ability to fly",
+      "the strength of the lights",
+      "the time of the visit"
+    ],
+    "e": "Jawaban: the number present Bukti: “local abundance”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the number present Bukti: “local abundance”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "local abundance"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2adf69972b8f41fc",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why should another team not assume all observations concern the same patch?",
+    "o": [
+      "The methods and their positions can cover different aspects or locations.",
+      "Every instrument records all insects in the town.",
+      "The diagram was designed to prevent replication.",
+      "Weather files identify every insect’s complete movement."
+    ],
+    "e": "Jawaban: The methods and their positions can cover different aspects or locations. Bukti: “without assuming that every observation referred to exactly the same patch of ground”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-13",
+      "title": "Observing insects at night",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times.\n\nFor the next round, the researchers published a diagram showing where each instrument and observer had been positioned. This helped later teams repeat the arrangement without assuming that every observation referred to exactly the same patch of ground. They also kept nights with unusual weather in a separate file rather than silently discarding them. The file was not treated as directly comparable evidence for the principal site ranking, but it could help formulate questions about weather-related behavior. A consistent reporting scheme could thus preserve observations that were unsuitable for one comparison without presenting them as interchangeable with the observations used in it."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: The methods and their positions can cover different aspects or locations. Bukti: “without assuming that every observation referred to exactly the same patch of ground”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "without assuming that every observation referred to exactly the same patch of ground"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2b22c4fa1d2ffdd5",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage primarily discusses how to ...",
+    "o": [
+      "communicate estimated exposure and confidence in the evidence as distinct dimensions",
+      "create a fourth numerical level of flood exposure",
+      "remove uncertainty by changing a map’s colors",
+      "replace planning decisions with a single visual boundary"
+    ],
+    "e": "The revised layers separate predicted exposure from the quality of supporting evidence.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "The revised layers separate predicted exposure from the quality of supporting evidence."
+      ],
+      "evidence": "communicate two different dimensions without allowing one to stand in for the other"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-1c0d74060c07d967",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "Why was the proposed fourth color problematic?",
+    "o": [
+      "Users read it as another level of exposure.",
+      "It could not be printed on paper.",
+      "It implied that neighboring districts were identical.",
+      "It made the original observations unavailable."
+    ],
+    "e": "The problem was interpretation, not a technical inability to print a color.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "The problem was interpretation, not a technical inability to print a color."
+      ],
+      "evidence": "users interpreted the new category as a fourth level of flood exposure"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-aef74ce438b05eca",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Which conclusion follows about a district with limited evidence?",
+    "o": [
+      "Its uncertain estimate is not sufficient reason to classify it as safe.",
+      "Its exposure must be lower than that of well-observed districts.",
+      "Collecting more observations cannot affect its estimate.",
+      "It should automatically receive the highest exposure category."
+    ],
+    "e": "Uncertainty does not establish either low or high exposure; the decision must consider consequences and other factors.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "Uncertainty does not establish either low or high exposure; the decision must consider consequences and other factors."
+      ],
+      "evidence": "could not reasonably be treated as safe merely because its risk was difficult to estimate"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-deefdfce620673d9",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"crisp\" describes a boundary that appears ...",
+    "o": [
+      "sharply defined",
+      "recently observed",
+      "randomly placed",
+      "physically elevated"
+    ],
+    "e": "Crisp concerns the clear visual boundary, which may overstate precision.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "Crisp concerns the clear visual boundary, which may overstate precision."
+      ],
+      "evidence": "A crisp boundary on paper did not indicate an equally sharp change"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c76de6af230bab1a",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "What would best test whether the revised map serves its intended purpose?",
+    "o": [
+      "Checking whether readers can distinguish exposure estimates from strength of evidence.",
+      "Counting how many colors readers prefer in unrelated maps.",
+      "Measuring whether all districts have identical drainage.",
+      "Confirming that readers never ask questions about predictions."
+    ],
+    "e": "The trial uses two questions to test understanding of the separate dimensions.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "The trial uses two questions to test understanding of the separate dimensions."
+      ],
+      "evidence": "readers were asked two different questions"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-4d2ae4a0d43aa07d",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"It\" in paragraph 4, in \"It might reflect\", refers to ...",
+    "o": [
+      "a change in a displayed color",
+      "a district’s physical boundary",
+      "a decision to abandon observation",
+      "the absence of every previous map"
+    ],
+    "e": "Jawaban: a change in a displayed color Bukti: “a change in a displayed color”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: a change in a displayed color Bukti: “a change in a displayed color”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "a change in a displayed color"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-b5e3c4c86ee509b4",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which claim is NOT made?",
+    "o": [
+      "An uncertain district should be classified as safe.",
+      "Evidence dates can matter when map changes are interpreted.",
+      "Previous versions can preserve decision context.",
+      "A new color was initially mistaken for another exposure level."
+    ],
+    "e": "Jawaban: An uncertain district should be classified as safe. Bukti: “could not reasonably be treated as safe”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: An uncertain district should be classified as safe. Bukti: “could not reasonably be treated as safe”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "could not reasonably be treated as safe"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-da6839bc9a2d04fc",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why does paragraph 4 discuss previous dated versions?",
+    "o": [
+      "To explain how changes in the estimates can remain traceable.",
+      "To establish that the oldest map is always the best current guide.",
+      "To remove all distinctions between exposure and confidence.",
+      "To prove every color change reflects a newly formed flood."
+    ],
+    "e": "Jawaban: To explain how changes in the estimates can remain traceable. Bukti: “make the history of the estimates traceable”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To explain how changes in the estimates can remain traceable. Bukti: “make the history of the estimates traceable”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "make the history of the estimates traceable"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-db259e6d3450a1f1",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Crisp\" in paragraph 1 is closest in meaning to ...",
+    "o": [
+      "sharply defined",
+      "scientifically verified",
+      "recently flooded",
+      "repeatedly measured"
+    ],
+    "e": "Jawaban: sharply defined Bukti: “A crisp boundary on paper”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: sharply defined Bukti: “A crisp boundary on paper”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "A crisp boundary on paper"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-91ea0627e3cfb881",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "A district changes color after a new local survey. What should a reader avoid assuming immediately?",
+    "o": [
+      "That a physical change occurred at exactly the time of the color update.",
+      "That new evidence may have affected the estimate.",
+      "That the date of the evidence is relevant.",
+      "That earlier map versions can be consulted."
+    ],
+    "e": "Jawaban: That a physical change occurred at exactly the time of the color update. Bukti: “rather than a recent physical change”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-14",
+      "title": "Reading two map layers",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event.\n\nA note accompanying the map recorded the date of the evidence used for each district. The planners expected to update districts at different times as new observations became available. Consequently, a change in a displayed color would need to be interpreted alongside any change in the underlying evidence. It might reflect a newly recognized exposure rather than a recent physical change. The map retained previous dated versions so that users could reconstruct what had been known during an earlier decision. Keeping those versions did not make them the preferred guide to present conditions; their role was to make the history of the estimates traceable."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: That a physical change occurred at exactly the time of the color update. Bukti: “rather than a recent physical change”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "rather than a recent physical change"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-654ce9cc43117ba6",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage emphasizes the importance of ...",
+    "o": [
+      "evaluating additional business within the constraints of an existing operation",
+      "maximizing the number of bookings regardless of delays",
+      "avoiding all loads that require special equipment",
+      "judging transport performance only by empty cargo space"
+    ],
+    "e": "The evaluation expands beyond payment and distance to time, equipment, and other commitments.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "The evaluation expands beyond payment and distance to time, equipment, and other commitments."
+      ],
+      "evidence": "include waiting time, handling requirements, and the reliability of the next scheduled delivery"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-cad4f08ebbdcdb05",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What was missing from the initial evaluation?",
+    "o": [
+      "Delays at collection points and handling requirements.",
+      "The amount of payment offered.",
+      "The additional distance to be traveled.",
+      "The existence of empty return space."
+    ],
+    "e": "Payment and distance were considered; waiting and equipment were initially overlooked.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "Payment and distance were considered; waiting and equipment were initially overlooked."
+      ],
+      "evidence": "long waits at collection points"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-1bd5c84bac72a343",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why might rejecting an offer improve operations?",
+    "o": [
+      "It can protect time needed for another important commitment.",
+      "It necessarily raises the payment for every future booking.",
+      "It removes all costs from the return journey.",
+      "It proves that carrying goods on return journeys is always undesirable."
+    ],
+    "e": "The opportunity cost of vehicle time matters; extra revenue can coincide with a more damaging delay.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "The opportunity cost of vehicle time matters; extra revenue can coincide with a more damaging delay."
+      ],
+      "evidence": "if it delayed a more important commitment"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-62ee9f6ab8a07906",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"detour\" means ...",
+    "o": [
+      "a deviation from the usual route",
+      "a reduction in loading time",
+      "a repeated equipment inspection",
+      "an advance payment"
+    ],
+    "e": "A substantial detour requires departing from the planned route.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "A substantial detour requires departing from the planned route."
+      ],
+      "evidence": "those that demanded a substantial detour"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2413e7f8f35b8f70",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why were rejected offers still recorded?",
+    "o": [
+      "Patterns in demand might support a later operational change.",
+      "The cooperative intended to accept all of them immediately.",
+      "Rejected offers had already generated revenue.",
+      "The records would prove that every rejection was a mistake."
+    ],
+    "e": "Repeated demand can justify new equipment or route changes; a present rejection is not permanent proof of unprofitability.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "Repeated demand can justify new equipment or route changes; a present rejection is not permanent proof of unprofitability."
+      ],
+      "evidence": "might eventually justify buying suitable equipment or changing a route"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-0c507bb3c0f464b7",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"These explanations\" in paragraph 4 refers to ...",
+    "o": [
+      "the reasons recorded for declining bookings",
+      "the prices quoted by every customer",
+      "the names of the return destinations",
+      "the equipment purchased before the policy began"
+    ],
+    "e": "Jawaban: the reasons recorded for declining bookings Bukti: “added a short explanation when declining a booking”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the reasons recorded for declining bookings Bukti: “added a short explanation when declining a booking”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "added a short explanation when declining a booking"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-3d2222a6dae3ec09",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which claim is NOT supported?",
+    "o": [
+      "Every rejected booking will remain unprofitable under all future conditions.",
+      "Waiting time can change the value of a booking.",
+      "A repeated need may support investment in equipment.",
+      "Fewer bookings can coincide with more reliable departures."
+    ],
+    "e": "Jawaban: Every rejected booking will remain unprofitable under all future conditions. Bukti: “did not imply that the same opportunity would always be unprofitable”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Every rejected booking will remain unprofitable under all future conditions. Bukti: “did not imply that the same opportunity would always be unprofitable”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "did not imply that the same opportunity would always be unprofitable"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c70a658d23daff1c",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "What does paragraph 4 add to the account?",
+    "o": [
+      "How records of refusals can inform future service decisions.",
+      "A reason to accept every offer with positive revenue.",
+      "A claim that customer identity determines profitability.",
+      "Proof that all additional equipment would be worth buying."
+    ],
+    "e": "Jawaban: How records of refusals can inform future service decisions. Bukti: “learn about possible changes to the service”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: How records of refusals can inform future service decisions. Bukti: “learn about possible changes to the service”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "learn about possible changes to the service"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-ae69bcd3d43f3441",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Detour\" in paragraph 2 is closest in meaning to ...",
+    "o": [
+      "a departure from the usual route",
+      "a delay caused only by paperwork",
+      "an empty vehicle’s original purchase price",
+      "a compulsory rest period for drivers"
+    ],
+    "e": "Jawaban: a departure from the usual route Bukti: “a substantial detour”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: a departure from the usual route Bukti: “a substantial detour”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "a substantial detour"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-580c57ce6a6910f7",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why might a collection window matter even if the additional distance is short?",
+    "o": [
+      "Waiting can disrupt the next scheduled commitment.",
+      "Distance alone fully determines a booking’s usefulness.",
+      "Every late collection has the same cost for every route.",
+      "Handling requirements never affect return journeys."
+    ],
+    "e": "Jawaban: Waiting can disrupt the next scheduled commitment. Bukti: “waiting time, handling requirements, and the reliability of the next scheduled delivery”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RP-15",
+      "title": "Assessing return loads",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable.\n\nDispatchers added a short explanation when declining a booking. These explanations distinguished inadequate equipment, an unreliable collection window, and a route that was too far from the planned return. Recording the reason made it possible to see whether many refusals shared a cause that the cooperative could address. A repeated equipment problem might support a future investment, while scattered offers requiring unrelated detours might not. The record was therefore used to learn about possible changes to the service rather than to treat every refusal as a permanent judgment about the customer or the goods being carried."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Waiting can disrupt the next scheduled commitment. Bukti: “waiting time, handling requirements, and the reliability of the next scheduled delivery”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "waiting time, handling requirements, and the reliability of the next scheduled delivery"
+    },
+    "difficulty": "standard",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2b2db49e356c22e1",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage primarily argues that service measures should ...",
+    "o": [
+      "be checked against the outcomes they are meant to represent",
+      "be replaced entirely by residents’ interviews",
+      "reward every method that raises reported performance",
+      "remain unchanged so that staff cannot influence them"
+    ],
+    "e": "The supported answer is: be checked against the outcomes they are meant to represent The passage states: “Both practices improved the published measure, but they did not have the same consequences for residents.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: be checked against the outcomes they are meant to represent The passage states: “Both practices improved the published measure, but they did not have the same consequences for residents.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "Both practices improved the published measure, but they did not have the same consequences for residents."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a1cce77ca627b103",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What can be inferred about the first-quarter improvement?",
+    "o": [
+      "Its reported size does not establish an equivalent improvement in resolved needs.",
+      "It arose entirely from staff creating new reference numbers.",
+      "It proves that removing approval steps had no value.",
+      "It understated the benefit experienced by every resident."
+    ],
+    "e": "The supported answer is: Its reported size does not establish an equivalent improvement in resolved needs. The passage states: “Both practices improved the published measure, but they did not have the same consequences for residents.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: Its reported size does not establish an equivalent improvement in resolved needs. The passage states: “Both practices improved the published measure, but they did not have the same consequences for residents.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "Both practices improved the published measure, but they did not have the same consequences for residents."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-289ccfbb84a7ceab",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "Why include interviews despite their limitations?",
+    "o": [
+      "They can expose discrepancies that warrant closer case examination.",
+      "They ensure that every unresolved request is discovered.",
+      "They are unaffected by who chooses to respond.",
+      "They directly eliminate strategic behavior by staff."
+    ],
+    "e": "The supported answer is: They can expose discrepancies that warrant closer case examination. The passage states: “disagreements between the sources would trigger examination of individual cases”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: They can expose discrepancies that warrant closer case examination. The passage states: “disagreements between the sources would trigger examination of individual cases”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "disagreements between the sources would trigger examination of individual cases"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-42b61e1ddf66d0a9",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "In the second paragraph, \"immune to\" is closest in meaning to ...",
+    "o": [
+      "unaffected by",
+      "responsible for",
+      "dependent on",
+      "composed of"
+    ],
+    "e": "The supported answer is: unaffected by The passage states: “immune to strategic behavior”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: unaffected by The passage states: “immune to strategic behavior”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "immune to strategic behavior"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-13c6ce3c3680a42a",
+    "section": "reading",
+    "skill": "Author purpose",
+    "q": "Why distinguish the practices of the two teams?",
+    "o": [
+      "To show that an identical indicator can improve through substantively different mechanisms.",
+      "To establish that both teams deliberately harmed residents.",
+      "To rank the teams solely by the speed of closure.",
+      "To prove that administrative targets never encourage genuine improvement."
+    ],
+    "e": "The supported answer is: To show that an identical indicator can improve through substantively different mechanisms. The passage states: “Both practices improved the published measure, but they did not have the same consequences for residents.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: To show that an identical indicator can improve through substantively different mechanisms. The passage states: “Both practices improved the published measure, but they did not have the same consequences for residents.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "Both practices improved the published measure, but they did not have the same consequences for residents."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-ce737a8252f2161f",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"Those checks\" in paragraph 4 refers to ...",
+    "o": [
+      "reviews of case descriptions used to examine computerized links",
+      "the automatic closing of every request",
+      "interviews offered only to satisfied residents",
+      "changes to the original two-day target"
+    ],
+    "e": "Jawaban: reviews of case descriptions used to examine computerized links Bukti: “review of case descriptions”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: reviews of case descriptions used to examine computerized links Bukti: “review of case descriptions”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "review of case descriptions"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-35e6c99ea3e23e1b",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which interpretation is NOT supported?",
+    "o": [
+      "Every later request by the same resident is the same unresolved case.",
+      "Some later requests may concern genuinely new needs.",
+      "Computerized links were checked against descriptions.",
+      "Classification assumptions were made open to review."
+    ],
+    "e": "Jawaban: Every later request by the same resident is the same unresolved case. Bukti: “a genuinely new request by the same resident”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Every later request by the same resident is the same unresolved case. Bukti: “a genuinely new request by the same resident”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "a genuinely new request by the same resident"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-7e2125c9ae04499c",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "How does paragraph 4 develop the earlier proposal?",
+    "o": [
+      "It identifies an additional distinction needed when linking submissions.",
+      "It abandons the objective of resolving needs.",
+      "It proves that interviews are always unbiased.",
+      "It treats all repeated contacts as deliberate staff manipulation."
+    ],
+    "e": "Jawaban: It identifies an additional distinction needed when linking submissions. Bukti: “distinguished a request returning because the original problem remained unsolved”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: It identifies an additional distinction needed when linking submissions. Bukti: “distinguished a request returning because the original problem remained unsolved”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "distinguished a request returning because the original problem remained unsolved"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-2d40d00b8cc2f4dd",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Infallible\" in paragraph 3 is closest in meaning to ...",
+    "o": [
+      "incapable of error",
+      "unwilling to respond",
+      "difficult to record",
+      "independent of staff"
+    ],
+    "e": "Jawaban: incapable of error Bukti: “an infallible replacement”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: incapable of error Bukti: “an infallible replacement”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "an infallible replacement"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c5b39b434a0e7280",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What would an audit of classification assumptions permit?",
+    "o": [
+      "Revising how cases are linked without concealing the basis of earlier results.",
+      "Guaranteeing that no indicator can ever be improved.",
+      "Counting all new needs as old unresolved problems.",
+      "Discarding every administrative record automatically."
+    ],
+    "e": "Jawaban: Revising how cases are linked without concealing the basis of earlier results. Bukti: “open to examination and correction”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-01",
+      "title": "Checking what closure means",
+      "text": "A municipal help desk introduced a target for closing requests within two days. During the first quarter, the proportion meeting the target rose sharply. Managers initially treated the change as evidence that residents were obtaining answers more quickly. An internal review, however, found two distinct developments. One team had removed an unnecessary approval step. Another routinely closed incomplete requests and invited residents to submit them again under a new reference number. Both practices improved the published measure, but they did not have the same consequences for residents.\n\nThe reviewers proposed linking related submissions and recording whether the original need had been resolved. They did not recommend abandoning closure times. Those times could still reveal delays, provided that the meaning of closure remained reasonably consistent. They also cautioned that a more elaborate measure would not automatically be immune to strategic behavior. Staff might learn to improve its recorded value while leaving some needs unmet.\n\nThe revised dashboard therefore included short interviews with a sample of residents as well as administrative figures. Interviews were not presented as an infallible replacement: dissatisfied residents might be more willing to respond, and accounts could be incomplete. Instead, disagreements between the sources would trigger examination of individual cases. The purpose was to preserve useful measurement while checking the connection between the measured event and the outcome the service was intended to produce.\n\nIn follow-up discussions, the reviewers distinguished a request returning because the original problem remained unsolved from a genuinely new request by the same resident. Treating both situations identically would make the revised measure misleading in another way. A short review of case descriptions was therefore used to check the links created by the computer system. Those checks were recorded so that later analysts could see how related submissions had been identified. The aim was not to guarantee a flawless indicator, but to make the assumptions behind each classification open to examination and correction."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Revising how cases are linked without concealing the basis of earlier results. Bukti: “open to examination and correction”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "open to examination and correction"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9693487a5aa7bb98",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The central concern of the passage is ...",
+    "o": [
+      "how source dependence and event definitions affect the support for a historical date",
+      "why invoices invariably provide the most reliable dates",
+      "why catalogues should exclude disputed information",
+      "how to select the date appearing in the greatest number of books"
+    ],
+    "e": "The supported answer is: how source dependence and event definitions affect the support for a historical date The passage states: “A document could accurately date one event while being unsuitable evidence for another.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: how source dependence and event definitions affect the support for a historical date The passage states: “A document could accurately date one event while being unsuitable evidence for another.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "A document could accurately date one event while being unsuitable evidence for another."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-8e9a4ea727869764",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What follows from tracing four histories to one announcement?",
+    "o": [
+      "Their agreement cannot simply be counted as four independent observations.",
+      "All four histories necessarily misstated the opening year.",
+      "The announcement has no historical value.",
+      "The fifth history must have copied the same source."
+    ],
+    "e": "The supported answer is: Their agreement cannot simply be counted as four independent observations. The passage states: “four relied on a single newspaper announcement”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: Their agreement cannot simply be counted as four independent observations. The passage states: “four relied on a single newspaper announcement”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "four relied on a single newspaper announcement"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c0eaaca137cd43d0",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "Why is the invoice insufficient to establish an alternative opening date?",
+    "o": [
+      "It does not clarify whether the work preceded or followed permission for traffic.",
+      "Maintenance documents cannot contain accurate dates.",
+      "Drainage work is always completed after public ceremonies.",
+      "The invoice concerns a different road."
+    ],
+    "e": "The supported answer is: It does not clarify whether the work preceded or followed permission for traffic. The passage states: “without stating whether traffic had already been permitted”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: It does not clarify whether the work preceded or followed permission for traffic. The passage states: “without stating whether traffic had already been permitted”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "without stating whether traffic had already been permitted"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-39f1a533e09943b3",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"qualification\" in the final paragraph most nearly means ...",
+    "o": [
+      "a statement limiting the certainty or scope of a claim",
+      "a certificate of professional competence",
+      "a ranking of the documents by popularity",
+      "a complete removal of the catalogue entry"
+    ],
+    "e": "The supported answer is: a statement limiting the certainty or scope of a claim The passage states: “without presenting the date as settled”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: a statement limiting the certainty or scope of a claim The passage states: “without presenting the date as settled”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "without presenting the date as settled"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-a3abd5759183be19",
+    "section": "reading",
+    "skill": "Author purpose",
+    "q": "What does the catalogue decision illustrate?",
+    "o": [
+      "Information can remain discoverable while its uncertain status is made explicit.",
+      "Disputed information should be presented as equally reliable as confirmed information.",
+      "Ease of searching takes priority over showing uncertainty.",
+      "A catalogue can resolve historical disputes without additional evidence."
+    ],
+    "e": "The supported answer is: Information can remain discoverable while its uncertain status is made explicit. The passage states: “allowed users to find earlier references without presenting the date as settled”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: Information can remain discoverable while its uncertain status is made explicit. The passage states: “allowed users to find earlier references without presenting the date as settled”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "allowed users to find earlier references without presenting the date as settled"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-13ebf9add6255107",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"It\" in the first sentence of paragraph 4 refers to ...",
+    "o": [
+      "the newspaper’s announcement",
+      "the later maintenance invoice",
+      "the archive’s search page",
+      "the public ceremony itself"
+    ],
+    "e": "Jawaban: the newspaper’s announcement Bukti: “the newspaper's announcement”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: the newspaper’s announcement Bukti: “the newspaper's announcement”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "the newspaper's announcement"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c85b07075d8aa6c0",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which claim is NOT supported?",
+    "o": [
+      "Every direct source is more reliable for every question than every indirect source.",
+      "The archive preserved a chain of references.",
+      "A direct source can describe a different event.",
+      "Users can distinguish original wording from later interpretation."
+    ],
+    "e": "Jawaban: Every direct source is more reliable for every question than every indirect source. Bukti: “did not rank every indirect reference below every direct one”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Every direct source is more reliable for every question than every indirect source. Bukti: “did not rank every indirect reference below every direct one”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "did not rank every indirect reference below every direct one"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-c9782b75a17050cd",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "Why is the newspaper announcement catalogued separately?",
+    "o": [
+      "To let readers examine the original wording as well as later interpretations.",
+      "To establish that the invoice must provide the opening date.",
+      "To remove the conventional date from all searches.",
+      "To prove that indirect references never contain useful information."
+    ],
+    "e": "Jawaban: To let readers examine the original wording as well as later interpretations. Bukti: “the original wording and a historian's interpretation”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: To let readers examine the original wording as well as later interpretations. Bukti: “the original wording and a historian's interpretation”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "the original wording and a historian's interpretation"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-d0891090f35c6a56",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Conventional\" in paragraph 3 most nearly means ...",
+    "o": [
+      "commonly accepted",
+      "mathematically inevitable",
+      "explicitly disproved",
+      "impossible to search for"
+    ],
+    "e": "Jawaban: commonly accepted Bukti: “the conventional date”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: commonly accepted Bukti: “the conventional date”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "the conventional date"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-56aa24c0741f9718",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What does showing an indirect reference principally enable?",
+    "o": [
+      "Assessment of how a claim depends on earlier information.",
+      "Automatic acceptance of the earliest document.",
+      "A count of independent observations equal to the number of books.",
+      "Rejection of all claims not made by the archivist personally."
+    ],
+    "e": "Jawaban: Assessment of how a claim depends on earlier information. Bukti: “made the chain of dependence visible”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-02",
+      "title": "Which opening does a date describe?",
+      "text": "Five local histories gave the same year for the opening of a mountain road. Their agreement initially seemed to provide several independent confirmations. When an archivist traced their references, she discovered that four relied on a single newspaper announcement. That announcement described a planned opening, while the fifth history provided no source. Agreement among the books was therefore clear, but the number of independent observations supporting the date was uncertain.\n\nA maintenance invoice from the following year complicated the picture. It referred to work on drainage and retaining walls without stating whether traffic had already been permitted. One researcher suggested replacing the accepted opening year with the invoice date. The archivist resisted this move. Completion of the main surface, permission for limited traffic, a public ceremony, and the end of all associated work might have occurred at different times. A document could accurately date one event while being unsuitable evidence for another.\n\nThe archive retained the conventional date in its searchable catalogue but added a qualification and linked the underlying documents. This arrangement allowed users to find earlier references without presenting the date as settled. The archivist regarded the catalogue as a guide to evidence, not a substitute for examining it. She also noted that tracing dependence did not prove the conventional date wrong; it changed the strength and character of its support. Further research would need to identify which event each document actually described.\n\nThe archivist also catalogued the newspaper's announcement separately from later descriptions of it. A user could then follow the distinction between the original wording and a historian's interpretation. The search page displayed a short note where a reference was indirect. This did not rank every indirect reference below every direct one: a direct source might itself be mistaken or refer to a different event. The note instead made the chain of dependence visible, allowing researchers to decide which claims needed further support and which documents might answer their particular question."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Assessment of how a claim depends on earlier information. Bukti: “made the chain of dependence visible”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "made the chain of dependence visible"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-d27812960ff43ceb",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage emphasizes the need to ...",
+    "o": [
+      "align causal claims with the comparisons and assumptions that support them",
+      "treat all nonrandom comparisons as worthless",
+      "use completion rates as the sole measure of training quality",
+      "assume lottery winners and course completers are identical groups"
+    ],
+    "e": "The supported answer is: align causal claims with the comparisons and assumptions that support them The passage states: “Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: align causal claims with the comparisons and assumptions that support them The passage states: “Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e97c81afc09ecdb1",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why might the original course comparison overstate a tutoring effect?",
+    "o": [
+      "Pre-existing characteristics may affect both enrolment and qualification.",
+      "The general course must have offered more tutoring.",
+      "Participants’ work experience guarantees they will qualify.",
+      "Certification is unrelated to study time."
+    ],
+    "e": "The supported answer is: Pre-existing characteristics may affect both enrolment and qualification. The passage states: “Those characteristics might influence both course selection and the eventual result.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: Pre-existing characteristics may affect both enrolment and qualification. The passage states: “Those characteristics might influence both course selection and the eventual result.”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "Those characteristics might influence both course selection and the eventual result."
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-59e57d3b1f758f5b",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "What limitation of matching is explicitly identified?",
+    "o": [
+      "It may leave important unrecorded differences between groups.",
+      "It necessarily increases differences in every recorded background.",
+      "It cannot compare any participants with nonparticipants.",
+      "It automatically recreates a lottery among applicants."
+    ],
+    "e": "The supported answer is: It may leave important unrecorded differences between groups. The passage states: “it could not ensure equality in unrecorded motivation or available study time”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: It may leave important unrecorded differences between groups. The passage states: “it could not ensure equality in unrecorded motivation or available study time”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "it could not ensure equality in unrecorded motivation or available study time"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9e7e2fd364d80c50",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Conditional on\" in the second paragraph is closest to ...",
+    "o": [
+      "dependent on",
+      "opposed to",
+      "identical to",
+      "independent of"
+    ],
+    "e": "The supported answer is: dependent on The passage states: “conditional on assumptions about what had been measured”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: dependent on The passage states: “conditional on assumptions about what had been measured”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "conditional on assumptions about what had been measured"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-0c58d766a3c0f2a8",
+    "section": "reading",
+    "skill": "Author purpose",
+    "q": "Why discuss successful applicants who do not attend?",
+    "o": [
+      "To distinguish the effect of an offer from the effect of course completion.",
+      "To show that the lottery cannot answer any useful question.",
+      "To establish that unsuccessful applicants receive no training anywhere.",
+      "To prove that attendance is randomly assigned after the lottery."
+    ],
+    "e": "The supported answer is: To distinguish the effect of an offer from the effect of course completion. The passage states: “the effect of an offer should not silently be renamed the effect of actually completing the course”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "The supported answer is: To distinguish the effect of an offer from the effect of course completion. The passage states: “the effect of an offer should not silently be renamed the effect of actually completing the course”. Other options extend the claim beyond its conditions, reverse a relationship, or substitute a different purpose."
+      ],
+      "evidence": "the effect of an offer should not silently be renamed the effect of actually completing the course"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-e307c83c53974776",
+    "section": "reading",
+    "skill": "Reference",
+    "q": "\"These tables\" in paragraph 4 refers to tables for ...",
+    "o": [
+      "offers, attendance, and completion",
+      "tuition, accommodation, and transport prices",
+      "every recorded background characteristic only",
+      "successful qualifications without enrolment information"
+    ],
+    "e": "Jawaban: offers, attendance, and completion Bukti: “separate tables for offers, attendance, and completion”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: offers, attendance, and completion Bukti: “separate tables for offers, attendance, and completion”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "separate tables for offers, attendance, and completion"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-6c65d8b4f7239ca0",
+    "section": "reading",
+    "skill": "Negative detail",
+    "q": "Which claim is NOT made in the passage?",
+    "o": [
+      "Winning an offer guarantees attendance and completion.",
+      "Some unsuccessful applicants may receive tutoring elsewhere.",
+      "Unrecorded motivation can remain a matching limitation.",
+      "Practical attendance barriers can matter to managers."
+    ],
+    "e": "Jawaban: Winning an offer guarantees attendance and completion. Bukti: “Some successful applicants might not attend”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: Winning an offer guarantees attendance and completion. Bukti: “Some successful applicants might not attend”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "Some successful applicants might not attend"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-9be93732e614ff87",
+    "section": "reading",
+    "skill": "Paragraph function",
+    "q": "What does paragraph 4 illustrate?",
+    "o": [
+      "How separate stages support additional operational questions without conflating their answers.",
+      "Why identifying an offer effect makes every attendance question irrelevant.",
+      "Why course selection must be treated as random.",
+      "How one combined participation category answers every causal question."
+    ],
+    "e": "Jawaban: How separate stages support additional operational questions without conflating their answers. Bukti: “being silently substituted”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: How separate stages support additional operational questions without conflating their answers. Bukti: “being silently substituted”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "being silently substituted"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-b0fab9e2fd8b8a7e",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "\"Recreate\" in paragraph 2 is closest in meaning to ...",
+    "o": [
+      "reproduce",
+      "conceal",
+      "contradict",
+      "postpone"
+    ],
+    "e": "Jawaban: reproduce Bukti: “recreate random assignment”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: reproduce Bukti: “recreate random assignment”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "recreate random assignment"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
+  },
+  {
+    "id": "SM-76a2648f44721815",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why retain separate information about attendance barriers?",
+    "o": [
+      "It can inform management even though it addresses a different question from the original comparison.",
+      "It proves that the tutoring programme has no causal effect.",
+      "It converts all matched comparisons into randomized ones.",
+      "It establishes that applicants share the same motivation."
+    ],
+    "e": "Jawaban: It can inform management even though it addresses a different question from the original comparison. Bukti: “important to managers even when they were not part of the original qualification comparison”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RE-RC-03",
+      "title": "What the course comparison estimates",
+      "text": "An evening training programme reported that its participants obtained more qualifications than people enrolled in a general course. The programme advertised the difference as the effect of intensive tutoring. Yet applicants chose which course to attend. Interviews suggested that the intensive option attracted people who already had relevant work experience and a firm plan to seek certification. Those characteristics might influence both course selection and the eventual result.\n\nAn evaluator proposed comparing participants with nonparticipants who had similar recorded backgrounds. Matching could make some alternative explanations less plausible, but it could not ensure equality in unrecorded motivation or available study time. The evaluator therefore described the resulting estimate as conditional on assumptions about what had been measured. She rejected both the claim that matching would recreate random assignment and the opposite claim that an imperfect comparison could reveal nothing useful.\n\nThe programme then offered places by lottery when demand exceeded capacity. Comparing successful and unsuccessful applicants would address a different question: the effect of receiving an offer among people who had applied. Some successful applicants might not attend, while some unsuccessful applicants might obtain tutoring elsewhere. These possibilities would matter when interpreting the comparison. In particular, the effect of an offer should not silently be renamed the effect of actually completing the course. Each design could contribute evidence, provided that the question answered and the assumptions required were stated precisely rather than absorbed into a broad claim of effectiveness.\n\nThe evaluator prepared separate tables for offers, attendance, and completion rather than combining them into one participation category. These tables allowed readers to see where people left the sequence. The programme could then examine practical barriers to attendance as well as the outcome of its offer policy. Such barriers might be important to managers even when they were not part of the original qualification comparison. Clarifying the question being estimated did not prevent other questions from being investigated; it prevented answers to those questions from being silently substituted for one another."
+    },
+    "solution": {
+      "steps": [
+        "Jawaban: It can inform management even though it addresses a different question from the original comparison. Bukti: “important to managers even when they were not part of the original qualification comparison”. Rujukan dan simpulan harus mempertahankan cakupan informasi dalam teks."
+      ],
+      "evidence": "important to managers even when they were not part of the original qualification comparison"
+    },
+    "difficulty": "challenge",
+    "style": "reference"
   }
 ];

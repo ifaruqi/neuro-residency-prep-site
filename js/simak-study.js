@@ -43,11 +43,14 @@
     if(q.figure){var f=q.figure;if(!object(f)||!window.SIMAK_FIGURES||window.SIMAK_FIGURES.kinds.indexOf(f.kind)<0||typeof f.alt!=='string'||f.alt.length>10000)fail('diagram');
       if(f.labels!==undefined&&(!object(f.labels)||Object.keys(f.labels).some(function(k){return ['string','number'].indexOf(typeof f.labels[k])<0;})))fail('label diagram');
       if(f.kind==='arrowSeries'&&(!Array.isArray(f.angles)||f.angles.length!==4||f.angles.some(function(n){return !finite(n)||n>360;})))fail('arah diagram');
+      if(f.kind==='numberCross'&&(!Array.isArray(f.values)||f.values.length!==3||f.values.some(function(row){return !Array.isArray(row)||row.length!==5||row.some(function(v){return v!=='?'&&(!finite(v)||v>100000);});})))fail('salib angka');
+      if(f.kind==='barChart'&&(!Array.isArray(f.categories)||f.categories.length!==4||f.categories.some(function(v){return typeof v!=='string'||v.length>30;})||!Array.isArray(f.series)||f.series.length!==2||f.series.some(function(row){return !object(row)||typeof row.name!=='string'||row.name.length>30||!Array.isArray(row.values)||row.values.length!==4||row.values.some(function(v){return !finite(v)||v>100000;});})))fail('diagram batang');
       if(f.kind==='dotMatrix'&&(!Array.isArray(f.values)||f.values.length!==3||f.values.some(function(row){return !Array.isArray(row)||row.length!==3||row.some(function(n){return n!==null&&(!Number.isInteger(n)||n<0||n>20);});})))fail('matriks diagram');
     }
     if(q.marked&&(!Array.isArray(q.marked)||q.marked.some(function(m){return !object(m)||typeof m.text!=='string'||!Number.isInteger(m.oi)||m.oi<0||m.oi>=q.o.length;})||new Set(q.marked.map(function(m){return m.oi;})).size!==q.o.length))fail('penanda pilihan');
     if(q.table){if(!object(q.table)||!Array.isArray(q.table.columns)||!Array.isArray(q.table.rows)||q.table.columns.length>20||q.table.rows.length>100)fail('tabel');
       if(q.table.columns.some(function(c){return typeof c!=='string';})||q.table.rows.some(function(row){return !Array.isArray(row)||row.length!==q.table.columns.length||row.some(function(c){return typeof c!=='string';});}))fail('isi tabel');}
+    if(q.segments){if(!q.marked||!Array.isArray(q.segments)||q.segments.length>100||q.segments.some(function(p){return typeof p==='string'?p.length>10000:!object(p)||typeof p.text!=='string'||!Number.isInteger(p.oi)||!q.marked.some(function(m){return m.oi===p.oi&&m.text===p.text;});}))fail('konteks bagian bergaris bawah');var markedSegments=q.segments.filter(function(p){return typeof p!=='string';});if(markedSegments.length!==q.o.length||new Set(markedSegments.map(function(p){return p.oi;})).size!==q.o.length)fail('jumlah bagian bergaris bawah');}
     if(q.solution){if(!object(q.solution))fail('pembahasan');['shortcut','trap','rule','evidence'].forEach(function(k){if(q.solution[k]!==undefined&&typeof q.solution[k]!=='string')fail('teks pembahasan');});if(q.solution.steps&&(!Array.isArray(q.solution.steps)||q.solution.steps.some(function(s){return typeof s!=='string';})))fail('langkah pembahasan');}
     if(q.difficulty!==undefined&&['foundation','standard','challenge'].indexOf(q.difficulty)<0)fail('tingkat soal');
     window.SIMAK_ENGINE.validate([q]);
@@ -56,7 +59,7 @@
   function normalizeExam(exam,complete){
     if(!object(exam)||!/^SM-attempt-[a-zA-Z0-9-]+$/.test(exam.id)||!object(exam.settings)||exam.settings.bank!=='simak'||['full','peka','english','focus','review'].indexOf(exam.settings.mode)<0||typeof exam.settings.timed!=='boolean'||!finite(exam.start)||!finite(exam.blockStart)||!Array.isArray(exam.blocks)||!exam.blocks.length||exam.blocks.length>5)fail('sesi');
     if(!Number.isInteger(exam.blockIndex)||exam.blockIndex<0||exam.blockIndex>=exam.blocks.length||!(exam.deadline===null||finite(exam.deadline))||!(exam.end===null||finite(exam.end))||complete&&exam.end===null)fail('waktu sesi');
-    if(exam.settings.packageId!==undefined&&['A','B','mixed'].indexOf(exam.settings.packageId)<0||exam.settings.skill!==undefined&&(typeof exam.settings.skill!=='string'||exam.settings.skill.length>300))fail('paket atau keterampilan');
+    if(exam.settings.packageId!==undefined&&['A','B','C','mixed'].indexOf(exam.settings.packageId)<0||exam.settings.skill!==undefined&&(typeof exam.settings.skill!=='string'||exam.settings.skill.length>300))fail('paket atau keterampilan');
     if(exam.settings.sessionMode===undefined)exam.settings.sessionMode='exam';
     if(exam.settings.difficulty===undefined)exam.settings.difficulty='mixed';
     if(['exam','flexible'].indexOf(exam.settings.sessionMode)<0||['mixed','foundation','standard','challenge'].indexOf(exam.settings.difficulty)<0)fail('mode sesi atau tingkat kesulitan');
@@ -67,6 +70,7 @@
       if(exam.status==='paused'&&(!finite(exam.pausedAt)||exam.pausedAt<exam.blockStart||(exam.settings.timed?!finite(exam.remainingMs):exam.remainingMs!==null)))fail('sisa waktu jeda');
       if(exam.status==='break'&&(exam.blockIndex===0||!finite(exam.breakAt)))fail('istirahat antar-subtes');
     }else if(exam.status==='active'&&exam.settings.timed&&exam.deadline===null)fail('timer aktif');
+    if(exam.settings.format!==undefined&&['reference','general'].indexOf(exam.settings.format)<0)fail('format sesi');
     var ids={};
     exam.blocks.forEach(function(b){
       if(!object(b)||!window.SIMAK_ENGINE.sections[b.section]||!Array.isArray(b.questions)||!b.questions.length||b.questions.length>1000||!finite(b.duration)||!Number.isInteger(b.cur)||b.cur<0||b.cur>=b.questions.length)fail('subtes');

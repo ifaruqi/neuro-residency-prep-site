@@ -26,7 +26,7 @@
   function levelName(level){return {mixed:'Campuran',foundation:'Dasar',standard:'Standar',challenge:'Tantangan'}[level]||'Belum dinilai';}
   function rhythmName(a){return a.settings.sessionMode==='flexible'?'Fleksibel':'Mode ujian';}
   function modeName(mode) { return { full: 'Simulasi lengkap', peka: 'Simulasi PEKA', english: 'Simulasi English', focus: 'Latihan fokus', review:'Ulangan terjadwal' }[mode] || 'Latihan'; }
-  function sessionName(a) { return modeName(a.settings.mode)+(a.settings.packageId&&a.settings.packageId!=='mixed'?' · Paket '+a.settings.packageId:'')+(a.settings.skill?' · '+a.settings.skill:'')+' · '+rhythmName(a)+(a.settings.difficulty&&a.settings.difficulty!=='mixed'?' · '+levelName(a.settings.difficulty):''); }
+  function sessionName(a) { return modeName(a.settings.mode)+(a.settings.packageId&&a.settings.packageId!=='mixed'?' · Paket '+a.settings.packageId:'')+(a.settings.skill?' · '+a.settings.skill:'')+(a.settings.format==='reference'?' · Format acuan':'')+' · '+rhythmName(a)+(a.settings.difficulty&&a.settings.difficulty!=='mixed'?' · '+levelName(a.settings.difficulty):''); }
   function sectionList(mode, section) { return config.sections.filter(function (s) { return mode === 'full' || (mode === 'peka' && s.group === 'PEKA') || (mode === 'english' && s.group === 'English') || (mode === 'focus' && s.id === section); }); }
   function shell(title, subtitle, body) {
     app.innerHTML = '<div class="sm-subnav"><a href="#/simak">SIMAK Pascasarjana</a><a href="#/simak/notebook">Buku kesalahan</a><a href="#/simak/progress">Progres SIMAK</a></div>' +
@@ -73,7 +73,7 @@
       levelField+'<label class="sm-field">Keterampilan<select id="sm-skill"><option value="">Semua keterampilan</option></select></label>'+
       '<label class="sm-field">Jumlah soal<select id="sm-count"><option value="10">10 soal</option><option value="20">20 soal</option><option value="all">Semua soal subtes</option></select></label>' +
       '<label class="check"><input id="sm-timed" type="checkbox"> Gunakan timer sesuai proporsi subtes</label><p class="small muted">Pembahasan dapat dibuka setelah memilih jawaban. Jawaban dikunci setelah pembahasan dibuka.</p>' :
-      levelField+'<div id="sm-package-field"><label class="sm-field">Paket soal<select id="sm-package"><option value="A">Paket A</option><option value="B">Paket B</option></select></label><p class="small muted">Paket A dan B tidak berbagi soal. Urutan soal dan pilihan tetap dapat berbeda.</p></div><p>Subtes dikerjakan berurutan. Dalam simulasi ini, subtes yang selesai dikunci; sisa waktunya tidak dipindahkan.</p><p class="small muted">Pembahasan tersedia setelah seluruh sesi selesai. Pada level Campuran, pilih paket A/B yang tidak berbagi soal. Pada level tertentu, soal diambil dari kumpulan level tersebut.</p>') +
+      levelField+'<div id="sm-package-field"><label class="sm-field">Paket soal<select id="sm-package"><option value="C">Paket C — pola acuan terbaru</option><option value="A">Paket A — latihan sebelumnya</option><option value="B">Paket B — latihan sebelumnya</option></select></label><p class="small muted">Paket C mengikuti pola materi acuan terbaru. Paket A/B mempertahankan susunan latihan sebelumnya dan tidak berbagi soal satu sama lain.</p></div><p>Subtes dikerjakan berurutan. Dalam simulasi ini, subtes yang selesai dikunci; sisa waktunya tidak dipindahkan.</p><p class="small muted">Pembahasan tersedia setelah seluruh sesi selesai. Pada level Campuran, pilih paket C atau paket lama A/B. Pada level tertentu, format acuan dipenuhi dari kumpulan level yang dipilih.</p>') +
       rhythmField+'<button class="btn" type="submit">' + (focused ? 'Mulai latihan' : 'Mulai simulasi') + '</button><p class="sm-inline-error" id="sm-error" role="alert"></p></form><section class="card"><h2>Rencana sesi</h2><div id="sm-plan"></div></section></div>' +
       '<div class="sm-info small">Aturan penguncian adalah perilaku simulator ini. Periksa instruksi simulasi resmi UI untuk alur ujian periode yang Anda ikuti. Nilai latihan tidak dikonversi menjadi skor standar UI.</div>';
     shell('Siapkan sesi Anda.', 'Atur sekali, lalu fokus pada pengerjaan.', body);
@@ -88,13 +88,16 @@
       document.getElementById('sm-plan').innerHTML = list.map(function (s, i) {
         var available=count(s.id,skill,document.getElementById('sm-difficulty').value),num = focused ? (nValue === 'all' ? available : Math.min(Number(nValue),available)) : s.n;
         var mins = s.minutes * num / s.n; n += num; minutes += mins;
-        return '<div class="sm-plan-row"><span class="sm-step">' + (i + 1) + '</span><div><b>' + esc(s.name) + '</b><div class="small muted">' + num + ' soal · ' + mins.toLocaleString('id-ID', { maximumFractionDigits: 1 }) + ' menit' + (focused && !document.getElementById('sm-timed').checked ? ' (acuan; timer nonaktif)' : '') + '</div></div><span class="sm-pill">' + (s.right === 4 ? '+4 / −1' : '+1 / 0') + '</span></div>';
+        var ref=!focused&&(document.getElementById('sm-difficulty').value!=='mixed'||document.getElementById('sm-package').value==='C');
+        var detail=ref?{verbal:'28 analogi · 3 bacaan × 4 soal',structure:'15 completion · 25 written expression',reading:'5 bacaan × 10 soal',logic:'15 logika formal · 2 skenario × 5 soal',quant:'Aljabar, pola, geometri & data'}[s.id]:'';
+        return '<div class="sm-plan-row"><span class="sm-step">' + (i + 1) + '</span><div><b>' + esc(s.name) + '</b><div class="small muted">' + num + ' soal · ' + mins.toLocaleString('id-ID', { maximumFractionDigits: 1 }) + ' menit' + (focused && !document.getElementById('sm-timed').checked ? ' (acuan; timer nonaktif)' : '') + '</div>'+(detail?'<div class="small muted">'+esc(detail)+'</div>':'')+'</div><span class="sm-pill">' + (s.right === 4 ? '+4 / −1' : '+1 / 0') + '</span></div>';
       }).join('') + '<div class="sm-plan-total"><b>' + n + ' soal</b><span>' + minutes.toLocaleString('id-ID', { maximumFractionDigits: 1 }) + ' menit' + (focused && !document.getElementById('sm-timed').checked ? ' acuan' : '') + '</span></div>';
     }
     function skills(){var section=document.getElementById('sm-section').value,level=document.getElementById('sm-difficulty').value,all=Array.from(new Set(bank.filter(function(q){return q.section===section&&(level==='mixed'||q.difficulty===level);}).map(function(q){return q.skill;}))).sort();document.getElementById('sm-skill').innerHTML='<option value="">Semua keterampilan</option>'+all.map(function(s){return '<option value="'+esc(s)+'">'+esc(s)+' ('+count(section,s,level)+')</option>';}).join('');update();}
     if (focused) { document.getElementById('sm-section').onchange=skills;['sm-count','sm-timed','sm-skill'].forEach(function (id) { document.getElementById(id).onchange = update; });skills(); }
     document.getElementById('sm-difficulty').onchange=focused?skills:update;
     document.getElementById('sm-session-mode').onchange=update;
+    if(!focused)document.getElementById('sm-package').onchange=update;
     update();
     document.getElementById('sm-form').onsubmit = function (e) {
       e.preventDefault();
@@ -105,6 +108,7 @@
             skill:focused?document.getElementById('sm-skill').value:'',difficulty:document.getElementById('sm-difficulty').value,sessionMode:document.getElementById('sm-session-mode').value,
             packageId:focused||document.getElementById('sm-difficulty').value!=='mixed'?'mixed':document.getElementById('sm-package').value,
             timed: !focused || document.getElementById('sm-timed').checked };
+          settings.format=!focused&&(settings.difficulty!=='mixed'||settings.packageId==='C')?'reference':'general';
           var exam = engine.create(bank, settings, read('seen', {}), Date.now());
           if (!write('current', exam)) throw new Error('Tidak dapat menyimpan sesi. Periksa penyimpanan browser.');
           location.hash = '#/simak/exam';
@@ -117,12 +121,14 @@
 
   function markedSentence(q, order) {
     if (!q.marked) return '';
+    if(q.segments)return '<p class="sm-marked sm-marked-context" lang="en">'+q.segments.map(function(part){return typeof part==='string'?esc(part):'<span><u>'+esc(part.text)+'</u><sup>('+letters[order.indexOf(part.oi)]+')</sup></span>';}).join('')+'</p>';
     return '<p class="sm-marked" lang="en">' + q.marked.map(function (m) { return '<span><u>' + esc(m.text) + '</u><sup>(' + letters[order.indexOf(m.oi)] + ')</sup></span>'; }).join(' ') + '</p>';
   }
   function passageHTML(q) {
-    return q.passage ? '<details class="sm-passage" open><summary>' + esc(q.passage.title) + ' <span class="small muted">· bacaan/skenario</span></summary><div' + (q.section === 'reading' ? ' lang="en"' : '') + '>' + esc(q.passage.text).replace(/\n\n/g, '</div><div>') + '</div></details>' : '';
+    if(!q.passage)return '';
+    return '<details class="sm-passage" open><summary>'+esc(q.passage.title)+' <span class="small muted">· bacaan/skenario</span></summary>'+q.passage.text.split(/\n\n/).map(function(p,i){return '<div'+(q.section==='reading'?' lang="en"':'')+'>'+(q.section==='reading'?'<b class="small muted">Paragraph '+(i+1)+'</b> ':'')+esc(p)+'</div>';}).join('')+'</details>';
   }
-  function figureHTML(q){return q.figure?'<figure class="sm-figure">'+window.SIMAK_FIGURES.render(q.figure)+'<figcaption class="small muted">Diagram orisinal · sketsa tidak harus sesuai skala</figcaption><button class="sm-link-button" data-sm-zoom="'+esc(q.id)+'">Perbesar diagram</button></figure>':'';}
+  function figureHTML(q){return q.figure?'<figure class="sm-figure">'+window.SIMAK_FIGURES.render(q.figure)+'<figcaption class="small muted">'+(q.figure.kind==='barChart'?'Diagram data orisinal · nilai tersedia pada tabel di bawah':q.figure.kind==='numberCross'||q.figure.kind==='symbolEquations'?'Diagram soal orisinal':'Diagram orisinal · sketsa tidak harus sesuai skala')+'</figcaption><button class="sm-link-button" data-sm-zoom="'+esc(q.id)+'">Perbesar diagram</button></figure>':'';}
   function tableHTML(q){return q.table?'<div class="sm-data-table"><table><caption>'+esc(q.table.caption||'Data latihan')+'</caption><thead><tr>'+q.table.columns.map(function(c){return '<th>'+esc(c)+'</th>';}).join('')+'</tr></thead><tbody>'+q.table.rows.map(function(row){return '<tr>'+row.map(function(c){return '<td>'+esc(c)+'</td>';}).join('')+'</tr>';}).join('')+'</tbody></table></div>':'';}
   function solutionHTML(q){var s=q.solution||{},steps=s.steps||[];return '<div class="exp"><b>Pembahasan.</b><p>'+esc(q.e)+'</p>'+ (steps.length>1?'<ol>'+steps.map(function(step){return '<li>'+esc(step)+'</li>';}).join('')+'</ol>':'')+(s.rule&&s.rule!==q.e?'<p><b>Kaidah:</b> '+esc(s.rule)+'</p>':'')+(s.shortcut?'<p><b>Cara cepat:</b> '+esc(s.shortcut)+'</p>':'')+(s.trap?'<p><b>Jebakan:</b> '+esc(s.trap)+'</p>':'')+(s.evidence?'<details><summary>Bukti dari bacaan</summary><blockquote>'+esc(s.evidence)+'</blockquote></details>':'')+'</div>';}
   function wireFigures(questions){var map={};questions.forEach(function(q){map[q.id]=q;});app.querySelectorAll('[data-sm-zoom]').forEach(function(el){el.onclick=function(){var q=map[el.dataset.smZoom];if(!q)return;var modal=document.createElement('dialog');modal.className='sm-dialog sm-figure-dialog';modal.innerHTML='<div class="row spread"><h2>Diagram soal</h2><button class="btn secondary">Tutup</button></div><div class="sm-figure-canvas">'+window.SIMAK_FIGURES.render(q.figure)+'</div><p class="small">'+esc(q.figure.alt)+'</p>';app.appendChild(modal);modal.querySelector('button').onclick=function(){modal.close();modal.remove();};modal.addEventListener('cancel',function(){modal.remove();});modal.showModal();};});}
@@ -150,7 +156,7 @@
     var serial = routeSerial, moved = engine.catchUp(exam, Date.now());
     if (moved) write('current', exam);
     if (exam.end) { completed(exam); return; }
-    var lastTrack=Date.now(),tracking=!document.hidden,lastTimeSave=Date.now();
+    var lastTrack=Date.now(),tracking=!document.hidden,lastTimeSave=Date.now(),passageOpen={};
     function track(pause,persist){var now=Date.now(),b=exam.blocks[exam.blockIndex];if(tracking&&engine.active(exam)){var until=exam.deadline===null?now:Math.min(now,exam.deadline);b.spent[b.cur]+=Math.max(0,until-lastTrack);}lastTrack=now;tracking=!pause&&engine.active(exam);if(persist){var stored=read('current',null);if(stored&&stored.id===exam.id&&stored.status===exam.status&&stored.deadline===exam.deadline)write('current',exam);}}
     examView.flush=function(pause){track(pause,true);};
     function save() {
@@ -175,14 +181,17 @@
       if (expire()) return;
       var b = exam.blocks[exam.blockIndex], i = b.cur;
       if (b.revealed[i]) return;
-      b.answers[i] = oi;
-      if(!save())return;render();
-      var selected = app.querySelector('[data-sm-option="' + oi + '"]'); if (selected) selected.focus();
+      var y=window.scrollY; b.answers[i] = oi;
+      if(!save())return;render();window.scrollTo({top:y,behavior:'instant'});
+      var selected = app.querySelector('[data-sm-option="' + oi + '"]'); if (selected) selected.focus({preventScroll:true});
     }
     function navigate(next) {
       if (expire()) return;
-      var b = exam.blocks[exam.blockIndex]; b.cur = next;if(!save())return;render();
-      document.getElementById('sm-stem').focus(); window.scrollTo(0, 0);
+      var b = exam.blocks[exam.blockIndex],before=b.questions[b.cur],after=b.questions[next];
+      var samePassage=before.passage&&after.passage&&before.passage.id===after.passage.id;
+      b.cur = next;if(!save())return;render();
+      var stem=document.getElementById('sm-stem');stem.focus({preventScroll:true});
+      if(samePassage)document.getElementById('sm-read-passage').scrollIntoView({block:'start',behavior:'instant'});else window.scrollTo({top:0,behavior:'instant'});
     }
     function finishBlock() {
       if (expire()) return;
@@ -200,12 +209,16 @@
       if (!engine.active(exam)) { renderRest(); return; }
       tracking=!document.hidden;lastTrack=Date.now();
       var b = exam.blocks[exam.blockIndex], s = engine.sections[b.section], i = b.cur, q = b.questions[i], order = b.orders[i];
+      var passageLabel='';
+      if(q.passage){var groups=[],positions=[];b.questions.forEach(function(item,k){if(item.passage&&groups.indexOf(item.passage.id)<0)groups.push(item.passage.id);if(item.passage&&item.passage.id===q.passage.id)positions.push(k+1);});passageLabel=(s.group==='English'||b.section==='verbal'?'Bacaan ':'Skenario ')+(groups.indexOf(q.passage.id)+1)+'/'+groups.length+' · soal '+positions[0]+'–'+positions[positions.length-1];}
       var answered = b.answers.filter(function (a) { return a !== null; }).length, focused = study.studyMode(exam.settings.mode);
       shell(s.name, sessionName(exam) + ' · subtes ' + (exam.blockIndex + 1) + ' dari ' + exam.blocks.length,
         '<div class="sm-exam-top"><span><b>Soal ' + (i + 1) + '</b> / ' + b.questions.length + '<span class="sm-separator">·</span>' + answered + ' terjawab</span><div class="sm-clock" id="sm-clock" aria-label="Sisa waktu"></div></div>' +
+        (exam.settings.format==='reference'&&b.section==='structure'?'<p class="sm-announcement">'+(i<15?'Sentence completion · soal 1–15':'Written expression · soal 16–40 · pilih bagian bergaris bawah yang harus diperbaiki')+'</p>':'')+
         (message ? '<p class="sm-announcement" role="status">' + esc(message) + '</p>' : '') +
         '<div class="sm-exam-layout"><section><div class="card sm-question">' + passageHTML(q) +
         (focused ? '<div class="sm-eyebrow">' + esc(q.skill) + (q.difficulty?' · '+esc(levelName(q.difficulty)):'') + '</div>' : '') +
+        (q.passage?'<div class="row spread small"><span class="sm-eyebrow">'+esc(passageLabel)+'</span><button class="sm-link-button" id="sm-read-passage">Kembali ke bacaan</button></div>':'')+
         '<h2 id="sm-stem" tabindex="-1"' + (s.group === 'English' ? ' lang="en"' : '') + '>' + esc(q.q) + '</h2>' + markedSentence(q, order) +figureHTML(q)+tableHTML(q)+
         '<div class="sm-options" role="radiogroup" aria-labelledby="sm-stem">' + order.map(function (oi, k) {
           var cls = b.revealed[i] ? (oi === 0 ? ' sm-correct' : oi === b.answers[i] ? ' sm-wrong' : '') : '';
@@ -224,6 +237,7 @@
       app.querySelectorAll('[data-sm-confidence]').forEach(function(el){el.onclick=function(){if(expire()||b.revealed[i])return;b.confidence[i]=el.dataset.smConfidence;save();render();};});
       var pauseButton=document.getElementById('sm-pause');if(pauseButton)pauseButton.onclick=function(){if(expire())return;track(true,false);engine.pause(exam,Date.now());if(save())render();};
       if(exam.settings.sessionMode==='flexible')document.getElementById('sm-exit').onclick=function(e){e.preventDefault();if(expire())return;track(true,false);engine.pause(exam,Date.now());if(save())location.hash='#/simak';};
+      var passage=app.querySelector('.sm-question .sm-passage');if(passage){passage.open=passageOpen[q.passage.id]!==false;passage.ontoggle=function(){passageOpen[q.passage.id]=passage.open;};document.getElementById('sm-read-passage').onclick=function(){passage.open=true;passageOpen[q.passage.id]=true;passage.scrollIntoView({block:'start',behavior:'instant'});};}
       wireFigures([q]);
       app.querySelectorAll('[data-sm-nav]').forEach(function (el) { el.onclick = function () { navigate(Number(el.dataset.smNav)); }; });
       document.getElementById('sm-flag').onchange = function (e) { if (expire()) return; b.flags[i] = e.target.checked; save(); render(); };

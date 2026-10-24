@@ -147,3 +147,6 @@ main.sm-app { max-width: 1120px; }
   .sm-result-grid { grid-template-columns: 1fr; }
   .sm-exam-top { padding: 12px; }
 }
+
+/* Keep a shared passage available while moving among its questions. */
+.sm-question h2, .sm-question .sm-passage, #sm-read-passage { scroll-margin-top: 140px; }
