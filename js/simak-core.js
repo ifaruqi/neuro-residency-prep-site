@@ -31,7 +31,7 @@
   function validate(bank) {
     var ids = {}, stems = {};
     bank.forEach(function (q) {
-      var key = q.section + '|' + q.q + '|' + (q.passage ? q.passage.id : '') + '|' + JSON.stringify(q.marked || []);
+      var key = q.section + '|' + q.q + '|' + (q.passage ? q.passage.id : '') + '|' + (q.table ? q.table.id : '') + '|' + JSON.stringify(q.figure || {}) + '|' + JSON.stringify(q.marked || []);
       if (!/^SM-[a-f0-9]{16}$/.test(q.id) || ids[q.id]) throw new Error('ID SIMAK tidak valid/duplikat: ' + q.id);
       if (!sectionMap[q.section] || !q.q || !q.e || q.origin !== 'original' || stems[key]) throw new Error('Soal SIMAK tidak valid: ' + q.id);
       if (q.o.length < 4 || q.o.length > 5 || new Set(q.o).size !== q.o.length) throw new Error('Pilihan tidak valid: ' + q.id);
@@ -46,7 +46,7 @@
   function pick(bank, section, n, seen) {
     var units = {}, order = [];
     bank.filter(function (q) { return q.section === section; }).forEach(function (q) {
-      var key = q.passage ? q.passage.id : q.id;
+      var key = q.passage ? q.passage.id : q.table ? q.table.id : q.id;
       if (!units[key]) { units[key] = []; order.push(key); }
       units[key].push(q);
     });
@@ -66,6 +66,7 @@
   }
 
   function create(bank, settings, seen, now) {
+    bank = bank.filter(function(q){return (!settings.packageId||settings.packageId==='mixed'||q.package===settings.packageId)&&(!settings.skill||q.skill===settings.skill);});
     var ids = settings.mode === 'full' ? sections.map(function (s) { return s.id; }) :
       settings.mode === 'peka' ? ['verbal', 'quant', 'logic'] :
       settings.mode === 'english' ? ['structure', 'reading'] : [settings.section];
@@ -77,6 +78,7 @@
       var qs = pick(bank, id, count, seen || {});
       return { section: id, questions: qs, answers: qs.map(function () { return null; }),
         flags: qs.map(function () { return false; }), revealed: qs.map(function () { return false; }),
+        spent: qs.map(function(){return 0;}), confidence: qs.map(function(){return null;}),
         orders: qs.map(optionOrder),
         duration: Math.round(s.minutes * 60000 * count / s.n), endedAt: null, cur: 0 };
     });
@@ -85,6 +87,15 @@
     return { version: 1, id: 'SM-attempt-' + now + '-' + Math.random().toString(36).slice(2, 8),
       settings: Object.assign({}, settings, { bank: 'simak' }), start: now, blockStart: now,
       blockIndex: 0, blocks: blocks, deadline: settings.timed ? now + blocks[0].duration : null, end: null };
+  }
+
+  function createReview(items, n, now) {
+    var questions=items.slice(0,n).map(function(item){return item.q;}),blocks=[];
+    if(!questions.length)throw new Error('Tidak ada soal pada daftar ulasan ini.');
+    sections.forEach(function(s){var qs=questions.filter(function(q){return q.section===s.id;});if(!qs.length)return;
+      blocks.push({section:s.id,questions:qs,answers:qs.map(function(){return null;}),flags:qs.map(function(){return false;}),revealed:qs.map(function(){return false;}),spent:qs.map(function(){return 0;}),confidence:qs.map(function(){return null;}),orders:qs.map(optionOrder),duration:Math.round(s.minutes*60000*qs.length/s.n),endedAt:null,cur:0});
+    });
+    return {version:1,id:'SM-attempt-'+now+'-'+Math.random().toString(36).slice(2,8),settings:{bank:'simak',mode:'review',timed:false},start:now,blockStart:now,blockIndex:0,blocks:JSON.parse(JSON.stringify(blocks)),deadline:null,end:null};
   }
 
   function advance(exam, now) {
@@ -124,5 +135,5 @@
     return { rows: rows, totals: totals };
   }
 
-  window.SIMAK_ENGINE = { validate: validate, create: create, pick: pick, advance: advance, catchUp: catchUp, score: score, sections: sectionMap };
+  window.SIMAK_ENGINE = { validate: validate, create: create, createReview:createReview, pick: pick, advance: advance, catchUp: catchUp, score: score, sections: sectionMap };
 })();

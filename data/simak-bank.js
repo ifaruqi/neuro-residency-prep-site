@@ -14,7 +14,14 @@ window.SIMAK_BANK = [
       "terukur"
     ],
     "e": "Implisit berarti terkandung secara tidak langsung; terperinci berarti dijelaskan dengan banyak rincian.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Implisit berarti terkandung secara tidak langsung; terperinci berarti dijelaskan dengan banyak rincian."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-bf1a02dbc134f6ea",
@@ -29,7 +36,14 @@ window.SIMAK_BANK = [
       "pengalihan"
     ],
     "e": "Restriksi adalah pembatasan, bukan pengalihan kepemilikan akses.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Restriksi adalah pembatasan, bukan pengalihan kepemilikan akses."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-3a7c06c9f39fc5b8",
@@ -44,7 +58,14 @@ window.SIMAK_BANK = [
       "baru"
     ],
     "e": "Koheren menekankan hubungan yang padu antargagasan, bukan panjang atau kebaruannya.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Koheren menekankan hubungan yang padu antargagasan, bukan panjang atau kebaruannya."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-757c918cc9125ea4",
@@ -59,7 +80,14 @@ window.SIMAK_BANK = [
       "tersembunyi"
     ],
     "e": "Tentatif belum bersifat final dan masih dapat berubah.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tentatif belum bersifat final dan masih dapat berubah."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-86b73527d7981764",
@@ -74,7 +102,14 @@ window.SIMAK_BANK = [
       "penghitungan ulang"
     ],
     "e": "Elaborasi mengembangkan atau menguraikan gagasan lebih lanjut.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Elaborasi mengembangkan atau menguraikan gagasan lebih lanjut."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-a65879398a4b072d",
@@ -89,7 +124,14 @@ window.SIMAK_BANK = [
       "seimbang"
     ],
     "e": "Parsial hanya mencakup sebagian, sehingga tidak sama dengan menyeluruh.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Parsial hanya mencakup sebagian, sehingga tidak sama dengan menyeluruh."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-50e6f67bd9bf0923",
@@ -104,7 +146,14 @@ window.SIMAK_BANK = [
       "cepat dibelanjakan"
     ],
     "e": "Akuntabel berkaitan dengan pertanggungjawaban, bukan besar keuntungan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Akuntabel berkaitan dengan pertanggungjawaban, bukan besar keuntungan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-4df348d5b225f649",
@@ -119,7 +168,14 @@ window.SIMAK_BANK = [
       "berubah secara acak"
     ],
     "e": "Konvergen menunjukkan kecenderungan bertemu atau menuju kesamaan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Konvergen menunjukkan kecenderungan bertemu atau menuju kesamaan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-15b61f331e6946d5",
@@ -134,7 +190,14 @@ window.SIMAK_BANK = [
       "tidak memiliki subjek"
     ],
     "e": "Redundan berarti berlebih atau mengulang informasi yang sudah cukup disampaikan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Redundan berarti berlebih atau mengulang informasi yang sudah cukup disampaikan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-5c5c31e532e06c4c",
@@ -149,7 +212,14 @@ window.SIMAK_BANK = [
       "pendapat pribadi penulis"
     ],
     "e": "Preseden adalah kejadian atau keputusan sebelumnya yang dijadikan acuan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Preseden adalah kejadian atau keputusan sebelumnya yang dijadikan acuan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-aad1c2a5f3183501",
@@ -164,7 +234,14 @@ window.SIMAK_BANK = [
       "identik"
     ],
     "e": "Homogen berarti sejenis; lawannya heterogen, yakni beragam.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Homogen berarti sejenis; lawannya heterogen, yakni beragam."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-d519f99e5d963329",
@@ -179,7 +256,14 @@ window.SIMAK_BANK = [
       "diam"
     ],
     "e": "Stagnan berarti tidak berkembang; bertumbuh menyatakan perkembangan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Stagnan berarti tidak berkembang; bertumbuh menyatakan perkembangan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-be70a5d45882c931",
@@ -194,7 +278,14 @@ window.SIMAK_BANK = [
       "terbuka"
     ],
     "e": "Eksplisit dinyatakan langsung; tersirat terkandung secara tidak langsung.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Eksplisit dinyatakan langsung; tersirat terkandung secara tidak langsung."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-9687fe8b0621ae68",
@@ -209,7 +300,14 @@ window.SIMAK_BANK = [
       "menetap"
     ],
     "e": "Perbedaan yang ditanyakan adalah keberlakuan tetap versus sementara, bukan kekuatan bangunan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Perbedaan yang ditanyakan adalah keberlakuan tetap versus sementara, bukan kekuatan bangunan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-8aaa7fda7ae1e39e",
@@ -224,7 +322,14 @@ window.SIMAK_BANK = [
       "imparsial"
     ],
     "e": "Subjektif dipengaruhi pandangan pribadi, sedangkan objektif bertumpu pada objek atau fakta.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Subjektif dipengaruhi pandangan pribadi, sedangkan objektif bertumpu pada objek atau fakta."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-e1f65ad5c1daa38e",
@@ -239,7 +344,14 @@ window.SIMAK_BANK = [
       "kenaikan"
     ],
     "e": "Surplus merupakan kelebihan; defisit merupakan kekurangan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Surplus merupakan kelebihan; defisit merupakan kekurangan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-393e6731a577d0e3",
@@ -254,7 +366,14 @@ window.SIMAK_BANK = [
       "keras"
     ],
     "e": "Rigid berarti kaku; luwes menekankan kemampuan menyesuaikan diri.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Rigid berarti kaku; luwes menekankan kemampuan menyesuaikan diri."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-61771447a900fc5f",
@@ -269,7 +388,14 @@ window.SIMAK_BANK = [
       "pengawasan"
     ],
     "e": "Desentralisasi menyebarkan kewenangan, berlawanan dengan pemusatannya.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Desentralisasi menyebarkan kewenangan, berlawanan dengan pemusatannya."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-84d35f895453c9a1",
@@ -284,7 +410,14 @@ window.SIMAK_BANK = [
       "menerima"
     ],
     "e": "Eksklusif membatasi keterlibatan kelompok lain; inklusif membuka keterlibatan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Eksklusif membatasi keterlibatan kelompok lain; inklusif membuka keterlibatan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-550c8d53b791a84c",
@@ -299,7 +432,14 @@ window.SIMAK_BANK = [
       "meningkat"
     ],
     "e": "Regresif menunjukkan kemunduran, berlawanan dengan arah kemajuan progresif.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Regresif menunjukkan kemunduran, berlawanan dengan arah kemajuan progresif."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-9d14364a3f1f5367",
@@ -314,7 +454,14 @@ window.SIMAK_BANK = [
       "KAMERA : CAHAYA"
     ],
     "e": "Hubungannya alat dengan besaran yang diukur; higrometer mengukur kelembapan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Hubungannya alat dengan besaran yang diukur; higrometer mengukur kelembapan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-b477832abed415ae",
@@ -329,7 +476,14 @@ window.SIMAK_BANK = [
       "PENGEMUDI : JALAN"
     ],
     "e": "Editor mengelola naskah; kurator mengelola koleksi.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Editor mengelola naskah; kurator mengelola koleksi."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-d077510a1c8d7c17",
@@ -344,7 +498,14 @@ window.SIMAK_BANK = [
       "TANGGAL : KALENDER"
     ],
     "e": "Sebuah usulan diperiksa melalui proses pengujian; rancangan dapat diperiksa melalui uji coba.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Sebuah usulan diperiksa melalui proses pengujian; rancangan dapat diperiksa melalui uji coba."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-61c60bba8acd5801",
@@ -359,22 +520,36 @@ window.SIMAK_BANK = [
       "GUDANG : PINTU"
     ],
     "e": "Katalog membantu menemukan anggota koleksi; indeks membantu menemukan istilah dalam dokumen.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Katalog membantu menemukan anggota koleksi; indeks membantu menemukan istilah dalam dokumen."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
-    "id": "SM-f364a37515b1af8a",
+    "id": "SM-615e0a8ba576c53d",
     "section": "verbal",
     "skill": "Analogi",
     "q": "Pilih pasangan dengan hubungan yang sepadan: DEHIDRASI : CAIRAN.",
     "o": [
-      "DEFISIT : ANGGARAN",
+      "DEFISIT : DANA",
       "KEUNTUNGAN : BIAYA",
       "PANAS : SUHU",
       "GELOMBANG : AIR",
       "HUJAN : AWAN"
     ],
-    "e": "Dehidrasi adalah kekurangan cairan; defisit anggaran adalah kekurangan dana terhadap kebutuhan.",
-    "origin": "original"
+    "e": "Keduanya kondisi kekurangan sesuatu: dehidrasi adalah kekurangan cairan, defisit adalah kekurangan dana terhadap kebutuhan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Keduanya kondisi kekurangan sesuatu: dehidrasi adalah kekurangan cairan, defisit adalah kekurangan dana terhadap kebutuhan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-0bec14e1b81aa474",
@@ -389,7 +564,14 @@ window.SIMAK_BANK = [
       "AIR : PENYARINGAN"
     ],
     "e": "Keduanya bahan awal biologis dengan proses awal perkembangannya, bukan tindakan pemanenan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Keduanya bahan awal biologis dengan proses awal perkembangannya, bukan tindakan pemanenan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-3a103279e54b670a",
@@ -404,7 +586,14 @@ window.SIMAK_BANK = [
       "PEMBACA : RAK"
     ],
     "e": "Keduanya perancang dengan representasi rancangan yang digunakan untuk mewujudkan karya.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Keduanya perancang dengan representasi rancangan yang digunakan untuk mewujudkan karya."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-684065695bb99df5",
@@ -419,7 +608,14 @@ window.SIMAK_BANK = [
       "PENGUKURAN : PENGGARIS"
     ],
     "e": "Keduanya tindakan untuk mengatasi suatu masalah: kesalahan atau perselisihan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Keduanya tindakan untuk mengatasi suatu masalah: kesalahan atau perselisihan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-5bde01f94227a08e",
@@ -434,22 +630,36 @@ window.SIMAK_BANK = [
       "KONSISTEN : BERUBAH-UBAH"
     ],
     "e": "Pasangan pertama menjelaskan sikap melalui kecenderungannya; hanya jawaban benar mempertahankan hubungan itu.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pasangan pertama menjelaskan sikap melalui kecenderungannya; hanya jawaban benar mempertahankan hubungan itu."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
-    "id": "SM-1a1529d4180e3cb9",
+    "id": "SM-d405caeed6a0b994",
     "section": "verbal",
     "skill": "Analogi",
-    "q": "Pilih pasangan dengan hubungan yang sepadan: PRASYARAT : SEBELUM KEGIATAN.",
+    "q": "Pilih pasangan dengan hubungan yang sepadan: PROLOG : PEMBUKAAN.",
     "o": [
-      "EVALUASI AKHIR : SETELAH KEGIATAN",
-      "JADWAL : TANPA WAKTU",
-      "TUJUAN : TANPA ARAH",
-      "PELAKSANAAN : SEBELUM RENCANA",
-      "HASIL : SEBELUM PROSES"
+      "EPILOG : PENUTUP",
+      "INDEKS : RANGKUMAN",
+      "ABSTRAK : KUTIPAN",
+      "LAMPIRAN : PENDAHULUAN",
+      "GLOSARIUM : PERISTIWA"
     ],
-    "e": "Hubungannya unsur kegiatan dengan posisi waktunya yang benar, bukan hubungan berlawanan dalam satu pasangan.",
-    "origin": "original"
+    "e": "Hubungannya bagian karya dengan fungsi utamanya: prolog membuka dan epilog menutup; indeks bukan rangkuman dan abstrak bukan kumpulan kutipan.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Hubungannya bagian karya dengan fungsi utamanya: prolog membuka dan epilog menutup; indeks bukan rangkuman dan abstrak bukan kumpulan kutipan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-d84df935ec4df9ed",
@@ -469,7 +679,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-01",
       "title": "Perpustakaan malam",
       "text": "Sebuah perpustakaan kota mencoba layanan malam selama delapan minggu. Pengelola menghitung kunjungan, bukan hanya kartu anggota baru. Kunjungan malam meningkat, terutama dari pekerja yang baru pulang. Namun, pengunjung meminta jadwal yang lebih pasti karena jam tutup berubah saat petugas berhalangan. Pengelola lalu menetapkan dua malam dengan jadwal tetap dan menunda perluasan ke malam lain. Mereka ingin mengetahui apakah jadwal yang konsisten lebih berguna daripada penambahan jam yang sering berubah."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Fokusnya evaluasi percobaan layanan dan pilihan jadwal yang konsisten."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-81c6ea589b347374",
@@ -489,7 +706,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-01",
       "title": "Perpustakaan malam",
       "text": "Sebuah perpustakaan kota mencoba layanan malam selama delapan minggu. Pengelola menghitung kunjungan, bukan hanya kartu anggota baru. Kunjungan malam meningkat, terutama dari pekerja yang baru pulang. Namun, pengunjung meminta jadwal yang lebih pasti karena jam tutup berubah saat petugas berhalangan. Pengelola lalu menetapkan dua malam dengan jadwal tetap dan menunda perluasan ke malam lain. Mereka ingin mengetahui apakah jadwal yang konsisten lebih berguna daripada penambahan jam yang sering berubah."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Kelompok tersebut disebut langsung pada kalimat ketiga."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-a341d6f7b4492c6b",
@@ -509,7 +733,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-01",
       "title": "Perpustakaan malam",
       "text": "Sebuah perpustakaan kota mencoba layanan malam selama delapan minggu. Pengelola menghitung kunjungan, bukan hanya kartu anggota baru. Kunjungan malam meningkat, terutama dari pekerja yang baru pulang. Namun, pengunjung meminta jadwal yang lebih pasti karena jam tutup berubah saat petugas berhalangan. Pengelola lalu menetapkan dua malam dengan jadwal tetap dan menunda perluasan ke malam lain. Mereka ingin mengetahui apakah jadwal yang konsisten lebih berguna daripada penambahan jam yang sering berubah."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Kalimat terakhir menjelaskan tujuan pengujian jadwal yang konsisten."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-303837860398cbb6",
@@ -529,7 +760,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-01",
       "title": "Perpustakaan malam",
       "text": "Sebuah perpustakaan kota mencoba layanan malam selama delapan minggu. Pengelola menghitung kunjungan, bukan hanya kartu anggota baru. Kunjungan malam meningkat, terutama dari pekerja yang baru pulang. Namun, pengunjung meminta jadwal yang lebih pasti karena jam tutup berubah saat petugas berhalangan. Pengelola lalu menetapkan dua malam dengan jadwal tetap dan menunda perluasan ke malam lain. Mereka ingin mengetahui apakah jadwal yang konsisten lebih berguna daripada penambahan jam yang sering berubah."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Konsistensi di sini menyangkut kepastian jadwal, bukan panjang jam buka."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-808ede3e9dd0f15c",
@@ -549,7 +787,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-01",
       "title": "Perpustakaan malam",
       "text": "Sebuah perpustakaan kota mencoba layanan malam selama delapan minggu. Pengelola menghitung kunjungan, bukan hanya kartu anggota baru. Kunjungan malam meningkat, terutama dari pekerja yang baru pulang. Namun, pengunjung meminta jadwal yang lebih pasti karena jam tutup berubah saat petugas berhalangan. Pengelola lalu menetapkan dua malam dengan jadwal tetap dan menunda perluasan ke malam lain. Mereka ingin mengetahui apakah jadwal yang konsisten lebih berguna daripada penambahan jam yang sering berubah."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan tidak mengukur kemampuan membaca; kenaikan kunjungan tidak membuktikan perubahan kemampuan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-a2fe7ab01943917b",
@@ -569,7 +814,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-02",
       "title": "Kebun atap",
       "text": "Dua gedung kampus memasang kebun atap dengan jenis tanaman yang sama. Gedung pertama memiliki atap yang lebih teduh dan menggunakan air lebih sedikit. Tim pengelola semula menduga perbedaan itu semata-mata disebabkan tanaman. Setelah memeriksa catatan, mereka menyadari bahwa luas tanah dan jadwal penyiraman juga berbeda. Tim belum menyatakan kebun mana yang lebih efisien. Mereka merencanakan pengukuran dengan luas tanah dan jadwal penyiraman yang disamakan agar perbandingan lebih adil."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Beberapa kondisi berbeda sehingga penilaian efisiensi ditunda."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-73e71c4b71764083",
@@ -589,7 +841,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-02",
       "title": "Kebun atap",
       "text": "Dua gedung kampus memasang kebun atap dengan jenis tanaman yang sama. Gedung pertama memiliki atap yang lebih teduh dan menggunakan air lebih sedikit. Tim pengelola semula menduga perbedaan itu semata-mata disebabkan tanaman. Setelah memeriksa catatan, mereka menyadari bahwa luas tanah dan jadwal penyiraman juga berbeda. Tim belum menyatakan kebun mana yang lebih efisien. Mereka merencanakan pengukuran dengan luas tanah dan jadwal penyiraman yang disamakan agar perbandingan lebih adil."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Kedua variabel itu disebut pada kalimat terakhir."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-8cef5928bd60b57d",
@@ -609,7 +868,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-02",
       "title": "Kebun atap",
       "text": "Dua gedung kampus memasang kebun atap dengan jenis tanaman yang sama. Gedung pertama memiliki atap yang lebih teduh dan menggunakan air lebih sedikit. Tim pengelola semula menduga perbedaan itu semata-mata disebabkan tanaman. Setelah memeriksa catatan, mereka menyadari bahwa luas tanah dan jadwal penyiraman juga berbeda. Tim belum menyatakan kebun mana yang lebih efisien. Mereka merencanakan pengukuran dengan luas tanah dan jadwal penyiraman yang disamakan agar perbandingan lebih adil."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Luas tanah dan jadwal penyiraman merupakan faktor pembaur dalam perbandingan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-4f632038ffaa685a",
@@ -629,7 +895,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-02",
       "title": "Kebun atap",
       "text": "Dua gedung kampus memasang kebun atap dengan jenis tanaman yang sama. Gedung pertama memiliki atap yang lebih teduh dan menggunakan air lebih sedikit. Tim pengelola semula menduga perbedaan itu semata-mata disebabkan tanaman. Setelah memeriksa catatan, mereka menyadari bahwa luas tanah dan jadwal penyiraman juga berbeda. Tim belum menyatakan kebun mana yang lebih efisien. Mereka merencanakan pengukuran dengan luas tanah dan jadwal penyiraman yang disamakan agar perbandingan lebih adil."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Semata-mata membatasi penjelasan pada satu penyebab saja."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a01e7cfce378c225",
@@ -649,7 +922,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-02",
       "title": "Kebun atap",
       "text": "Dua gedung kampus memasang kebun atap dengan jenis tanaman yang sama. Gedung pertama memiliki atap yang lebih teduh dan menggunakan air lebih sedikit. Tim pengelola semula menduga perbedaan itu semata-mata disebabkan tanaman. Setelah memeriksa catatan, mereka menyadari bahwa luas tanah dan jadwal penyiraman juga berbeda. Tim belum menyatakan kebun mana yang lebih efisien. Mereka merencanakan pengukuran dengan luas tanah dan jadwal penyiraman yang disamakan agar perbandingan lebih adil."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Tim sendiri belum memberi peringkat sebelum kondisi diperbandingkan secara adil."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-e1bc93bb4ebd61af",
@@ -669,7 +949,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-03",
       "title": "Survei perjalanan",
       "text": "Sebuah kantor menyurvei cara pegawai berangkat kerja melalui formulir daring sukarela. Sebagian besar responden bersepeda. Berdasarkan hasil itu, tim mengusulkan penggantian seluruh tempat parkir mobil menjadi parkir sepeda. Sebelum menyetujui, pimpinan meminta jumlah pegawai yang tidak mengisi formulir dan membandingkan jadwal kerja kedua kelompok. Ia khawatir hasil survei hanya mewakili pegawai yang aktif dalam komunitas bersepeda kantor. Tujuannya bukan menolak fasilitas sepeda, melainkan memastikan kebutuhan kelompok lain ikut diperhitungkan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan mempertanyakan apakah responden mewakili seluruh pegawai."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-3e4ad82909294299",
@@ -689,7 +976,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-03",
       "title": "Survei perjalanan",
       "text": "Sebuah kantor menyurvei cara pegawai berangkat kerja melalui formulir daring sukarela. Sebagian besar responden bersepeda. Berdasarkan hasil itu, tim mengusulkan penggantian seluruh tempat parkir mobil menjadi parkir sepeda. Sebelum menyetujui, pimpinan meminta jumlah pegawai yang tidak mengisi formulir dan membandingkan jadwal kerja kedua kelompok. Ia khawatir hasil survei hanya mewakili pegawai yang aktif dalam komunitas bersepeda kantor. Tujuannya bukan menolak fasilitas sepeda, melainkan memastikan kebutuhan kelompok lain ikut diperhitungkan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Metode pengisian dinyatakan pada kalimat pertama."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-63fc936019f13fff",
@@ -709,7 +1003,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-03",
       "title": "Survei perjalanan",
       "text": "Sebuah kantor menyurvei cara pegawai berangkat kerja melalui formulir daring sukarela. Sebagian besar responden bersepeda. Berdasarkan hasil itu, tim mengusulkan penggantian seluruh tempat parkir mobil menjadi parkir sepeda. Sebelum menyetujui, pimpinan meminta jumlah pegawai yang tidak mengisi formulir dan membandingkan jadwal kerja kedua kelompok. Ia khawatir hasil survei hanya mewakili pegawai yang aktif dalam komunitas bersepeda kantor. Tujuannya bukan menolak fasilitas sepeda, melainkan memastikan kebutuhan kelompok lain ikut diperhitungkan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Pemeriksaan itu membantu menilai bias partisipasi, bukan membuktikan semua nonresponden sama."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-77edd1556c2bfda2",
@@ -729,7 +1030,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-03",
       "title": "Survei perjalanan",
       "text": "Sebuah kantor menyurvei cara pegawai berangkat kerja melalui formulir daring sukarela. Sebagian besar responden bersepeda. Berdasarkan hasil itu, tim mengusulkan penggantian seluruh tempat parkir mobil menjadi parkir sepeda. Sebelum menyetujui, pimpinan meminta jumlah pegawai yang tidak mengisi formulir dan membandingkan jadwal kerja kedua kelompok. Ia khawatir hasil survei hanya mewakili pegawai yang aktif dalam komunitas bersepeda kantor. Tujuannya bukan menolak fasilitas sepeda, melainkan memastikan kebutuhan kelompok lain ikut diperhitungkan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Ia tetap mempertimbangkan fasilitas sepeda sambil menilai keterwakilan data."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c83972090bf42963",
@@ -749,7 +1057,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-03",
       "title": "Survei perjalanan",
       "text": "Sebuah kantor menyurvei cara pegawai berangkat kerja melalui formulir daring sukarela. Sebagian besar responden bersepeda. Berdasarkan hasil itu, tim mengusulkan penggantian seluruh tempat parkir mobil menjadi parkir sepeda. Sebelum menyetujui, pimpinan meminta jumlah pegawai yang tidak mengisi formulir dan membandingkan jadwal kerja kedua kelompok. Ia khawatir hasil survei hanya mewakili pegawai yang aktif dalam komunitas bersepeda kantor. Tujuannya bukan menolak fasilitas sepeda, melainkan memastikan kebutuhan kelompok lain ikut diperhitungkan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Sebagian besar responden tidak otomatis berarti sebagian besar populasi pegawai."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
   },
   {
     "id": "SM-54d6b4d07550037e",
@@ -769,7 +1084,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-04",
       "title": "Arsip digital",
       "text": "Kelompok sejarah lokal memindai surat lama agar dapat dicari tanpa membuka dokumen asli berulang kali. Mereka menyimpan gambar halaman dan hasil pengenalan teks secara terpisah. Pencarian menjadi lebih cepat, tetapi beberapa nama tempat terbaca keliru karena tinta memudar. Relawan menandai kata yang meragukan dan memeriksanya terhadap gambar halaman. Pengelola mempertahankan dokumen asli, sebab kemudahan pencarian tidak menjamin setiap kata hasil pengenalan teks benar. Catatan koreksi juga disimpan agar perubahan dapat ditelusuri."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyeimbangkan manfaat pencarian dengan kebutuhan verifikasi."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-7809cec7bf7509c9",
@@ -789,7 +1111,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-04",
       "title": "Arsip digital",
       "text": "Kelompok sejarah lokal memindai surat lama agar dapat dicari tanpa membuka dokumen asli berulang kali. Mereka menyimpan gambar halaman dan hasil pengenalan teks secara terpisah. Pencarian menjadi lebih cepat, tetapi beberapa nama tempat terbaca keliru karena tinta memudar. Relawan menandai kata yang meragukan dan memeriksanya terhadap gambar halaman. Pengelola mempertahankan dokumen asli, sebab kemudahan pencarian tidak menjamin setiap kata hasil pengenalan teks benar. Catatan koreksi juga disimpan agar perubahan dapat ditelusuri."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Penyebab tersebut disebut langsung dalam bacaan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-5378f27b5d3be28e",
@@ -809,7 +1138,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-04",
       "title": "Arsip digital",
       "text": "Kelompok sejarah lokal memindai surat lama agar dapat dicari tanpa membuka dokumen asli berulang kali. Mereka menyimpan gambar halaman dan hasil pengenalan teks secara terpisah. Pencarian menjadi lebih cepat, tetapi beberapa nama tempat terbaca keliru karena tinta memudar. Relawan menandai kata yang meragukan dan memeriksanya terhadap gambar halaman. Pengelola mempertahankan dokumen asli, sebab kemudahan pencarian tidak menjamin setiap kata hasil pengenalan teks benar. Catatan koreksi juga disimpan agar perubahan dapat ditelusuri."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Relawan membandingkan kata meragukan dengan gambar sumber."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-d0ffce0b6c0b947c",
@@ -829,7 +1165,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-04",
       "title": "Arsip digital",
       "text": "Kelompok sejarah lokal memindai surat lama agar dapat dicari tanpa membuka dokumen asli berulang kali. Mereka menyimpan gambar halaman dan hasil pengenalan teks secara terpisah. Pencarian menjadi lebih cepat, tetapi beberapa nama tempat terbaca keliru karena tinta memudar. Relawan menandai kata yang meragukan dan memeriksanya terhadap gambar halaman. Pengelola mempertahankan dokumen asli, sebab kemudahan pencarian tidak menjamin setiap kata hasil pengenalan teks benar. Catatan koreksi juga disimpan agar perubahan dapat ditelusuri."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Jejak koreksi memungkinkan riwayat perubahan diperiksa kembali."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-bc9bac24b3345875",
@@ -849,7 +1192,14 @@ window.SIMAK_BANK = [
       "id": "SM-VP-04",
       "title": "Arsip digital",
       "text": "Kelompok sejarah lokal memindai surat lama agar dapat dicari tanpa membuka dokumen asli berulang kali. Mereka menyimpan gambar halaman dan hasil pengenalan teks secara terpisah. Pencarian menjadi lebih cepat, tetapi beberapa nama tempat terbaca keliru karena tinta memudar. Relawan menandai kata yang meragukan dan memeriksanya terhadap gambar halaman. Pengelola mempertahankan dokumen asli, sebab kemudahan pencarian tidak menjamin setiap kata hasil pengenalan teks benar. Catatan koreksi juga disimpan agar perubahan dapat ditelusuri."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Verifikasi dan keterlacakan merupakan prinsip yang dijelaskan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
   },
   {
     "id": "SM-9d813ee29e7850ad",
@@ -864,7 +1214,15 @@ window.SIMAK_BANK = [
       "67"
     ],
     "e": "U8 = a + 7d = 13 + 7 × 6 = 55. Jangan memakai 8d karena suku pertama sudah dihitung.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "U8 = a + 7d = 13 + 7 × 6 = 55. Jangan memakai 8d karena suku pertama sudah dihitung."
+      ],
+      "shortcut": "Hitung beda tetap dahulu; suku ke-n memakai n−1 kali beda.",
+      "trap": "Mengalikan beda dengan nomor suku langsung menambah satu langkah berlebih."
+    },
+    "package": "B"
   },
   {
     "id": "SM-6e3fb309b9e41687",
@@ -879,7 +1237,15 @@ window.SIMAK_BANK = [
       "11"
     ],
     "e": "Kurangi kedua ruas dengan 7, lalu bagi dengan 3; x = 9.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kurangi kedua ruas dengan 7, lalu bagi dengan 3; x = 9."
+      ],
+      "shortcut": "Lakukan operasi yang sama pada kedua ruas.",
+      "trap": "Pindah ruas memerlukan perubahan tanda yang tepat."
+    },
+    "package": "B"
   },
   {
     "id": "SM-7608c9a30e2dc531",
@@ -894,7 +1260,15 @@ window.SIMAK_BANK = [
       "324000"
     ],
     "e": "Bayar 85% × 360000 = 306000; potongan dihitung dari biaya awal.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Bayar 85% × 360000 = 306000; potongan dihitung dari biaya awal."
+      ],
+      "shortcut": "Kalikan harga awal dengan faktor persentase yang tersisa.",
+      "trap": "Bedakan potongan dari harga yang harus dibayar."
+    },
+    "package": "B"
   },
   {
     "id": "SM-eececa715b12bcc0",
@@ -909,7 +1283,15 @@ window.SIMAK_BANK = [
       "119"
     ],
     "e": "Total bagian 8; satu bagian 136/8 = 17. Kelas sore = 5 × 17 = 85.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Total bagian 8; satu bagian 136/8 = 17. Kelas sore = 5 × 17 = 85."
+      ],
+      "shortcut": "Cari nilai satu bagian dari total bagian.",
+      "trap": "Jangan memperlakukan rasio sebagai selisih jumlah."
+    },
+    "package": "B"
   },
   {
     "id": "SM-66dec26342248454",
@@ -924,7 +1306,15 @@ window.SIMAK_BANK = [
       "72.00"
     ],
     "e": "Jumlah lama 340, jumlah baru 420; bagi dengan 6, menghasilkan 70.00 (dibulatkan dua desimal).",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jumlah lama 340, jumlah baru 420; bagi dengan 6, menghasilkan 70.00 (dibulatkan dua desimal)."
+      ],
+      "shortcut": "Ubah rata-rata lama menjadi jumlah sebelum menambah data baru.",
+      "trap": "Rata-rata dua rata-rata hanya benar bila bobotnya sama."
+    },
+    "package": "B"
   },
   {
     "id": "SM-b77f25c1db04dbe3",
@@ -939,7 +1329,15 @@ window.SIMAK_BANK = [
       "6.00"
     ],
     "e": "Laju gabungan = 1/6 + 1/12 pekerjaan per jam. Waktu = 72/(6+12) = 4.00 jam setelah pembulatan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Laju gabungan = 1/6 + 1/12 pekerjaan per jam. Waktu = 72/(6+12) = 4.00 jam setelah pembulatan."
+      ],
+      "shortcut": "Jumlahkan laju pekerjaan per jam, lalu balik hasilnya.",
+      "trap": "Waktu kerja tidak boleh langsung dijumlah atau dirata-ratakan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c2b44e4fc3f8ac77",
@@ -954,7 +1352,15 @@ window.SIMAK_BANK = [
       "18.00"
     ],
     "e": "Jarak 72 km; waktu termasuk berhenti 2.5 jam. Rata-rata = 28.80, bukan kecepatan saat bergerak saja.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jarak 72 km; waktu termasuk berhenti 2.5 jam. Rata-rata = 28.80, bukan kecepatan saat bergerak saja."
+      ],
+      "shortcut": "Bagi total jarak dengan total waktu, termasuk waktu berhenti.",
+      "trap": "Rata-rata kecepatan tidak otomatis sama dengan kecepatan saat bergerak."
+    },
+    "package": "B"
   },
   {
     "id": "SM-148b092672cc3a5c",
@@ -969,7 +1375,15 @@ window.SIMAK_BANK = [
       "567"
     ],
     "e": "Volume = luas alas × tinggi = 9² × 14 = 1134.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Volume = luas alas × tinggi = 9² × 14 = 1134."
+      ],
+      "shortcut": "Tentukan apakah yang diminta panjang, luas, atau volume.",
+      "trap": "Periksa satuan: cm, cm², dan cm³ mewakili besaran berbeda."
+    },
+    "package": "A"
   },
   {
     "id": "SM-2983ca6fb221300d",
@@ -984,7 +1398,15 @@ window.SIMAK_BANK = [
       "4/12"
     ],
     "e": "Ada 5 hasil merah dari 12 hasil yang sama mungkin, sehingga peluang 5/12.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ada 5 hasil merah dari 12 hasil yang sama mungkin, sehingga peluang 5/12."
+      ],
+      "shortcut": "Hitung hasil yang diinginkan dan seluruh hasil yang sama mungkin.",
+      "trap": "Penyebut bukan hanya banyak hasil yang tidak diinginkan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-7fce1d66fa9277bb",
@@ -999,7 +1421,15 @@ window.SIMAK_BANK = [
       "32"
     ],
     "e": "Pemilih B adalah semua peserta selain yang hanya A dan yang tidak memilih: 83 − 21 − 16 = 46.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pemilih B adalah semua peserta selain yang hanya A dan yang tidak memilih: 83 − 21 − 16 = 46."
+      ],
+      "shortcut": "Pisahkan kelompok hanya A, hanya B, irisan, dan di luar keduanya.",
+      "trap": "Anggota irisan termasuk dalam jumlah pemilih B."
+    },
+    "package": "A"
   },
   {
     "id": "SM-e8f8b7c54474a534",
@@ -1014,7 +1444,15 @@ window.SIMAK_BANK = [
       "384.0"
     ],
     "e": "Faktor perubahan 1,25 × 0,80 = 1. Nilai kembali ke 480, bukan naik bersih 5%.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Faktor perubahan 1,25 × 0,80 = 1. Nilai kembali ke 480, bukan naik bersih 5%."
+      ],
+      "shortcut": "Kalikan faktor perubahan secara berurutan.",
+      "trap": "Persentase kedua mempunyai dasar nilai yang sudah berubah."
+    },
+    "package": "B"
   },
   {
     "id": "SM-aa55dfafd45981d4",
@@ -1029,7 +1467,15 @@ window.SIMAK_BANK = [
       "8"
     ],
     "e": "Urutan tidak dibedakan: C(6,2) = 6 × 5/2 = 15.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Urutan tidak dibedakan: C(6,2) = 6 × 5/2 = 15."
+      ],
+      "shortcut": "Untuk dua peran yang sama, abaikan urutan pemilihan.",
+      "trap": "Permutasi menghitung satu pasangan dua kali."
+    },
+    "package": "A"
   },
   {
     "id": "SM-4d14df4a5732e8b8",
@@ -1044,7 +1490,15 @@ window.SIMAK_BANK = [
       "17.4"
     ],
     "e": "Lima data sudah berurutan; median adalah data ketiga, yaitu 17. Rata-rata bukan median.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Lima data sudah berurutan; median adalah data ketiga, yaitu 17. Rata-rata bukan median."
+      ],
+      "shortcut": "Urutkan data sebelum menentukan nilai tengah.",
+      "trap": "Median dan rata-rata tidak selalu sama."
+    },
+    "package": "B"
   },
   {
     "id": "SM-6b96b48a449c5ca4",
@@ -1059,7 +1513,15 @@ window.SIMAK_BANK = [
       "125%"
     ],
     "e": "Kenaikan 40; bagi dengan nilai awal 160, lalu kali 100% = 25%.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kenaikan 40; bagi dengan nilai awal 160, lalu kali 100% = 25%."
+      ],
+      "shortcut": "Gunakan nilai awal sebagai dasar persentase pertumbuhan.",
+      "trap": "Nilai akhir sebagai penyebut menghasilkan ukuran berbeda."
+    },
+    "package": "A"
   },
   {
     "id": "SM-a75481fb7f8ed808",
@@ -1074,7 +1536,15 @@ window.SIMAK_BANK = [
       "7"
     ],
     "e": "Selisih persamaan menghasilkan x = 4; substitusi ke x+y = 13 memberi y = 9.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Selisih persamaan menghasilkan x = 4; substitusi ke x+y = 13 memberi y = 9."
+      ],
+      "shortcut": "Kurangkan persamaan untuk menghilangkan variabel yang sama.",
+      "trap": "Setelah mendapat x, pertanyaan mungkin meminta y."
+    },
+    "package": "B"
   },
   {
     "id": "SM-0808e2c63fc2a604",
@@ -1089,7 +1559,15 @@ window.SIMAK_BANK = [
       "89"
     ],
     "e": "U8 = a + 7d = 17 + 7 × 8 = 73. Jangan memakai 8d karena suku pertama sudah dihitung.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "U8 = a + 7d = 17 + 7 × 8 = 73. Jangan memakai 8d karena suku pertama sudah dihitung."
+      ],
+      "shortcut": "Hitung beda tetap dahulu; suku ke-n memakai n−1 kali beda.",
+      "trap": "Mengalikan beda dengan nomor suku langsung menambah satu langkah berlebih."
+    },
+    "package": "A"
   },
   {
     "id": "SM-4a827dff64278d51",
@@ -1104,7 +1582,15 @@ window.SIMAK_BANK = [
       "12"
     ],
     "e": "Kurangi kedua ruas dengan 8, lalu bagi dengan 4; x = 10.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kurangi kedua ruas dengan 8, lalu bagi dengan 4; x = 10."
+      ],
+      "shortcut": "Lakukan operasi yang sama pada kedua ruas.",
+      "trap": "Pindah ruas memerlukan perubahan tanda yang tepat."
+    },
+    "package": "B"
   },
   {
     "id": "SM-bf3df026351eff89",
@@ -1119,7 +1605,15 @@ window.SIMAK_BANK = [
       "357000"
     ],
     "e": "Bayar 80% × 420000 = 336000; potongan dihitung dari biaya awal.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Bayar 80% × 420000 = 336000; potongan dihitung dari biaya awal."
+      ],
+      "shortcut": "Kalikan harga awal dengan faktor persentase yang tersisa.",
+      "trap": "Bedakan potongan dari harga yang harus dibayar."
+    },
+    "package": "A"
   },
   {
     "id": "SM-ef70bdee2ae4ad7d",
@@ -1134,7 +1628,15 @@ window.SIMAK_BANK = [
       "153"
     ],
     "e": "Total bagian 10; satu bagian 170/10 = 17. Kelas sore = 6 × 17 = 102.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Total bagian 10; satu bagian 170/10 = 17. Kelas sore = 6 × 17 = 102."
+      ],
+      "shortcut": "Cari nilai satu bagian dari total bagian.",
+      "trap": "Jangan memperlakukan rasio sebagai selisih jumlah."
+    },
+    "package": "B"
   },
   {
     "id": "SM-62c4e5490913f2b1",
@@ -1149,7 +1651,15 @@ window.SIMAK_BANK = [
       "74.57"
     ],
     "e": "Jumlah lama 426, jumlah baru 508; bagi dengan 7, menghasilkan 72.57 (dibulatkan dua desimal).",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jumlah lama 426, jumlah baru 508; bagi dengan 7, menghasilkan 72.57 (dibulatkan dua desimal)."
+      ],
+      "shortcut": "Ubah rata-rata lama menjadi jumlah sebelum menambah data baru.",
+      "trap": "Rata-rata dua rata-rata hanya benar bila bobotnya sama."
+    },
+    "package": "A"
   },
   {
     "id": "SM-eb5b033a3546a18a",
@@ -1164,7 +1674,15 @@ window.SIMAK_BANK = [
       "8.00"
     ],
     "e": "Laju gabungan = 1/8 + 1/16 pekerjaan per jam. Waktu = 128/(8+16) = 5.33 jam setelah pembulatan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Laju gabungan = 1/8 + 1/16 pekerjaan per jam. Waktu = 128/(8+16) = 5.33 jam setelah pembulatan."
+      ],
+      "shortcut": "Jumlahkan laju pekerjaan per jam, lalu balik hasilnya.",
+      "trap": "Waktu kerja tidak boleh langsung dijumlah atau dirata-ratakan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-b0632342589459eb",
@@ -1179,7 +1697,15 @@ window.SIMAK_BANK = [
       "21.00"
     ],
     "e": "Jarak 126 km; waktu termasuk berhenti 3.5 jam. Rata-rata = 36.00, bukan kecepatan saat bergerak saja.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jarak 126 km; waktu termasuk berhenti 3.5 jam. Rata-rata = 36.00, bukan kecepatan saat bergerak saja."
+      ],
+      "shortcut": "Bagi total jarak dengan total waktu, termasuk waktu berhenti.",
+      "trap": "Rata-rata kecepatan tidak otomatis sama dengan kecepatan saat bergerak."
+    },
+    "package": "A"
   },
   {
     "id": "SM-2829a1af48604804",
@@ -1194,7 +1720,15 @@ window.SIMAK_BANK = [
       "800"
     ],
     "e": "Volume = luas alas × tinggi = 10² × 16 = 1600.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Volume = luas alas × tinggi = 10² × 16 = 1600."
+      ],
+      "shortcut": "Tentukan apakah yang diminta panjang, luas, atau volume.",
+      "trap": "Periksa satuan: cm, cm², dan cm³ mewakili besaran berbeda."
+    },
+    "package": "B"
   },
   {
     "id": "SM-2ce378f6be60e5b3",
@@ -1209,7 +1743,15 @@ window.SIMAK_BANK = [
       "5/14"
     ],
     "e": "Ada 6 hasil merah dari 14 hasil yang sama mungkin, sehingga peluang 6/14.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ada 6 hasil merah dari 14 hasil yang sama mungkin, sehingga peluang 6/14."
+      ],
+      "shortcut": "Hitung hasil yang diinginkan dan seluruh hasil yang sama mungkin.",
+      "trap": "Penyebut bukan hanya banyak hasil yang tidak diinginkan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-760dc69800951db2",
@@ -1224,7 +1766,15 @@ window.SIMAK_BANK = [
       "35"
     ],
     "e": "Pemilih B adalah semua peserta selain yang hanya A dan yang tidak memilih: 90 − 23 − 17 = 50.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pemilih B adalah semua peserta selain yang hanya A dan yang tidak memilih: 90 − 23 − 17 = 50."
+      ],
+      "shortcut": "Pisahkan kelompok hanya A, hanya B, irisan, dan di luar keduanya.",
+      "trap": "Anggota irisan termasuk dalam jumlah pemilih B."
+    },
+    "package": "B"
   },
   {
     "id": "SM-8096295f1c1e6836",
@@ -1239,7 +1789,15 @@ window.SIMAK_BANK = [
       "448.0"
     ],
     "e": "Faktor perubahan 1,25 × 0,80 = 1. Nilai kembali ke 560, bukan naik bersih 5%.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Faktor perubahan 1,25 × 0,80 = 1. Nilai kembali ke 560, bukan naik bersih 5%."
+      ],
+      "shortcut": "Kalikan faktor perubahan secara berurutan.",
+      "trap": "Persentase kedua mempunyai dasar nilai yang sudah berubah."
+    },
+    "package": "A"
   },
   {
     "id": "SM-f062382223479ec1",
@@ -1254,7 +1812,15 @@ window.SIMAK_BANK = [
       "9"
     ],
     "e": "Urutan tidak dibedakan: C(7,2) = 7 × 6/2 = 21.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Urutan tidak dibedakan: C(7,2) = 7 × 6/2 = 21."
+      ],
+      "shortcut": "Untuk dua peran yang sama, abaikan urutan pemilihan.",
+      "trap": "Permutasi menghitung satu pasangan dua kali."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a98e868b9378b027",
@@ -1269,7 +1835,15 @@ window.SIMAK_BANK = [
       "20.4"
     ],
     "e": "Lima data sudah berurutan; median adalah data ketiga, yaitu 20. Rata-rata bukan median.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Lima data sudah berurutan; median adalah data ketiga, yaitu 20. Rata-rata bukan median."
+      ],
+      "shortcut": "Urutkan data sebelum menentukan nilai tengah.",
+      "trap": "Median dan rata-rata tidak selalu sama."
+    },
+    "package": "A"
   },
   {
     "id": "SM-d94265a227fe9581",
@@ -1284,7 +1858,15 @@ window.SIMAK_BANK = [
       "125%"
     ],
     "e": "Kenaikan 45; bagi dengan nilai awal 180, lalu kali 100% = 25%.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kenaikan 45; bagi dengan nilai awal 180, lalu kali 100% = 25%."
+      ],
+      "shortcut": "Gunakan nilai awal sebagai dasar persentase pertumbuhan.",
+      "trap": "Nilai akhir sebagai penyebut menghasilkan ukuran berbeda."
+    },
+    "package": "B"
   },
   {
     "id": "SM-37727e5e939906ca",
@@ -1299,7 +1881,15 @@ window.SIMAK_BANK = [
       "8"
     ],
     "e": "Selisih persamaan menghasilkan x = 5; substitusi ke x+y = 15 memberi y = 10.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Selisih persamaan menghasilkan x = 5; substitusi ke x+y = 15 memberi y = 10."
+      ],
+      "shortcut": "Kurangkan persamaan untuk menghilangkan variabel yang sama.",
+      "trap": "Setelah mendapat x, pertanyaan mungkin meminta y."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c39b14dc30f556ea",
@@ -1314,7 +1904,15 @@ window.SIMAK_BANK = [
       "111"
     ],
     "e": "U8 = a + 7d = 21 + 7 × 10 = 91. Jangan memakai 8d karena suku pertama sudah dihitung.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "U8 = a + 7d = 21 + 7 × 10 = 91. Jangan memakai 8d karena suku pertama sudah dihitung."
+      ],
+      "shortcut": "Hitung beda tetap dahulu; suku ke-n memakai n−1 kali beda.",
+      "trap": "Mengalikan beda dengan nomor suku langsung menambah satu langkah berlebih."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a9d5174d27948d78",
@@ -1329,7 +1927,15 @@ window.SIMAK_BANK = [
       "13"
     ],
     "e": "Kurangi kedua ruas dengan 9, lalu bagi dengan 5; x = 11.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kurangi kedua ruas dengan 9, lalu bagi dengan 5; x = 11."
+      ],
+      "shortcut": "Lakukan operasi yang sama pada kedua ruas.",
+      "trap": "Pindah ruas memerlukan perubahan tanda yang tepat."
+    },
+    "package": "A"
   },
   {
     "id": "SM-508c5d1caf344e8c",
@@ -1344,7 +1950,15 @@ window.SIMAK_BANK = [
       "384000"
     ],
     "e": "Bayar 75% × 480000 = 360000; potongan dihitung dari biaya awal.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Bayar 75% × 480000 = 360000; potongan dihitung dari biaya awal."
+      ],
+      "shortcut": "Kalikan harga awal dengan faktor persentase yang tersisa.",
+      "trap": "Bedakan potongan dari harga yang harus dibayar."
+    },
+    "package": "B"
   },
   {
     "id": "SM-201d860ac2a97a93",
@@ -1359,7 +1973,15 @@ window.SIMAK_BANK = [
       "187"
     ],
     "e": "Total bagian 12; satu bagian 204/12 = 17. Kelas sore = 7 × 17 = 119.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Total bagian 12; satu bagian 204/12 = 17. Kelas sore = 7 × 17 = 119."
+      ],
+      "shortcut": "Cari nilai satu bagian dari total bagian.",
+      "trap": "Jangan memperlakukan rasio sebagai selisih jumlah."
+    },
+    "package": "A"
   },
   {
     "id": "SM-6b9df8f25ddc108a",
@@ -1374,7 +1996,15 @@ window.SIMAK_BANK = [
       "77.25"
     ],
     "e": "Jumlah lama 518, jumlah baru 602; bagi dengan 8, menghasilkan 75.25 (dibulatkan dua desimal).",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jumlah lama 518, jumlah baru 602; bagi dengan 8, menghasilkan 75.25 (dibulatkan dua desimal)."
+      ],
+      "shortcut": "Ubah rata-rata lama menjadi jumlah sebelum menambah data baru.",
+      "trap": "Rata-rata dua rata-rata hanya benar bila bobotnya sama."
+    },
+    "package": "B"
   },
   {
     "id": "SM-65029bf4fff71dd6",
@@ -1389,7 +2019,15 @@ window.SIMAK_BANK = [
       "10.00"
     ],
     "e": "Laju gabungan = 1/10 + 1/20 pekerjaan per jam. Waktu = 200/(10+20) = 6.67 jam setelah pembulatan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Laju gabungan = 1/10 + 1/20 pekerjaan per jam. Waktu = 200/(10+20) = 6.67 jam setelah pembulatan."
+      ],
+      "shortcut": "Jumlahkan laju pekerjaan per jam, lalu balik hasilnya.",
+      "trap": "Waktu kerja tidak boleh langsung dijumlah atau dirata-ratakan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-596d17ee19096f2f",
@@ -1404,7 +2042,15 @@ window.SIMAK_BANK = [
       "24.00"
     ],
     "e": "Jarak 192 km; waktu termasuk berhenti 4.5 jam. Rata-rata = 42.67, bukan kecepatan saat bergerak saja.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Jarak 192 km; waktu termasuk berhenti 4.5 jam. Rata-rata = 42.67, bukan kecepatan saat bergerak saja."
+      ],
+      "shortcut": "Bagi total jarak dengan total waktu, termasuk waktu berhenti.",
+      "trap": "Rata-rata kecepatan tidak otomatis sama dengan kecepatan saat bergerak."
+    },
+    "package": "B"
   },
   {
     "id": "SM-87b2a9ccf088f3e5",
@@ -1419,7 +2065,15 @@ window.SIMAK_BANK = [
       "1089"
     ],
     "e": "Volume = luas alas × tinggi = 11² × 18 = 2178.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Volume = luas alas × tinggi = 11² × 18 = 2178."
+      ],
+      "shortcut": "Tentukan apakah yang diminta panjang, luas, atau volume.",
+      "trap": "Periksa satuan: cm, cm², dan cm³ mewakili besaran berbeda."
+    },
+    "package": "A"
   },
   {
     "id": "SM-98c688721b17b2a1",
@@ -1434,7 +2088,15 @@ window.SIMAK_BANK = [
       "6/16"
     ],
     "e": "Ada 7 hasil merah dari 16 hasil yang sama mungkin, sehingga peluang 7/16.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ada 7 hasil merah dari 16 hasil yang sama mungkin, sehingga peluang 7/16."
+      ],
+      "shortcut": "Hitung hasil yang diinginkan dan seluruh hasil yang sama mungkin.",
+      "trap": "Penyebut bukan hanya banyak hasil yang tidak diinginkan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-b36b4be84cd5b853",
@@ -1449,7 +2111,15 @@ window.SIMAK_BANK = [
       "38"
     ],
     "e": "Pemilih B adalah semua peserta selain yang hanya A dan yang tidak memilih: 97 − 25 − 18 = 54.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pemilih B adalah semua peserta selain yang hanya A dan yang tidak memilih: 97 − 25 − 18 = 54."
+      ],
+      "shortcut": "Pisahkan kelompok hanya A, hanya B, irisan, dan di luar keduanya.",
+      "trap": "Anggota irisan termasuk dalam jumlah pemilih B."
+    },
+    "package": "A"
   },
   {
     "id": "SM-da61575588c72e3e",
@@ -1464,7 +2134,15 @@ window.SIMAK_BANK = [
       "512.0"
     ],
     "e": "Faktor perubahan 1,25 × 0,80 = 1. Nilai kembali ke 640, bukan naik bersih 5%.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Faktor perubahan 1,25 × 0,80 = 1. Nilai kembali ke 640, bukan naik bersih 5%."
+      ],
+      "shortcut": "Kalikan faktor perubahan secara berurutan.",
+      "trap": "Persentase kedua mempunyai dasar nilai yang sudah berubah."
+    },
+    "package": "B"
   },
   {
     "id": "SM-9e06c3f411920432",
@@ -1479,7 +2157,15 @@ window.SIMAK_BANK = [
       "10"
     ],
     "e": "Urutan tidak dibedakan: C(8,2) = 8 × 7/2 = 28.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Urutan tidak dibedakan: C(8,2) = 8 × 7/2 = 28."
+      ],
+      "shortcut": "Untuk dua peran yang sama, abaikan urutan pemilihan.",
+      "trap": "Permutasi menghitung satu pasangan dua kali."
+    },
+    "package": "A"
   },
   {
     "id": "SM-702171bd890feecc",
@@ -1494,7 +2180,15 @@ window.SIMAK_BANK = [
       "23.4"
     ],
     "e": "Lima data sudah berurutan; median adalah data ketiga, yaitu 23. Rata-rata bukan median.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Lima data sudah berurutan; median adalah data ketiga, yaitu 23. Rata-rata bukan median."
+      ],
+      "shortcut": "Urutkan data sebelum menentukan nilai tengah.",
+      "trap": "Median dan rata-rata tidak selalu sama."
+    },
+    "package": "B"
   },
   {
     "id": "SM-1bcf3336932135a5",
@@ -1509,7 +2203,15 @@ window.SIMAK_BANK = [
       "125%"
     ],
     "e": "Kenaikan 50; bagi dengan nilai awal 200, lalu kali 100% = 25%.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kenaikan 50; bagi dengan nilai awal 200, lalu kali 100% = 25%."
+      ],
+      "shortcut": "Gunakan nilai awal sebagai dasar persentase pertumbuhan.",
+      "trap": "Nilai akhir sebagai penyebut menghasilkan ukuran berbeda."
+    },
+    "package": "A"
   },
   {
     "id": "SM-1c99a40de6ac3aef",
@@ -1524,7 +2226,15 @@ window.SIMAK_BANK = [
       "9"
     ],
     "e": "Selisih persamaan menghasilkan x = 6; substitusi ke x+y = 17 memberi y = 11.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Selisih persamaan menghasilkan x = 6; substitusi ke x+y = 17 memberi y = 11."
+      ],
+      "shortcut": "Kurangkan persamaan untuk menghilangkan variabel yang sama.",
+      "trap": "Setelah mendapat x, pertanyaan mungkin meminta y."
+    },
+    "package": "B"
   },
   {
     "id": "SM-9a43196749082321",
@@ -1539,7 +2249,14 @@ window.SIMAK_BANK = [
       "Tidak ada proposal yang ditelaah."
     ],
     "e": "Didanai → ditelaah. Dengan kontraposisi, belum ditelaah → tidak didanai. Tidak ada informasi tentang keputusan masa depan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Didanai → ditelaah. Dengan kontraposisi, belum ditelaah → tidak didanai. Tidak ada informasi tentang keputusan masa depan."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-ee006384e554db4b",
@@ -1554,7 +2271,14 @@ window.SIMAK_BANK = [
       "semua indikator menyala"
     ],
     "e": "Modus tollens: P → Q dan bukan Q menghasilkan bukan P. Kerusakan lampu tidak disebut dalam premis.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Modus tollens: P → Q dan bukan Q menghasilkan bukan P. Kerusakan lampu tidak disebut dalam premis."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-be3267c6be940825",
@@ -1569,7 +2293,14 @@ window.SIMAK_BANK = [
       "sebagian penerjemah tidak menguasai dua bahasa"
     ],
     "e": "Anggota yang sekaligus penulis dan penerjemah harus memenuhi sifat semua penerjemah.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Anggota yang sekaligus penulis dan penerjemah harus memenuhi sifat semua penerjemah."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-01d13a0d76985e40",
@@ -1584,7 +2315,14 @@ window.SIMAK_BANK = [
       "map Z pasti berisi tepat sepuluh dokumen"
     ],
     "e": "Sifat larangan berlaku pada seluruh anggota map Z; arah sebaliknya tidak diberikan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Sifat larangan berlaku pada seluruh anggota map Z; arah sebaliknya tidak diberikan."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-bd4093b243ae32d6",
@@ -1599,7 +2337,14 @@ window.SIMAK_BANK = [
       "paket N pasti tiba hari ini"
     ],
     "e": "Kata hanya jika menyatakan syarat perlu: dikirim → pembayaran terverifikasi.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kata hanya jika menyatakan syarat perlu: dikirim → pembayaran terverifikasi."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c670d95bff6e073a",
@@ -1614,7 +2359,14 @@ window.SIMAK_BANK = [
       "Tautan tidak pernah dibagikan."
     ],
     "e": "Menyimpulkan P dari Q adalah kekeliruan membenarkan konsekuen; tautan dapat dibagikan untuk alasan lain.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Menyimpulkan P dari Q adalah kekeliruan membenarkan konsekuen; tautan dapat dibagikan untuk alasan lain."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-547aaf46397918a1",
@@ -1629,7 +2381,14 @@ window.SIMAK_BANK = [
       "Pasti tim K tidak memiliki anggota."
     ],
     "e": "Kelompok pembawa laptop yang hadir belum tentu beririsan dengan anggota K.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Kelompok pembawa laptop yang hadir belum tentu beririsan dengan anggota K."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-b6bd071d2f9d6fd9",
@@ -1644,7 +2403,14 @@ window.SIMAK_BANK = [
       "Semua jendela tertutup."
     ],
     "e": "Negasi universal adalah adanya paling sedikit satu pengecualian, bukan meniadakan semua anggota.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Negasi universal adalah adanya paling sedikit satu pengecualian, bukan meniadakan semua anggota."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-0186331d047d527f",
@@ -1659,7 +2425,14 @@ window.SIMAK_BANK = [
       "semua pemberitahuan berarti server diperbarui"
     ],
     "e": "Rantai implikasi P → Q → R dengan P menghasilkan R, bukan kebalikan implikasinya.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Rantai implikasi P → Q → R dengan P menghasilkan R, bukan kebalikan implikasinya."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-968f8edf6bc714c6",
@@ -1674,7 +2447,14 @@ window.SIMAK_BANK = [
       "Prita lebih tinggi daripada Oki."
     ],
     "e": "Hubungan lebih tinggi bersifat transitif: Nara > Oki > Prita.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Hubungan lebih tinggi bersifat transitif: Nara > Oki > Prita."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-f5e8b55b61ad4e25",
@@ -1689,7 +2469,14 @@ window.SIMAK_BANK = [
       "Tidak dapat dipastikan siapa bertugas."
     ],
     "e": "Disjungsi inklusif D atau E, bersama bukan D, mengharuskan E.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Disjungsi inklusif D atau E, bersama bukan D, mengharuskan E."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-9f15ac4293b8f7b3",
@@ -1704,7 +2491,14 @@ window.SIMAK_BANK = [
       "Mesin A tidak menyala."
     ],
     "e": "Tepat satu melarang keduanya menyala bersamaan dan melarang keduanya mati.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Tepat satu melarang keduanya menyala bersamaan dan melarang keduanya mati."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-deaed4d736d8daa3",
@@ -1719,7 +2513,14 @@ window.SIMAK_BANK = [
       "Catatan lama pasti lebih pendek."
     ],
     "e": "Sebagian anggota catatan lama yang terindeks mewarisi kemampuan dapat dicari.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Sebagian anggota catatan lama yang terindeks mewarisi kemampuan dapat dicari."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-b645f69790deb499",
@@ -1734,7 +2535,14 @@ window.SIMAK_BANK = [
       "Pameran pasti dibuka besok."
     ],
     "e": "Bikondisional mencakup dibuka → izin terbit; belum ada izin berarti belum dibuka.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Bikondisional mencakup dibuka → izin terbit; belum ada izin berarti belum dibuka."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a307b331cfafd3c1",
@@ -1749,7 +2557,14 @@ window.SIMAK_BANK = [
       "CM T"
     ],
     "e": "R → T, A → C, K → M. Terapkan aturan yang sama pada tiap posisi.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "R → T, A → C, K → M. Terapkan aturan yang sama pada tiap posisi."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-3ff4df6bc7678100",
@@ -1769,7 +2584,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-01",
       "title": "Urutan presentasi",
       "text": "Lima orang, Alya, Bagas, Citra, Damar, Elin, menempati posisi 1 sampai 5, masing-masing sekali. Alya harus sebelum Bagas; Damar harus tepat sebelum Citra; dan Elin berada di posisi 3. Tidak ada syarat tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Enumerasi susunan yang memenuhi semua syarat memberi kemungkinan pertama Alya, Damar. Bagas memerlukan Alya sebelumnya; Citra memerlukan Damar sebelumnya; Elin tetap ketiga."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-03d19b6bc65d32bf",
@@ -1789,7 +2611,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-01",
       "title": "Urutan presentasi",
       "text": "Lima orang, Alya, Bagas, Citra, Damar, Elin, menempati posisi 1 sampai 5, masing-masing sekali. Alya harus sebelum Bagas; Damar harus tepat sebelum Citra; dan Elin berada di posisi 3. Tidak ada syarat tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Kemungkinan terakhir adalah Bagas, Citra. Alya harus mendahului Bagas, Damar harus mendahului Citra, dan Elin tetap ketiga."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-21bad3e275f5ccd3",
@@ -1809,7 +2638,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-01",
       "title": "Urutan presentasi",
       "text": "Lima orang, Alya, Bagas, Citra, Damar, Elin, menempati posisi 1 sampai 5, masing-masing sekali. Alya harus sebelum Bagas; Damar harus tepat sebelum Citra; dan Elin berada di posisi 3. Tidak ada syarat tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Pasangan Damar–Citra harus berdampingan. Karena posisi 3 ditempati Elin, pasangan itu hanya dapat di posisi 4–5; posisi 2 ditempati Bagas."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-da9b49263d8134ec",
@@ -1829,7 +2665,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-01",
       "title": "Urutan presentasi",
       "text": "Lima orang, Alya, Bagas, Citra, Damar, Elin, menempati posisi 1 sampai 5, masing-masing sekali. Alya harus sebelum Bagas; Damar harus tepat sebelum Citra; dan Elin berada di posisi 3. Tidak ada syarat tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Periksa tiga syarat: Alya sebelum Bagas, Damar tepat sebelum Citra, dan Elin di posisi 3. Hanya urutan jawaban benar memenuhi semuanya."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-b18cfbdd204b7be7",
@@ -1849,7 +2692,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-01",
       "title": "Urutan presentasi",
       "text": "Lima orang, Alya, Bagas, Citra, Damar, Elin, menempati posisi 1 sampai 5, masing-masing sekali. Alya harus sebelum Bagas; Damar harus tepat sebelum Citra; dan Elin berada di posisi 3. Tidak ada syarat tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Pasangan Damar–Citra hanya dapat mengisi 1–2 atau 4–5. Dua tempat tersisa diisi Alya lalu Bagas. Jadi ada 2 urutan."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c5b4e60ab3cfe102",
@@ -1869,7 +2719,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-02",
       "title": "Rangkaian pekerjaan",
       "text": "Lima kegiatan, Audit, Briefing, Kalibrasi, Transfer, dan Review, mengisi slot 1 sampai 5 tanpa tumpang tindih. Kalibrasi sebelum Briefing. Audit bukan kegiatan pertama maupun terakhir. Review tepat setelah Transfer. Briefing sebelum Review."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Transfer–Review harus berdampingan. Briefing dan Kalibrasi mendahului Review; Audit tidak boleh di ujung. Dua urutan sah sama-sama dimulai Kalibrasi."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-715d63d60d3f0d60",
@@ -1889,7 +2746,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-02",
       "title": "Rangkaian pekerjaan",
       "text": "Lima kegiatan, Audit, Briefing, Kalibrasi, Transfer, dan Review, mengisi slot 1 sampai 5 tanpa tumpang tindih. Kalibrasi sebelum Briefing. Audit bukan kegiatan pertama maupun terakhir. Review tepat setelah Transfer. Briefing sebelum Review."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Dengan Audit di slot 2, urutan lengkap yang memenuhi syarat adalah Kalibrasi–Audit–Briefing–Transfer–Review."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-8ad21bcda1e53d9d",
@@ -1909,7 +2773,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-02",
       "title": "Rangkaian pekerjaan",
       "text": "Lima kegiatan, Audit, Briefing, Kalibrasi, Transfer, dan Review, mengisi slot 1 sampai 5 tanpa tumpang tindih. Kalibrasi sebelum Briefing. Audit bukan kegiatan pertama maupun terakhir. Review tepat setelah Transfer. Briefing sebelum Review."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Dua urutan sah hanya berbeda pada slot 2 dan 3, yang diisi Audit dan Briefing."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-02bc48fa505ce3b2",
@@ -1929,7 +2800,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-02",
       "title": "Rangkaian pekerjaan",
       "text": "Lima kegiatan, Audit, Briefing, Kalibrasi, Transfer, dan Review, mengisi slot 1 sampai 5 tanpa tumpang tindih. Kalibrasi sebelum Briefing. Audit bukan kegiatan pertama maupun terakhir. Review tepat setelah Transfer. Briefing sebelum Review."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Syarat Review tepat setelah Transfer langsung menetapkan pendahulunya."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-147f71506313b657",
@@ -1949,7 +2827,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-02",
       "title": "Rangkaian pekerjaan",
       "text": "Lima kegiatan, Audit, Briefing, Kalibrasi, Transfer, dan Review, mengisi slot 1 sampai 5 tanpa tumpang tindih. Kalibrasi sebelum Briefing. Audit bukan kegiatan pertama maupun terakhir. Review tepat setelah Transfer. Briefing sebelum Review."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Dua urutannya: Kalibrasi–Audit–Briefing–Transfer–Review dan Kalibrasi–Briefing–Audit–Transfer–Review."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-b6f8379249fe579d",
@@ -1969,7 +2854,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-03",
       "title": "Tim dokumentasi",
       "text": "Tiga orang dipilih dari Farah, Gilang, Hana, Irfan, Jihan, dan Kirana. Jika Farah dipilih, Hana harus dipilih. Gilang dan Irfan tidak boleh berada dalam tim yang sama. Tepat satu dari Jihan dan Kirana harus dipilih. Tidak ada ketentuan tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Satu tempat diisi Jihan atau Kirana. Dua dari empat orang lain harus dipilih; tanpa Hana, Farah tidak dapat dipilih dan Gilang–Irfan dilarang. Jadi Hana wajib."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-53616c4492d98fdb",
@@ -1989,7 +2881,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-03",
       "title": "Tim dokumentasi",
       "text": "Tiga orang dipilih dari Farah, Gilang, Hana, Irfan, Jihan, dan Kirana. Jika Farah dipilih, Hana harus dipilih. Gilang dan Irfan tidak boleh berada dalam tim yang sama. Tepat satu dari Jihan dan Kirana harus dipilih. Tidak ada ketentuan tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Farah mengharuskan Hana. Karena Kirana tidak dipilih, syarat tepat satu mengharuskan Jihan."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-b316ca81ab09e7fa",
@@ -2009,7 +2908,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-03",
       "title": "Tim dokumentasi",
       "text": "Tiga orang dipilih dari Farah, Gilang, Hana, Irfan, Jihan, dan Kirana. Jika Farah dipilih, Hana harus dipilih. Gilang dan Irfan tidak boleh berada dalam tim yang sama. Tepat satu dari Jihan dan Kirana harus dipilih. Tidak ada ketentuan tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Pilihan benar tidak memuat Gilang bersama Irfan dan memuat tepat satu dari Jihan/Kirana. Tim lain melanggar sedikitnya satu syarat."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-d2075ebb31c998e9",
@@ -2029,7 +2935,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-03",
       "title": "Tim dokumentasi",
       "text": "Tiga orang dipilih dari Farah, Gilang, Hana, Irfan, Jihan, dan Kirana. Jika Farah dipilih, Hana harus dipilih. Gilang dan Irfan tidak boleh berada dalam tim yang sama. Tepat satu dari Jihan dan Kirana harus dipilih. Tidak ada ketentuan tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Jihan tidak dipilih mengharuskan Kirana. Hana wajib pada semua tim; anggota ketiga dapat Farah, Gilang, atau Irfan."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-48612feb643280a4",
@@ -2049,7 +2962,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-03",
       "title": "Tim dokumentasi",
       "text": "Tiga orang dipilih dari Farah, Gilang, Hana, Irfan, Jihan, dan Kirana. Jika Farah dipilih, Hana harus dipilih. Gilang dan Irfan tidak boleh berada dalam tim yang sama. Tepat satu dari Jihan dan Kirana harus dipilih. Tidak ada ketentuan tambahan."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Hana selalu terpilih. Pilih satu dari Farah/Gilang/Irfan dan satu dari Jihan/Kirana: 3 × 2 = 6 tim."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-9679719ad4d80584",
@@ -2069,7 +2989,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-04",
       "title": "Tempat duduk melingkar",
       "text": "Enam kursi bernomor 1 sampai 6 disusun melingkar searah jarum jam, sehingga kursi 6 bertetangga dengan kursi 1. Arum duduk di kursi 1 dan Bimo di kursi 4. Cindi tepat satu kursi searah jarum jam dari Damar. Elin tidak boleh bertetangga dengan Bimo. Farid menempati kursi tersisa. Setiap orang duduk sekali."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Tetangga Bimo di kursi 4 adalah 3 dan 5; kursi 1 sudah ditempati Arum dan 4 oleh Bimo. Tersisa 2 atau 6."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a6d9d991bffded8a",
@@ -2089,7 +3016,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-04",
       "title": "Tempat duduk melingkar",
       "text": "Enam kursi bernomor 1 sampai 6 disusun melingkar searah jarum jam, sehingga kursi 6 bertetangga dengan kursi 1. Arum duduk di kursi 1 dan Bimo di kursi 4. Cindi tepat satu kursi searah jarum jam dari Damar. Elin tidak boleh bertetangga dengan Bimo. Farid menempati kursi tersisa. Setiap orang duduk sekali."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Cindi harus di kursi 3. Elin kemudian di kursi 6, sehingga kursi 5 menjadi tempat Farid."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-bf55632701b6fedf",
@@ -2109,7 +3043,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-04",
       "title": "Tempat duduk melingkar",
       "text": "Enam kursi bernomor 1 sampai 6 disusun melingkar searah jarum jam, sehingga kursi 6 bertetangga dengan kursi 1. Arum duduk di kursi 1 dan Bimo di kursi 4. Cindi tepat satu kursi searah jarum jam dari Damar. Elin tidak boleh bertetangga dengan Bimo. Farid menempati kursi tersisa. Setiap orang duduk sekali."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Kursi 1 dan 4 sudah terisi; dengan Elin di 2, satu-satunya pasangan berurutan searah jarum jam yang kosong adalah 5–6."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-d2609f453861ea78",
@@ -2129,7 +3070,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-04",
       "title": "Tempat duduk melingkar",
       "text": "Enam kursi bernomor 1 sampai 6 disusun melingkar searah jarum jam, sehingga kursi 6 bertetangga dengan kursi 1. Arum duduk di kursi 1 dan Bimo di kursi 4. Cindi tepat satu kursi searah jarum jam dari Damar. Elin tidak boleh bertetangga dengan Bimo. Farid menempati kursi tersisa. Setiap orang duduk sekali."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Dua susunan sah menempatkan Cindi di kursi 3 atau 6; keduanya memenuhi syarat pasangan Damar–Cindi."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-7110a2a814afb700",
@@ -2149,7 +3097,14 @@ window.SIMAK_BANK = [
       "id": "SM-LP-04",
       "title": "Tempat duduk melingkar",
       "text": "Enam kursi bernomor 1 sampai 6 disusun melingkar searah jarum jam, sehingga kursi 6 bertetangga dengan kursi 1. Arum duduk di kursi 1 dan Bimo di kursi 4. Cindi tepat satu kursi searah jarum jam dari Damar. Elin tidak boleh bertetangga dengan Bimo. Farid menempati kursi tersisa. Setiap orang duduk sekali."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Pasangan Damar–Cindi hanya dapat di 2–3 atau 5–6. Pada masing-masing pilihan, Elin dan Farid terpaksa mengisi dua tempat lain. Total dua susunan."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-7dba25c489d52828",
@@ -2163,7 +3118,14 @@ window.SIMAK_BANK = [
       "were"
     ],
     "e": "Subjek inti collection tunggal, sehingga bentuk sekarang yang tepat adalah is.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Subjek inti collection tunggal, sehingga bentuk sekarang yang tepat adalah is."
+      ],
+      "rule": "Subjek inti collection tunggal, sehingga bentuk sekarang yang tepat adalah is."
+    },
+    "package": "A"
   },
   {
     "id": "SM-ecf7f73ebd062ddd",
@@ -2177,7 +3139,14 @@ window.SIMAK_BANK = [
       "has"
     ],
     "e": "Pada neither...nor, verba mengikuti subjek terdekat; assistants jamak.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pada neither...nor, verba mengikuti subjek terdekat; assistants jamak."
+      ],
+      "rule": "Pada neither...nor, verba mengikuti subjek terdekat; assistants jamak."
+    },
+    "package": "B"
   },
   {
     "id": "SM-4fa9cca1fafcd9b6",
@@ -2191,7 +3160,14 @@ window.SIMAK_BANK = [
       "will preparing"
     ],
     "e": "Persiapan mendahului kejadian lampau arrived; gunakan past perfect.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Persiapan mendahului kejadian lampau arrived; gunakan past perfect."
+      ],
+      "rule": "Persiapan mendahului kejadian lampau arrived; gunakan past perfect."
+    },
+    "package": "A"
   },
   {
     "id": "SM-2d2d69dab237b493",
@@ -2205,7 +3181,14 @@ window.SIMAK_BANK = [
       "be submit"
     ],
     "e": "Modal must diikuti be + past participle untuk bentuk pasif.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Modal must diikuti be + past participle untuk bentuk pasif."
+      ],
+      "rule": "Modal must diikuti be + past participle untuk bentuk pasif."
+    },
+    "package": "B"
   },
   {
     "id": "SM-d0984b6116aa68a5",
@@ -2219,7 +3202,14 @@ window.SIMAK_BANK = [
       "unless"
     ],
     "e": "Klausa berikutnya memberi sebab penundaan, sehingga because tepat.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Klausa berikutnya memberi sebab penundaan, sehingga because tepat."
+      ],
+      "rule": "Klausa berikutnya memberi sebab penundaan, sehingga because tepat."
+    },
+    "package": "A"
   },
   {
     "id": "SM-bbd4548ac3b13d90",
@@ -2233,7 +3223,14 @@ window.SIMAK_BANK = [
       "Unless"
     ],
     "e": "Despite diikuti frasa nomina; although memerlukan klausa.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Despite diikuti frasa nomina; although memerlukan klausa."
+      ],
+      "rule": "Despite diikuti frasa nomina; although memerlukan klausa."
+    },
+    "package": "B"
   },
   {
     "id": "SM-2750311a5882c30f",
@@ -2247,7 +3244,14 @@ window.SIMAK_BANK = [
       "who"
     ],
     "e": "Whose menunjukkan kepemilikan proposal oleh researcher.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Whose menunjukkan kepemilikan proposal oleh researcher."
+      ],
+      "rule": "Whose menunjukkan kepemilikan proposal oleh researcher."
+    },
+    "package": "A"
   },
   {
     "id": "SM-acd7325624cc9547",
@@ -2261,7 +3265,14 @@ window.SIMAK_BANK = [
       "whom"
     ],
     "e": "Where memperkenalkan keterangan tempat; letters were discovered tidak memerlukan objek tambahan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Where memperkenalkan keterangan tempat; letters were discovered tidak memerlukan objek tambahan."
+      ],
+      "rule": "Where memperkenalkan keterangan tempat; letters were discovered tidak memerlukan objek tambahan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-d01121663c840569",
@@ -2275,7 +3286,14 @@ window.SIMAK_BANK = [
       "sounding"
     ],
     "e": "First conditional: if + present, will + verba dasar.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "First conditional: if + present, will + verba dasar."
+      ],
+      "rule": "First conditional: if + present, will + verba dasar."
+    },
+    "package": "A"
   },
   {
     "id": "SM-88f2596372f1fe64",
@@ -2289,7 +3307,14 @@ window.SIMAK_BANK = [
       "would not entering"
     ],
     "e": "Third conditional mengacu pada keadaan lampau yang tidak terjadi.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Third conditional mengacu pada keadaan lampau yang tidak terjadi."
+      ],
+      "rule": "Third conditional mengacu pada keadaan lampau yang tidak terjadi."
+    },
+    "package": "B"
   },
   {
     "id": "SM-3e890a597213eee4",
@@ -2303,7 +3328,14 @@ window.SIMAK_BANK = [
       "reliable"
     ],
     "e": "Than memerlukan bentuk komparatif.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Than memerlukan bentuk komparatif."
+      ],
+      "rule": "Than memerlukan bentuk komparatif."
+    },
+    "package": "A"
   },
   {
     "id": "SM-8110111e4693a365",
@@ -2317,7 +3349,14 @@ window.SIMAK_BANK = [
       "more short"
     ],
     "e": "Perbandingan anggota kelompok empat memakai superlatif.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Perbandingan anggota kelompok empat memakai superlatif."
+      ],
+      "rule": "Perbandingan anggota kelompok empat memakai superlatif."
+    },
+    "package": "B"
   },
   {
     "id": "SM-1c6b1a4731f6d69f",
@@ -2331,7 +3370,14 @@ window.SIMAK_BANK = [
       "follows"
     ],
     "e": "Pola enough for someone to do something memakai infinitif.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pola enough for someone to do something memakai infinitif."
+      ],
+      "rule": "Pola enough for someone to do something memakai infinitif."
+    },
+    "package": "A"
   },
   {
     "id": "SM-bad01e5080501a81",
@@ -2345,7 +3391,14 @@ window.SIMAK_BANK = [
       "included"
     ],
     "e": "Avoid diikuti gerund, bukan to-infinitive.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Avoid diikuti gerund, bukan to-infinitive."
+      ],
+      "rule": "Avoid diikuti gerund, bukan to-infinitive."
+    },
+    "package": "B"
   },
   {
     "id": "SM-78c3fea58cf8bea2",
@@ -2359,7 +3412,14 @@ window.SIMAK_BANK = [
       "checks"
     ],
     "e": "Ask someone to do something adalah pola yang diperlukan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Ask someone to do something adalah pola yang diperlukan."
+      ],
+      "rule": "Ask someone to do something adalah pola yang diperlukan."
+    },
+    "package": "A"
   },
   {
     "id": "SM-59ac52c5d3f21d4d",
@@ -2373,7 +3433,14 @@ window.SIMAK_BANK = [
       "have required"
     ],
     "e": "Each adalah subjek tunggal; gunakan requires.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Each adalah subjek tunggal; gunakan requires."
+      ],
+      "rule": "Each adalah subjek tunggal; gunakan requires."
+    },
+    "package": "B"
   },
   {
     "id": "SM-6a79b9878cd494db",
@@ -2387,7 +3454,14 @@ window.SIMAK_BANK = [
       "several"
     ],
     "e": "Evidence tidak dapat dihitung; little sesuai, sedangkan few untuk nomina jamak dapat dihitung.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Evidence tidak dapat dihitung; little sesuai, sedangkan few untuk nomina jamak dapat dihitung."
+      ],
+      "rule": "Evidence tidak dapat dihitung; little sesuai, sedangkan few untuk nomina jamak dapat dihitung."
+    },
+    "package": "A"
   },
   {
     "id": "SM-f7f5d0492ba91d4f",
@@ -2401,7 +3475,14 @@ window.SIMAK_BANK = [
       "less"
     ],
     "e": "Applications nomina jamak dapat dihitung, sehingga many tepat.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Applications nomina jamak dapat dihitung, sehingga many tepat."
+      ],
+      "rule": "Applications nomina jamak dapat dihitung, sehingga many tepat."
+    },
+    "package": "B"
   },
   {
     "id": "SM-0004d89a52aa0dc9",
@@ -2415,7 +3496,14 @@ window.SIMAK_BANK = [
       "has supported"
     ],
     "e": "Subjek terdekat researchers jamak, sehingga support tepat.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Subjek terdekat researchers jamak, sehingga support tepat."
+      ],
+      "rule": "Subjek terdekat researchers jamak, sehingga support tepat."
+    },
+    "package": "A"
   },
   {
     "id": "SM-7589c8697fad58c4",
@@ -2429,7 +3517,14 @@ window.SIMAK_BANK = [
       "has"
     ],
     "e": "Inversi pasif: Only after... was the building reopened.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Inversi pasif: Only after... was the building reopened."
+      ],
+      "rule": "Inversi pasif: Only after... was the building reopened."
+    },
+    "package": "B"
   },
   {
     "id": "SM-1ddd9d6ecc0e9f7a",
@@ -2443,7 +3538,14 @@ window.SIMAK_BANK = [
       "does we see"
     ],
     "e": "Rarely di awal klausa memicu inversi auxiliary + subjek.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Rarely di awal klausa memicu inversi auxiliary + subjek."
+      ],
+      "rule": "Rarely di awal klausa memicu inversi auxiliary + subjek."
+    },
+    "package": "A"
   },
   {
     "id": "SM-27e42e8e9918e1a8",
@@ -2457,7 +3559,14 @@ window.SIMAK_BANK = [
       "to packing"
     ],
     "e": "Reduced passive clause: samples which were packed → samples packed.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Reduced passive clause: samples which were packed → samples packed."
+      ],
+      "rule": "Reduced passive clause: samples which were packed → samples packed."
+    },
+    "package": "B"
   },
   {
     "id": "SM-6e3d7ecb086d7224",
@@ -2471,7 +3580,14 @@ window.SIMAK_BANK = [
       "Had checking"
     ],
     "e": "Having + past participle menandai tindakan yang selesai sebelum tindakan utama.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Having + past participle menandai tindakan yang selesai sebelum tindakan utama."
+      ],
+      "rule": "Having + past participle menandai tindakan yang selesai sebelum tindakan utama."
+    },
+    "package": "A"
   },
   {
     "id": "SM-9384df93969e2be3",
@@ -2485,7 +3601,14 @@ window.SIMAK_BANK = [
       "has remain"
     ],
     "e": "Setelah suggested that, bentuk subjunktif memakai verba dasar remain.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Setelah suggested that, bentuk subjunktif memakai verba dasar remain."
+      ],
+      "rule": "Setelah suggested that, bentuk subjunktif memakai verba dasar remain."
+    },
+    "package": "B"
   },
   {
     "id": "SM-dbc1b0919c9b9972",
@@ -2499,7 +3622,14 @@ window.SIMAK_BANK = [
       "improvement"
     ],
     "e": "Struktur paralel to reduce... and improve... menggunakan dua verba dasar.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Struktur paralel to reduce... and improve... menggunakan dua verba dasar."
+      ],
+      "rule": "Struktur paralel to reduce... and improve... menggunakan dua verba dasar."
+    },
+    "package": "A"
   },
   {
     "id": "SM-bfb6a952fa2bb6d1",
@@ -2513,7 +3643,14 @@ window.SIMAK_BANK = [
       "is work"
     ],
     "e": "Embedded question memakai urutan pernyataan: how the device works.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Embedded question memakai urutan pernyataan: how the device works."
+      ],
+      "rule": "Embedded question memakai urutan pernyataan: how the device works."
+    },
+    "package": "B"
   },
   {
     "id": "SM-fa01cb76b0a53440",
@@ -2527,7 +3664,14 @@ window.SIMAK_BANK = [
       "by"
     ],
     "e": "Since diikuti titik awal waktu; for diikuti durasi.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Since diikuti titik awal waktu; for diikuti durasi."
+      ],
+      "rule": "Since diikuti titik awal waktu; for diikuti durasi."
+    },
+    "package": "A"
   },
   {
     "id": "SM-718efe1d6977ba46",
@@ -2541,7 +3685,14 @@ window.SIMAK_BANK = [
       "since"
     ],
     "e": "In three weeks menyatakan waktu yang dibutuhkan untuk menyelesaikan.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "In three weeks menyatakan waktu yang dibutuhkan untuk menyelesaikan."
+      ],
+      "rule": "In three weeks menyatakan waktu yang dibutuhkan untuk menyelesaikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-922c397e69c6c15f",
@@ -2555,7 +3706,14 @@ window.SIMAK_BANK = [
       "analytical"
     ],
     "e": "Artikel a dan adjektiva useful memerlukan nomina analysis.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Artikel a dan adjektiva useful memerlukan nomina analysis."
+      ],
+      "rule": "Artikel a dan adjektiva useful memerlukan nomina analysis."
+    },
+    "package": "A"
   },
   {
     "id": "SM-df6342846ce9d417",
@@ -2569,7 +3727,14 @@ window.SIMAK_BANK = [
       "consist"
     ],
     "e": "Setelah were diperlukan pelengkap adjektiva consistent.",
-    "origin": "original"
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Setelah were diperlukan pelengkap adjektiva consistent."
+      ],
+      "rule": "Setelah were diperlukan pelengkap adjektiva consistent."
+    },
+    "package": "B"
   },
   {
     "id": "SM-02f67542ed0825dc",
@@ -2601,7 +3766,14 @@ window.SIMAK_BANK = [
         "text": "this morning.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "have received → has received; every applicant adalah subjek tunggal."
+      ],
+      "rule": "have received → has received; every applicant adalah subjek tunggal."
+    },
+    "package": "A"
   },
   {
     "id": "SM-d58c2de342cee93e",
@@ -2633,7 +3805,14 @@ window.SIMAK_BANK = [
         "text": "near the office.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "was stored → were stored; records adalah subjek jamak."
+      ],
+      "rule": "was stored → were stored; records adalah subjek jamak."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a57a8f3cf457bca6",
@@ -2665,7 +3844,14 @@ window.SIMAK_BANK = [
         "text": "urban planning.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "in learn → in learning; preposisi in diikuti gerund."
+      ],
+      "rule": "in learn → in learning; preposisi in diikuti gerund."
+    },
+    "package": "A"
   },
   {
     "id": "SM-9bf905bf9f933f51",
@@ -2697,7 +3883,14 @@ window.SIMAK_BANK = [
         "text": "through the valley.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "more shorter → shorter; jangan memakai dua penanda komparatif sekaligus."
+      ],
+      "rule": "more shorter → shorter; jangan memakai dua penanda komparatif sekaligus."
+    },
+    "package": "B"
   },
   {
     "id": "SM-f6ff114ff4b81da4",
@@ -2729,7 +3922,14 @@ window.SIMAK_BANK = [
         "text": "during the meeting.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "very clear → very clearly; verba explained diterangkan oleh adverbia."
+      ],
+      "rule": "very clear → very clearly; verba explained diterangkan oleh adverbia."
+    },
+    "package": "A"
   },
   {
     "id": "SM-f95cfeb4d90ab48a",
@@ -2761,7 +3961,14 @@ window.SIMAK_BANK = [
         "text": "in the garden.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "Although the rain → Despite the rain; frasa nomina memerlukan despite, bukan although."
+      ],
+      "rule": "Although the rain → Despite the rain; frasa nomina memerlukan despite, bukan although."
+    },
+    "package": "B"
   },
   {
     "id": "SM-af971de849ad4bf6",
@@ -2793,7 +4000,14 @@ window.SIMAK_BANK = [
         "text": "the new proposal.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "to discuss → discussing; enjoy diikuti gerund."
+      ],
+      "rule": "to discuss → discussing; enjoy diikuti gerund."
+    },
+    "package": "A"
   },
   {
     "id": "SM-ca1809f555b6df7f",
@@ -2825,7 +4039,14 @@ window.SIMAK_BANK = [
         "text": "before use.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "which handle is loose → whose handle is loose; diperlukan penanda kepemilikan."
+      ],
+      "rule": "which handle is loose → whose handle is loose; diperlukan penanda kepemilikan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a84035ab8dae8ac4",
@@ -2857,7 +4078,14 @@ window.SIMAK_BANK = [
         "text": "the evidence.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "are → is; neither of diperlakukan sebagai subjek tunggal pada kalimat formal ini."
+      ],
+      "rule": "are → is; neither of diperlakukan sebagai subjek tunggal pada kalimat formal ini."
+    },
+    "package": "A"
   },
   {
     "id": "SM-ed635c9a5691d5df",
@@ -2889,7 +4117,14 @@ window.SIMAK_BANK = [
         "text": "without a break.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "since five months → for five months; five months adalah durasi."
+      ],
+      "rule": "since five months → for five months; five months adalah durasi."
+    },
+    "package": "B"
   },
   {
     "id": "SM-14afe91ba3e16bb7",
@@ -2921,7 +4156,14 @@ window.SIMAK_BANK = [
         "text": "after the presentation.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "several useful suggestion → several useful suggestions; several memerlukan nomina jamak."
+      ],
+      "rule": "several useful suggestion → several useful suggestions; several memerlukan nomina jamak."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c95fde79123cb56c",
@@ -2953,7 +4195,14 @@ window.SIMAK_BANK = [
         "text": "before booking tickets.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "an information → information; information adalah nomina tidak dapat dihitung."
+      ],
+      "rule": "an information → information; information adalah nomina tidak dapat dihitung."
+    },
+    "package": "B"
   },
   {
     "id": "SM-d71ad936072d1756",
@@ -2985,7 +4234,14 @@ window.SIMAK_BANK = [
         "text": "each year.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "must be inspect → must be inspected; pasif memerlukan past participle."
+      ],
+      "rule": "must be inspect → must be inspected; pasif memerlukan past participle."
+    },
+    "package": "A"
   },
   {
     "id": "SM-9e6e116eba07ae15",
@@ -3017,7 +4273,14 @@ window.SIMAK_BANK = [
         "text": "had ended.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "where was the file → where the file was; pertanyaan tak langsung memakai urutan pernyataan."
+      ],
+      "rule": "where was the file → where the file was; pertanyaan tak langsung memakai urutan pernyataan."
+    },
+    "package": "B"
   },
   {
     "id": "SM-2e43017453f2c590",
@@ -3049,7 +4312,14 @@ window.SIMAK_BANK = [
         "text": "yesterday.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "it would arrive → it would have arrived; kondisi lampau yang tidak terjadi memakai third conditional."
+      ],
+      "rule": "it would arrive → it would have arrived; kondisi lampau yang tidak terjadi memakai third conditional."
+    },
+    "package": "A"
   },
   {
     "id": "SM-e01fb49b0ffc691a",
@@ -3081,7 +4351,14 @@ window.SIMAK_BANK = [
         "text": "for local residents.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "and developing solutions → and develop solutions; bentuk harus paralel dengan to identify."
+      ],
+      "rule": "and developing solutions → and develop solutions; bentuk harus paralel dengan to identify."
+    },
+    "package": "B"
   },
   {
     "id": "SM-e05622cfa6c95d54",
@@ -3113,7 +4390,14 @@ window.SIMAK_BANK = [
         "text": "tested yesterday.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "the most efficient → the more efficient; kelompok dua memakai komparatif."
+      ],
+      "rule": "the most efficient → the more efficient; kelompok dua memakai komparatif."
+    },
+    "package": "A"
   },
   {
     "id": "SM-271acfbeb8fb6754",
@@ -3145,7 +4429,14 @@ window.SIMAK_BANK = [
         "text": "since nine o’clock.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "has arrived → have arrived; a number of visitors mengambil verba jamak."
+      ],
+      "rule": "has arrived → have arrived; a number of visitors mengambil verba jamak."
+    },
+    "package": "B"
   },
   {
     "id": "SM-5d17d1e624a056cd",
@@ -3177,7 +4468,14 @@ window.SIMAK_BANK = [
         "text": "a clear budget.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "because of it lacked → because it lacked; klausa memerlukan because, bukan because of."
+      ],
+      "rule": "because of it lacked → because it lacked; klausa memerlukan because, bukan because of."
+    },
+    "package": "A"
   },
   {
     "id": "SM-24095c666a6c40a9",
@@ -3209,7 +4507,14 @@ window.SIMAK_BANK = [
         "text": "than the earlier draft.",
         "oi": 3
       }
-    ]
+    ],
+    "solution": {
+      "steps": [
+        "less errors → fewer errors; errors adalah nomina jamak dapat dihitung."
+      ],
+      "rule": "less errors → fewer errors; errors adalah nomina jamak dapat dihitung."
+    },
+    "package": "B"
   },
   {
     "id": "SM-a6a4286412d31dc6",
@@ -3228,7 +4533,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-01",
       "title": "Seed exchange",
       "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "package": "A"
   },
   {
     "id": "SM-dcc6e2d8673b816e",
@@ -3247,7 +4559,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-01",
       "title": "Seed exchange",
       "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah missing collection dates. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "package": "A"
   },
   {
     "id": "SM-3e5fbffa0abcb17b",
@@ -3266,7 +4585,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-01",
       "title": "Seed exchange",
       "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut information about growing conditions. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "package": "A"
   },
   {
     "id": "SM-d37f24c62fe28e59",
@@ -3285,7 +4611,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-01",
       "title": "Seed exchange",
       "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "package": "A"
   },
   {
     "id": "SM-327ff972ed5ec8c3",
@@ -3304,7 +4637,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-01",
       "title": "Seed exchange",
       "text": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Discarded berarti dibuang, sesuai konteks paket yang tidak digunakan."
+      ],
+      "evidence": "A neighborhood seed exchange originally asked gardeners to leave packets on an unattended shelf. Many packets had no dates, so visitors could not judge how long the seeds had been stored. Volunteers replaced the shelf with a monthly exchange table. Donors now record the plant name, collection month, and growing conditions on a card. The cards do not guarantee that every seed will grow, but they help gardeners decide which seeds suit their plots. After the change, fewer packets were discarded unopened. The organizers plan to keep the cards and ask participants about germination before expanding the exchange."
+    },
+    "package": "A"
   },
   {
     "id": "SM-99f6ce0f71223f30",
@@ -3323,7 +4663,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-02",
       "title": "Quiet deliveries",
       "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "package": "B"
   },
   {
     "id": "SM-19e43a7fc13cb238",
@@ -3342,7 +4689,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-02",
       "title": "Quiet deliveries",
       "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah noise from metal gates at dawn. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "package": "B"
   },
   {
     "id": "SM-8bf39610be5f92ed",
@@ -3361,7 +4715,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-02",
       "title": "Quiet deliveries",
       "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut rubber pads and later noisy unloading. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "package": "B"
   },
   {
     "id": "SM-4c78d7bb4216b2de",
@@ -3380,7 +4741,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-02",
       "title": "Quiet deliveries",
       "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "package": "B"
   },
   {
     "id": "SM-85e5f1bce0157404",
@@ -3399,7 +4767,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-02",
       "title": "Quiet deliveries",
       "text": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Insufficient berarti tidak cukup; satu minggu belum cukup untuk menilai hasil jangka panjang."
+      ],
+      "evidence": "A small market tested deliveries before opening time to reduce conflicts between carts and shoppers. Vendors welcomed the empty aisles, but nearby residents complained about metal gates being opened at dawn. The manager did not simply cancel the trial. Instead, the market installed rubber pads on the gates and moved the noisiest unloading tasks to a later period. Complaints declined during the following week, although the number of deliveries stayed similar. The manager cautioned that one quiet week was insufficient to establish a lasting result and requested another month of observations before making the schedule permanent."
+    },
+    "package": "B"
   },
   {
     "id": "SM-19f750e468159d8c",
@@ -3418,7 +4793,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-03",
       "title": "Shared instruments",
       "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c265a770d0f03f95",
@@ -3437,7 +4819,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-03",
       "title": "Shared instruments",
       "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah identical time allocations despite different needs. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "package": "A"
   },
   {
     "id": "SM-85cb93cfe45d7e9e",
@@ -3456,7 +4845,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-03",
       "title": "Shared instruments",
       "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut releasing unused slots in advance. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "package": "A"
   },
   {
     "id": "SM-c2004beab5110eb7",
@@ -3475,7 +4871,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-03",
       "title": "Shared instruments",
       "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "package": "A"
   },
   {
     "id": "SM-35ea481145466598",
@@ -3494,7 +4897,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-03",
       "title": "Shared instruments",
       "text": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Allocations adalah bagian sumber daya yang dibagikan atau ditetapkan."
+      ],
+      "evidence": "Several research groups purchased a microscope together rather than buying separate instruments. They expected lower costs, but the first booking system reserved the same number of hours for every group. Some groups needed short inspections; others needed long imaging sessions. Empty reservations occurred while other users waited. The groups introduced bookings based on session length and required unused slots to be released a day in advance. Access improved without extending opening hours. The coordinator emphasized that sharing an instrument requires rules fitted to actual work, not merely equal allocations that appear fair on paper."
+    },
+    "package": "A"
   },
   {
     "id": "SM-1967f2c8248d734c",
@@ -3513,7 +4923,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-04",
       "title": "Walking survey",
       "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "package": "B"
   },
   {
     "id": "SM-209a4476141c5346",
@@ -3532,7 +4949,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-04",
       "title": "Walking survey",
       "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah sunny weekends. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "package": "B"
   },
   {
     "id": "SM-b8823ea51825bb38",
@@ -3551,7 +4975,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-04",
       "title": "Walking survey",
       "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut weekday counts and observations after rain. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "package": "B"
   },
   {
     "id": "SM-6bb06702997b1efe",
@@ -3570,7 +5001,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-04",
       "title": "Walking survey",
       "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "package": "B"
   },
   {
     "id": "SM-e732466033b9e45c",
@@ -3589,7 +5027,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-04",
       "title": "Walking survey",
       "text": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Priority adalah hal yang diprioritaskan atau diberi kepentingan lebih besar."
+      ],
+      "evidence": "City planners counted pedestrians at a riverside path on two sunny weekends and proposed widening it. A local group welcomed the idea but pointed out that the path also serves weekday commuters. The group asked for counts during ordinary workdays and after rain, when several entrances become muddy. Planners added these observations and discovered that improving drainage at the entrances would help many regular users. Widening remained an option, but it was no longer the only priority. The revised plan separated problems caused by crowding from problems caused by poor access."
+    },
+    "package": "B"
   },
   {
     "id": "SM-2a8f7b5690270f4b",
@@ -3608,7 +5053,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-05",
       "title": "Repair labels",
       "text": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
+    },
+    "package": "A"
   },
   {
     "id": "SM-ad781a9a61124894",
@@ -3627,7 +5079,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-05",
       "title": "Repair labels",
       "text": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah a warranty. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
+    },
+    "package": "A"
   },
   {
     "id": "SM-56827c90d9ef0d28",
@@ -3646,7 +5105,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-05",
       "title": "Repair labels",
       "text": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut a maintenance record. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
+    },
+    "package": "A"
   },
   {
     "id": "SM-455eb179660ced02",
@@ -3665,7 +5131,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-05",
       "title": "Repair labels",
       "text": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
+    },
+    "package": "A"
   },
   {
     "id": "SM-d21eb1d4f284b7f1",
@@ -3684,7 +5157,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-05",
       "title": "Repair labels",
       "text": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Distinguish berarti membedakan: pekerjaan lampau dibedakan dari jaminan masa depan."
+      ],
+      "evidence": "A repair workshop began attaching simple labels to repaired appliances. Each label described the replaced part and a recommended check after six months. Customers initially treated the label as a warranty, even though it was intended as a maintenance record. The workshop revised its wording to distinguish past work from future guarantees. Staff also explained the label when returning an appliance. Questions about warranty coverage became less frequent. The owner concluded that useful information can still mislead when readers assign it a different purpose, so the wording should be tested with the people who will use it."
+    },
+    "package": "A"
   },
   {
     "id": "SM-419442311bac82fa",
@@ -3703,7 +5183,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-06",
       "title": "Cooling courtyard",
       "text": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
+    },
+    "package": "B"
   },
   {
     "id": "SM-ee1f2ec6449f906b",
@@ -3722,7 +5209,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-06",
       "title": "Cooling courtyard",
       "text": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah a route used by wheelchair users. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
+    },
+    "package": "B"
   },
   {
     "id": "SM-8c6ad24e6f8d16b3",
@@ -3741,7 +5235,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-06",
       "title": "Cooling courtyard",
       "text": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut moving the shade panels. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
+    },
+    "package": "B"
   },
   {
     "id": "SM-b72147058d6333b1",
@@ -3760,7 +5261,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-06",
       "title": "Cooling courtyard",
       "text": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
+    },
+    "package": "B"
   },
   {
     "id": "SM-3d868af0d5efe536",
@@ -3779,7 +5287,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-06",
       "title": "Cooling courtyard",
       "text": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Preserved berarti dipertahankan: tempat duduk teduh tetap tersedia."
+      ],
+      "evidence": "An apartment building placed movable shade panels in its courtyard. Residents selected shaded seats more often in the afternoon, but the panels blocked a route used by wheelchair users. The building committee moved the panels instead of removing all shade. It then checked both seating choices and the width of the remaining route. The new layout preserved shaded seating and restored access. The committee recorded the positions of the panels so that future rearrangements could be checked against the same requirements. The experience showed why a successful change should be evaluated for effects beyond its original goal."
+    },
+    "package": "B"
   },
   {
     "id": "SM-e2bc47ac1ac9b60a",
@@ -3798,7 +5313,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-07",
       "title": "Audio archive",
       "text": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
+    },
+    "package": "A"
   },
   {
     "id": "SM-660a127b3fc166f8",
@@ -3817,7 +5339,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-07",
       "title": "Audio archive",
       "text": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah pauses and emphasis. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
+    },
+    "package": "A"
   },
   {
     "id": "SM-f5be4fc8f2374247",
@@ -3836,7 +5365,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-07",
       "title": "Audio archive",
       "text": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut links to the corresponding audio. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
+    },
+    "package": "A"
   },
   {
     "id": "SM-e4fef9535504f28a",
@@ -3855,7 +5391,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-07",
       "title": "Audio archive",
       "text": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
+    },
+    "package": "A"
   },
   {
     "id": "SM-697acd1290c98695",
@@ -3874,7 +5417,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-07",
       "title": "Audio archive",
       "text": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Corresponding berarti yang bersesuaian; paragraf terhubung ke bagian audio yang sama."
+      ],
+      "evidence": "An oral-history project offered short transcripts beside its recordings. Users could locate topics quickly, but some assumed that pauses and emphasis in speech were fully represented in the text. The editors added links from transcript paragraphs to the corresponding audio and described the limits of transcription. They kept uncertain words marked rather than silently replacing them. Researchers then had an easier way to check quotations against recordings. The editors viewed the transcript as a guide to the audio, not a complete substitute for it, especially when tone affected the interpretation of a statement."
+    },
+    "package": "A"
   },
   {
     "id": "SM-f33e010340b5f642",
@@ -3893,7 +5443,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-08",
       "title": "Reusable boxes",
       "text": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
+    },
+    "package": "B"
   },
   {
     "id": "SM-4f085e9621370ecc",
@@ -3912,7 +5469,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-08",
       "title": "Reusable boxes",
       "text": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah sorting similar-looking lids. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
+    },
+    "package": "B"
   },
   {
     "id": "SM-005c12a425ef2ec2",
@@ -3931,7 +5495,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-08",
       "title": "Reusable boxes",
       "text": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut marked sizes and separate trays. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
+    },
+    "package": "B"
   },
   {
     "id": "SM-daa995c21fe2c5e3",
@@ -3950,7 +5521,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-08",
       "title": "Reusable boxes",
       "text": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
+    },
+    "package": "B"
   },
   {
     "id": "SM-eb5314f42dae92c4",
@@ -3969,7 +5547,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-08",
       "title": "Reusable boxes",
       "text": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Refundable berarti dapat dikembalikan, seperti deposit ketika kotak dikembalikan."
+      ],
+      "evidence": "A bakery offered customers reusable boxes for a small refundable deposit. During the first month, many boxes were returned, but staff spent a long time sorting lids that looked almost identical. The bakery introduced two clearly marked sizes and separate return trays. Sorting became faster, although the refund stayed unchanged. The owner recorded cleaning time and damaged boxes as well as the number returned. She wanted to compare the whole process with disposable packaging, since a high return rate alone would not show whether the new system used fewer resources overall."
+    },
+    "package": "B"
   },
   {
     "id": "SM-3b46a016aae3b00b",
@@ -3988,7 +5573,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-09",
       "title": "Museum captions",
       "text": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
+    },
+    "package": "A"
   },
   {
     "id": "SM-0cf2108577bcc25c",
@@ -4007,7 +5599,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-09",
       "title": "Museum captions",
       "text": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah how the objects were connected. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
+    },
+    "package": "A"
   },
   {
     "id": "SM-f08bc6d62e261dab",
@@ -4026,7 +5625,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-09",
       "title": "Museum captions",
       "text": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut a brief introductory panel. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
+    },
+    "package": "A"
   },
   {
     "id": "SM-f90b8ce3c203917b",
@@ -4045,7 +5651,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-09",
       "title": "Museum captions",
       "text": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
+    },
+    "package": "A"
   },
   {
     "id": "SM-69b9416114faea4a",
@@ -4064,7 +5677,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-09",
       "title": "Museum captions",
       "text": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Concise berarti ringkas dan jelas, bukan otomatis lebih panjang atau lebih rinci."
+      ],
+      "evidence": "A museum tested shorter captions in one gallery. Visitors read more of them, yet several left uncertain about how the objects were connected. The curators retained the concise captions and added a brief introductory panel explaining the gallery’s theme. They also placed optional longer notes near the exit. In interviews, visitors could describe both individual objects and their relationship more clearly. The curators did not conclude that all captions should have the same length. Instead, they treated the introduction, labels, and longer notes as different layers serving different reading needs."
+    },
+    "package": "A"
   },
   {
     "id": "SM-3517ca44490abbc3",
@@ -4083,7 +5703,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-10",
       "title": "Flexible classes",
       "text": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
+    },
+    "package": "B"
   },
   {
     "id": "SM-03a57f2b80039b39",
@@ -4102,7 +5729,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-10",
       "title": "Flexible classes",
       "text": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah postponing lessons without regular contact. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
+    },
+    "package": "B"
   },
   {
     "id": "SM-8bf616d1d0212aec",
@@ -4121,7 +5755,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-10",
       "title": "Flexible classes",
       "text": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut optional discussions and planning prompts. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
+    },
+    "package": "B"
   },
   {
     "id": "SM-b5a52943037ee6be",
@@ -4140,7 +5781,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-10",
       "title": "Flexible classes",
       "text": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
+    },
+    "package": "B"
   },
   {
     "id": "SM-10571f9f9ac1f3fa",
@@ -4159,7 +5807,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-10",
       "title": "Flexible classes",
       "text": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Distinguish the effect berarti memisahkan pengaruh satu faktor dari faktor lainnya."
+      ],
+      "evidence": "An evening course allowed students to watch recorded lessons whenever they wished. Completion rates were lower than expected. Interviews suggested that students valued flexibility but often postponed lessons without a regular point of contact. The instructor added an optional weekly discussion at two alternative times and sent a short planning prompt before each lesson. Recordings remained available throughout the week. More students completed the next module, but the instructor noted that its content was also shorter. A further trial would be needed to distinguish the effect of the new support from the effect of reduced workload."
+    },
+    "package": "B"
   },
   {
     "id": "SM-786240e9bef185f8",
@@ -4178,7 +5833,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-11",
       "title": "Tool lending",
       "text": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
+    },
+    "package": "A"
   },
   {
     "id": "SM-34418a97be1f38cb",
@@ -4197,7 +5859,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-11",
       "title": "Tool lending",
       "text": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah collection during Saturday-only desk hours. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
+    },
+    "package": "A"
   },
   {
     "id": "SM-383c30549fbd921f",
@@ -4216,7 +5885,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-11",
       "title": "Tool lending",
       "text": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut weekday pickup lockers for suitable tools. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
+    },
+    "package": "A"
   },
   {
     "id": "SM-56d5f5eedb0f93a9",
@@ -4235,7 +5911,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-11",
       "title": "Tool lending",
       "text": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
+    },
+    "package": "A"
   },
   {
     "id": "SM-1be82cc882b724df",
@@ -4254,7 +5937,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-11",
       "title": "Tool lending",
       "text": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Suitable berarti sesuai atau layak untuk kebutuhan tertentu, di sini penyimpanan dan peminjaman melalui loker."
+      ],
+      "evidence": "A community center lent tools through a desk staffed only on Saturdays. Many tools were borrowed, but users working weekend shifts found collection difficult. The center tried weekday pickup lockers for tools that could be stored safely. Larger tools still required a staffed handover. Volunteers tracked missed collections and maintenance needs, not just the total number of loans. The locker system expanded access for some users without replacing every desk service. The center planned to review which tools were suitable for lockers before increasing their number."
+    },
+    "package": "A"
   },
   {
     "id": "SM-fdfdad70e1e63beb",
@@ -4273,7 +5963,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-12",
       "title": "Water records",
       "text": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Gagasan utama mencakup masalah, penyesuaian, dan evaluasi yang dijelaskan; pilihan lain menyoroti detail atau tujuan yang tidak menjadi fokus bacaan."
+      ],
+      "evidence": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
+    },
+    "package": "B"
   },
   {
     "id": "SM-15a5decb23876bed",
@@ -4292,7 +5989,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-12",
       "title": "Water records",
       "text": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Detail yang sesuai dengan bacaan adalah two classes being away. Pilihan lain tidak dilaporkan sebagai penyebab atau keadaan tersebut."
+      ],
+      "evidence": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
+    },
+    "package": "B"
   },
   {
     "id": "SM-18660165a9c43afa",
@@ -4311,7 +6015,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-12",
       "title": "Water records",
       "text": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Bacaan menyebut attendance alongside meter readings. Pilihan lain mengubah tindakan atau tujuannya."
+      ],
+      "evidence": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
+    },
+    "package": "B"
   },
   {
     "id": "SM-604538593c17174e",
@@ -4330,7 +6041,14 @@ window.SIMAK_BANK = [
       "id": "SM-RP-12",
       "title": "Water records",
       "text": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Simpulan yang tepat mempertahankan batas bukti dalam bacaan; pilihan lain melampaui atau bertentangan dengan informasi yang tersedia."
+      ],
+      "evidence": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
+    },
+    "package": "B"
   },
   {
     "id": "SM-41ef7107c81e54eb",
@@ -4349,6 +6067,3894 @@ window.SIMAK_BANK = [
       "id": "SM-RP-12",
       "title": "Water records",
       "text": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
-    }
+    },
+    "solution": {
+      "steps": [
+        "Credited the repairs berarti mengaitkan hasil dengan perbaikan, bukan memberikan kredit keuangan."
+      ],
+      "evidence": "A school compared water-meter readings before and after repairing several leaks. Daily use fell, and the maintenance team initially credited the repairs alone. A teacher noted that the later readings came from a week when two classes were away. The team began recording attendance alongside meter readings. It also planned another comparison during a normal school week. The repairs may have reduced waste, but the available figures could not show the size of that effect separately from lower attendance. The school kept both changes in its report rather than presenting one explanation as certain."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-403fc6ed349c5033",
+    "section": "verbal",
+    "skill": "Makna istilah",
+    "q": "Prakiraan itu bersifat probabilistik, bukan kepastian tentang satu kejadian. Makna probabilistik adalah ...",
+    "o": [
+      "berdasarkan peluang",
+      "berdasarkan urutan waktu saja",
+      "tanpa kemungkinan salah",
+      "sama untuk setiap keadaan",
+      "hanya berlaku pada masa lampau"
+    ],
+    "e": "Probabilistik menyatakan kemungkinan hasil, sehingga tidak sama dengan kepastian.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Probabilistik menyatakan kemungkinan hasil, sehingga tidak sama dengan kepastian."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-c221fac1ceea880e",
+    "section": "verbal",
+    "skill": "Makna istilah",
+    "q": "Peneliti menghindari generalisasi prematur. Kata prematur dalam konteks tersebut berarti ...",
+    "o": [
+      "terlalu dini",
+      "terlalu rinci",
+      "sengaja dirahasiakan",
+      "telah disepakati",
+      "berulang secara teratur"
+    ],
+    "e": "Prematur mengacu pada simpulan yang dibuat sebelum dasar buktinya cukup.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Prematur mengacu pada simpulan yang dibuat sebelum dasar buktinya cukup."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-c2afe1e721e56838",
+    "section": "verbal",
+    "skill": "Makna istilah",
+    "q": "Model itu merupakan aproksimasi terhadap keadaan sebenarnya. Makna aproksimasi adalah ...",
+    "o": [
+      "pendekatan yang tidak harus persis",
+      "salinan yang pasti identik",
+      "penolakan seluruh pengamatan",
+      "perubahan tanpa aturan",
+      "bukti bahwa data salah"
+    ],
+    "e": "Aproksimasi adalah pendekatan; model dapat bermanfaat tanpa menyalin setiap rincian.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Aproksimasi adalah pendekatan; model dapat bermanfaat tanpa menyalin setiap rincian."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-e23815a3c87df339",
+    "section": "verbal",
+    "skill": "Makna istilah",
+    "q": "Kesaksian baru itu menguatkan, bukan menegasikan, temuan sebelumnya. Menegasikan berarti ...",
+    "o": [
+      "menyangkal",
+      "merinci",
+      "menyusun",
+      "mengutip",
+      "mengulang"
+    ],
+    "e": "Negasi menyangkal atau meniadakan suatu pernyataan, bukan sekadar merincinya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Negasi menyangkal atau meniadakan suatu pernyataan, bukan sekadar merincinya."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-536295ea467aee9f",
+    "section": "verbal",
+    "skill": "Makna istilah",
+    "q": "Setelah bahan disortir, residu proses dikumpulkan untuk diperiksa. Residu adalah ...",
+    "o": [
+      "sisa",
+      "bahan pembuka",
+      "alat pemisah",
+      "produk utama yang dipesan",
+      "jadwal pemeriksaan"
+    ],
+    "e": "Residu adalah bagian yang tersisa sesudah suatu proses.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Residu adalah bagian yang tersisa sesudah suatu proses."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-e1b928ae82438704",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "Hubungan yang paling sepadan dengan DRAF : FINALISASI adalah ...",
+    "o": [
+      "PROTOTIPE : PENYEMPURNAAN",
+      "HASIL : PENGABAIAN",
+      "JADWAL : KETERLAMBATAN",
+      "ARSIP : PEMBACA",
+      "UKURAN : PENGGARIS"
+    ],
+    "e": "Keduanya bentuk awal yang menjalani proses menuju bentuk yang lebih siap.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Keduanya bentuk awal yang menjalani proses menuju bentuk yang lebih siap."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-eba4518667792387",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "Hubungan yang paling sepadan dengan KONSENSUS : KESEPAKATAN adalah ...",
+    "o": [
+      "KONTRADIKSI : PERTENTANGAN",
+      "PROSEDUR : HASIL",
+      "METODE : BIAYA",
+      "ARSIP : WAKTU",
+      "INSTRUMEN : LAPORAN"
+    ],
+    "e": "Keduanya istilah dengan makna dekatnya, bukan alat dengan hasil atau proses dengan biaya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Keduanya istilah dengan makna dekatnya, bukan alat dengan hasil atau proses dengan biaya."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-b3e27ccb7d6daf3a",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "Hubungan yang paling sepadan dengan KALIBRASI : KETEPATAN UKUR adalah ...",
+    "o": [
+      "PENYUNTINGAN : KETEPATAN NASKAH",
+      "PENGIRIMAN : ONGKOS",
+      "PENERBITAN : PEMBACA",
+      "PENJUALAN : GUDANG",
+      "PELATIHAN : SERTIFIKAT"
+    ],
+    "e": "Hubungannya proses untuk memperbaiki ketepatan suatu objek, bukan sekadar akibat atau biaya proses.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Hubungannya proses untuk memperbaiki ketepatan suatu objek, bukan sekadar akibat atau biaya proses."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-4c87503fd301607c",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "Hubungan yang paling sepadan dengan ARSIPARIS : PENATAAN ARSIP adalah ...",
+    "o": [
+      "LEKSIKOGRAF : PENYUSUNAN KAMUS",
+      "PENGUNJUNG : PENUTUPAN GEDUNG",
+      "PEMBACA : PENGIRIMAN SURAT",
+      "PENONTON : PENJUALAN LAMPU",
+      "PENULIS : PENGECATAN RAK"
+    ],
+    "e": "Pasangan menyebut profesi dan pekerjaan yang menjadi bidang keahliannya.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Pasangan menyebut profesi dan pekerjaan yang menjadi bidang keahliannya."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-7e7b40322011ab90",
+    "section": "verbal",
+    "skill": "Analogi",
+    "q": "Hubungan yang paling sepadan dengan OBJEK : KLASIFIKASI adalah ...",
+    "o": [
+      "DATA : PENGELOMPOKAN",
+      "ANGKA : PENGHAPUSAN",
+      "TEKS : PENGIRIMAN",
+      "UKURAN : PERGANTIAN",
+      "RUANG : PENGUNCIAN"
+    ],
+    "e": "Klasifikasi mengelompokkan objek berdasarkan kategori; hubungan yang setara adalah pengelompokan data.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Klasifikasi mengelompokkan objek berdasarkan kategori; hubungan yang setara adalah pengelompokan data."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-fc734c8f30b2543a",
+    "section": "verbal",
+    "skill": "Gagasan utama",
+    "q": "Pokok gagasan bacaan adalah ...",
+    "o": [
+      "ukuran pembanding dan syarat transaksi memengaruhi simpulan harga",
+      "kemasan kecil selalu lebih ekonomis",
+      "semua toko memakai promosi yang sama",
+      "harga cukup dibandingkan tanpa mencatat waktu",
+      "satu toko pasti termurah untuk seluruh barang"
+    ],
+    "e": "Harga kemasan belum menyamakan kuantitas barang; berat, promosi, dan waktu mempersempit simpulan yang dapat dibuat.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-05",
+      "title": "Harga dan ukuran kemasan",
+      "text": "Sebuah kelompok warga membandingkan harga bahan pokok di tiga toko. Pada minggu pertama, mereka hanya mencatat harga satu kemasan dan menyimpulkan bahwa toko dengan kemasan termurah menjual barang paling murah. Seorang anggota kemudian menunjukkan bahwa berat kemasan berbeda. Toko yang harga kemasannya paling rendah justru memiliki harga per kilogram tertinggi untuk salah satu barang.\n\nKelompok itu memperbaiki lembar pencatatan dengan memasukkan berat bersih dan harga per satuan berat. Mereka juga membedakan harga biasa dari harga promosi yang mensyaratkan pembelian beberapa kemasan. Perbandingan baru tidak selalu menghasilkan satu toko yang unggul untuk semua barang. Kesimpulan mereka menjadi lebih terbatas: toko tertentu lebih murah untuk barang tertentu pada waktu pencatatan. Mereka tetap mencatat tanggal, sebab perbandingan yang adil pada satu minggu belum tentu berlaku pada minggu berikutnya."
+    },
+    "solution": {
+      "steps": [
+        "Harga kemasan belum menyamakan kuantitas barang; berat, promosi, dan waktu mempersempit simpulan yang dapat dibuat."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-ce4e8b91cae05c00",
+    "section": "verbal",
+    "skill": "Informasi tersurat",
+    "q": "Mengapa simpulan minggu pertama diperbaiki?",
+    "o": [
+      "Berat kemasan yang dibandingkan tidak sama.",
+      "Toko menolak menjual satu kemasan.",
+      "Semua harga dicatat dalam mata uang berbeda.",
+      "Barang yang diamati tidak dapat ditimbang.",
+      "Kelompok hanya mengunjungi satu toko."
+    ],
+    "e": "Anggota menemukan bahwa berat berbeda; harga per kemasan dan per kilogram dapat memberi urutan berbeda.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-05",
+      "title": "Harga dan ukuran kemasan",
+      "text": "Sebuah kelompok warga membandingkan harga bahan pokok di tiga toko. Pada minggu pertama, mereka hanya mencatat harga satu kemasan dan menyimpulkan bahwa toko dengan kemasan termurah menjual barang paling murah. Seorang anggota kemudian menunjukkan bahwa berat kemasan berbeda. Toko yang harga kemasannya paling rendah justru memiliki harga per kilogram tertinggi untuk salah satu barang.\n\nKelompok itu memperbaiki lembar pencatatan dengan memasukkan berat bersih dan harga per satuan berat. Mereka juga membedakan harga biasa dari harga promosi yang mensyaratkan pembelian beberapa kemasan. Perbandingan baru tidak selalu menghasilkan satu toko yang unggul untuk semua barang. Kesimpulan mereka menjadi lebih terbatas: toko tertentu lebih murah untuk barang tertentu pada waktu pencatatan. Mereka tetap mencatat tanggal, sebab perbandingan yang adil pada satu minggu belum tentu berlaku pada minggu berikutnya."
+    },
+    "solution": {
+      "steps": [
+        "Anggota menemukan bahwa berat berbeda; harga per kemasan dan per kilogram dapat memberi urutan berbeda."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-318f4e17ba77e042",
+    "section": "verbal",
+    "skill": "Inferensi",
+    "q": "Apa fungsi mencatat syarat pembelian beberapa kemasan?",
+    "o": [
+      "Membedakan harga yang tersedia untuk transaksi dengan jumlah pembelian berbeda.",
+      "Membuktikan setiap promosi merugikan.",
+      "Memastikan harga selalu turun setiap minggu.",
+      "Menghapus kebutuhan mencatat berat.",
+      "Menentukan kualitas barang dari ukuran kemasan."
+    ],
+    "e": "Harga promosi bersyarat tidak otomatis berlaku bagi pembeli yang hanya membutuhkan satu kemasan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-05",
+      "title": "Harga dan ukuran kemasan",
+      "text": "Sebuah kelompok warga membandingkan harga bahan pokok di tiga toko. Pada minggu pertama, mereka hanya mencatat harga satu kemasan dan menyimpulkan bahwa toko dengan kemasan termurah menjual barang paling murah. Seorang anggota kemudian menunjukkan bahwa berat kemasan berbeda. Toko yang harga kemasannya paling rendah justru memiliki harga per kilogram tertinggi untuk salah satu barang.\n\nKelompok itu memperbaiki lembar pencatatan dengan memasukkan berat bersih dan harga per satuan berat. Mereka juga membedakan harga biasa dari harga promosi yang mensyaratkan pembelian beberapa kemasan. Perbandingan baru tidak selalu menghasilkan satu toko yang unggul untuk semua barang. Kesimpulan mereka menjadi lebih terbatas: toko tertentu lebih murah untuk barang tertentu pada waktu pencatatan. Mereka tetap mencatat tanggal, sebab perbandingan yang adil pada satu minggu belum tentu berlaku pada minggu berikutnya."
+    },
+    "solution": {
+      "steps": [
+        "Harga promosi bersyarat tidak otomatis berlaku bagi pembeli yang hanya membutuhkan satu kemasan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-7a216579416d3a9c",
+    "section": "verbal",
+    "skill": "Makna kontekstual",
+    "q": "Makna simpulan \"lebih terbatas\" adalah ...",
+    "o": [
+      "cakupan pernyataannya disesuaikan dengan bukti yang ada",
+      "jumlah toko wajib dikurangi",
+      "semua data harga dibuang",
+      "kelompok berhenti melakukan pencatatan",
+      "hasilnya pasti tidak berguna"
+    ],
+    "e": "Pembatasan berlaku pada barang, toko, dan waktu tertentu; bukan berarti datanya tidak berguna.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-05",
+      "title": "Harga dan ukuran kemasan",
+      "text": "Sebuah kelompok warga membandingkan harga bahan pokok di tiga toko. Pada minggu pertama, mereka hanya mencatat harga satu kemasan dan menyimpulkan bahwa toko dengan kemasan termurah menjual barang paling murah. Seorang anggota kemudian menunjukkan bahwa berat kemasan berbeda. Toko yang harga kemasannya paling rendah justru memiliki harga per kilogram tertinggi untuk salah satu barang.\n\nKelompok itu memperbaiki lembar pencatatan dengan memasukkan berat bersih dan harga per satuan berat. Mereka juga membedakan harga biasa dari harga promosi yang mensyaratkan pembelian beberapa kemasan. Perbandingan baru tidak selalu menghasilkan satu toko yang unggul untuk semua barang. Kesimpulan mereka menjadi lebih terbatas: toko tertentu lebih murah untuk barang tertentu pada waktu pencatatan. Mereka tetap mencatat tanggal, sebab perbandingan yang adil pada satu minggu belum tentu berlaku pada minggu berikutnya."
+    },
+    "solution": {
+      "steps": [
+        "Pembatasan berlaku pada barang, toko, dan waktu tertentu; bukan berarti datanya tidak berguna."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-404cda90487af930",
+    "section": "verbal",
+    "skill": "Batas simpulan",
+    "q": "Pernyataan yang melampaui bukti bacaan adalah ...",
+    "o": [
+      "Toko termurah minggu ini akan tetap termurah sepanjang tahun.",
+      "Harga per kilogram berguna untuk menyamakan kuantitas.",
+      "Harga promosi dapat mempunyai syarat tertentu.",
+      "Tanggal pencatatan memengaruhi cakupan simpulan.",
+      "Tidak harus ada satu toko termurah untuk seluruh barang."
+    ],
+    "e": "Tidak ada data setahun; tanggal justru dipertahankan untuk mencegah perluasan simpulan seperti itu.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-05",
+      "title": "Harga dan ukuran kemasan",
+      "text": "Sebuah kelompok warga membandingkan harga bahan pokok di tiga toko. Pada minggu pertama, mereka hanya mencatat harga satu kemasan dan menyimpulkan bahwa toko dengan kemasan termurah menjual barang paling murah. Seorang anggota kemudian menunjukkan bahwa berat kemasan berbeda. Toko yang harga kemasannya paling rendah justru memiliki harga per kilogram tertinggi untuk salah satu barang.\n\nKelompok itu memperbaiki lembar pencatatan dengan memasukkan berat bersih dan harga per satuan berat. Mereka juga membedakan harga biasa dari harga promosi yang mensyaratkan pembelian beberapa kemasan. Perbandingan baru tidak selalu menghasilkan satu toko yang unggul untuk semua barang. Kesimpulan mereka menjadi lebih terbatas: toko tertentu lebih murah untuk barang tertentu pada waktu pencatatan. Mereka tetap mencatat tanggal, sebab perbandingan yang adil pada satu minggu belum tentu berlaku pada minggu berikutnya."
+    },
+    "solution": {
+      "steps": [
+        "Tidak ada data setahun; tanggal justru dipertahankan untuk mencegah perluasan simpulan seperti itu."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-d9839c94689e71bd",
+    "section": "verbal",
+    "skill": "Gagasan utama",
+    "q": "Bacaan terutama menjelaskan ...",
+    "o": [
+      "pertimbangan bukti penggunaan dalam penyusunan entri kamus",
+      "larangan menggunakan kata baru",
+      "cara memenangkan kampanye daring",
+      "penolakan kamus terhadap bahasa sehari-hari",
+      "keharusan satu kata memiliki satu makna saja"
+    ],
+    "e": "Tim menimbang keberlangsungan, sebaran, dan makna penggunaan sebelum menyusun entri.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-06",
+      "title": "Kata baru dalam kamus",
+      "text": "Tim penyusun kamus menerima usulan memasukkan sebuah istilah yang sering terlihat dalam kampanye daring. Pengusul menganggap banyaknya kemunculan dalam satu minggu sudah membuktikan istilah itu mapan. Penyusun kamus memeriksa apakah istilah tersebut juga digunakan di luar kampanye, oleh kelompok yang berbeda, dan dalam jangka waktu lebih panjang. Mereka tidak menolak kata karena baru, tetapi membedakan ledakan penggunaan sesaat dari penggunaan yang bertahan.\n\nTim juga mengumpulkan contoh kalimat agar makna yang ditulis tidak hanya mengikuti penjelasan pembuat kampanye. Ternyata beberapa pengguna memakai istilah itu secara menyindir, sedangkan pengguna lain memakainya secara harfiah. Catatan makna perlu mencerminkan perbedaan tersebut. Keputusan akhir ditunda sampai kumpulan contoh cukup untuk menjelaskan pola pemakaiannya. Penundaan itu merupakan keputusan tentang kecukupan bukti, bukan penilaian tentang apakah penutur boleh memakai istilah tersebut."
+    },
+    "solution": {
+      "steps": [
+        "Tim menimbang keberlangsungan, sebaran, dan makna penggunaan sebelum menyusun entri."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-07df86770bd4d12c",
+    "section": "verbal",
+    "skill": "Informasi tersurat",
+    "q": "Selain frekuensi satu minggu, tim memeriksa ...",
+    "o": [
+      "penggunaan di luar kampanye, sebaran pengguna, dan rentang waktu",
+      "jumlah pegawai pembuat kampanye saja",
+      "harga iklan di setiap media",
+      "panjang kata dibandingkan nama produk",
+      "warna tulisan pada unggahan"
+    ],
+    "e": "Ketiga unsur tersebut disebut sebagai pemeriksaan tambahan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-06",
+      "title": "Kata baru dalam kamus",
+      "text": "Tim penyusun kamus menerima usulan memasukkan sebuah istilah yang sering terlihat dalam kampanye daring. Pengusul menganggap banyaknya kemunculan dalam satu minggu sudah membuktikan istilah itu mapan. Penyusun kamus memeriksa apakah istilah tersebut juga digunakan di luar kampanye, oleh kelompok yang berbeda, dan dalam jangka waktu lebih panjang. Mereka tidak menolak kata karena baru, tetapi membedakan ledakan penggunaan sesaat dari penggunaan yang bertahan.\n\nTim juga mengumpulkan contoh kalimat agar makna yang ditulis tidak hanya mengikuti penjelasan pembuat kampanye. Ternyata beberapa pengguna memakai istilah itu secara menyindir, sedangkan pengguna lain memakainya secara harfiah. Catatan makna perlu mencerminkan perbedaan tersebut. Keputusan akhir ditunda sampai kumpulan contoh cukup untuk menjelaskan pola pemakaiannya. Penundaan itu merupakan keputusan tentang kecukupan bukti, bukan penilaian tentang apakah penutur boleh memakai istilah tersebut."
+    },
+    "solution": {
+      "steps": [
+        "Ketiga unsur tersebut disebut sebagai pemeriksaan tambahan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-231801109a5a41e2",
+    "section": "verbal",
+    "skill": "Inferensi",
+    "q": "Mengapa contoh kalimat dari banyak pengguna diperlukan?",
+    "o": [
+      "Makna dalam pemakaian dapat berbeda dari maksud pencipta istilah.",
+      "Pencipta istilah selalu memakai bahasa keliru.",
+      "Kamus hanya mencatat penggunaan sindiran.",
+      "Contoh kalimat menjamin istilah tidak berubah lagi.",
+      "Banyak contoh menghapus semua perbedaan makna."
+    ],
+    "e": "Ada penggunaan menyindir dan harfiah; definisi tidak cukup diambil dari pembuat kampanye saja.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-06",
+      "title": "Kata baru dalam kamus",
+      "text": "Tim penyusun kamus menerima usulan memasukkan sebuah istilah yang sering terlihat dalam kampanye daring. Pengusul menganggap banyaknya kemunculan dalam satu minggu sudah membuktikan istilah itu mapan. Penyusun kamus memeriksa apakah istilah tersebut juga digunakan di luar kampanye, oleh kelompok yang berbeda, dan dalam jangka waktu lebih panjang. Mereka tidak menolak kata karena baru, tetapi membedakan ledakan penggunaan sesaat dari penggunaan yang bertahan.\n\nTim juga mengumpulkan contoh kalimat agar makna yang ditulis tidak hanya mengikuti penjelasan pembuat kampanye. Ternyata beberapa pengguna memakai istilah itu secara menyindir, sedangkan pengguna lain memakainya secara harfiah. Catatan makna perlu mencerminkan perbedaan tersebut. Keputusan akhir ditunda sampai kumpulan contoh cukup untuk menjelaskan pola pemakaiannya. Penundaan itu merupakan keputusan tentang kecukupan bukti, bukan penilaian tentang apakah penutur boleh memakai istilah tersebut."
+    },
+    "solution": {
+      "steps": [
+        "Ada penggunaan menyindir dan harfiah; definisi tidak cukup diambil dari pembuat kampanye saja."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-2c6893d4eae30c74",
+    "section": "verbal",
+    "skill": "Makna kontekstual",
+    "q": "Kata \"mapan\" dalam paragraf pertama berarti ...",
+    "o": [
+      "cukup mantap dan bertahan dalam penggunaan",
+      "selalu resmi secara hukum",
+      "dipakai hanya sekali",
+      "harus berasal dari bahasa asing",
+      "tidak boleh memiliki sinonim"
+    ],
+    "e": "Mapan berkaitan dengan kemantapan pemakaian; frekuensi tinggi sesaat belum cukup.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-06",
+      "title": "Kata baru dalam kamus",
+      "text": "Tim penyusun kamus menerima usulan memasukkan sebuah istilah yang sering terlihat dalam kampanye daring. Pengusul menganggap banyaknya kemunculan dalam satu minggu sudah membuktikan istilah itu mapan. Penyusun kamus memeriksa apakah istilah tersebut juga digunakan di luar kampanye, oleh kelompok yang berbeda, dan dalam jangka waktu lebih panjang. Mereka tidak menolak kata karena baru, tetapi membedakan ledakan penggunaan sesaat dari penggunaan yang bertahan.\n\nTim juga mengumpulkan contoh kalimat agar makna yang ditulis tidak hanya mengikuti penjelasan pembuat kampanye. Ternyata beberapa pengguna memakai istilah itu secara menyindir, sedangkan pengguna lain memakainya secara harfiah. Catatan makna perlu mencerminkan perbedaan tersebut. Keputusan akhir ditunda sampai kumpulan contoh cukup untuk menjelaskan pola pemakaiannya. Penundaan itu merupakan keputusan tentang kecukupan bukti, bukan penilaian tentang apakah penutur boleh memakai istilah tersebut."
+    },
+    "solution": {
+      "steps": [
+        "Mapan berkaitan dengan kemantapan pemakaian; frekuensi tinggi sesaat belum cukup."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-4b7102ff2eb37f67",
+    "section": "verbal",
+    "skill": "Batas simpulan",
+    "q": "Penundaan keputusan berarti ...",
+    "o": [
+      "tim belum menganggap buktinya cukup untuk menjelaskan pola penggunaan",
+      "penutur dilarang menggunakan istilah itu",
+      "istilah pasti tidak pernah masuk kamus",
+      "tim tidak mau menerima kata baru",
+      "setiap istilah kampanye mempunyai makna sama"
+    ],
+    "e": "Kalimat terakhir secara tegas memisahkan keputusan pencatatan dari izin memakai kata.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-06",
+      "title": "Kata baru dalam kamus",
+      "text": "Tim penyusun kamus menerima usulan memasukkan sebuah istilah yang sering terlihat dalam kampanye daring. Pengusul menganggap banyaknya kemunculan dalam satu minggu sudah membuktikan istilah itu mapan. Penyusun kamus memeriksa apakah istilah tersebut juga digunakan di luar kampanye, oleh kelompok yang berbeda, dan dalam jangka waktu lebih panjang. Mereka tidak menolak kata karena baru, tetapi membedakan ledakan penggunaan sesaat dari penggunaan yang bertahan.\n\nTim juga mengumpulkan contoh kalimat agar makna yang ditulis tidak hanya mengikuti penjelasan pembuat kampanye. Ternyata beberapa pengguna memakai istilah itu secara menyindir, sedangkan pengguna lain memakainya secara harfiah. Catatan makna perlu mencerminkan perbedaan tersebut. Keputusan akhir ditunda sampai kumpulan contoh cukup untuk menjelaskan pola pemakaiannya. Penundaan itu merupakan keputusan tentang kecukupan bukti, bukan penilaian tentang apakah penutur boleh memakai istilah tersebut."
+    },
+    "solution": {
+      "steps": [
+        "Kalimat terakhir secara tegas memisahkan keputusan pencatatan dari izin memakai kata."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-2f0dcde5c5c64f5f",
+    "section": "verbal",
+    "skill": "Gagasan utama",
+    "q": "Gagasan utama bacaan adalah ...",
+    "o": [
+      "kegunaan representasi harus dinilai sesuai tujuan pemakaiannya",
+      "semua peta seharusnya menggambarkan ukuran persis",
+      "peta jalur tidak dapat membantu perpindahan",
+      "informasi jarak tidak pernah diperlukan",
+      "pengguna selalu memahami simbol peta tanpa petunjuk"
+    ],
+    "e": "Penyederhanaan dapat membantu satu tugas tetapi mengganggu tugas lain.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-07",
+      "title": "Peta perjalanan",
+      "text": "Peta perjalanan biasanya menyederhanakan wilayah agar informasi tertentu mudah ditemukan. Peta jalur angkutan dapat memperbesar jarak antartitik yang sebenarnya berdekatan, lalu mengecilkan jarak antartitik lain. Jika tujuannya membantu penumpang menemukan perpindahan jalur, perubahan itu belum tentu merupakan kesalahan. Akan tetapi, peta yang sama dapat menyesatkan jika digunakan untuk memperkirakan jarak berjalan kaki.\n\nSeorang perancang lalu membuat dua lapisan informasi: susunan jalur yang mudah dibaca dan keterangan jarak jalan pada beberapa titik perpindahan. Ia menguji apakah pengguna dapat membedakan dua jenis jarak tersebut. Sebagian pengguna tetap menganggap panjang garis pada gambar sebanding dengan jarak sebenarnya, sehingga petunjuk tentang penyederhanaan harus diperjelas. Kasus ini menunjukkan bahwa manfaat suatu representasi bergantung pada tujuan dan cara pembaca menafsirkannya. Peta yang baik untuk satu tugas tidak otomatis tepat untuk semua tugas."
+    },
+    "solution": {
+      "steps": [
+        "Penyederhanaan dapat membantu satu tugas tetapi mengganggu tugas lain."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-db39e77b72cb2e13",
+    "section": "verbal",
+    "skill": "Informasi tersurat",
+    "q": "Tugas yang dapat terganggu oleh perubahan panjang garis adalah ...",
+    "o": [
+      "memperkirakan jarak berjalan kaki",
+      "membaca nama jalur yang tercetak",
+      "membedakan warna simbol",
+      "menemukan judul peta",
+      "mengetahui pembuat peta"
+    ],
+    "e": "Panjang garis yang tidak berskala tidak dapat langsung dipakai sebagai ukuran jarak jalan.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-07",
+      "title": "Peta perjalanan",
+      "text": "Peta perjalanan biasanya menyederhanakan wilayah agar informasi tertentu mudah ditemukan. Peta jalur angkutan dapat memperbesar jarak antartitik yang sebenarnya berdekatan, lalu mengecilkan jarak antartitik lain. Jika tujuannya membantu penumpang menemukan perpindahan jalur, perubahan itu belum tentu merupakan kesalahan. Akan tetapi, peta yang sama dapat menyesatkan jika digunakan untuk memperkirakan jarak berjalan kaki.\n\nSeorang perancang lalu membuat dua lapisan informasi: susunan jalur yang mudah dibaca dan keterangan jarak jalan pada beberapa titik perpindahan. Ia menguji apakah pengguna dapat membedakan dua jenis jarak tersebut. Sebagian pengguna tetap menganggap panjang garis pada gambar sebanding dengan jarak sebenarnya, sehingga petunjuk tentang penyederhanaan harus diperjelas. Kasus ini menunjukkan bahwa manfaat suatu representasi bergantung pada tujuan dan cara pembaca menafsirkannya. Peta yang baik untuk satu tugas tidak otomatis tepat untuk semua tugas."
+    },
+    "solution": {
+      "steps": [
+        "Panjang garis yang tidak berskala tidak dapat langsung dipakai sebagai ukuran jarak jalan."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-fcead2559fd89bba",
+    "section": "verbal",
+    "skill": "Inferensi",
+    "q": "Apa tujuan uji dua lapisan informasi?",
+    "o": [
+      "Memastikan pembaca membedakan susunan jalur dari jarak jalan sebenarnya.",
+      "Membuktikan satu lapisan tidak memiliki informasi.",
+      "Menentukan ongkos angkutan dari panjang garis.",
+      "Menghapus semua petunjuk perpindahan.",
+      "Mewajibkan pengguna berjalan kaki."
+    ],
+    "e": "Dua jenis jarak dapat tertukar, sehingga pemahaman pembaca harus diperiksa.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-07",
+      "title": "Peta perjalanan",
+      "text": "Peta perjalanan biasanya menyederhanakan wilayah agar informasi tertentu mudah ditemukan. Peta jalur angkutan dapat memperbesar jarak antartitik yang sebenarnya berdekatan, lalu mengecilkan jarak antartitik lain. Jika tujuannya membantu penumpang menemukan perpindahan jalur, perubahan itu belum tentu merupakan kesalahan. Akan tetapi, peta yang sama dapat menyesatkan jika digunakan untuk memperkirakan jarak berjalan kaki.\n\nSeorang perancang lalu membuat dua lapisan informasi: susunan jalur yang mudah dibaca dan keterangan jarak jalan pada beberapa titik perpindahan. Ia menguji apakah pengguna dapat membedakan dua jenis jarak tersebut. Sebagian pengguna tetap menganggap panjang garis pada gambar sebanding dengan jarak sebenarnya, sehingga petunjuk tentang penyederhanaan harus diperjelas. Kasus ini menunjukkan bahwa manfaat suatu representasi bergantung pada tujuan dan cara pembaca menafsirkannya. Peta yang baik untuk satu tugas tidak otomatis tepat untuk semua tugas."
+    },
+    "solution": {
+      "steps": [
+        "Dua jenis jarak dapat tertukar, sehingga pemahaman pembaca harus diperiksa."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-75e62c3803964889",
+    "section": "verbal",
+    "skill": "Makna kontekstual",
+    "q": "Representasi dalam bacaan paling dekat artinya dengan ...",
+    "o": [
+      "penggambaran sesuatu dalam bentuk tertentu",
+      "penggantian semua kegiatan",
+      "penghitungan tarif perjalanan",
+      "pemeriksaan identitas penumpang",
+      "peraturan keberangkatan kendaraan"
+    ],
+    "e": "Peta adalah salah satu bentuk penggambaran wilayah atau hubungan antartitik.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-07",
+      "title": "Peta perjalanan",
+      "text": "Peta perjalanan biasanya menyederhanakan wilayah agar informasi tertentu mudah ditemukan. Peta jalur angkutan dapat memperbesar jarak antartitik yang sebenarnya berdekatan, lalu mengecilkan jarak antartitik lain. Jika tujuannya membantu penumpang menemukan perpindahan jalur, perubahan itu belum tentu merupakan kesalahan. Akan tetapi, peta yang sama dapat menyesatkan jika digunakan untuk memperkirakan jarak berjalan kaki.\n\nSeorang perancang lalu membuat dua lapisan informasi: susunan jalur yang mudah dibaca dan keterangan jarak jalan pada beberapa titik perpindahan. Ia menguji apakah pengguna dapat membedakan dua jenis jarak tersebut. Sebagian pengguna tetap menganggap panjang garis pada gambar sebanding dengan jarak sebenarnya, sehingga petunjuk tentang penyederhanaan harus diperjelas. Kasus ini menunjukkan bahwa manfaat suatu representasi bergantung pada tujuan dan cara pembaca menafsirkannya. Peta yang baik untuk satu tugas tidak otomatis tepat untuk semua tugas."
+    },
+    "solution": {
+      "steps": [
+        "Peta adalah salah satu bentuk penggambaran wilayah atau hubungan antartitik."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-3700a4f3ecc186de",
+    "section": "verbal",
+    "skill": "Batas simpulan",
+    "q": "Simpulan yang paling tepat adalah ...",
+    "o": [
+      "Penyederhanaan perlu disertai petunjuk yang sesuai dengan kemungkinan penggunaan.",
+      "Peta jalur yang diperbesar pasti merupakan pemalsuan.",
+      "Menambahkan informasi selalu menghilangkan salah tafsir.",
+      "Panjang garis menentukan lama perjalanan untuk semua jalur.",
+      "Peta yang mudah dibaca pasti cocok untuk semua tujuan."
+    ],
+    "e": "Pengujian menunjukkan salah tafsir masih terjadi setelah lapisan tambahan; petunjuk harus diperbaiki.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-07",
+      "title": "Peta perjalanan",
+      "text": "Peta perjalanan biasanya menyederhanakan wilayah agar informasi tertentu mudah ditemukan. Peta jalur angkutan dapat memperbesar jarak antartitik yang sebenarnya berdekatan, lalu mengecilkan jarak antartitik lain. Jika tujuannya membantu penumpang menemukan perpindahan jalur, perubahan itu belum tentu merupakan kesalahan. Akan tetapi, peta yang sama dapat menyesatkan jika digunakan untuk memperkirakan jarak berjalan kaki.\n\nSeorang perancang lalu membuat dua lapisan informasi: susunan jalur yang mudah dibaca dan keterangan jarak jalan pada beberapa titik perpindahan. Ia menguji apakah pengguna dapat membedakan dua jenis jarak tersebut. Sebagian pengguna tetap menganggap panjang garis pada gambar sebanding dengan jarak sebenarnya, sehingga petunjuk tentang penyederhanaan harus diperjelas. Kasus ini menunjukkan bahwa manfaat suatu representasi bergantung pada tujuan dan cara pembaca menafsirkannya. Peta yang baik untuk satu tugas tidak otomatis tepat untuk semua tugas."
+    },
+    "solution": {
+      "steps": [
+        "Pengujian menunjukkan salah tafsir masih terjadi setelah lapisan tambahan; petunjuk harus diperbaiki."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-64f05fc6e243f504",
+    "section": "verbal",
+    "skill": "Gagasan utama",
+    "q": "Pokok pembahasan bacaan adalah ...",
+    "o": [
+      "pemeriksaan definisi dan cakupan sebelum menyatakan sumber bertentangan",
+      "kepastian surat lebih benar daripada buku kas",
+      "kenaikan penerimaan selalu menaikkan keuntungan",
+      "larangan menggunakan sumber yang tidak lengkap",
+      "cara menghitung pajak perdagangan"
+    ],
+    "e": "Penerimaan dan keuntungan berbeda, dan kelengkapan periode sumber juga diperiksa.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-08",
+      "title": "Surat dan buku kas",
+      "text": "Seorang peneliti menemukan surat pedagang yang menyatakan usahanya merugi pada suatu tahun. Dalam buku kas, penerimaan pada tahun yang sama tampak meningkat. Pada awalnya, kedua sumber dianggap saling bertentangan. Setelah diteliti, surat itu ternyata membicarakan keuntungan setelah biaya, sedangkan buku kas hanya mencatat penerimaan. Penerimaan yang bertambah tidak meniadakan kemungkinan keuntungan berkurang jika biaya naik lebih besar.\n\nPeneliti kemudian mencari catatan pengeluaran dan membandingkan periode waktu setiap sumber. Ia belum menyimpulkan bahwa salah satu penulis berbohong. Ia juga mencatat bahwa sebagian halaman buku kas hilang, sehingga perbandingan tahunan belum lengkap. Temuan itu mengingatkan bahwa dua pernyataan baru dapat disebut bertentangan jika istilah, cakupan, dan waktunya cukup sebanding. Memeriksa perbedaan definisi merupakan langkah awal, bukan alasan untuk menganggap semua sumber pasti cocok satu sama lain."
+    },
+    "solution": {
+      "steps": [
+        "Penerimaan dan keuntungan berbeda, dan kelengkapan periode sumber juga diperiksa."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-d73ae4e78a30fa1d",
+    "section": "verbal",
+    "skill": "Informasi tersurat",
+    "q": "Buku kas yang ditemukan terutama mencatat ...",
+    "o": [
+      "penerimaan",
+      "keuntungan setelah semua biaya",
+      "seluruh pengeluaran keluarga",
+      "perkiraan perdagangan tahun berikutnya",
+      "pendapat pelanggan"
+    ],
+    "e": "Perbedaan dari surat adalah penerimaan versus keuntungan setelah biaya.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-08",
+      "title": "Surat dan buku kas",
+      "text": "Seorang peneliti menemukan surat pedagang yang menyatakan usahanya merugi pada suatu tahun. Dalam buku kas, penerimaan pada tahun yang sama tampak meningkat. Pada awalnya, kedua sumber dianggap saling bertentangan. Setelah diteliti, surat itu ternyata membicarakan keuntungan setelah biaya, sedangkan buku kas hanya mencatat penerimaan. Penerimaan yang bertambah tidak meniadakan kemungkinan keuntungan berkurang jika biaya naik lebih besar.\n\nPeneliti kemudian mencari catatan pengeluaran dan membandingkan periode waktu setiap sumber. Ia belum menyimpulkan bahwa salah satu penulis berbohong. Ia juga mencatat bahwa sebagian halaman buku kas hilang, sehingga perbandingan tahunan belum lengkap. Temuan itu mengingatkan bahwa dua pernyataan baru dapat disebut bertentangan jika istilah, cakupan, dan waktunya cukup sebanding. Memeriksa perbedaan definisi merupakan langkah awal, bukan alasan untuk menganggap semua sumber pasti cocok satu sama lain."
+    },
+    "solution": {
+      "steps": [
+        "Perbedaan dari surat adalah penerimaan versus keuntungan setelah biaya."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-c3c09dd6d5e0e487",
+    "section": "verbal",
+    "skill": "Inferensi",
+    "q": "Kedua laporan dapat sesuai jika ...",
+    "o": [
+      "kenaikan biaya melebihi kenaikan penerimaan",
+      "penerimaan sama dengan keuntungan dalam semua keadaan",
+      "semua biaya hilang pada tahun tersebut",
+      "surat membicarakan tahun yang pasti berbeda",
+      "buku kas selalu lebih jujur"
+    ],
+    "e": "Secara aritmetis keuntungan dapat turun walaupun penerimaan naik jika biaya naik lebih besar.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-08",
+      "title": "Surat dan buku kas",
+      "text": "Seorang peneliti menemukan surat pedagang yang menyatakan usahanya merugi pada suatu tahun. Dalam buku kas, penerimaan pada tahun yang sama tampak meningkat. Pada awalnya, kedua sumber dianggap saling bertentangan. Setelah diteliti, surat itu ternyata membicarakan keuntungan setelah biaya, sedangkan buku kas hanya mencatat penerimaan. Penerimaan yang bertambah tidak meniadakan kemungkinan keuntungan berkurang jika biaya naik lebih besar.\n\nPeneliti kemudian mencari catatan pengeluaran dan membandingkan periode waktu setiap sumber. Ia belum menyimpulkan bahwa salah satu penulis berbohong. Ia juga mencatat bahwa sebagian halaman buku kas hilang, sehingga perbandingan tahunan belum lengkap. Temuan itu mengingatkan bahwa dua pernyataan baru dapat disebut bertentangan jika istilah, cakupan, dan waktunya cukup sebanding. Memeriksa perbedaan definisi merupakan langkah awal, bukan alasan untuk menganggap semua sumber pasti cocok satu sama lain."
+    },
+    "solution": {
+      "steps": [
+        "Secara aritmetis keuntungan dapat turun walaupun penerimaan naik jika biaya naik lebih besar."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-3160b98181ebf777",
+    "section": "verbal",
+    "skill": "Batas simpulan",
+    "q": "Apa akibat hilangnya sebagian halaman?",
+    "o": [
+      "Perbandingan tahunan belum lengkap.",
+      "Seluruh isi surat otomatis salah.",
+      "Keuntungan dapat dihitung dengan pasti.",
+      "Penerimaan tidak pernah dicatat.",
+      "Peneliti harus menganggap biaya nol."
+    ],
+    "e": "Halaman hilang membatasi cakupan, tidak membuktikan kebohongan atau membuat biaya menjadi nol.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-08",
+      "title": "Surat dan buku kas",
+      "text": "Seorang peneliti menemukan surat pedagang yang menyatakan usahanya merugi pada suatu tahun. Dalam buku kas, penerimaan pada tahun yang sama tampak meningkat. Pada awalnya, kedua sumber dianggap saling bertentangan. Setelah diteliti, surat itu ternyata membicarakan keuntungan setelah biaya, sedangkan buku kas hanya mencatat penerimaan. Penerimaan yang bertambah tidak meniadakan kemungkinan keuntungan berkurang jika biaya naik lebih besar.\n\nPeneliti kemudian mencari catatan pengeluaran dan membandingkan periode waktu setiap sumber. Ia belum menyimpulkan bahwa salah satu penulis berbohong. Ia juga mencatat bahwa sebagian halaman buku kas hilang, sehingga perbandingan tahunan belum lengkap. Temuan itu mengingatkan bahwa dua pernyataan baru dapat disebut bertentangan jika istilah, cakupan, dan waktunya cukup sebanding. Memeriksa perbedaan definisi merupakan langkah awal, bukan alasan untuk menganggap semua sumber pasti cocok satu sama lain."
+    },
+    "solution": {
+      "steps": [
+        "Halaman hilang membatasi cakupan, tidak membuktikan kebohongan atau membuat biaya menjadi nol."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-b08eef9fad5954db",
+    "section": "verbal",
+    "skill": "Sikap penulis",
+    "q": "Sikap peneliti paling tepat adalah ...",
+    "o": [
+      "menunda tuduhan sambil memeriksa keterbandingan bukti",
+      "menerima semua sumber tanpa kritik",
+      "langsung menolak surat pribadi",
+      "mengisi semua data hilang dengan perkiraan pasti",
+      "menyimpulkan semua perbedaan hanya masalah bahasa"
+    ],
+    "e": "Ia mencari pengeluaran dan memeriksa waktu sambil tetap mengakui kemungkinan sumber tidak cocok.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-VP-08",
+      "title": "Surat dan buku kas",
+      "text": "Seorang peneliti menemukan surat pedagang yang menyatakan usahanya merugi pada suatu tahun. Dalam buku kas, penerimaan pada tahun yang sama tampak meningkat. Pada awalnya, kedua sumber dianggap saling bertentangan. Setelah diteliti, surat itu ternyata membicarakan keuntungan setelah biaya, sedangkan buku kas hanya mencatat penerimaan. Penerimaan yang bertambah tidak meniadakan kemungkinan keuntungan berkurang jika biaya naik lebih besar.\n\nPeneliti kemudian mencari catatan pengeluaran dan membandingkan periode waktu setiap sumber. Ia belum menyimpulkan bahwa salah satu penulis berbohong. Ia juga mencatat bahwa sebagian halaman buku kas hilang, sehingga perbandingan tahunan belum lengkap. Temuan itu mengingatkan bahwa dua pernyataan baru dapat disebut bertentangan jika istilah, cakupan, dan waktunya cukup sebanding. Memeriksa perbedaan definisi merupakan langkah awal, bukan alasan untuk menganggap semua sumber pasti cocok satu sama lain."
+    },
+    "solution": {
+      "steps": [
+        "Ia mencari pengeluaran dan memeriksa waktu sambil tetap mengakui kemungkinan sumber tidak cocok."
+      ],
+      "trap": "Cocokkan makna dalam konteks atau jenis hubungan; kemiripan kata saja belum cukup."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-1e548f04e8261915",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Pada segitiga siku-siku pada gambar, panjang x adalah ... cm.",
+    "o": [
+      "15",
+      "13",
+      "17",
+      "18",
+      "21"
+    ],
+    "e": "Teorema Pythagoras: x² = 9² + 12² = 225, sehingga x = 15 cm.",
+    "origin": "original",
+    "figure": {
+      "kind": "rightTriangle",
+      "alt": "Segitiga ABC siku-siku di B, AB 9 cm, BC 12 cm, AC berlabel x.",
+      "labels": {
+        "a": "9 cm",
+        "b": "12 cm",
+        "c": "x"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Teorema Pythagoras: x² = 9² + 12² = 225, sehingga x = 15 cm."
+      ],
+      "shortcut": "Kenali perbandingan 3–4–5 yang dikalikan 3.",
+      "trap": "Jangan menjumlahkan dua sisi siku-siku untuk memperoleh sisi miring."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-5b9fd8a482defce3",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Jumlah sudut dalam segitiga adalah 180°. Pada gambar, nilai x adalah ... derajat.",
+    "o": [
+      "69",
+      "59",
+      "68",
+      "79",
+      "111"
+    ],
+    "e": "x = 180° − 43° − 68° = 69°.",
+    "origin": "original",
+    "figure": {
+      "kind": "triangleAngles",
+      "alt": "Segitiga dengan dua sudut 43 derajat dan 68 derajat; sudut ketiga x.",
+      "labels": {
+        "a": "43°",
+        "b": "68°",
+        "c": "x"
+      }
+    },
+    "solution": {
+      "steps": [
+        "x = 180° − 43° − 68° = 69°."
+      ],
+      "shortcut": "Kurangi jumlah kedua sudut yang diketahui dari 180°.",
+      "trap": "Sudut ketiga bukan jumlah kedua sudut lainnya."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-b70a978c66b30941",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Garis BC diperpanjang ke D. Jika sudut luar di C adalah 126°, sudut x di B adalah ... derajat.",
+    "o": [
+      "72",
+      "54",
+      "56",
+      "108",
+      "126"
+    ],
+    "e": "Sudut luar sama dengan jumlah dua sudut dalam yang tidak berdekatan: 126 = 54 + x, sehingga x = 72°.",
+    "origin": "original",
+    "figure": {
+      "kind": "exteriorAngle",
+      "alt": "Segitiga ABC dengan sudut A 54 derajat, sudut B x; sisi BC diperpanjang melewati C dan sudut luar C 126 derajat.",
+      "labels": {
+        "a": "54°",
+        "b": "x",
+        "c": "126°"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Sudut luar sama dengan jumlah dua sudut dalam yang tidak berdekatan: 126 = 54 + x, sehingga x = 72°."
+      ],
+      "shortcut": "Langsung gunakan selisih sudut luar dan sudut dalam yang jauh.",
+      "trap": "54° adalah sudut A, bukan sudut dalam di C."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-99eb49a093ace33d",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Garis p sejajar q. Sudut x yang ditandai pada gambar adalah ... derajat.",
+    "o": [
+      "64",
+      "26",
+      "90",
+      "116",
+      "128"
+    ],
+    "e": "Kedua sudut menempati posisi sehadap pada garis sejajar, maka x = 64°.",
+    "origin": "original",
+    "figure": {
+      "kind": "parallel",
+      "alt": "Dua garis horizontal sejajar p dan q dipotong satu transversal. Sudut x di atas p sebelah kanan transversal; 64 derajat di atas q sebelah kanan transversal.",
+      "labels": {
+        "a": "x",
+        "b": "64°"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Kedua sudut menempati posisi sehadap pada garis sejajar, maka x = 64°."
+      ],
+      "shortcut": "Tentukan dulu apakah sudut sehadap, berseberangan, atau berpelurus.",
+      "trap": "116° merupakan sudut pelurus 64°, bukan sudut yang diberi x."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-7d50e41825e5b2ae",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Persegi panjang pada gambar dibagi oleh diagonal. Luas bagian berarsir adalah ... cm².",
+    "o": [
+      "108",
+      "54",
+      "96",
+      "216",
+      "324"
+    ],
+    "e": "Luas persegi panjang = 18 × 12 = 216. Diagonal membaginya menjadi dua segitiga sama luas: 108 cm².",
+    "origin": "original",
+    "figure": {
+      "kind": "rectangleHalf",
+      "alt": "Persegi panjang 18 cm kali 12 cm dibagi diagonal dari kiri bawah ke kanan atas; satu dari dua segitiganya berarsir.",
+      "labels": {
+        "w": "18 cm",
+        "h": "12 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Luas persegi panjang = 18 × 12 = 216",
+        "Diagonal membaginya menjadi dua segitiga sama luas: 108 cm²."
+      ],
+      "shortcut": "Ambil setengah luas persegi panjang.",
+      "trap": "Diagonal membagi luas, bukan membagi masing-masing sisi menjadi dua."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-b7a47155fa78bdbb",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Sebuah lingkaran menyinggung keempat sisi persegi pada gambar. Dengan π = 22/7, luas daerah di dalam persegi tetapi di luar lingkaran adalah ... cm².",
+    "o": [
+      "42",
+      "28",
+      "49",
+      "77",
+      "154"
+    ],
+    "e": "Sisi persegi 14, jadi jari-jari lingkaran 7. Luas selisih = 14² − (22/7)×7² = 196 − 154 = 42.",
+    "origin": "original",
+    "figure": {
+      "kind": "inscribedCircle",
+      "alt": "Persegi dengan sisi 14 cm dan lingkaran di dalamnya yang menyinggung keempat sisi. Daerah sudut di luar lingkaran berarsir.",
+      "labels": {
+        "s": "14 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Sisi persegi 14, jadi jari-jari lingkaran 7",
+        "Luas selisih = 14² − (22/7)×7² = 196 − 154 = 42."
+      ],
+      "shortcut": "Diameter lingkaran sama dengan sisi persegi.",
+      "trap": "14 cm adalah diameter, bukan jari-jari."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-f3da93c99defdd32",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Juring berarsir memiliki sudut pusat 90° dan jari-jari 12 cm. Dengan π = 3,14, luasnya ... cm².",
+    "o": [
+      "113.04",
+      "37.68",
+      "75.36",
+      "226.08",
+      "452.16"
+    ],
+    "e": "Luas = (90/360) × 3,14 × 12² = 113,04 cm².",
+    "origin": "original",
+    "figure": {
+      "kind": "sector",
+      "alt": "Lingkaran berjari-jari 12 cm dengan juring sudut pusat 90 derajat berarsir.",
+      "labels": {
+        "r": "12 cm",
+        "angle": "90°"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Luas = (90/360) × 3,14 × 12² = 113,04 cm²."
+      ],
+      "shortcut": "Sudut 90° berarti seperempat luas lingkaran.",
+      "trap": "Rumus keliling 2πr tidak menghitung luas juring."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-e23f0dbb67a24df0",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Balok pada gambar memiliki ukuran 12 cm × 7 cm × 5 cm. Luas seluruh permukaannya adalah ... cm².",
+    "o": [
+      "358",
+      "179",
+      "240",
+      "420",
+      "840"
+    ],
+    "e": "Luas permukaan = 2(pl + pt + lt) = 2(84 + 60 + 35) = 358.",
+    "origin": "original",
+    "figure": {
+      "kind": "cuboid",
+      "alt": "Balok berukuran panjang 12 cm, lebar 7 cm, tinggi 5 cm.",
+      "labels": {
+        "w": "12 cm",
+        "d": "7 cm",
+        "h": "5 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Luas permukaan = 2(pl + pt + lt) = 2(84 + 60 + 35) = 358."
+      ],
+      "shortcut": "Hitung tiga jenis bidang lalu kalikan dua.",
+      "trap": "420 adalah volume balok, bukan luas permukaan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-3d01628f3542c792",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Rusuk kubus pada gambar 6 cm. Panjang diagonal ruang x adalah ...",
+    "o": [
+      "6√3 cm",
+      "6√2 cm",
+      "12 cm",
+      "18 cm",
+      "3√6 cm"
+    ],
+    "e": "Diagonal ruang memenuhi x² = 6² + 6² + 6² = 108, sehingga x = 6√3 cm.",
+    "origin": "original",
+    "figure": {
+      "kind": "cubeDiagonal",
+      "alt": "Kubus dengan rusuk 6 cm dan garis x dari satu titik sudut ke titik sudut berlawanan melalui bagian dalam kubus.",
+      "labels": {
+        "s": "6 cm",
+        "x": "x"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Diagonal ruang memenuhi x² = 6² + 6² + 6² = 108, sehingga x = 6√3 cm."
+      ],
+      "shortcut": "Diagonal ruang kubus adalah s√3.",
+      "trap": "s√2 hanya diagonal pada satu bidang persegi."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-412911d96a6182b8",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Pada bidang koordinat, jarak P ke Q adalah ... satuan.",
+    "o": [
+      "10",
+      "6",
+      "8",
+      "12",
+      "14"
+    ],
+    "e": "Selisih x = 6, selisih y = 8. Jarak = √(6²+8²) = 10.",
+    "origin": "original",
+    "figure": {
+      "kind": "coordinates",
+      "alt": "Bidang koordinat memperlihatkan P(-2,1) dan Q(4,9) dihubungkan oleh ruas garis.",
+      "labels": {
+        "p": "P(-2,1)",
+        "q": "Q(4,9)"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Selisih x = 6, selisih y = 8",
+        "Jarak = √(6²+8²) = 10."
+      ],
+      "shortcut": "Selisih koordinat membentuk segitiga 6–8–10.",
+      "trap": "Menjumlahkan 6 dan 8 memberi jarak sepanjang sumbu, bukan jarak lurus."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-b365070c1a4415e3",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Dua segitiga pada gambar sebangun. Alas kecil 6 cm dan tingginya 4 cm. Jika alas besar 15 cm, tinggi x adalah ... cm.",
+    "o": [
+      "10",
+      "6",
+      "8",
+      "12",
+      "14"
+    ],
+    "e": "Faktor skala = 15/6 = 2,5. Tinggi besar = 4 × 2,5 = 10.",
+    "origin": "original",
+    "figure": {
+      "kind": "similar",
+      "alt": "Dua segitiga sebangun, yang kecil alas 6 cm tinggi 4 cm; yang besar alas 15 cm tinggi x.",
+      "labels": {
+        "a": "6 cm",
+        "b": "4 cm",
+        "c": "15 cm",
+        "d": "x"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Faktor skala = 15/6 = 2,5",
+        "Tinggi besar = 4 × 2,5 = 10."
+      ],
+      "shortcut": "Sisi yang bersesuaian memakai faktor skala sama.",
+      "trap": "Luas memakai faktor skala kuadrat, tetapi tinggi merupakan panjang."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-87b6de983a4096f5",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Luas trapesium pada gambar adalah ... cm².",
+    "o": [
+      "77",
+      "42",
+      "56",
+      "98",
+      "154"
+    ],
+    "e": "Luas = ½ × (8+14) × 7 = 77.",
+    "origin": "original",
+    "figure": {
+      "kind": "trapezoid",
+      "alt": "Trapesium dengan sisi sejajar 8 cm dan 14 cm serta tinggi tegak lurus 7 cm.",
+      "labels": {
+        "a": "8 cm",
+        "b": "14 cm",
+        "h": "7 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Luas = ½ × (8+14) × 7 = 77."
+      ],
+      "shortcut": "Gunakan rata-rata panjang dua sisi sejajar dikali tinggi.",
+      "trap": "7 cm adalah tinggi tegak lurus, bukan sisi miring."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-0070aae2eedd5879",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Tabung memiliki jari-jari 7 cm dan tinggi 9 cm. Dengan π = 22/7, volumenya ... cm³.",
+    "o": [
+      "1386",
+      "396",
+      "693",
+      "2772",
+      "5544"
+    ],
+    "e": "Volume = πr²t = (22/7) × 49 × 9 = 1386 cm³.",
+    "origin": "original",
+    "figure": {
+      "kind": "cylinder",
+      "alt": "Tabung dengan jari-jari alas 7 cm dan tinggi 9 cm.",
+      "labels": {
+        "r": "7 cm",
+        "h": "9 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Volume = πr²t = (22/7) × 49 × 9 = 1386 cm³."
+      ],
+      "shortcut": "Sederhanakan faktor 7 sebelum perkalian.",
+      "trap": "Jari-jari dikuadratkan; 2πrt adalah luas selimut, bukan volume."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-0358bd7ca65cfab6",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Semua petak pada gambar sama luas. Pecahan bagian yang berarsir adalah ...",
+    "o": [
+      "7/20",
+      "7/13",
+      "13/20",
+      "1/4",
+      "3/10"
+    ],
+    "e": "Jumlah petak 4×5 = 20; bagian berarsir 7/20.",
+    "origin": "original",
+    "figure": {
+      "kind": "shadedGrid",
+      "alt": "Kisi empat baris dan lima kolom; tujuh dari dua puluh petak berarsir.",
+      "labels": {
+        "rows": 4,
+        "cols": 5,
+        "shaded": 7
+      }
+    },
+    "solution": {
+      "steps": [
+        "Jumlah petak 4×5 = 20; bagian berarsir 7/20."
+      ],
+      "shortcut": "Hitung bagian berarsir lalu jumlah seluruh bagian.",
+      "trap": "Penyebut mencakup petak berarsir dan tidak berarsir."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-9edef1a10e625707",
+    "section": "quant",
+    "skill": "Geometri bergambar",
+    "q": "Bangun L berasal dari persegi panjang 14 cm × 10 cm yang sudut kanan atasnya dipotong 6 cm × 4 cm. Luas bangun L adalah ... cm².",
+    "o": [
+      "116",
+      "80",
+      "104",
+      "120",
+      "164"
+    ],
+    "e": "Luas bangun = 14×10 − 6×4 = 140 − 24 = 116.",
+    "origin": "original",
+    "figure": {
+      "kind": "lShape",
+      "alt": "Persegi panjang 14 kali 10 cm dengan potongan persegi panjang 6 kali 4 cm di sudut kanan atas.",
+      "labels": {
+        "w": "14 cm",
+        "h": "10 cm",
+        "cw": "6 cm",
+        "ch": "4 cm"
+      }
+    },
+    "solution": {
+      "steps": [
+        "Luas bangun = 14×10 − 6×4 = 140 − 24 = 116."
+      ],
+      "shortcut": "Kurangi luas potongan dari luas persegi panjang utuh.",
+      "trap": "Menjumlahkan kedua luas menghitung bagian yang justru dibuang."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-5dc21522c78c1983",
+    "section": "quant",
+    "skill": "Penalaran kuantitatif lanjutan",
+    "q": "Sebuah tim merencanakan 8 orang bekerja 15 hari dengan laju sama. Setelah 5 hari, 2 orang dipindahkan. Berapa hari kerja yang masih diperlukan oleh orang yang tersisa?",
+    "o": [
+      "13⅓",
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "e": "Total 120 hari-orang. Lima hari pertama memakai 40, tersisa 80. Enam orang memerlukan 80/6 = 13⅓ hari.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Total 120 hari-orang",
+        "Lima hari pertama memakai 40, tersisa 80",
+        "Enam orang memerlukan 80/6 = 13⅓ hari."
+      ],
+      "shortcut": "Pisahkan pekerjaan yang sudah selesai dari sisa pekerjaan.",
+      "trap": "Jangan menghitung ulang seluruh pekerjaan seolah dua orang pindah sejak awal."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-2d3ce4505d26f1f9",
+    "section": "quant",
+    "skill": "Penalaran kuantitatif lanjutan",
+    "q": "Larutan 18 liter berkadar 30% dicampur dengan x liter larutan berkadar 60% agar kadar akhir 40%. Nilai x adalah ... liter.",
+    "o": [
+      "9",
+      "6",
+      "12",
+      "15",
+      "18"
+    ],
+    "e": "Zat terlarut awal 5,4 liter. Persamaan 5,4 + 0,6x = 0,4(18+x) memberi 0,2x = 1,8 dan x = 9.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Zat terlarut awal 5,4 liter",
+        "Persamaan 5,4 + 0,6x = 0,4(18+x) memberi 0,2x = 1,8 dan x = 9."
+      ],
+      "shortcut": "Selisih kadar 10% : 20% memberi volume tambahan setengah volume awal.",
+      "trap": "Kadar campuran merupakan rata-rata berbobot volume, bukan rata-rata dua persentase."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-11664927b92b145b",
+    "section": "quant",
+    "skill": "Penalaran kuantitatif lanjutan",
+    "q": "Barang dibeli Rp320.000. Harga jual ditetapkan agar setelah diskon 20% penjual masih untung 25% dari harga beli. Harga sebelum diskon adalah ... rupiah.",
+    "o": [
+      "500000",
+      "400000",
+      "480000",
+      "512000",
+      "600000"
+    ],
+    "e": "Penerimaan yang dibutuhkan 320.000 × 1,25 = 400.000. Harga sebelum diskon = 400.000/0,8 = 500.000.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Penerimaan yang dibutuhkan 320.000 × 1,25 = 400.000",
+        "Harga sebelum diskon = 400.000/0,8 = 500.000."
+      ],
+      "shortcut": "Kerjakan mundur dari penerimaan yang diinginkan.",
+      "trap": "Diskon 20% dihitung dari harga daftar, bukan dari modal."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-11dcd8cecf1dcb41",
+    "section": "quant",
+    "skill": "Penalaran kuantitatif lanjutan",
+    "q": "Dua bilangan positif berjumlah 17 dan hasil kalinya 60. Jumlah kuadrat kedua bilangan adalah ...",
+    "o": [
+      "169",
+      "109",
+      "120",
+      "229",
+      "289"
+    ],
+    "e": "x²+y² = (x+y)² − 2xy = 17² − 120 = 169.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "x²+y² = (x+y)² − 2xy = 17² − 120 = 169."
+      ],
+      "shortcut": "Gunakan identitas kuadrat jumlah tanpa mencari x dan y.",
+      "trap": "Mengurangi xy sekali saja menghasilkan 229, bukan jawaban."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-b6a36c3f4dd3639f",
+    "section": "quant",
+    "skill": "Penalaran kuantitatif lanjutan",
+    "q": "Kotak berisi 4 bola putih dan 5 bola hitam. Dua bola diambil tanpa pengembalian. Peluang keduanya putih adalah ...",
+    "o": [
+      "1/6",
+      "4/9",
+      "2/9",
+      "1/3",
+      "1/9"
+    ],
+    "e": "Peluang = (4/9) × (3/8) = 12/72 = 1/6.",
+    "origin": "original",
+    "solution": {
+      "steps": [
+        "Peluang = (4/9) × (3/8) = 12/72 = 1/6."
+      ],
+      "shortcut": "Bisa juga C(4,2)/C(9,2) = 6/36.",
+      "trap": "Pada pengambilan kedua jumlah bola dan bola putih sama-sama berkurang."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-d4d57f4467fe695c",
+    "section": "quant",
+    "skill": "Interpretasi tabel",
+    "q": "Bulan dengan persentase pengembalian paling rendah adalah ...",
+    "o": [
+      "Maret",
+      "Januari",
+      "Februari",
+      "April",
+      "Sama semua"
+    ],
+    "e": "Januari 12/240=5%; Februari 15/300=5%; Maret 9/360=2,5%; April 20/400=5%.",
+    "origin": "original",
+    "table": {
+      "id": "SM-TB-01",
+      "caption": "Pengiriman koperasi (data ilustratif)",
+      "columns": [
+        "Bulan",
+        "Paket dikirim",
+        "Paket dikembalikan"
+      ],
+      "rows": [
+        [
+          "Januari",
+          "240",
+          "12"
+        ],
+        [
+          "Februari",
+          "300",
+          "15"
+        ],
+        [
+          "Maret",
+          "360",
+          "9"
+        ],
+        [
+          "April",
+          "400",
+          "20"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Januari 12/240=5%",
+        "Februari 15/300=5%",
+        "Maret 9/360=2,5%",
+        "April 20/400=5%."
+      ],
+      "trap": "Bandingkan rasio, bukan jumlah retur saja."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-90445c6f4c1cccd7",
+    "section": "quant",
+    "skill": "Interpretasi tabel",
+    "q": "Total paket yang tidak dikembalikan selama empat bulan adalah ...",
+    "o": [
+      "1244",
+      "1220",
+      "1260",
+      "1300",
+      "1356"
+    ],
+    "e": "Total dikirim 1300; total dikembalikan 56. Paket tidak kembali = 1300−56 = 1244.",
+    "origin": "original",
+    "table": {
+      "id": "SM-TB-01",
+      "caption": "Pengiriman koperasi (data ilustratif)",
+      "columns": [
+        "Bulan",
+        "Paket dikirim",
+        "Paket dikembalikan"
+      ],
+      "rows": [
+        [
+          "Januari",
+          "240",
+          "12"
+        ],
+        [
+          "Februari",
+          "300",
+          "15"
+        ],
+        [
+          "Maret",
+          "360",
+          "9"
+        ],
+        [
+          "April",
+          "400",
+          "20"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Total dikirim 1300",
+        "total dikembalikan 56. Paket tidak kembali = 1300−56 = 1244."
+      ],
+      "trap": "Jumlahkan kolom lalu ambil selisih."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-fc788fab01def1d7",
+    "section": "quant",
+    "skill": "Interpretasi tabel",
+    "q": "Kenaikan pengiriman dari Februari ke Maret adalah ...",
+    "o": [
+      "20%",
+      "16.67%",
+      "25%",
+      "30%",
+      "60%"
+    ],
+    "e": "Kenaikan 360−300=60; dibagi dasar Februari 300 menghasilkan 20%.",
+    "origin": "original",
+    "table": {
+      "id": "SM-TB-01",
+      "caption": "Pengiriman koperasi (data ilustratif)",
+      "columns": [
+        "Bulan",
+        "Paket dikirim",
+        "Paket dikembalikan"
+      ],
+      "rows": [
+        [
+          "Januari",
+          "240",
+          "12"
+        ],
+        [
+          "Februari",
+          "300",
+          "15"
+        ],
+        [
+          "Maret",
+          "360",
+          "9"
+        ],
+        [
+          "April",
+          "400",
+          "20"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Kenaikan 360−300=60",
+        "dibagi dasar Februari 300 menghasilkan 20%."
+      ],
+      "trap": "Penyebut persentase kenaikan adalah nilai awal."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-186342071413c380",
+    "section": "quant",
+    "skill": "Interpretasi tabel",
+    "q": "Rata-rata paket yang dikembalikan per bulan adalah ...",
+    "o": [
+      "14",
+      "9",
+      "12",
+      "15",
+      "18"
+    ],
+    "e": "(12+15+9+20)/4 = 56/4 = 14.",
+    "origin": "original",
+    "table": {
+      "id": "SM-TB-01",
+      "caption": "Pengiriman koperasi (data ilustratif)",
+      "columns": [
+        "Bulan",
+        "Paket dikirim",
+        "Paket dikembalikan"
+      ],
+      "rows": [
+        [
+          "Januari",
+          "240",
+          "12"
+        ],
+        [
+          "Februari",
+          "300",
+          "15"
+        ],
+        [
+          "Maret",
+          "360",
+          "9"
+        ],
+        [
+          "April",
+          "400",
+          "20"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "(12+15+9+20)/4 = 56/4 = 14."
+      ],
+      "trap": "Rata-rata jumlah berbeda dari rata-rata persentase."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-6eefaa974ae9d277",
+    "section": "quant",
+    "skill": "Interpretasi tabel",
+    "q": "Jika setiap paket yang tidak dikembalikan pada April memberi kontribusi Rp2.500, total kontribusinya adalah ... rupiah.",
+    "o": [
+      "950000",
+      "900000",
+      "975000",
+      "1000000",
+      "1050000"
+    ],
+    "e": "Paket tidak kembali pada April = 400−20 = 380. Kontribusi = 380×2500 = 950.000.",
+    "origin": "original",
+    "table": {
+      "id": "SM-TB-01",
+      "caption": "Pengiriman koperasi (data ilustratif)",
+      "columns": [
+        "Bulan",
+        "Paket dikirim",
+        "Paket dikembalikan"
+      ],
+      "rows": [
+        [
+          "Januari",
+          "240",
+          "12"
+        ],
+        [
+          "Februari",
+          "300",
+          "15"
+        ],
+        [
+          "Maret",
+          "360",
+          "9"
+        ],
+        [
+          "April",
+          "400",
+          "20"
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Paket tidak kembali pada April = 400−20 = 380. Kontribusi = 380×2500 = 950.000."
+      ],
+      "trap": "Kurangi retur sebelum mengalikan kontribusi."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-e929a6a21722159d",
+    "section": "logic",
+    "skill": "Analitis lanjutan",
+    "q": "Daftar lengkap proyek yang mungkin di slot pertama adalah ...",
+    "o": [
+      "Nusa, Tara",
+      "Nusa",
+      "Rona",
+      "Sora",
+      "Tara"
+    ],
+    "e": "Uji semua syarat: Rona membutuhkan Nusa sebelumnya; Sora membutuhkan Tara sebelumnya; Uma tetap ketiga dan Vela dilarang pertama. Kemungkinan tersisa adalah Nusa atau Tara.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-05",
+      "title": "Urutan proyek",
+      "text": "Enam proyek Nusa, Rona, Sora, Tara, Uma, dan Vela mengisi slot 1 sampai 6. Nusa sebelum Rona; Sora tepat setelah Tara; Uma di slot 3; Vela bukan yang pertama atau terakhir. Setiap proyek mengisi satu slot dan tidak ada syarat lain."
+    },
+    "solution": {
+      "steps": [
+        "Uji semua syarat: Rona membutuhkan Nusa sebelumnya; Sora membutuhkan Tara sebelumnya; Uma tetap ketiga dan Vela dilarang pertama. Kemungkinan tersisa adalah Nusa atau Tara."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-a5efd266423e04ac",
+    "section": "logic",
+    "skill": "Analitis lanjutan",
+    "q": "Jika Nusa di slot pertama, daftar lengkap proyek yang mungkin di slot kedua adalah ...",
+    "o": [
+      "Rona, Vela",
+      "Nusa",
+      "Rona",
+      "Sora",
+      "Tara"
+    ],
+    "e": "Dengan Nusa pertama, pasangan Tara–Sora tidak dapat melewati slot 3 yang ditempati Uma. Slot kedua dapat ditempati Rona atau Vela.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-05",
+      "title": "Urutan proyek",
+      "text": "Enam proyek Nusa, Rona, Sora, Tara, Uma, dan Vela mengisi slot 1 sampai 6. Nusa sebelum Rona; Sora tepat setelah Tara; Uma di slot 3; Vela bukan yang pertama atau terakhir. Setiap proyek mengisi satu slot dan tidak ada syarat lain."
+    },
+    "solution": {
+      "steps": [
+        "Dengan Nusa pertama, pasangan Tara–Sora tidak dapat melewati slot 3 yang ditempati Uma. Slot kedua dapat ditempati Rona atau Vela."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-93f5bf97c437a543",
+    "section": "logic",
+    "skill": "Analitis lanjutan",
+    "q": "Banyak urutan lengkap yang memenuhi seluruh syarat adalah ...",
+    "o": [
+      "5",
+      "3",
+      "4",
+      "6",
+      "7"
+    ],
+    "e": "Pasangan Tara–Sora hanya dapat menempati 1–2, 4–5, atau 5–6 karena Uma tetap di slot 3. Kasus 1–2 menyisakan 2 susunan Nusa/Rona/Vela; kasus 4–5 menyisakan 1; kasus 5–6 menyisakan 2. Total 2+1+2 = 5. Vela tidak boleh di ujung dan Nusa harus sebelum Rona pada setiap kasus.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-05",
+      "title": "Urutan proyek",
+      "text": "Enam proyek Nusa, Rona, Sora, Tara, Uma, dan Vela mengisi slot 1 sampai 6. Nusa sebelum Rona; Sora tepat setelah Tara; Uma di slot 3; Vela bukan yang pertama atau terakhir. Setiap proyek mengisi satu slot dan tidak ada syarat lain."
+    },
+    "solution": {
+      "steps": [
+        "Pasangan Tara–Sora hanya dapat menempati 1–2, 4–5, atau 5–6 karena Uma tetap di slot 3. Kasus 1–2 menyisakan 2 susunan Nusa/Rona/Vela; kasus 4–5 menyisakan 1; kasus 5–6 menyisakan 2. Total 2+1+2 = 5. Vela tidak boleh di ujung dan Nusa harus sebelum Rona pada setiap kasus."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-cdfc1f796ba4fc37",
+    "section": "logic",
+    "skill": "Analitis lanjutan",
+    "q": "Urutan manakah yang dapat terjadi?",
+    "o": [
+      "Nusa - Rona - Uma - Vela - Tara - Sora",
+      "Nusa - Rona - Sora - Tara - Uma - Vela",
+      "Nusa - Rona - Sora - Tara - Vela - Uma",
+      "Nusa - Rona - Sora - Uma - Tara - Vela",
+      "Nusa - Rona - Sora - Uma - Vela - Tara"
+    ],
+    "e": "Periksa posisi Uma, pasangan Tara–Sora, urutan Nusa/Rona, serta posisi Vela. Hanya pilihan benar memenuhi keempatnya.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-05",
+      "title": "Urutan proyek",
+      "text": "Enam proyek Nusa, Rona, Sora, Tara, Uma, dan Vela mengisi slot 1 sampai 6. Nusa sebelum Rona; Sora tepat setelah Tara; Uma di slot 3; Vela bukan yang pertama atau terakhir. Setiap proyek mengisi satu slot dan tidak ada syarat lain."
+    },
+    "solution": {
+      "steps": [
+        "Periksa posisi Uma, pasangan Tara–Sora, urutan Nusa/Rona, serta posisi Vela. Hanya pilihan benar memenuhi keempatnya."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-5f401f9b0bb7c3c2",
+    "section": "logic",
+    "skill": "Analitis lanjutan",
+    "q": "Daftar lengkap proyek yang mungkin di slot terakhir adalah ...",
+    "o": [
+      "Rona, Sora",
+      "Nusa",
+      "Rona",
+      "Sora",
+      "Tara"
+    ],
+    "e": "Uma dan Vela tidak dapat terakhir; Nusa harus mendahului Rona dan Tara harus mendahului Sora. Proyek yang mungkin terakhir adalah Rona atau Sora.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-05",
+      "title": "Urutan proyek",
+      "text": "Enam proyek Nusa, Rona, Sora, Tara, Uma, dan Vela mengisi slot 1 sampai 6. Nusa sebelum Rona; Sora tepat setelah Tara; Uma di slot 3; Vela bukan yang pertama atau terakhir. Setiap proyek mengisi satu slot dan tidak ada syarat lain."
+    },
+    "solution": {
+      "steps": [
+        "Uma dan Vela tidak dapat terakhir; Nusa harus mendahului Rona dan Tara harus mendahului Sora. Proyek yang mungkin terakhir adalah Rona atau Sora."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-1710eaeeef674400",
+    "section": "logic",
+    "skill": "Penjadwalan",
+    "q": "Lokakarya yang pasti berlangsung pada Senin adalah ...",
+    "o": [
+      "Etika",
+      "Arsip",
+      "Bahasa",
+      "Coding",
+      "Fotografi"
+    ],
+    "e": "Pada ketiga jadwal sah, Etika berada pada Senin. Coding–Desain tidak dapat Senin karena Arsip harus mendahului Coding; aturan dua lokakarya per hari kemudian memaksa Etika ke Senin.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-06",
+      "title": "Jadwal lokakarya",
+      "text": "Enam lokakarya Arsip, Bahasa, Coding, Desain, Etika, dan Fotografi dibagi ke Senin, Selasa, dan Rabu, tepat dua lokakarya per hari. Arsip dan Bahasa berbeda hari. Coding dan Desain pada hari yang sama. Etika sebelum Fotografi. Arsip sebelum Coding."
+    },
+    "solution": {
+      "steps": [
+        "Pada ketiga jadwal sah, Etika berada pada Senin. Coding–Desain tidak dapat Senin karena Arsip harus mendahului Coding; aturan dua lokakarya per hari kemudian memaksa Etika ke Senin."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-1fc738ef6d9ce551",
+    "section": "logic",
+    "skill": "Penjadwalan",
+    "q": "Jika Arsip berlangsung pada Selasa, Bahasa berlangsung pada ...",
+    "o": [
+      "Senin",
+      "Selasa",
+      "Rabu",
+      "Senin atau Rabu",
+      "Tidak dapat ditentukan"
+    ],
+    "e": "Coding–Desain harus Rabu. Etika sebelum Fotografi memaksa Etika Senin dan Fotografi Selasa; Bahasa melengkapi Senin.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-06",
+      "title": "Jadwal lokakarya",
+      "text": "Enam lokakarya Arsip, Bahasa, Coding, Desain, Etika, dan Fotografi dibagi ke Senin, Selasa, dan Rabu, tepat dua lokakarya per hari. Arsip dan Bahasa berbeda hari. Coding dan Desain pada hari yang sama. Etika sebelum Fotografi. Arsip sebelum Coding."
+    },
+    "solution": {
+      "steps": [
+        "Coding–Desain harus Rabu. Etika sebelum Fotografi memaksa Etika Senin dan Fotografi Selasa; Bahasa melengkapi Senin."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-43cb5805e1eecf60",
+    "section": "logic",
+    "skill": "Penjadwalan",
+    "q": "Jika Coding berlangsung pada Selasa, Fotografi berlangsung pada ...",
+    "o": [
+      "Rabu",
+      "Senin",
+      "Selasa",
+      "Senin atau Selasa",
+      "Tidak dapat ditentukan"
+    ],
+    "e": "Coding–Desain memenuhi Selasa. Arsip harus Senin, Bahasa lalu Rabu. Satu tempat Senin diisi Etika dan satu tempat Rabu diisi Fotografi.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-06",
+      "title": "Jadwal lokakarya",
+      "text": "Enam lokakarya Arsip, Bahasa, Coding, Desain, Etika, dan Fotografi dibagi ke Senin, Selasa, dan Rabu, tepat dua lokakarya per hari. Arsip dan Bahasa berbeda hari. Coding dan Desain pada hari yang sama. Etika sebelum Fotografi. Arsip sebelum Coding."
+    },
+    "solution": {
+      "steps": [
+        "Coding–Desain memenuhi Selasa. Arsip harus Senin, Bahasa lalu Rabu. Satu tempat Senin diisi Etika dan satu tempat Rabu diisi Fotografi."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-8dd2293d70e321d5",
+    "section": "logic",
+    "skill": "Penjadwalan",
+    "q": "Hari yang mungkin untuk Coding adalah ...",
+    "o": [
+      "Selasa atau Rabu",
+      "Senin saja",
+      "Senin atau Selasa",
+      "Selasa saja",
+      "Semua hari"
+    ],
+    "e": "Arsip harus lebih dahulu, sehingga Coding tidak dapat Senin. Kedua hari lain mempunyai susunan sah.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-06",
+      "title": "Jadwal lokakarya",
+      "text": "Enam lokakarya Arsip, Bahasa, Coding, Desain, Etika, dan Fotografi dibagi ke Senin, Selasa, dan Rabu, tepat dua lokakarya per hari. Arsip dan Bahasa berbeda hari. Coding dan Desain pada hari yang sama. Etika sebelum Fotografi. Arsip sebelum Coding."
+    },
+    "solution": {
+      "steps": [
+        "Arsip harus lebih dahulu, sehingga Coding tidak dapat Senin. Kedua hari lain mempunyai susunan sah."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-32cd64abead28985",
+    "section": "logic",
+    "skill": "Penjadwalan",
+    "q": "Banyak pembagian hari yang memenuhi semua syarat adalah ...",
+    "o": [
+      "3",
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "e": "Jika Coding–Desain Selasa ada satu jadwal. Jika keduanya Rabu, Arsip/Bahasa dapat bertukar Senin/Selasa sementara Etika Senin dan Fotografi Selasa. Total tiga.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-LP-06",
+      "title": "Jadwal lokakarya",
+      "text": "Enam lokakarya Arsip, Bahasa, Coding, Desain, Etika, dan Fotografi dibagi ke Senin, Selasa, dan Rabu, tepat dua lokakarya per hari. Arsip dan Bahasa berbeda hari. Coding dan Desain pada hari yang sama. Etika sebelum Fotografi. Arsip sebelum Coding."
+    },
+    "solution": {
+      "steps": [
+        "Jika Coding–Desain Selasa ada satu jadwal. Jika keduanya Rabu, Arsip/Bahasa dapat bertukar Senin/Selasa sementara Etika Senin dan Fotografi Selasa. Total tiga."
+      ],
+      "trap": "Bedakan yang pasti benar dari yang hanya mungkin. Jangan membalik implikasi atau menambah syarat yang tidak diberikan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-89b3215cb8a2c063",
+    "section": "logic",
+    "skill": "Pola visual",
+    "q": "Arah panah berputar 45° searah jarum jam pada setiap langkah. Arah berikutnya adalah ...",
+    "o": [
+      "↓",
+      "↑",
+      "→",
+      "←",
+      "↗"
+    ],
+    "e": "Sudut berturut-turut 0°,45°,90°,135°,180°; panah berikutnya menunjuk ke bawah.",
+    "origin": "original",
+    "figure": {
+      "kind": "arrowSeries",
+      "alt": "Lima panel: panah ke atas, kanan atas, kanan, kanan bawah, lalu tanda tanya.",
+      "angles": [
+        0,
+        45,
+        90,
+        135
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Sudut berturut-turut 0°,45°,90°,135°,180°; panah berikutnya menunjuk ke bawah."
+      ],
+      "trap": "Terapkan aturan yang sama ke semua langkah atau baris, bukan hanya satu pasangan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-4515c3459d3e7631",
+    "section": "logic",
+    "skill": "Pola visual",
+    "q": "Pola menambah satu baris titik pada setiap langkah, dengan baris baru satu titik lebih banyak. Jumlah titik pada gambar berikutnya adalah ...",
+    "o": [
+      "15",
+      "11",
+      "12",
+      "14",
+      "16"
+    ],
+    "e": "Selisihnya 2,3,4, lalu 5. Setelah 10 titik, gambar lima baris memuat 15 titik.",
+    "origin": "original",
+    "figure": {
+      "kind": "dotSeries",
+      "alt": "Pola titik berbentuk segitiga berisi 1, 3, 6, dan 10 titik, lalu panel kosong.",
+      "counts": [
+        1,
+        3,
+        6,
+        10
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Selisihnya 2,3,4, lalu 5",
+        "Setelah 10 titik, gambar lima baris memuat 15 titik."
+      ],
+      "trap": "Terapkan aturan yang sama ke semua langkah atau baris, bukan hanya satu pasangan."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-217687b01397ea50",
+    "section": "logic",
+    "skill": "Pola visual",
+    "q": "Transformasi dari panel kiri ke kanan adalah pencerminan terhadap garis vertikal. Posisi titik pada panel kanan bawah adalah ...",
+    "o": [
+      "Sudut kanan bawah",
+      "Sudut kiri bawah",
+      "Sudut kiri atas",
+      "Sudut kanan atas",
+      "Pusat petak"
+    ],
+    "e": "Pencerminan vertikal menukar kiri dan kanan tanpa mengubah posisi atas/bawah. Kiri bawah menjadi kanan bawah.",
+    "origin": "original",
+    "figure": {
+      "kind": "mirrorGrid",
+      "alt": "Dua baris panel: titik kiri atas menjadi kanan atas pada baris pertama. Titik kiri bawah pada baris kedua harus dicerminkan ke panel kanan.",
+      "labels": {}
+    },
+    "solution": {
+      "steps": [
+        "Pencerminan vertikal menukar kiri dan kanan tanpa mengubah posisi atas/bawah",
+        "Kiri bawah menjadi kanan bawah."
+      ],
+      "trap": "Terapkan aturan yang sama ke semua langkah atau baris, bukan hanya satu pasangan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-6b40ca6bf22dd98b",
+    "section": "logic",
+    "skill": "Pola visual",
+    "q": "Bentuk dan ukuran bergantian dengan pola yang ditampilkan. Gambar berikutnya adalah ...",
+    "o": [
+      "Lingkaran kecil",
+      "Lingkaran besar",
+      "Segitiga kecil",
+      "Segitiga besar",
+      "Persegi kecil"
+    ],
+    "e": "Pasangan lingkaran kecil–segitiga besar berulang; setelah segitiga besar kembali ke lingkaran kecil.",
+    "origin": "original",
+    "figure": {
+      "kind": "shapeSeries",
+      "alt": "Urutan lingkaran kecil, segitiga besar, lingkaran kecil, segitiga besar, lalu tanda tanya.",
+      "labels": {}
+    },
+    "solution": {
+      "steps": [
+        "Pasangan lingkaran kecil–segitiga besar berulang; setelah segitiga besar kembali ke lingkaran kecil."
+      ],
+      "trap": "Terapkan aturan yang sama ke semua langkah atau baris, bukan hanya satu pasangan."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-932f135c08c37768",
+    "section": "logic",
+    "skill": "Pola visual",
+    "q": "Pada setiap baris, banyak titik di kotak ketiga merupakan jumlah dua kotak sebelumnya. Kotak bertanda tanya harus berisi ... titik.",
+    "o": [
+      "7",
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "e": "Dua baris awal menunjukkan 2+3=5 dan 4+1=5. Dengan aturan yang diberikan, 3+4=7.",
+    "origin": "original",
+    "figure": {
+      "kind": "dotMatrix",
+      "alt": "Matriks tiga baris: 2,3,5 titik; 4,1,5 titik; 3,4,tanda tanya.",
+      "values": [
+        [
+          2,
+          3,
+          5
+        ],
+        [
+          4,
+          1,
+          5
+        ],
+        [
+          3,
+          4,
+          null
+        ]
+      ]
+    },
+    "solution": {
+      "steps": [
+        "Dua baris awal menunjukkan 2+3=5 dan 4+1=5",
+        "Dengan aturan yang diberikan, 3+4=7."
+      ],
+      "trap": "Terapkan aturan yang sama ke semua langkah atau baris, bukan hanya satu pasangan."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-989812d50590a549",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "Had the samples been labeled correctly, the team ___ the analysis.",
+    "o": [
+      "could have completed",
+      "can complete",
+      "could completing",
+      "has completed"
+    ],
+    "e": "Inversi Had the samples been... setara if the samples had been...; klausa akibat memerlukan could have + past participle.",
+    "origin": "original",
+    "solution": {
+      "rule": "Inversi Had the samples been... setara if the samples had been...; klausa akibat memerlukan could have + past participle.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-500f1ef193e0467a",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "No sooner had the lecture begun ___ the power failed.",
+    "o": [
+      "than",
+      "when",
+      "then",
+      "that"
+    ],
+    "e": "Pasangan baku no sooner...than; hardly/scarcely biasanya berpasangan dengan when.",
+    "origin": "original",
+    "solution": {
+      "rule": "Pasangan baku no sooner...than; hardly/scarcely biasanya berpasangan dengan when.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-3c09c79cc8e59e2c",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The more carefully the records are checked, ___ errors remain.",
+    "o": [
+      "the fewer",
+      "the less",
+      "fewest",
+      "fewer than"
+    ],
+    "e": "Pola komparatif berpasangan the more...the fewer; errors adalah nomina jamak dapat dihitung.",
+    "origin": "original",
+    "solution": {
+      "rule": "Pola komparatif berpasangan the more...the fewer; errors adalah nomina jamak dapat dihitung.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-3e3ac87a70e0c596",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The evidence, together with the field notes, ___ a different explanation.",
+    "o": [
+      "supports",
+      "support",
+      "have supported",
+      "are supporting"
+    ],
+    "e": "Together with tidak mengubah subjek inti tunggal evidence; verba supports mengikuti subjek tersebut.",
+    "origin": "original",
+    "solution": {
+      "rule": "Together with tidak mengubah subjek inti tunggal evidence; verba supports mengikuti subjek tersebut.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-f5f22eacc75922a0",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "It is essential that every participant ___ informed consent.",
+    "o": [
+      "give",
+      "gives",
+      "giving",
+      "has give"
+    ],
+    "e": "Setelah it is essential that, subjunktif memakai verba dasar give, walaupun subjek tunggal.",
+    "origin": "original",
+    "solution": {
+      "rule": "Setelah it is essential that, subjunktif memakai verba dasar give, walaupun subjek tunggal.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-4032b656a5f9ed73",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "What the committee needs most ___ a clear statement of the problem.",
+    "o": [
+      "is",
+      "are",
+      "were",
+      "have been"
+    ],
+    "e": "Klausa nomina what the committee needs most diperlakukan tunggal dalam kalimat ini.",
+    "origin": "original",
+    "solution": {
+      "rule": "Klausa nomina what the committee needs most diperlakukan tunggal dalam kalimat ini.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-733b48662a72bafd",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The measurements were so inconsistent ___ they could not be combined.",
+    "o": [
+      "that",
+      "than",
+      "as",
+      "which"
+    ],
+    "e": "Konstruksi so + adjective + that menyatakan akibat.",
+    "origin": "original",
+    "solution": {
+      "rule": "Konstruksi so + adjective + that menyatakan akibat.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-35c2f19db82aa129",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "Unlike the earlier model, the new device is capable ___ continuously.",
+    "o": [
+      "of operating",
+      "to operate",
+      "for operate",
+      "of operate"
+    ],
+    "e": "Capable diikuti of + gerund. To operate tidak mengikuti pola adjektiva ini.",
+    "origin": "original",
+    "solution": {
+      "rule": "Capable diikuti of + gerund. To operate tidak mengikuti pola adjektiva ini.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-cb81ec8cadaba394",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The document is believed ___ during the move last year.",
+    "o": [
+      "to have been lost",
+      "to lose",
+      "having lost",
+      "to be losing"
+    ],
+    "e": "Believed + perfect passive infinitive menyatakan kehilangan yang mendahului keyakinan saat ini.",
+    "origin": "original",
+    "solution": {
+      "rule": "Believed + perfect passive infinitive menyatakan kehilangan yang mendahului keyakinan saat ini.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-f77eceaedc3760df",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The team would rather ___ the results before making an announcement.",
+    "o": [
+      "verify",
+      "to verify",
+      "verifying",
+      "verified"
+    ],
+    "e": "Would rather diikuti verba dasar ketika subjeknya sama.",
+    "origin": "original",
+    "solution": {
+      "rule": "Would rather diikuti verba dasar ketika subjeknya sama.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-b3bedbc1d1d46664",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "Not until the final page ___ the missing reference.",
+    "o": [
+      "did the editor notice",
+      "the editor noticed",
+      "the editor did notice",
+      "noticed the editor"
+    ],
+    "e": "Not until di awal memicu inversi: did + subject + verba dasar.",
+    "origin": "original",
+    "solution": {
+      "rule": "Not until di awal memicu inversi: did + subject + verba dasar.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-36dbfdb9a0c80d3b",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The survey covers the same neighborhoods ___ were included last year.",
+    "o": [
+      "that",
+      "than",
+      "as if",
+      "whose"
+    ],
+    "e": "That menjadi subjek klausa relatif were included dan mengacu pada neighborhoods.",
+    "origin": "original",
+    "solution": {
+      "rule": "That menjadi subjek klausa relatif were included dan mengacu pada neighborhoods.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-1cf2d51d9425b153",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The researcher distinguished practical limitations ___ theoretical objections.",
+    "o": [
+      "from",
+      "with",
+      "to",
+      "for"
+    ],
+    "e": "Pola distinguish A from B membedakan dua hal.",
+    "origin": "original",
+    "solution": {
+      "rule": "Pola distinguish A from B membedakan dua hal.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-96efe3bc936d771c",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "There are several reasons for the delay, none of ___ is related to funding.",
+    "o": [
+      "which",
+      "them",
+      "that",
+      "whose"
+    ],
+    "e": "Setelah koma, none of which membentuk klausa relatif nonrestriktif; none of them akan memerlukan penghubung atau kalimat baru.",
+    "origin": "original",
+    "solution": {
+      "rule": "Setelah koma, none of which membentuk klausa relatif nonrestriktif; none of them akan memerlukan penghubung atau kalimat baru.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-c4a5849e73d02f1a",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "___ carefully the volunteers worked, the damaged pages remained difficult to read.",
+    "o": [
+      "However",
+      "Whatever",
+      "Although",
+      "Despite"
+    ],
+    "e": "However + adjective/adverb menyatakan seberapa pun; although tidak langsung mengikuti pola adverbia ini.",
+    "origin": "original",
+    "solution": {
+      "rule": "However + adjective/adverb menyatakan seberapa pun; although tidak langsung mengikuti pola adverbia ini.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-58d620db1384c5ef",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The material must be stored at a temperature ___ below ten degrees.",
+    "o": [
+      "that remains",
+      "remains",
+      "remaining it",
+      "which remain"
+    ],
+    "e": "Klausa relatif memerlukan subjek that dan verba tunggal remains yang mengacu pada temperature.",
+    "origin": "original",
+    "solution": {
+      "rule": "Klausa relatif memerlukan subjek that dan verba tunggal remains yang mengacu pada temperature.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-7924016df61b99bb",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "Only a small proportion of the equipment ___ replaced after the inspection.",
+    "o": [
+      "was",
+      "were",
+      "have been",
+      "are"
+    ],
+    "e": "Equipment adalah nomina massa tunggal; bentuk pasif lampau was replaced sesuai.",
+    "origin": "original",
+    "solution": {
+      "rule": "Equipment adalah nomina massa tunggal; bentuk pasif lampau was replaced sesuai.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-ed2f45e405e98284",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The explanation is too vague ___ a reliable prediction.",
+    "o": [
+      "to support",
+      "supporting",
+      "for support",
+      "that supports"
+    ],
+    "e": "Pola too + adjective + to-infinitive menunjukkan ketidakcukupan untuk melakukan sesuatu.",
+    "origin": "original",
+    "solution": {
+      "rule": "Pola too + adjective + to-infinitive menunjukkan ketidakcukupan untuk melakukan sesuatu.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-63396f1b43d09f3e",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The results should be interpreted cautiously, ___ the small sample.",
+    "o": [
+      "given",
+      "giving",
+      "give",
+      "gives"
+    ],
+    "e": "Given sebagai preposisi berarti mempertimbangkan; giving akan memberi struktur participle yang tidak cocok di sini.",
+    "origin": "original",
+    "solution": {
+      "rule": "Given sebagai preposisi berarti mempertimbangkan; giving akan memberi struktur participle yang tidak cocok di sini.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-e6a4073129685fb8",
+    "section": "structure",
+    "skill": "Grammar lanjutan",
+    "q": "The archive contains not only letters ___ photographs and maps.",
+    "o": [
+      "but also",
+      "and also",
+      "as well",
+      "however"
+    ],
+    "e": "Pasangan paralel yang diperlukan adalah not only...but also.",
+    "origin": "original",
+    "solution": {
+      "rule": "Pasangan paralel yang diperlukan adalah not only...but also.",
+      "trap": "Periksa struktur seluruh klausa; kata terdekat belum tentu subjek inti."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-5101cfc294c0bada",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "the researchers recognized",
+      "Not until the data were checked",
+      "the extent of the error",
+      "in the original table."
+    ],
+    "e": "the researchers recognized → did the researchers recognize; frasa negatif di awal memerlukan inversi.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Not until the data were checked",
+        "oi": 1
+      },
+      {
+        "text": "the researchers recognized",
+        "oi": 0
+      },
+      {
+        "text": "the extent of the error",
+        "oi": 2
+      },
+      {
+        "text": "in the original table.",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "rule": "the researchers recognized → did the researchers recognize; frasa negatif di awal memerlukan inversi."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-cb8614c7f602bcef",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "is superior than",
+      "The proposal",
+      "the earlier version",
+      "in several respects."
+    ],
+    "e": "is superior than → is superior to; superior berpasangan dengan to, bukan than.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The proposal",
+        "oi": 1
+      },
+      {
+        "text": "is superior than",
+        "oi": 0
+      },
+      {
+        "text": "the earlier version",
+        "oi": 2
+      },
+      {
+        "text": "in several respects.",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "rule": "is superior than → is superior to; superior berpasangan dengan to, bukan than."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-0146bceb036d9068",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "have increased",
+      "The number of requests",
+      "since the service",
+      "became available online."
+    ],
+    "e": "have increased → has increased; subjek inti the number tunggal, berbeda dari a number of requests.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The number of requests",
+        "oi": 1
+      },
+      {
+        "text": "have increased",
+        "oi": 0
+      },
+      {
+        "text": "since the service",
+        "oi": 2
+      },
+      {
+        "text": "became available online.",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "rule": "have increased → has increased; subjek inti the number tunggal, berbeda dari a number of requests."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-72e81638a941995d",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "was revised",
+      "She recommended",
+      "that the report",
+      "before publication."
+    ],
+    "e": "was revised → be revised; recommend that memakai subjunktif pasif be + past participle.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "She recommended",
+        "oi": 1
+      },
+      {
+        "text": "that the report",
+        "oi": 2
+      },
+      {
+        "text": "was revised",
+        "oi": 0
+      },
+      {
+        "text": "before publication.",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "rule": "was revised → be revised; recommend that memakai subjunktif pasif be + past participle."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-fdf44536f460d5ee",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "Despite the instructions",
+      "were clear,",
+      "several participants",
+      "missed the final step."
+    ],
+    "e": "Despite the instructions → Although the instructions; struktur berikutnya adalah klausa lengkap, bukan frasa nomina.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Despite the instructions",
+        "oi": 0
+      },
+      {
+        "text": "were clear,",
+        "oi": 1
+      },
+      {
+        "text": "several participants",
+        "oi": 2
+      },
+      {
+        "text": "missed the final step.",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "rule": "Despite the instructions → Although the instructions; struktur berikutnya adalah klausa lengkap, bukan frasa nomina."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-fefcfa1f68658b2a",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "more accurate.",
+      "The method",
+      "allows researchers",
+      "to compare the samples"
+    ],
+    "e": "more accurate → more accurately; compare memerlukan adverbia.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The method",
+        "oi": 1
+      },
+      {
+        "text": "allows researchers",
+        "oi": 2
+      },
+      {
+        "text": "to compare the samples",
+        "oi": 3
+      },
+      {
+        "text": "more accurate.",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "rule": "more accurate → more accurately; compare memerlukan adverbia."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-1abd878dc48d579b",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "were aware",
+      "Neither the assistants",
+      "nor the supervisor",
+      "of the revised deadline."
+    ],
+    "e": "were aware → was aware; supervisor adalah subjek tunggal yang paling dekat dengan verba.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Neither the assistants",
+        "oi": 1
+      },
+      {
+        "text": "nor the supervisor",
+        "oi": 2
+      },
+      {
+        "text": "were aware",
+        "oi": 0
+      },
+      {
+        "text": "of the revised deadline.",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "rule": "were aware → was aware; supervisor adalah subjek tunggal yang paling dekat dengan verba."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-10a51ea272784a19",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "Having completed the survey,",
+      "the final report",
+      "was prepared",
+      "by the research team."
+    ],
+    "e": "Having completed the survey → After the research team had completed the survey; frasa participle semula menggantung karena subjek utama adalah report, bukan pelaku survei.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "Having completed the survey,",
+        "oi": 0
+      },
+      {
+        "text": "the final report",
+        "oi": 1
+      },
+      {
+        "text": "was prepared",
+        "oi": 2
+      },
+      {
+        "text": "by the research team.",
+        "oi": 3
+      }
+    ],
+    "solution": {
+      "rule": "Having completed the survey → After the research team had completed the survey; frasa participle semula menggantung karena subjek utama adalah report, bukan pelaku survei."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-d3f444d52fb02fcb",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "reported by the another group.",
+      "The findings",
+      "are consistent",
+      "with those"
+    ],
+    "e": "the another group → another group; another tidak didahului artikel the.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The findings",
+        "oi": 1
+      },
+      {
+        "text": "are consistent",
+        "oi": 2
+      },
+      {
+        "text": "with those",
+        "oi": 3
+      },
+      {
+        "text": "reported by the another group.",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "rule": "the another group → another group; another tidak didahului artikel the."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-b8384355550d9887",
+    "section": "structure",
+    "skill": "Written expression lanjutan",
+    "q": "Choose the marked part that must be corrected.",
+    "o": [
+      "to making comparisons.",
+      "The longer the delay,",
+      "the more difficult",
+      "it becomes"
+    ],
+    "e": "to making comparisons → to make comparisons; setelah it becomes difficult diperlukan infinitif.",
+    "origin": "original",
+    "marked": [
+      {
+        "text": "The longer the delay,",
+        "oi": 1
+      },
+      {
+        "text": "the more difficult",
+        "oi": 2
+      },
+      {
+        "text": "it becomes",
+        "oi": 3
+      },
+      {
+        "text": "to making comparisons.",
+        "oi": 0
+      }
+    ],
+    "solution": {
+      "rule": "to making comparisons → to make comparisons; setelah it becomes difficult diperlukan infinitif."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-46b3ce39573be2d6",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The central concern of the passage is ...",
+    "o": [
+      "the relationship between a measurement and the phenomenon it is intended to represent",
+      "the superiority of brightly lit paths for insect conservation",
+      "the need to replace all trapping with plant observations",
+      "the impossibility of studying insects under varying weather"
+    ],
+    "e": "Trap counts and plant visits measure different aspects of activity; neither directly settles total abundance.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-13",
+      "title": "Night observations",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times."
+    },
+    "solution": {
+      "evidence": "a convenient measurement should not silently become a definition of the phenomenon being studied",
+      "steps": [
+        "Trap counts and plant visits measure different aspects of activity; neither directly settles total abundance."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-a6d795ef78d21750",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "Why could a low trap count beside a dark path be misleading?",
+    "o": [
+      "The trapping method itself could attract insects less effectively there.",
+      "The traps were deliberately made smaller at dark sites.",
+      "Observers counted plants only at brightly lit sites.",
+      "The sites had already been proven to contain identical insect populations."
+    ],
+    "e": "The team distinguishes low abundance from lower capture effectiveness.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-13",
+      "title": "Night observations",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times."
+    },
+    "solution": {
+      "evidence": "the traps themselves depended partly on light to attract insects",
+      "steps": [
+        "The team distinguishes low abundance from lower capture effectiveness."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-615b98064f8dba2a",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What does the disagreement between the two methods suggest?",
+    "o": [
+      "Site rankings can depend on which aspect of activity is observed.",
+      "Both methods must have been used incorrectly.",
+      "One ranking must describe all insect behavior accurately.",
+      "Weather can be excluded from any further analysis."
+    ],
+    "e": "Different observations target different behavior, so rankings need not coincide.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-13",
+      "title": "Night observations",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times."
+    },
+    "solution": {
+      "evidence": "Each sampled a different aspect of activity",
+      "steps": [
+        "Different observations target different behavior, so rankings need not coincide."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-150bbceec734318c",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"abundance\" is closest in meaning to ...",
+    "o": [
+      "number present",
+      "movement speed",
+      "physical size",
+      "degree of brightness"
+    ],
+    "e": "Abundance here refers to how many insects are present, not their speed or size.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-13",
+      "title": "Night observations",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times."
+    },
+    "solution": {
+      "evidence": "local abundance",
+      "steps": [
+        "Abundance here refers to how many insects are present, not their speed or size."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-f1c4fc928029eb0e",
+    "section": "reading",
+    "skill": "Author purpose",
+    "q": "Why were capture rates and plant visits reported separately?",
+    "o": [
+      "To avoid implying that they were interchangeable measures of a single quantity.",
+      "To conceal the sites where the results disagreed.",
+      "To show that all uncertainty had been removed.",
+      "To ensure that readers would use only the trap data."
+    ],
+    "e": "Separate reporting preserves the distinction between observation types.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-13",
+      "title": "Night observations",
+      "text": "A field team investigating insect activity placed identical traps at six sites around a small town. Three sites were beside brightly lit paths, while the others were near paths where lights were switched off after midnight. The team initially found fewer insects in the traps beside the darker paths. One interpretation was that darkness reduced the number of insects present. Another was that the traps themselves depended partly on light to attract insects, making capture an imperfect measure of local abundance.\n\nTo examine the difference, the team added a second observation method. Observers counted insects approaching marked plants during fixed intervals, using equipment that did not illuminate the plants. These observations did not produce the same ranking of sites as the traps. The disagreement did not establish that either method was worthless. Each sampled a different aspect of activity, and each could miss insects for different reasons. Wind and temperature also varied between nights, so comparisons were restricted to periods with similar conditions.\n\nThe team therefore reported capture rates and plant visits separately instead of merging them into a single index. It described which behavior each measure could detect and retained the uncertainty about total insect numbers. The researchers argued that a convenient measurement should not silently become a definition of the phenomenon being studied. A low count can reflect fewer animals, a change in their behavior, or reduced effectiveness of the observation method. Distinguishing those possibilities requires more than repeating the same measurement many times."
+    },
+    "solution": {
+      "evidence": "It described which behavior each measure could detect",
+      "steps": [
+        "Separate reporting preserves the distinction between observation types."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-7a80d76e608d9643",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage primarily discusses how to ...",
+    "o": [
+      "communicate estimated exposure and confidence in the evidence as distinct dimensions",
+      "create a fourth numerical level of flood exposure",
+      "remove uncertainty by changing a map’s colors",
+      "replace planning decisions with a single visual boundary"
+    ],
+    "e": "The revised layers separate predicted exposure from the quality of supporting evidence.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-14",
+      "title": "Maps of uncertainty",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event."
+    },
+    "solution": {
+      "evidence": "communicate two different dimensions without allowing one to stand in for the other",
+      "steps": [
+        "The revised layers separate predicted exposure from the quality of supporting evidence."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-760c823fab156e7f",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "Why was the proposed fourth color problematic?",
+    "o": [
+      "Users read it as another level of exposure.",
+      "It could not be printed on paper.",
+      "It implied that neighboring districts were identical.",
+      "It made the original observations unavailable."
+    ],
+    "e": "The problem was interpretation, not a technical inability to print a color.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-14",
+      "title": "Maps of uncertainty",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event."
+    },
+    "solution": {
+      "evidence": "users interpreted the new category as a fourth level of flood exposure",
+      "steps": [
+        "The problem was interpretation, not a technical inability to print a color."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-11de2f189655ddcf",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Which conclusion follows about a district with limited evidence?",
+    "o": [
+      "Its uncertain estimate is not sufficient reason to classify it as safe.",
+      "Its exposure must be lower than that of well-observed districts.",
+      "Collecting more observations cannot affect its estimate.",
+      "It should automatically receive the highest exposure category."
+    ],
+    "e": "Uncertainty does not establish either low or high exposure; the decision must consider consequences and other factors.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-14",
+      "title": "Maps of uncertainty",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event."
+    },
+    "solution": {
+      "evidence": "could not reasonably be treated as safe merely because its risk was difficult to estimate",
+      "steps": [
+        "Uncertainty does not establish either low or high exposure; the decision must consider consequences and other factors."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-657e44d4665906fe",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"crisp\" describes a boundary that appears ...",
+    "o": [
+      "sharply defined",
+      "recently observed",
+      "randomly placed",
+      "physically elevated"
+    ],
+    "e": "Crisp concerns the clear visual boundary, which may overstate precision.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-14",
+      "title": "Maps of uncertainty",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event."
+    },
+    "solution": {
+      "evidence": "A crisp boundary on paper did not indicate an equally sharp change",
+      "steps": [
+        "Crisp concerns the clear visual boundary, which may overstate precision."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-3a53b905db1b9b53",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "What would best test whether the revised map serves its intended purpose?",
+    "o": [
+      "Checking whether readers can distinguish exposure estimates from strength of evidence.",
+      "Counting how many colors readers prefer in unrelated maps.",
+      "Measuring whether all districts have identical drainage.",
+      "Confirming that readers never ask questions about predictions."
+    ],
+    "e": "The trial uses two questions to test understanding of the separate dimensions.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-14",
+      "title": "Maps of uncertainty",
+      "text": "A regional planning office published a map of estimated flood exposure. Every district was assigned one of three colors, and the map quickly became popular because it was easy to read. However, the boundaries between colors appeared more precise than the underlying information justified. Some districts had many years of local observations, while others relied on estimates transferred from neighboring areas. A crisp boundary on paper did not indicate an equally sharp change in the landscape.\n\nThe office considered adding a fourth color for uncertain districts. That solution created another problem: users interpreted the new category as a fourth level of flood exposure rather than as a statement about confidence in the estimate. The designers instead kept the exposure colors and added a separate patterned layer indicating where evidence was limited. They also offered a short explanation of how the estimates had been produced. In user trials, readers were asked two different questions: which district had higher estimated exposure, and which comparison was supported by stronger local evidence.\n\nThe revised design did not make the predictions more accurate by itself. Its purpose was to communicate two different dimensions without allowing one to stand in for the other. The planners still had to consider drainage, housing conditions, and the consequences of being wrong. A place with uncertain evidence could not reasonably be treated as safe merely because its risk was difficult to estimate. The office concluded that uncertainty should be visible enough to influence a decision, but should not be mistaken for another category of the predicted event."
+    },
+    "solution": {
+      "evidence": "readers were asked two different questions",
+      "steps": [
+        "The trial uses two questions to test understanding of the separate dimensions."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-4e45816efeeab018",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage emphasizes the importance of ...",
+    "o": [
+      "evaluating additional business within the constraints of an existing operation",
+      "maximizing the number of bookings regardless of delays",
+      "avoiding all loads that require special equipment",
+      "judging transport performance only by empty cargo space"
+    ],
+    "e": "The evaluation expands beyond payment and distance to time, equipment, and other commitments.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-15",
+      "title": "Return journeys",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable."
+    },
+    "solution": {
+      "evidence": "include waiting time, handling requirements, and the reliability of the next scheduled delivery",
+      "steps": [
+        "The evaluation expands beyond payment and distance to time, equipment, and other commitments."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-95f878a417097559",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What was missing from the initial evaluation?",
+    "o": [
+      "Delays at collection points and handling requirements.",
+      "The amount of payment offered.",
+      "The additional distance to be traveled.",
+      "The existence of empty return space."
+    ],
+    "e": "Payment and distance were considered; waiting and equipment were initially overlooked.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-15",
+      "title": "Return journeys",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable."
+    },
+    "solution": {
+      "evidence": "long waits at collection points",
+      "steps": [
+        "Payment and distance were considered; waiting and equipment were initially overlooked."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-7fe4020df73fdf81",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why might rejecting an offer improve operations?",
+    "o": [
+      "It can protect time needed for another important commitment.",
+      "It necessarily raises the payment for every future booking.",
+      "It removes all costs from the return journey.",
+      "It proves that carrying goods on return journeys is always undesirable."
+    ],
+    "e": "The opportunity cost of vehicle time matters; extra revenue can coincide with a more damaging delay.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-15",
+      "title": "Return journeys",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable."
+    },
+    "solution": {
+      "evidence": "if it delayed a more important commitment",
+      "steps": [
+        "The opportunity cost of vehicle time matters; extra revenue can coincide with a more damaging delay."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-b55d8885d0518532",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"detour\" means ...",
+    "o": [
+      "a deviation from the usual route",
+      "a reduction in loading time",
+      "a repeated equipment inspection",
+      "an advance payment"
+    ],
+    "e": "A substantial detour requires departing from the planned route.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-15",
+      "title": "Return journeys",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable."
+    },
+    "solution": {
+      "evidence": "those that demanded a substantial detour",
+      "steps": [
+        "A substantial detour requires departing from the planned route."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-b95738903819aa8b",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why were rejected offers still recorded?",
+    "o": [
+      "Patterns in demand might support a later operational change.",
+      "The cooperative intended to accept all of them immediately.",
+      "Rejected offers had already generated revenue.",
+      "The records would prove that every rejection was a mistake."
+    ],
+    "e": "Repeated demand can justify new equipment or route changes; a present rejection is not permanent proof of unprofitability.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-15",
+      "title": "Return journeys",
+      "text": "A transport cooperative noticed that its vehicles often returned from distant deliveries with empty cargo space. The managers proposed carrying goods for other businesses on the return journey. At first, they evaluated each offer by the payment received and the additional distance required. Several apparently attractive bookings were accepted. Yet drivers soon reported long waits at collection points, and some return loads required equipment unavailable on the assigned vehicle.\n\nThe cooperative revised its assessment to include waiting time, handling requirements, and the reliability of the next scheduled delivery. A return load could produce additional revenue while still reducing the overall usefulness of a vehicle if it delayed a more important commitment. The managers therefore compared proposed loads with the alternative use of the same time, rather than with an imaginary journey that had no costs or constraints. They also separated offers that could be combined with existing routes from those that demanded a substantial detour.\n\nAfter the revision, fewer offers were accepted, but late departures became less frequent. The cooperative did not interpret the lower number of bookings as evidence that the policy had failed. Its objective was not to fill every available space under any circumstances. It was to improve the contribution of return journeys while preserving the reliability of the wider schedule. The managers continued recording rejected offers, since repeated demand for a type of load might eventually justify buying suitable equipment or changing a route. Rejection under current conditions did not imply that the same opportunity would always be unprofitable."
+    },
+    "solution": {
+      "evidence": "might eventually justify buying suitable equipment or changing a route",
+      "steps": [
+        "Repeated demand can justify new equipment or route changes; a present rejection is not permanent proof of unprofitability."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-10011912e578907e",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The main argument is that catalog categories ...",
+    "o": [
+      "can shape what researchers find without directly representing historical activity",
+      "are useless for any historical investigation",
+      "always classify documents solely by their economic content",
+      "provide an exact measure of transactions that occurred"
+    ],
+    "e": "The catalog organizes documents for storage, which differs from counting activities.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-16",
+      "title": "Catalog categories",
+      "text": "A historian searching a collection of household documents found very few entries listed under paid work. An early account of the collection had taken this scarcity as evidence that household members rarely earned income. The historian examined the catalog rules and discovered that payments recorded inside letters were generally classified as correspondence. Similar payments in notebooks were listed as accounts. The category used to find a document therefore depended partly on its physical form rather than on the activity described.\n\nThe historian searched a sample from both categories and found references to tasks completed for payment. This did not demonstrate that every household member worked for wages, nor did it establish how much income the tasks produced. It did show that the number of documents under a single catalog heading could not be treated as a direct count of the activity. Documents also survive unevenly: formal notebooks may be retained when brief messages are discarded, and some letters are kept because of an unusual event rather than a routine transaction.\n\nThe revised study described the search procedure and reported which parts of the collection remained unexamined. Instead of claiming to recover every transaction, it identified several kinds of paid activity and explained the limits of the evidence. The historian regarded the catalog as an essential tool, but not as a neutral summary of everything that had happened. Categories designed to organize storage can help a researcher begin a search while still obscuring connections that matter for a different question."
+    },
+    "solution": {
+      "evidence": "not as a neutral summary of everything that had happened",
+      "steps": [
+        "The catalog organizes documents for storage, which differs from counting activities."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-a0d931a7e6bbc52b",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "How were payments within letters usually cataloged?",
+    "o": [
+      "As correspondence.",
+      "As paid work regardless of document type.",
+      "As accounts only when the payment was large.",
+      "As unclassified material excluded from the collection."
+    ],
+    "e": "The catalog placed letters under correspondence based partly on form.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-16",
+      "title": "Catalog categories",
+      "text": "A historian searching a collection of household documents found very few entries listed under paid work. An early account of the collection had taken this scarcity as evidence that household members rarely earned income. The historian examined the catalog rules and discovered that payments recorded inside letters were generally classified as correspondence. Similar payments in notebooks were listed as accounts. The category used to find a document therefore depended partly on its physical form rather than on the activity described.\n\nThe historian searched a sample from both categories and found references to tasks completed for payment. This did not demonstrate that every household member worked for wages, nor did it establish how much income the tasks produced. It did show that the number of documents under a single catalog heading could not be treated as a direct count of the activity. Documents also survive unevenly: formal notebooks may be retained when brief messages are discarded, and some letters are kept because of an unusual event rather than a routine transaction.\n\nThe revised study described the search procedure and reported which parts of the collection remained unexamined. Instead of claiming to recover every transaction, it identified several kinds of paid activity and explained the limits of the evidence. The historian regarded the catalog as an essential tool, but not as a neutral summary of everything that had happened. Categories designed to organize storage can help a researcher begin a search while still obscuring connections that matter for a different question."
+    },
+    "solution": {
+      "evidence": "payments recorded inside letters were generally classified as correspondence",
+      "steps": [
+        "The catalog placed letters under correspondence based partly on form."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-7d0cd5e0558644e1",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What can the sampled references establish?",
+    "o": [
+      "That some paid activity was hidden from a search using only one heading.",
+      "That all household income came from wages.",
+      "That every transaction survives in the collection.",
+      "That notebook records are invariably more accurate than letters."
+    ],
+    "e": "The evidence challenges the search method, but does not support a full census of work or income.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-16",
+      "title": "Catalog categories",
+      "text": "A historian searching a collection of household documents found very few entries listed under paid work. An early account of the collection had taken this scarcity as evidence that household members rarely earned income. The historian examined the catalog rules and discovered that payments recorded inside letters were generally classified as correspondence. Similar payments in notebooks were listed as accounts. The category used to find a document therefore depended partly on its physical form rather than on the activity described.\n\nThe historian searched a sample from both categories and found references to tasks completed for payment. This did not demonstrate that every household member worked for wages, nor did it establish how much income the tasks produced. It did show that the number of documents under a single catalog heading could not be treated as a direct count of the activity. Documents also survive unevenly: formal notebooks may be retained when brief messages are discarded, and some letters are kept because of an unusual event rather than a routine transaction.\n\nThe revised study described the search procedure and reported which parts of the collection remained unexamined. Instead of claiming to recover every transaction, it identified several kinds of paid activity and explained the limits of the evidence. The historian regarded the catalog as an essential tool, but not as a neutral summary of everything that had happened. Categories designed to organize storage can help a researcher begin a search while still obscuring connections that matter for a different question."
+    },
+    "solution": {
+      "evidence": "could not be treated as a direct count of the activity",
+      "steps": [
+        "The evidence challenges the search method, but does not support a full census of work or income."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-12598389e35ca78b",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"obscuring\" is closest in meaning to ...",
+    "o": [
+      "making less apparent",
+      "recording in detail",
+      "placing in chronological order",
+      "proving beyond doubt"
+    ],
+    "e": "The storage categories can make relevant connections harder to notice.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-16",
+      "title": "Catalog categories",
+      "text": "A historian searching a collection of household documents found very few entries listed under paid work. An early account of the collection had taken this scarcity as evidence that household members rarely earned income. The historian examined the catalog rules and discovered that payments recorded inside letters were generally classified as correspondence. Similar payments in notebooks were listed as accounts. The category used to find a document therefore depended partly on its physical form rather than on the activity described.\n\nThe historian searched a sample from both categories and found references to tasks completed for payment. This did not demonstrate that every household member worked for wages, nor did it establish how much income the tasks produced. It did show that the number of documents under a single catalog heading could not be treated as a direct count of the activity. Documents also survive unevenly: formal notebooks may be retained when brief messages are discarded, and some letters are kept because of an unusual event rather than a routine transaction.\n\nThe revised study described the search procedure and reported which parts of the collection remained unexamined. Instead of claiming to recover every transaction, it identified several kinds of paid activity and explained the limits of the evidence. The historian regarded the catalog as an essential tool, but not as a neutral summary of everything that had happened. Categories designed to organize storage can help a researcher begin a search while still obscuring connections that matter for a different question."
+    },
+    "solution": {
+      "evidence": "while still obscuring connections",
+      "steps": [
+        "The storage categories can make relevant connections harder to notice."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-b4c201dd9744b617",
+    "section": "reading",
+    "skill": "Author purpose",
+    "q": "Why does the author mention uneven document survival?",
+    "o": [
+      "To identify another reason document counts may misrepresent past activity.",
+      "To argue that brief messages never concern payments.",
+      "To show that all notebooks were deliberately falsified.",
+      "To establish that unusual events were more common than routine transactions."
+    ],
+    "e": "Retention practices are another selection mechanism in addition to catalog classification.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-16",
+      "title": "Catalog categories",
+      "text": "A historian searching a collection of household documents found very few entries listed under paid work. An early account of the collection had taken this scarcity as evidence that household members rarely earned income. The historian examined the catalog rules and discovered that payments recorded inside letters were generally classified as correspondence. Similar payments in notebooks were listed as accounts. The category used to find a document therefore depended partly on its physical form rather than on the activity described.\n\nThe historian searched a sample from both categories and found references to tasks completed for payment. This did not demonstrate that every household member worked for wages, nor did it establish how much income the tasks produced. It did show that the number of documents under a single catalog heading could not be treated as a direct count of the activity. Documents also survive unevenly: formal notebooks may be retained when brief messages are discarded, and some letters are kept because of an unusual event rather than a routine transaction.\n\nThe revised study described the search procedure and reported which parts of the collection remained unexamined. Instead of claiming to recover every transaction, it identified several kinds of paid activity and explained the limits of the evidence. The historian regarded the catalog as an essential tool, but not as a neutral summary of everything that had happened. Categories designed to organize storage can help a researcher begin a search while still obscuring connections that matter for a different question."
+    },
+    "solution": {
+      "evidence": "Documents also survive unevenly",
+      "steps": [
+        "Retention practices are another selection mechanism in addition to catalog classification."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-14852531efd9d390",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage distinguishes between ...",
+    "o": [
+      "detecting a difference and confidently explaining its cause",
+      "photography as a useful method and photography as a useless method",
+      "preserving a panel and preserving every available photograph",
+      "the age of a camera and the financial value of a painting"
+    ],
+    "e": "Measured differences can be clearer than the historical causes of those differences.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-17",
+      "title": "Changing pigments",
+      "text": "A conservation team compared two photographs of a painted panel taken several years apart. The newer image appeared less blue. One explanation was that the pigment had changed with age, but the photographs had been made with different cameras and under different lighting. Even if the paint had remained unchanged, those differences could alter the recorded color. The team resisted describing the photographs as direct proof of deterioration.\n\nA new examination combined calibrated photography with small-area measurements from an instrument placed near the surface. The two techniques agreed that some regions differed from a reference sample kept in storage. However, the reference sample had experienced a different environment from the panel, so it was not a perfect reconstruction of the panel’s original appearance. Earlier treatment records were incomplete as well. The team could identify a present difference more confidently than it could assign that difference to one cause or date.\n\nFor this reason, the report distinguished an observation from an explanation. It described the measured variation, listed plausible contributing factors, and recommended monitoring the same marked regions under controlled conditions. Repeated measurements would help detect subsequent change, even if the earlier history remained partly uncertain. The team did not claim that uncertainty prevented all action. It argued that decisions should be matched to what the evidence could support: careful monitoring was justified, whereas a treatment designed around one unconfirmed cause required a stronger basis."
+    },
+    "solution": {
+      "evidence": "identify a present difference more confidently than it could assign that difference to one cause or date",
+      "steps": [
+        "Measured differences can be clearer than the historical causes of those differences."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-be9aaff95959c81f",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "Why were the earlier photographs inconclusive?",
+    "o": [
+      "The cameras and lighting conditions differed.",
+      "They showed entirely different painted panels.",
+      "The newer photograph had no blue region at all.",
+      "The reference sample had been photographed at the same time."
+    ],
+    "e": "Different image-making conditions could change apparent color without any change in the paint.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-17",
+      "title": "Changing pigments",
+      "text": "A conservation team compared two photographs of a painted panel taken several years apart. The newer image appeared less blue. One explanation was that the pigment had changed with age, but the photographs had been made with different cameras and under different lighting. Even if the paint had remained unchanged, those differences could alter the recorded color. The team resisted describing the photographs as direct proof of deterioration.\n\nA new examination combined calibrated photography with small-area measurements from an instrument placed near the surface. The two techniques agreed that some regions differed from a reference sample kept in storage. However, the reference sample had experienced a different environment from the panel, so it was not a perfect reconstruction of the panel’s original appearance. Earlier treatment records were incomplete as well. The team could identify a present difference more confidently than it could assign that difference to one cause or date.\n\nFor this reason, the report distinguished an observation from an explanation. It described the measured variation, listed plausible contributing factors, and recommended monitoring the same marked regions under controlled conditions. Repeated measurements would help detect subsequent change, even if the earlier history remained partly uncertain. The team did not claim that uncertainty prevented all action. It argued that decisions should be matched to what the evidence could support: careful monitoring was justified, whereas a treatment designed around one unconfirmed cause required a stronger basis."
+    },
+    "solution": {
+      "evidence": "different cameras and under different lighting",
+      "steps": [
+        "Different image-making conditions could change apparent color without any change in the paint."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-6182e578fcdf88e0",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why was the stored reference sample not a perfect baseline?",
+    "o": [
+      "It had not shared the panel’s environmental history.",
+      "It contained no pigment.",
+      "It had been measured only by photography.",
+      "It was known to be older than the panel."
+    ],
+    "e": "Different environmental exposure prevents treating the reference as a perfect copy of the original panel.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-17",
+      "title": "Changing pigments",
+      "text": "A conservation team compared two photographs of a painted panel taken several years apart. The newer image appeared less blue. One explanation was that the pigment had changed with age, but the photographs had been made with different cameras and under different lighting. Even if the paint had remained unchanged, those differences could alter the recorded color. The team resisted describing the photographs as direct proof of deterioration.\n\nA new examination combined calibrated photography with small-area measurements from an instrument placed near the surface. The two techniques agreed that some regions differed from a reference sample kept in storage. However, the reference sample had experienced a different environment from the panel, so it was not a perfect reconstruction of the panel’s original appearance. Earlier treatment records were incomplete as well. The team could identify a present difference more confidently than it could assign that difference to one cause or date.\n\nFor this reason, the report distinguished an observation from an explanation. It described the measured variation, listed plausible contributing factors, and recommended monitoring the same marked regions under controlled conditions. Repeated measurements would help detect subsequent change, even if the earlier history remained partly uncertain. The team did not claim that uncertainty prevented all action. It argued that decisions should be matched to what the evidence could support: careful monitoring was justified, whereas a treatment designed around one unconfirmed cause required a stronger basis."
+    },
+    "solution": {
+      "evidence": "had experienced a different environment from the panel",
+      "steps": [
+        "Different environmental exposure prevents treating the reference as a perfect copy of the original panel."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-ecae051416bed6cd",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"subsequent\" means ...",
+    "o": [
+      "later",
+      "sudden",
+      "unrelated",
+      "irreversible"
+    ],
+    "e": "Subsequent change is change occurring after the current examination.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-17",
+      "title": "Changing pigments",
+      "text": "A conservation team compared two photographs of a painted panel taken several years apart. The newer image appeared less blue. One explanation was that the pigment had changed with age, but the photographs had been made with different cameras and under different lighting. Even if the paint had remained unchanged, those differences could alter the recorded color. The team resisted describing the photographs as direct proof of deterioration.\n\nA new examination combined calibrated photography with small-area measurements from an instrument placed near the surface. The two techniques agreed that some regions differed from a reference sample kept in storage. However, the reference sample had experienced a different environment from the panel, so it was not a perfect reconstruction of the panel’s original appearance. Earlier treatment records were incomplete as well. The team could identify a present difference more confidently than it could assign that difference to one cause or date.\n\nFor this reason, the report distinguished an observation from an explanation. It described the measured variation, listed plausible contributing factors, and recommended monitoring the same marked regions under controlled conditions. Repeated measurements would help detect subsequent change, even if the earlier history remained partly uncertain. The team did not claim that uncertainty prevented all action. It argued that decisions should be matched to what the evidence could support: careful monitoring was justified, whereas a treatment designed around one unconfirmed cause required a stronger basis."
+    },
+    "solution": {
+      "evidence": "detect subsequent change",
+      "steps": [
+        "Subsequent change is change occurring after the current examination."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-49da0a1aba8dfb72",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "Which action best matches the report’s reasoning?",
+    "o": [
+      "Monitor the same regions consistently while investigating possible causes.",
+      "Apply a treatment that assumes one uncertain cause is established.",
+      "Ignore present differences until every earlier record is recovered.",
+      "Use uncalibrated photographs as exact substitutes for surface measurements."
+    ],
+    "e": "Monitoring is supported by the observation; cause-specific treatment requires stronger causal evidence.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-17",
+      "title": "Changing pigments",
+      "text": "A conservation team compared two photographs of a painted panel taken several years apart. The newer image appeared less blue. One explanation was that the pigment had changed with age, but the photographs had been made with different cameras and under different lighting. Even if the paint had remained unchanged, those differences could alter the recorded color. The team resisted describing the photographs as direct proof of deterioration.\n\nA new examination combined calibrated photography with small-area measurements from an instrument placed near the surface. The two techniques agreed that some regions differed from a reference sample kept in storage. However, the reference sample had experienced a different environment from the panel, so it was not a perfect reconstruction of the panel’s original appearance. Earlier treatment records were incomplete as well. The team could identify a present difference more confidently than it could assign that difference to one cause or date.\n\nFor this reason, the report distinguished an observation from an explanation. It described the measured variation, listed plausible contributing factors, and recommended monitoring the same marked regions under controlled conditions. Repeated measurements would help detect subsequent change, even if the earlier history remained partly uncertain. The team did not claim that uncertainty prevented all action. It argued that decisions should be matched to what the evidence could support: careful monitoring was justified, whereas a treatment designed around one unconfirmed cause required a stronger basis."
+    },
+    "solution": {
+      "evidence": "careful monitoring was justified",
+      "steps": [
+        "Monitoring is supported by the observation; cause-specific treatment requires stronger causal evidence."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-24d26303a8d26e9e",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage mainly concerns ...",
+    "o": [
+      "evaluating whether feedback helps learners apply a rule beyond familiar examples",
+      "proving that explanations always outperform all other teaching methods",
+      "showing that familiar-item improvement is impossible",
+      "replacing classification practice with memory tests only"
+    ],
+    "e": "The key distinction is familiar improvement versus transfer, with time as a possible contributing factor.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-18",
+      "title": "Feedback and transfer",
+      "text": "A training group practiced solving unfamiliar classification problems. After each answer, one set of learners saw only whether it was correct. Another set received a short explanation of the relevant rule. Both groups improved on questions closely resembling the examples used during practice. The second group also performed better on a small set of problems whose surface details had been changed. The instructor initially attributed the difference entirely to the explanations.\n\nA colleague noted that reading explanations had also made the second group spend longer on each practice item. More time, a different amount of attention, or the explanation itself might have contributed. In a follow-up exercise, the first group received an equally long period to inspect each item, but no rule explanation. The difference in performance became smaller, although it did not disappear. Because the exercises involved few learners and a limited range of rules, the instructor avoided drawing a broad conclusion about every kind of learning.\n\nThe revised account treated transfer as a separate question from improvement on familiar material. A learner may remember a particular answer without recognizing when the same rule applies elsewhere. To investigate that distinction, the group would need new problems that preserve the underlying relation while varying incidental details. It would also need to control how much practice and time each learner receives. The instructor regarded the early results as a reason to investigate the teaching method further, rather than as proof that one feedback format is universally superior."
+    },
+    "solution": {
+      "evidence": "treated transfer as a separate question from improvement on familiar material",
+      "steps": [
+        "The key distinction is familiar improvement versus transfer, with time as a possible contributing factor."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-5551be034371c5a0",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What additional factor did the colleague identify?",
+    "o": [
+      "The explanation group spent more time on each practice item.",
+      "The first group had been given every correct answer in advance.",
+      "The groups were studying different sets of rules.",
+      "Only the first group completed any practice."
+    ],
+    "e": "Reading explanations added time as well as information.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-18",
+      "title": "Feedback and transfer",
+      "text": "A training group practiced solving unfamiliar classification problems. After each answer, one set of learners saw only whether it was correct. Another set received a short explanation of the relevant rule. Both groups improved on questions closely resembling the examples used during practice. The second group also performed better on a small set of problems whose surface details had been changed. The instructor initially attributed the difference entirely to the explanations.\n\nA colleague noted that reading explanations had also made the second group spend longer on each practice item. More time, a different amount of attention, or the explanation itself might have contributed. In a follow-up exercise, the first group received an equally long period to inspect each item, but no rule explanation. The difference in performance became smaller, although it did not disappear. Because the exercises involved few learners and a limited range of rules, the instructor avoided drawing a broad conclusion about every kind of learning.\n\nThe revised account treated transfer as a separate question from improvement on familiar material. A learner may remember a particular answer without recognizing when the same rule applies elsewhere. To investigate that distinction, the group would need new problems that preserve the underlying relation while varying incidental details. It would also need to control how much practice and time each learner receives. The instructor regarded the early results as a reason to investigate the teaching method further, rather than as proof that one feedback format is universally superior."
+    },
+    "solution": {
+      "evidence": "made the second group spend longer on each practice item",
+      "steps": [
+        "Reading explanations added time as well as information."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-9e580de239e9ced9",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "What does the follow-up result suggest?",
+    "o": [
+      "Extra time may explain part, but not necessarily all, of the original difference.",
+      "Time had no possible role in either exercise.",
+      "The explanation group had no advantage after the follow-up.",
+      "A universal conclusion is justified by the small exercise."
+    ],
+    "e": "The gap shrank but remained, which leaves multiple contributing explanations open.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-18",
+      "title": "Feedback and transfer",
+      "text": "A training group practiced solving unfamiliar classification problems. After each answer, one set of learners saw only whether it was correct. Another set received a short explanation of the relevant rule. Both groups improved on questions closely resembling the examples used during practice. The second group also performed better on a small set of problems whose surface details had been changed. The instructor initially attributed the difference entirely to the explanations.\n\nA colleague noted that reading explanations had also made the second group spend longer on each practice item. More time, a different amount of attention, or the explanation itself might have contributed. In a follow-up exercise, the first group received an equally long period to inspect each item, but no rule explanation. The difference in performance became smaller, although it did not disappear. Because the exercises involved few learners and a limited range of rules, the instructor avoided drawing a broad conclusion about every kind of learning.\n\nThe revised account treated transfer as a separate question from improvement on familiar material. A learner may remember a particular answer without recognizing when the same rule applies elsewhere. To investigate that distinction, the group would need new problems that preserve the underlying relation while varying incidental details. It would also need to control how much practice and time each learner receives. The instructor regarded the early results as a reason to investigate the teaching method further, rather than as proof that one feedback format is universally superior."
+    },
+    "solution": {
+      "evidence": "became smaller, although it did not disappear",
+      "steps": [
+        "The gap shrank but remained, which leaves multiple contributing explanations open."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-0461eec031d5ecd3",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"incidental\" is closest in meaning to ...",
+    "o": [
+      "not central to the underlying relation",
+      "essential to the rule itself",
+      "deliberately incorrect",
+      "identical across every problem"
+    ],
+    "e": "Incidental details can change while the relation or rule stays the same.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-18",
+      "title": "Feedback and transfer",
+      "text": "A training group practiced solving unfamiliar classification problems. After each answer, one set of learners saw only whether it was correct. Another set received a short explanation of the relevant rule. Both groups improved on questions closely resembling the examples used during practice. The second group also performed better on a small set of problems whose surface details had been changed. The instructor initially attributed the difference entirely to the explanations.\n\nA colleague noted that reading explanations had also made the second group spend longer on each practice item. More time, a different amount of attention, or the explanation itself might have contributed. In a follow-up exercise, the first group received an equally long period to inspect each item, but no rule explanation. The difference in performance became smaller, although it did not disappear. Because the exercises involved few learners and a limited range of rules, the instructor avoided drawing a broad conclusion about every kind of learning.\n\nThe revised account treated transfer as a separate question from improvement on familiar material. A learner may remember a particular answer without recognizing when the same rule applies elsewhere. To investigate that distinction, the group would need new problems that preserve the underlying relation while varying incidental details. It would also need to control how much practice and time each learner receives. The instructor regarded the early results as a reason to investigate the teaching method further, rather than as proof that one feedback format is universally superior."
+    },
+    "solution": {
+      "evidence": "preserve the underlying relation while varying incidental details",
+      "steps": [
+        "Incidental details can change while the relation or rule stays the same."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-1a8a16e562dc4d07",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "Which new test would best address transfer?",
+    "o": [
+      "Unseen problems using the same rules in different surface settings.",
+      "The identical examples presented in their original order.",
+      "A survey asking learners which group they preferred.",
+      "A record of how often the instructor praised each answer."
+    ],
+    "e": "Transfer requires applying a relation beyond memorized examples.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-18",
+      "title": "Feedback and transfer",
+      "text": "A training group practiced solving unfamiliar classification problems. After each answer, one set of learners saw only whether it was correct. Another set received a short explanation of the relevant rule. Both groups improved on questions closely resembling the examples used during practice. The second group also performed better on a small set of problems whose surface details had been changed. The instructor initially attributed the difference entirely to the explanations.\n\nA colleague noted that reading explanations had also made the second group spend longer on each practice item. More time, a different amount of attention, or the explanation itself might have contributed. In a follow-up exercise, the first group received an equally long period to inspect each item, but no rule explanation. The difference in performance became smaller, although it did not disappear. Because the exercises involved few learners and a limited range of rules, the instructor avoided drawing a broad conclusion about every kind of learning.\n\nThe revised account treated transfer as a separate question from improvement on familiar material. A learner may remember a particular answer without recognizing when the same rule applies elsewhere. To investigate that distinction, the group would need new problems that preserve the underlying relation while varying incidental details. It would also need to control how much practice and time each learner receives. The instructor regarded the early results as a reason to investigate the teaching method further, rather than as proof that one feedback format is universally superior."
+    },
+    "solution": {
+      "evidence": "new problems that preserve the underlying relation",
+      "steps": [
+        "Transfer requires applying a relation beyond memorized examples."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-5186b0aac4896eef",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The central lesson is that ...",
+    "o": [
+      "stable observations still require checks that distinguish possible origins",
+      "a consistent offset must come from the distant source",
+      "reference signals should replace all observations of distant events",
+      "repeating an observation makes equipment checks unnecessary"
+    ],
+    "e": "The same recorded offset can come from the source or the clocks; stable errors can recur.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-19",
+      "title": "Timing distant events",
+      "text": "An observing team compared the arrival times of signals recorded at two stations. A small difference between the stations might reveal something about the source, but it could also result from a mismatch between the stations’ clocks. Both possibilities affected the same recorded quantity. A graph showing a consistent offset therefore could not, by itself, distinguish a property of the distant event from an error in the local timing system.\n\nThe team sent a reference signal with a known schedule through both receiving systems. It also checked whether the estimated offset changed when equipment was replaced. These checks found a small timing difference associated with one receiver. Correcting that difference reduced the apparent offset in the observations, but some variation remained. The team reported the size of the correction and the uncertainty surrounding the residual variation. It did not silently treat all remaining variation as evidence about the source. Other parts of the observing process still had to be considered.\n\nThe episode illustrates why a stable pattern is not always sufficient to identify its origin. An error can be stable too. Repetition is valuable for estimating a pattern, but a test that changes or independently checks the measuring system can answer a different question. The researchers planned further observations using another receiver arrangement. Agreement across independently checked systems would strengthen their interpretation, although it would not make every possible source of error disappear. Their report presented the proposed explanation together with the instrumental checks on which it depended."
+    },
+    "solution": {
+      "evidence": "An error can be stable too",
+      "steps": [
+        "The same recorded offset can come from the source or the clocks; stable errors can recur."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-04332541a8d9205c",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What was the reference signal used for?",
+    "o": [
+      "Checking differences in the receiving systems’ timing.",
+      "Measuring the distance between the stations directly.",
+      "Ensuring the distant source emitted no further signals.",
+      "Replacing the receiver with a known celestial object."
+    ],
+    "e": "Its known schedule helps identify instrumental timing differences.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-19",
+      "title": "Timing distant events",
+      "text": "An observing team compared the arrival times of signals recorded at two stations. A small difference between the stations might reveal something about the source, but it could also result from a mismatch between the stations’ clocks. Both possibilities affected the same recorded quantity. A graph showing a consistent offset therefore could not, by itself, distinguish a property of the distant event from an error in the local timing system.\n\nThe team sent a reference signal with a known schedule through both receiving systems. It also checked whether the estimated offset changed when equipment was replaced. These checks found a small timing difference associated with one receiver. Correcting that difference reduced the apparent offset in the observations, but some variation remained. The team reported the size of the correction and the uncertainty surrounding the residual variation. It did not silently treat all remaining variation as evidence about the source. Other parts of the observing process still had to be considered.\n\nThe episode illustrates why a stable pattern is not always sufficient to identify its origin. An error can be stable too. Repetition is valuable for estimating a pattern, but a test that changes or independently checks the measuring system can answer a different question. The researchers planned further observations using another receiver arrangement. Agreement across independently checked systems would strengthen their interpretation, although it would not make every possible source of error disappear. Their report presented the proposed explanation together with the instrumental checks on which it depended."
+    },
+    "solution": {
+      "evidence": "a reference signal with a known schedule",
+      "steps": [
+        "Its known schedule helps identify instrumental timing differences."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-d8b04910b84e549f",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why did residual variation not immediately establish the proposed source explanation?",
+    "o": [
+      "Other parts of the observation process might still contribute.",
+      "The correction had increased all offsets equally.",
+      "The stations had stopped recording any data.",
+      "The source explanation had been disproved with certainty."
+    ],
+    "e": "Removing one instrumental contribution does not eliminate all alternatives.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-19",
+      "title": "Timing distant events",
+      "text": "An observing team compared the arrival times of signals recorded at two stations. A small difference between the stations might reveal something about the source, but it could also result from a mismatch between the stations’ clocks. Both possibilities affected the same recorded quantity. A graph showing a consistent offset therefore could not, by itself, distinguish a property of the distant event from an error in the local timing system.\n\nThe team sent a reference signal with a known schedule through both receiving systems. It also checked whether the estimated offset changed when equipment was replaced. These checks found a small timing difference associated with one receiver. Correcting that difference reduced the apparent offset in the observations, but some variation remained. The team reported the size of the correction and the uncertainty surrounding the residual variation. It did not silently treat all remaining variation as evidence about the source. Other parts of the observing process still had to be considered.\n\nThe episode illustrates why a stable pattern is not always sufficient to identify its origin. An error can be stable too. Repetition is valuable for estimating a pattern, but a test that changes or independently checks the measuring system can answer a different question. The researchers planned further observations using another receiver arrangement. Agreement across independently checked systems would strengthen their interpretation, although it would not make every possible source of error disappear. Their report presented the proposed explanation together with the instrumental checks on which it depended."
+    },
+    "solution": {
+      "evidence": "Other parts of the observing process still had to be considered",
+      "steps": [
+        "Removing one instrumental contribution does not eliminate all alternatives."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-a62f1dc7a046bc0f",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"residual\" refers to variation that ...",
+    "o": [
+      "remains after the correction",
+      "was removed before observation",
+      "occurs only in the reference schedule",
+      "cannot be measured at all"
+    ],
+    "e": "Residual means what remains after the identified component is accounted for.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-19",
+      "title": "Timing distant events",
+      "text": "An observing team compared the arrival times of signals recorded at two stations. A small difference between the stations might reveal something about the source, but it could also result from a mismatch between the stations’ clocks. Both possibilities affected the same recorded quantity. A graph showing a consistent offset therefore could not, by itself, distinguish a property of the distant event from an error in the local timing system.\n\nThe team sent a reference signal with a known schedule through both receiving systems. It also checked whether the estimated offset changed when equipment was replaced. These checks found a small timing difference associated with one receiver. Correcting that difference reduced the apparent offset in the observations, but some variation remained. The team reported the size of the correction and the uncertainty surrounding the residual variation. It did not silently treat all remaining variation as evidence about the source. Other parts of the observing process still had to be considered.\n\nThe episode illustrates why a stable pattern is not always sufficient to identify its origin. An error can be stable too. Repetition is valuable for estimating a pattern, but a test that changes or independently checks the measuring system can answer a different question. The researchers planned further observations using another receiver arrangement. Agreement across independently checked systems would strengthen their interpretation, although it would not make every possible source of error disappear. Their report presented the proposed explanation together with the instrumental checks on which it depended."
+    },
+    "solution": {
+      "evidence": "some variation remained",
+      "steps": [
+        "Residual means what remains after the identified component is accounted for."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-1ee3b9dce7cd1cbb",
+    "section": "reading",
+    "skill": "Evaluation",
+    "q": "Which result would strengthen the interpretation?",
+    "o": [
+      "Agreement using a different, independently checked receiver arrangement.",
+      "A more colorful version of the original graph.",
+      "Repeating the same untested clock setting without any checks.",
+      "Omitting the size of the timing correction from the report."
+    ],
+    "e": "Independent checks vary possible error sources while testing whether the interpretation persists.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-19",
+      "title": "Timing distant events",
+      "text": "An observing team compared the arrival times of signals recorded at two stations. A small difference between the stations might reveal something about the source, but it could also result from a mismatch between the stations’ clocks. Both possibilities affected the same recorded quantity. A graph showing a consistent offset therefore could not, by itself, distinguish a property of the distant event from an error in the local timing system.\n\nThe team sent a reference signal with a known schedule through both receiving systems. It also checked whether the estimated offset changed when equipment was replaced. These checks found a small timing difference associated with one receiver. Correcting that difference reduced the apparent offset in the observations, but some variation remained. The team reported the size of the correction and the uncertainty surrounding the residual variation. It did not silently treat all remaining variation as evidence about the source. Other parts of the observing process still had to be considered.\n\nThe episode illustrates why a stable pattern is not always sufficient to identify its origin. An error can be stable too. Repetition is valuable for estimating a pattern, but a test that changes or independently checks the measuring system can answer a different question. The researchers planned further observations using another receiver arrangement. Agreement across independently checked systems would strengthen their interpretation, although it would not make every possible source of error disappear. Their report presented the proposed explanation together with the instrumental checks on which it depended."
+    },
+    "solution": {
+      "evidence": "Agreement across independently checked systems would strengthen their interpretation",
+      "steps": [
+        "Independent checks vary possible error sources while testing whether the interpretation persists."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "A"
+  },
+  {
+    "id": "SM-8d1ad5299c1b2ada",
+    "section": "reading",
+    "skill": "Main idea",
+    "q": "The passage focuses on ...",
+    "o": [
+      "balancing searchability with the preservation of speech variation",
+      "establishing a spelling guide that eliminates all regional differences",
+      "replacing recordings with a single perfectly complete transcript",
+      "showing that broad searches have no value for researchers"
+    ],
+    "e": "The linked versions serve different questions; their limitations are documented.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-20",
+      "title": "An archive of speech",
+      "text": "A language project created a searchable archive from recordings made in several towns. Volunteers wrote transcripts using a shared spelling guide so that similar words could be found together. This improved searching, but it also removed some differences in pronunciation that were audible in the recordings. A researcher comparing speech across towns could therefore obtain a misleadingly uniform picture by reading only the transcripts.\n\nThe project considered storing every pronunciation distinction directly in the searchable text. That approach made ordinary searches difficult because users had to know several possible spellings before finding a word. The editors instead kept two linked versions: a standardized transcript for broad searching and a more detailed annotation for questions about speech variation. Each was connected to the relevant audio interval. The editors also recorded where they were uncertain about a speaker’s words, rather than choosing a form without comment.\n\nNeither version was described as the single correct representation of the recording. Each supported particular questions and omitted information relevant to others. The standardized text was useful for locating a discussion of a topic; the detailed annotation was useful for examining how something had been said. Even the latter could not preserve every feature of a conversation. The project’s documentation therefore explained the choices made during transcription. By making those choices visible, the editors hoped users would select evidence appropriate to their questions instead of assuming that searchability and descriptive completeness were the same achievement."
+    },
+    "solution": {
+      "evidence": "select evidence appropriate to their questions",
+      "steps": [
+        "The linked versions serve different questions; their limitations are documented."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-671caf9790873987",
+    "section": "reading",
+    "skill": "Detail",
+    "q": "What could a transcript-only comparison mistakenly suggest?",
+    "o": [
+      "That speech was more uniform across towns than the recordings indicated.",
+      "That speakers in every town used different languages.",
+      "That the archive contained no recorded conversations.",
+      "That all volunteers had ignored the spelling guide."
+    ],
+    "e": "Standardized spelling conceals some audible pronunciation differences.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-20",
+      "title": "An archive of speech",
+      "text": "A language project created a searchable archive from recordings made in several towns. Volunteers wrote transcripts using a shared spelling guide so that similar words could be found together. This improved searching, but it also removed some differences in pronunciation that were audible in the recordings. A researcher comparing speech across towns could therefore obtain a misleadingly uniform picture by reading only the transcripts.\n\nThe project considered storing every pronunciation distinction directly in the searchable text. That approach made ordinary searches difficult because users had to know several possible spellings before finding a word. The editors instead kept two linked versions: a standardized transcript for broad searching and a more detailed annotation for questions about speech variation. Each was connected to the relevant audio interval. The editors also recorded where they were uncertain about a speaker’s words, rather than choosing a form without comment.\n\nNeither version was described as the single correct representation of the recording. Each supported particular questions and omitted information relevant to others. The standardized text was useful for locating a discussion of a topic; the detailed annotation was useful for examining how something had been said. Even the latter could not preserve every feature of a conversation. The project’s documentation therefore explained the choices made during transcription. By making those choices visible, the editors hoped users would select evidence appropriate to their questions instead of assuming that searchability and descriptive completeness were the same achievement."
+    },
+    "solution": {
+      "evidence": "a misleadingly uniform picture",
+      "steps": [
+        "Standardized spelling conceals some audible pronunciation differences."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-8112d0e7d58bbbde",
+    "section": "reading",
+    "skill": "Inference",
+    "q": "Why were two versions retained?",
+    "o": [
+      "A representation helpful for one kind of question may hinder another.",
+      "The editors could not agree which recording was authentic.",
+      "Both versions contained exactly the same information.",
+      "Users were required to complete two searches for every word."
+    ],
+    "e": "One version aids finding topics; the other preserves variation needed for speech comparison.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-20",
+      "title": "An archive of speech",
+      "text": "A language project created a searchable archive from recordings made in several towns. Volunteers wrote transcripts using a shared spelling guide so that similar words could be found together. This improved searching, but it also removed some differences in pronunciation that were audible in the recordings. A researcher comparing speech across towns could therefore obtain a misleadingly uniform picture by reading only the transcripts.\n\nThe project considered storing every pronunciation distinction directly in the searchable text. That approach made ordinary searches difficult because users had to know several possible spellings before finding a word. The editors instead kept two linked versions: a standardized transcript for broad searching and a more detailed annotation for questions about speech variation. Each was connected to the relevant audio interval. The editors also recorded where they were uncertain about a speaker’s words, rather than choosing a form without comment.\n\nNeither version was described as the single correct representation of the recording. Each supported particular questions and omitted information relevant to others. The standardized text was useful for locating a discussion of a topic; the detailed annotation was useful for examining how something had been said. Even the latter could not preserve every feature of a conversation. The project’s documentation therefore explained the choices made during transcription. By making those choices visible, the editors hoped users would select evidence appropriate to their questions instead of assuming that searchability and descriptive completeness were the same achievement."
+    },
+    "solution": {
+      "evidence": "Each supported particular questions",
+      "steps": [
+        "One version aids finding topics; the other preserves variation needed for speech comparison."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-628f959cbc596e36",
+    "section": "reading",
+    "skill": "Vocabulary",
+    "q": "The word \"omitted\" is closest in meaning to ...",
+    "o": [
+      "left out",
+      "proved",
+      "repeated",
+      "linked"
+    ],
+    "e": "Omitted information is information not included in that representation.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-20",
+      "title": "An archive of speech",
+      "text": "A language project created a searchable archive from recordings made in several towns. Volunteers wrote transcripts using a shared spelling guide so that similar words could be found together. This improved searching, but it also removed some differences in pronunciation that were audible in the recordings. A researcher comparing speech across towns could therefore obtain a misleadingly uniform picture by reading only the transcripts.\n\nThe project considered storing every pronunciation distinction directly in the searchable text. That approach made ordinary searches difficult because users had to know several possible spellings before finding a word. The editors instead kept two linked versions: a standardized transcript for broad searching and a more detailed annotation for questions about speech variation. Each was connected to the relevant audio interval. The editors also recorded where they were uncertain about a speaker’s words, rather than choosing a form without comment.\n\nNeither version was described as the single correct representation of the recording. Each supported particular questions and omitted information relevant to others. The standardized text was useful for locating a discussion of a topic; the detailed annotation was useful for examining how something had been said. Even the latter could not preserve every feature of a conversation. The project’s documentation therefore explained the choices made during transcription. By making those choices visible, the editors hoped users would select evidence appropriate to their questions instead of assuming that searchability and descriptive completeness were the same achievement."
+    },
+    "solution": {
+      "evidence": "omitted information relevant to others",
+      "steps": [
+        "Omitted information is information not included in that representation."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
+  },
+  {
+    "id": "SM-5b458ea4952b2aad",
+    "section": "reading",
+    "skill": "Author purpose",
+    "q": "Why document transcription choices?",
+    "o": [
+      "To help users understand what each representation can and cannot support.",
+      "To guarantee that no conversation feature is lost.",
+      "To discourage all use of standardized spelling.",
+      "To establish that annotations are unrelated to the original audio."
+    ],
+    "e": "Documentation exposes the design choices, enabling appropriate use rather than a false claim of completeness.",
+    "origin": "original",
+    "passage": {
+      "id": "SM-RP-20",
+      "title": "An archive of speech",
+      "text": "A language project created a searchable archive from recordings made in several towns. Volunteers wrote transcripts using a shared spelling guide so that similar words could be found together. This improved searching, but it also removed some differences in pronunciation that were audible in the recordings. A researcher comparing speech across towns could therefore obtain a misleadingly uniform picture by reading only the transcripts.\n\nThe project considered storing every pronunciation distinction directly in the searchable text. That approach made ordinary searches difficult because users had to know several possible spellings before finding a word. The editors instead kept two linked versions: a standardized transcript for broad searching and a more detailed annotation for questions about speech variation. Each was connected to the relevant audio interval. The editors also recorded where they were uncertain about a speaker’s words, rather than choosing a form without comment.\n\nNeither version was described as the single correct representation of the recording. Each supported particular questions and omitted information relevant to others. The standardized text was useful for locating a discussion of a topic; the detailed annotation was useful for examining how something had been said. Even the latter could not preserve every feature of a conversation. The project’s documentation therefore explained the choices made during transcription. By making those choices visible, the editors hoped users would select evidence appropriate to their questions instead of assuming that searchability and descriptive completeness were the same achievement."
+    },
+    "solution": {
+      "evidence": "explained the choices made during transcription",
+      "steps": [
+        "Documentation exposes the design choices, enabling appropriate use rather than a false claim of completeness."
+      ],
+      "trap": "Pilihan pengecoh memperluas klaim, membalik hubungan, atau mengganti detail yang tidak didukung."
+    },
+    "package": "B"
   }
 ];
