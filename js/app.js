@@ -200,6 +200,54 @@
   var timerHandle = null;
   function clearTimer() { if (timerHandle) { clearInterval(timerHandle); timerHandle = null; } }
 
+  // Top bar links follow the current test. The SIMAK link keeps class "sm-navlink" so js/simak.js
+  // recognises it (and marks it current) instead of injecting a second one.
+  var NAV = document.querySelector('.topbar nav');
+  function setNav(ctx) {
+    if (!NAV) return;
+    var links = ctx === 'neuro'
+      ? [['#/neuro', 'Beranda'], ['#/setup', 'Try Out'], ['#/materi', 'Materi'], ['#/progres', 'Progres'], ['#/simak', 'SIMAK', 'sm-navlink']]
+      : [['#/simak', 'SIMAK', 'sm-navlink'], ['#/neuro', 'Neurologi']];
+    NAV.innerHTML = links.map(function (l) {
+      var on = (ctx === 'neuro' && l[0] === '#/neuro' && /^#\/?(neuro)?$/.test(location.hash)) ||
+        (l[0] !== '#/neuro' && l[0] !== '#/simak' && location.hash.indexOf(l[0]) === 0);
+      return '<a href="' + l[0] + '"' + (l[2] ? ' class="' + l[2] + '"' : '') + (on ? ' aria-current="page"' : '') + '>' + l[1] + '</a>';
+    }).join('');
+  }
+
+  function readSimak(key, fallback) {
+    try { var v = JSON.parse(localStorage.getItem('npx.simak.' + key)); return v === null ? fallback : v; } catch (e) { return fallback; }
+  }
+
+  // Landing: choose a test. SIMAK first, then CBT Neurologi. The SIMAK card uses id "sm-home-entry"
+  // so js/simak.js does not add its own homepage tile.
+  function viewLanding() {
+    var nAtt = store.get('attempts', []), nCur = store.get('current', null), nLast = nAtt[nAtt.length - 1];
+    var sAtt = readSimak('attempts', []), sCur = readSimak('current', null);
+    var html = '<h1>Persiapan Seleksi PPDS Neurologi</h1><p class="muted">Pilih tes yang ingin dilatih.</p>';
+    if (sCur) html += '<div class="notice">Ada sesi SIMAK yang belum selesai. <a href="#/simak/exam">Lanjutkan SIMAK →</a></div>';
+    if (nCur) html += '<div class="notice">Ada try out Neurologi yang belum selesai. <a href="#/ujian">Lanjutkan Neurologi →</a></div>';
+    html += '<div class="test-cards">' +
+      '<a class="card test-card" id="sm-home-entry" href="#/simak">' +
+      '<span class="test-eyebrow">Tes 1</span><h2>SIMAK UI Pascasarjana</h2>' +
+      '<p class="muted">PEKA dan Bahasa Inggris, dengan timer dan aturan nilai tiap subtes.</p>' +
+      '<div class="test-meta"><span><b id="sm-count">' + (window.SIMAK_BANK ? window.SIMAK_BANK.length : '…') + '</b> soal</span><span><b>' + sAtt.length + '</b> sesi selesai</span></div>' +
+      '<span class="btn">Masuk SIMAK →</span></a>' +
+      '<a class="card test-card" href="#/neuro">' +
+      '<span class="test-eyebrow">Tes 2</span><h2>CBT Neurologi</h2>' +
+      '<p class="muted">Simulasi CBT PPDS Neurologi FKUI; setiap jawaban berujuk ke halaman Buku Ajar Neurologi.</p>' +
+      '<div class="test-meta"><span><b>' + POOL.length + '</b> soal</span><span><b>' + nAtt.length + '</b> try out</span>' +
+      (nLast ? '<span>skor terakhir <b>' + pct(nLast.correct, nLast.total) + '%</b></span>' : '') + '</div>' +
+      '<span class="btn">Masuk Neurologi →</span></a>' +
+      '</div>';
+    app.innerHTML = html;
+    // The SIMAK bank script loads after this file; fill its count once everything has loaded.
+    if (!window.SIMAK_BANK) window.addEventListener('load', function () {
+      var el = document.getElementById('sm-count');
+      if (el) el.textContent = window.SIMAK_BANK ? window.SIMAK_BANK.length : '–';
+    }, { once: true });
+  }
+
   function viewHome() {
     var attempts = store.get('attempts', []);
     var last = attempts[attempts.length - 1];
@@ -216,6 +264,7 @@
       '</div>' +
       '<div class="grid">' +
       '<a class="card tile" href="#/setup"><b>Mulai Try Out</b><span class="muted small">Simulasi campuran semua topik dengan timer.</span></a>' +
+      (PASTQ.length ? '<a class="card tile" href="#/setup?bank=lama"><b>Bank Soal Lama</b><span class="muted small">' + PASTQ.length + ' soal CBT 2023–2026, bisa per paket sesuai urutan asli.</span></a>' : '') +
       '<a class="card tile" href="#/materi"><b>Ringkasan Materi</b><span class="muted small">High-yield per topik sesuai frekuensi soal lalu.</span></a>' +
       '<a class="card tile" href="#/progres"><b>Progres & Topik Lemah</b><span class="muted small">Riwayat skor dan penguasaan per topik.</span></a>' +
       '</div>' +
@@ -531,13 +580,17 @@
       params[decodeURIComponent(p[0])] = decodeURIComponent(p[1] || '');
     });
     window.scrollTo(0, 0);
+    setNav(path[0] === '' ? 'home' : path[0] === 'simak' ? 'simak' : 'neuro');
     switch (path[0]) {
+      case '': return viewLanding();
+      case 'simak': return; // rendered by js/simak.js
+      case 'neuro': return viewHome();
       case 'setup': return viewSetup(params);
       case 'ujian': return viewExam();
       case 'hasil': return viewResult(path[1]);
       case 'progres': return viewProgress();
       case 'materi': return viewMateri(path[1]);
-      default: return viewHome();
+      default: return viewLanding();
     }
   }
   window.addEventListener('hashchange', route);

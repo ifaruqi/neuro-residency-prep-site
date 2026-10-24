@@ -146,3 +146,15 @@ th { font-weight: 600; background: var(--bg); }
   .topbar nav { gap: 10px; font-size: .9rem; }
   h1 { font-size: 1.35rem; }
 }
+
+/* Landing: choose a test */
+.test-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 14px; margin: 16px 0; }
+.test-card { display: flex; flex-direction: column; gap: 8px; text-decoration: none; color: var(--text); padding: 20px; }
+.test-card:hover { border-color: var(--accent); }
+.test-card h2 { margin: 0; font-size: 1.3rem; }
+.test-card p { margin: 0; }
+.test-card .btn { align-self: flex-start; margin-top: 6px; }
+.test-eyebrow { font-size: .75rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+.test-meta { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: .9rem; color: var(--muted); }
+.test-meta b { color: var(--text); }
+.topbar nav a[aria-current] { color: var(--text); text-decoration: underline; text-underline-offset: 4px; }
