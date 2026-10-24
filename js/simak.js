@@ -22,9 +22,11 @@
     return Math.floor(sec / 60) + ':' + ('0' + sec % 60).slice(-2);
   }
   function date(ts) { return new Date(ts).toLocaleString('id-ID', { dateStyle: 'medium', timeStyle: 'short' }); }
-  function count(id, skill) { return bank.filter(function (q) { return q.section === id && (!skill || q.skill === skill); }).length; }
+  function count(id, skill, difficulty) { return bank.filter(function (q) { return q.section === id && (!skill || q.skill === skill) && (!difficulty || difficulty==='mixed' || q.difficulty===difficulty); }).length; }
+  function levelName(level){return {mixed:'Campuran',foundation:'Dasar',standard:'Standar',challenge:'Tantangan'}[level]||'Belum dinilai';}
+  function rhythmName(a){return a.settings.sessionMode==='flexible'?'Fleksibel':'Mode ujian';}
   function modeName(mode) { return { full: 'Simulasi lengkap', peka: 'Simulasi PEKA', english: 'Simulasi English', focus: 'Latihan fokus', review:'Ulangan terjadwal' }[mode] || 'Latihan'; }
-  function sessionName(a) { return modeName(a.settings.mode)+(a.settings.packageId&&a.settings.packageId!=='mixed'?' · Paket '+a.settings.packageId:'')+(a.settings.skill?' · '+a.settings.skill:''); }
+  function sessionName(a) { return modeName(a.settings.mode)+(a.settings.packageId&&a.settings.packageId!=='mixed'?' · Paket '+a.settings.packageId:'')+(a.settings.skill?' · '+a.settings.skill:'')+' · '+rhythmName(a)+(a.settings.difficulty&&a.settings.difficulty!=='mixed'?' · '+levelName(a.settings.difficulty):''); }
   function sectionList(mode, section) { return config.sections.filter(function (s) { return mode === 'full' || (mode === 'peka' && s.group === 'PEKA') || (mode === 'english' && s.group === 'English') || (mode === 'focus' && s.id === section); }); }
   function shell(title, subtitle, body) {
     app.innerHTML = '<div class="sm-subnav"><a href="#/simak">SIMAK Pascasarjana</a><a href="#/simak/notebook">Buku kesalahan</a><a href="#/simak/progress">Progres SIMAK</a></div>' +
@@ -50,9 +52,9 @@
   function home() {
     var current = read('current', null), attempts = read('attempts', []);
     var due=study.queue(read('notebook',{}),'due',Date.now()).length;
-    var resume = current ? '<div class="sm-resume"><div><b>Sesi tersimpan</b><div class="small">' + esc(modeName(current.settings.mode)) + ' · ' + esc(date(current.start)) + (current.settings.timed ? ' · waktu tetap berjalan' : '') + '</div></div><a class="btn" href="#/simak/exam">Lanjutkan sesi</a></div>' : '';
+    var resume = current ? '<div class="sm-resume"><div><b>Sesi tersimpan</b><div class="small">' + esc(modeName(current.settings.mode)) + ' · ' + esc(date(current.start)) + (current.status==='paused'?' · dijeda':current.status==='break'?' · istirahat antar-subtes':current.settings.timed?' · waktu tetap berjalan':'') + '</div></div><a class="btn" href="#/simak/exam">Lanjutkan sesi</a></div>' : '';
     shell('Bersiap dengan ritme ujian.', 'Latih penalaran, kelola waktu, lalu pahami cara sampai ke jawaban.',
-      resume + '<section class="sm-hero"><div><span class="sm-pill">'+bank.length+' soal orisinal · 2 paket berbeda</span><h2>Satu sesi. Lima subtes.<br>Langkah yang terukur.</h2><p>PEKA dan Bahasa Inggris, dengan timer serta aturan nilai masing-masing.</p><a class="btn" href="#/simak/setup/full">Atur simulasi lengkap →</a><a class="sm-text-link" href="#/simak/setup/focus">Mulai latihan singkat</a></div>' +
+      resume + '<section class="sm-hero"><div><span class="sm-pill">'+bank.length+' soal orisinal · 3 tingkat kesulitan</span><h2>Satu sesi. Lima subtes.<br>Langkah yang terukur.</h2><p>PEKA dan Bahasa Inggris, dengan timer serta aturan nilai masing-masing.</p><a class="btn" href="#/simak/setup/full">Atur simulasi lengkap →</a><a class="sm-text-link" href="#/simak/setup/focus">Mulai latihan singkat</a></div>' +
       '<div class="sm-hero-facts"><div><strong>190</strong><span>soal dalam simulasi lengkap</span></div><div><strong>3 j 30 m</strong><span>waktu pengerjaan</span></div><div><strong>' + attempts.length + '</strong><span>sesi selesai di perangkat ini</span></div></div></section>' +
       '<div class="sm-review-callout"><div><b>'+due+' soal jatuh tempo untuk diulang</b><p class="small muted">Salah, kosong, dan ragu dikumpulkan untuk latihan berikutnya.</p></div><a class="btn secondary" href="#/simak/notebook">Buka buku kesalahan →</a></div>'+
       '<div class="sm-section-heading"><h2>Pilih cara berlatih</h2><span class="muted small">Sesuaikan dengan waktu yang tersedia</span></div><div class="sm-mode-grid">' +
@@ -64,36 +66,44 @@
   function setup(mode) {
     if (['full','peka','english','focus'].indexOf(mode) < 0) mode = 'full';
     var focused = mode === 'focus';
+    var levelField='<label class="sm-field">Tingkat kesulitan<select id="sm-difficulty"><option value="mixed">Campuran</option><option value="foundation">Dasar</option><option value="standard">Standar</option><option value="challenge">Tantangan</option></select></label><p class="small muted">Level editorial untuk latihan, belum dikalibrasi terhadap ujian resmi. Setiap level memiliki cukup soal untuk simulasi lengkap; pilihan pada level yang sama dapat berulang.</p>';
+    var rhythmField='<label class="sm-field">Ritme sesi<select id="sm-session-mode"><option value="flexible">Fleksibel — bisa jeda & istirahat antar-subtes</option><option value="exam">Mode ujian — timer terus berjalan</option></select></label><p id="sm-rhythm-hint" class="small muted"></p>';
     var body = '<div class="sm-setup-grid"><form class="card" id="sm-form"><h2>' + esc(modeName(mode)) + '</h2>' +
       (focused ? '<label class="sm-field">Subtes<select id="sm-section">' + config.sections.map(function (s) { return '<option value="' + s.id + '">' + esc(s.name) + ' (' + count(s.id) + ' soal)</option>'; }).join('') + '</select></label>' +
-      '<label class="sm-field">Keterampilan<select id="sm-skill"><option value="">Semua keterampilan</option></select></label>'+
+      levelField+'<label class="sm-field">Keterampilan<select id="sm-skill"><option value="">Semua keterampilan</option></select></label>'+
       '<label class="sm-field">Jumlah soal<select id="sm-count"><option value="10">10 soal</option><option value="20">20 soal</option><option value="all">Semua soal subtes</option></select></label>' +
       '<label class="check"><input id="sm-timed" type="checkbox"> Gunakan timer sesuai proporsi subtes</label><p class="small muted">Pembahasan dapat dibuka setelah memilih jawaban. Jawaban dikunci setelah pembahasan dibuka.</p>' :
-      '<label class="sm-field">Paket soal<select id="sm-package"><option value="A">Paket A</option><option value="B">Paket B</option></select></label><p class="small muted">Paket A dan B tidak berbagi soal. Urutan soal dan pilihan tetap dapat berbeda.</p><p>Subtes dikerjakan berurutan. Dalam simulasi ini, subtes yang selesai dikunci; sisa waktunya tidak dipindahkan.</p><p class="small muted">Pembahasan tersedia setelah seluruh sesi selesai. Waktu tetap berjalan saat halaman ditinggalkan.</p>') +
-      '<button class="btn" type="submit">' + (focused ? 'Mulai latihan' : 'Mulai simulasi') + '</button><p class="sm-inline-error" id="sm-error" role="alert"></p></form><section class="card"><h2>Rencana sesi</h2><div id="sm-plan"></div></section></div>' +
+      levelField+'<div id="sm-package-field"><label class="sm-field">Paket soal<select id="sm-package"><option value="A">Paket A</option><option value="B">Paket B</option></select></label><p class="small muted">Paket A dan B tidak berbagi soal. Urutan soal dan pilihan tetap dapat berbeda.</p></div><p>Subtes dikerjakan berurutan. Dalam simulasi ini, subtes yang selesai dikunci; sisa waktunya tidak dipindahkan.</p><p class="small muted">Pembahasan tersedia setelah seluruh sesi selesai. Pada level Campuran, pilih paket A/B yang tidak berbagi soal. Pada level tertentu, soal diambil dari kumpulan level tersebut.</p>') +
+      rhythmField+'<button class="btn" type="submit">' + (focused ? 'Mulai latihan' : 'Mulai simulasi') + '</button><p class="sm-inline-error" id="sm-error" role="alert"></p></form><section class="card"><h2>Rencana sesi</h2><div id="sm-plan"></div></section></div>' +
       '<div class="sm-info small">Aturan penguncian adalah perilaku simulator ini. Periksa instruksi simulasi resmi UI untuk alur ujian periode yang Anda ikuti. Nilai latihan tidak dikonversi menjadi skor standar UI.</div>';
     shell('Siapkan sesi Anda.', 'Atur sekali, lalu fokus pada pengerjaan.', body);
     function update() {
       var selected = focused ? document.getElementById('sm-section').value : null;
+      var flexible=document.getElementById('sm-session-mode').value==='flexible';
+      document.getElementById('sm-rhythm-hint').textContent=flexible?'Jeda menyembunyikan soal dan menghentikan timer. Setelah subtes dikunci atau waktunya habis, pilih mulai subtes berikutnya saat siap. Tutup browser setelah menekan Jeda untuk menyimpan sisa waktu.':'Timer tetap berjalan saat keluar atau menutup browser. Subtes berikutnya dimulai otomatis. Tidak ada jeda.';
+      if(!focused){var graded=document.getElementById('sm-difficulty').value!=='mixed';document.getElementById('sm-package').disabled=graded;document.getElementById('sm-package-field').hidden=graded;}
       var skill=focused?document.getElementById('sm-skill').value:'';
       var nValue = focused ? document.getElementById('sm-count').value : null;
       var list = sectionList(mode, selected), n = 0, minutes = 0;
       document.getElementById('sm-plan').innerHTML = list.map(function (s, i) {
-        var available=count(s.id,skill),num = focused ? (nValue === 'all' ? available : Math.min(Number(nValue),available)) : s.n;
+        var available=count(s.id,skill,document.getElementById('sm-difficulty').value),num = focused ? (nValue === 'all' ? available : Math.min(Number(nValue),available)) : s.n;
         var mins = s.minutes * num / s.n; n += num; minutes += mins;
         return '<div class="sm-plan-row"><span class="sm-step">' + (i + 1) + '</span><div><b>' + esc(s.name) + '</b><div class="small muted">' + num + ' soal · ' + mins.toLocaleString('id-ID', { maximumFractionDigits: 1 }) + ' menit' + (focused && !document.getElementById('sm-timed').checked ? ' (acuan; timer nonaktif)' : '') + '</div></div><span class="sm-pill">' + (s.right === 4 ? '+4 / −1' : '+1 / 0') + '</span></div>';
       }).join('') + '<div class="sm-plan-total"><b>' + n + ' soal</b><span>' + minutes.toLocaleString('id-ID', { maximumFractionDigits: 1 }) + ' menit' + (focused && !document.getElementById('sm-timed').checked ? ' acuan' : '') + '</span></div>';
     }
-    function skills(){var section=document.getElementById('sm-section').value,all=Array.from(new Set(bank.filter(function(q){return q.section===section;}).map(function(q){return q.skill;}))).sort();document.getElementById('sm-skill').innerHTML='<option value="">Semua keterampilan</option>'+all.map(function(s){return '<option value="'+esc(s)+'">'+esc(s)+' ('+count(section,s)+')</option>';}).join('');update();}
+    function skills(){var section=document.getElementById('sm-section').value,level=document.getElementById('sm-difficulty').value,all=Array.from(new Set(bank.filter(function(q){return q.section===section&&(level==='mixed'||q.difficulty===level);}).map(function(q){return q.skill;}))).sort();document.getElementById('sm-skill').innerHTML='<option value="">Semua keterampilan</option>'+all.map(function(s){return '<option value="'+esc(s)+'">'+esc(s)+' ('+count(section,s,level)+')</option>';}).join('');update();}
     if (focused) { document.getElementById('sm-section').onchange=skills;['sm-count','sm-timed','sm-skill'].forEach(function (id) { document.getElementById(id).onchange = update; });skills(); }
+    document.getElementById('sm-difficulty').onchange=focused?skills:update;
+    document.getElementById('sm-session-mode').onchange=update;
     update();
     document.getElementById('sm-form').onsubmit = function (e) {
       e.preventDefault();
       function start() {
         try {
           var selected = focused ? document.getElementById('sm-section').value : null;
-          var settings = { mode: mode, section: selected, n: focused ? (document.getElementById('sm-count').value === 'all' ? count(selected) : Number(document.getElementById('sm-count').value)) : null,
-            skill:focused?document.getElementById('sm-skill').value:'',packageId:focused?'mixed':document.getElementById('sm-package').value,
+          var settings = { mode: mode, section: selected, n: focused ? (document.getElementById('sm-count').value === 'all' ? count(selected,document.getElementById('sm-skill').value,document.getElementById('sm-difficulty').value) : Number(document.getElementById('sm-count').value)) : null,
+            skill:focused?document.getElementById('sm-skill').value:'',difficulty:document.getElementById('sm-difficulty').value,sessionMode:document.getElementById('sm-session-mode').value,
+            packageId:focused||document.getElementById('sm-difficulty').value!=='mixed'?'mixed':document.getElementById('sm-package').value,
             timed: !focused || document.getElementById('sm-timed').checked };
           var exam = engine.create(bank, settings, read('seen', {}), Date.now());
           if (!write('current', exam)) throw new Error('Tidak dapat menyimpan sesi. Periksa penyimpanan browser.');
@@ -135,12 +145,13 @@
     var exam = read('current', null);
     if (!exam) { location.hash = '#/simak'; return; }
     study.normalizeExam(exam,false);
+    if(!write('current',exam)) { shell('Penyimpanan sesi gagal.','Unduh cadangan sebelum melanjutkan.','<a class="btn" href="#/simak/progress">Buka progres SIMAK</a>');return; }
     if (!Array.isArray(exam.blocks) || !exam.blocks[exam.blockIndex]) { shell('Sesi tidak dapat dibaca.', 'Simpan cadangan melalui Progres SIMAK sebelum membuat sesi baru.', '<a class="btn" href="#/simak/progress">Buka progres SIMAK</a>'); return; }
     var serial = routeSerial, moved = engine.catchUp(exam, Date.now());
     if (moved) write('current', exam);
     if (exam.end) { completed(exam); return; }
     var lastTrack=Date.now(),tracking=!document.hidden,lastTimeSave=Date.now();
-    function track(pause,persist){var now=Date.now(),b=exam.blocks[exam.blockIndex];if(tracking&&!exam.end){var until=exam.deadline===null?now:Math.min(now,exam.deadline);b.spent[b.cur]+=Math.max(0,until-lastTrack);}lastTrack=now;tracking=!pause;if(persist){var stored=read('current',null);if(stored&&stored.id===exam.id)write('current',exam);}}
+    function track(pause,persist){var now=Date.now(),b=exam.blocks[exam.blockIndex];if(tracking&&engine.active(exam)){var until=exam.deadline===null?now:Math.min(now,exam.deadline);b.spent[b.cur]+=Math.max(0,until-lastTrack);}lastTrack=now;tracking=!pause&&engine.active(exam);if(persist){var stored=read('current',null);if(stored&&stored.id===exam.id&&stored.status===exam.status&&stored.deadline===exam.deadline)write('current',exam);}}
     examView.flush=function(pause){track(pause,true);};
     function save() {
       var current = read('current', null);
@@ -150,6 +161,7 @@
     }
     function expire() {
       if (serial !== routeSerial) return true;
+      if (!engine.active(exam)) return true;
       track(document.hidden,false);
       if (engine.catchUp(exam, Date.now())) {
         var modal = document.getElementById('sm-dialog'); if (modal) { modal.close(); modal.remove(); }
@@ -176,7 +188,7 @@
       if (expire()) return;
       var b = exam.blocks[exam.blockIndex], blank = b.answers.filter(function (a) { return a === null; }).length;
       var flags = b.flags.filter(Boolean).length, last = exam.blockIndex === exam.blocks.length - 1;
-      dialog(last ? 'Selesaikan sesi?' : 'Kunci subtes ini?', blank + ' soal kosong dan ' + flags + ' ditandai ragu. ' + (last ? 'Hasil dan pembahasan akan ditampilkan.' : 'Anda tidak dapat kembali ke subtes ini. Sisa waktu tidak dipindahkan.'), last ? 'Selesai & lihat hasil' : 'Lanjut subtes berikutnya', function () {
+      dialog(last ? 'Selesaikan sesi?' : 'Kunci subtes ini?', blank + ' soal kosong dan ' + flags + ' ditandai ragu. ' + (last ? 'Hasil dan pembahasan akan ditampilkan.' : 'Anda tidak dapat kembali ke subtes ini. Sisa waktu tidak dipindahkan.'), last ? 'Selesai & lihat hasil' : exam.settings.sessionMode==='flexible'?'Kunci & pilih waktu lanjut':'Lanjut subtes berikutnya', function () {
         if (expire()) return;
         engine.advance(exam, Date.now());
         if (!save()) return;
@@ -185,13 +197,15 @@
       });
     }
     function render(message) {
+      if (!engine.active(exam)) { renderRest(); return; }
+      tracking=!document.hidden;lastTrack=Date.now();
       var b = exam.blocks[exam.blockIndex], s = engine.sections[b.section], i = b.cur, q = b.questions[i], order = b.orders[i];
       var answered = b.answers.filter(function (a) { return a !== null; }).length, focused = study.studyMode(exam.settings.mode);
       shell(s.name, sessionName(exam) + ' · subtes ' + (exam.blockIndex + 1) + ' dari ' + exam.blocks.length,
         '<div class="sm-exam-top"><span><b>Soal ' + (i + 1) + '</b> / ' + b.questions.length + '<span class="sm-separator">·</span>' + answered + ' terjawab</span><div class="sm-clock" id="sm-clock" aria-label="Sisa waktu"></div></div>' +
         (message ? '<p class="sm-announcement" role="status">' + esc(message) + '</p>' : '') +
         '<div class="sm-exam-layout"><section><div class="card sm-question">' + passageHTML(q) +
-        (focused ? '<div class="sm-eyebrow">' + esc(q.skill) + '</div>' : '') +
+        (focused ? '<div class="sm-eyebrow">' + esc(q.skill) + (q.difficulty?' · '+esc(levelName(q.difficulty)):'') + '</div>' : '') +
         '<h2 id="sm-stem" tabindex="-1"' + (s.group === 'English' ? ' lang="en"' : '') + '>' + esc(q.q) + '</h2>' + markedSentence(q, order) +figureHTML(q)+tableHTML(q)+
         '<div class="sm-options" role="radiogroup" aria-labelledby="sm-stem">' + order.map(function (oi, k) {
           var cls = b.revealed[i] ? (oi === 0 ? ' sm-correct' : oi === b.answers[i] ? ' sm-wrong' : '') : '';
@@ -202,12 +216,14 @@
         '<div class="sm-question-actions"><label class="check"><input id="sm-flag" type="checkbox"' + (b.flags[i] ? ' checked' : '') + '> Ragu-ragu</label><button class="sm-link-button" id="sm-clear"' + (b.answers[i] === null || b.revealed[i] ? ' disabled' : '') + '>Hapus jawaban</button></div>' +
         '<div class="sm-paging"><button class="btn secondary" id="sm-prev"' + (i === 0 ? ' disabled' : '') + '>← Sebelumnya</button>' +
         (i < b.questions.length - 1 ? '<button class="btn" id="sm-next">Berikutnya →</button>' : '<button class="btn" id="sm-end-question">Tinjau subtes</button>') + '</div></div>' +
-        '<p class="small muted" id="sm-save-status" role="status">' + (storageOK ? 'Jawaban tersimpan otomatis di browser ini.' : 'Gagal menyimpan. Periksa penyimpanan browser.') + '</p><p class="small muted">Pintasan: A–E untuk memilih, ← → untuk berpindah. ' + (exam.settings.timed ? 'Waktu tetap berjalan saat Anda keluar.' : 'Latihan tanpa batas waktu.') + '</p></section>' +
+        '<p class="small muted" id="sm-save-status" role="status">' + (storageOK ? 'Jawaban tersimpan otomatis di browser ini.' : 'Gagal menyimpan. Periksa penyimpanan browser.') + '</p><p class="small muted">Pintasan: A–E untuk memilih, ← → untuk berpindah. ' + (exam.settings.sessionMode==='flexible'?'Gunakan Jeda & simpan untuk menghentikan waktu sebelum keluar.':exam.settings.timed?'Waktu tetap berjalan saat Anda keluar.':'Latihan tanpa batas waktu.') + '</p></section>' +
         '<aside class="sm-sidebar"><div class="card"><h2>Navigasi soal</h2><div class="sm-nav-grid">' + b.questions.map(function (_, k) {
           return '<button class="' + (k === i ? 'sm-current ' : '') + (b.answers[k] !== null ? 'sm-answered ' : '') + (b.flags[k] ? 'sm-flagged' : '') + '" data-sm-nav="' + k + '" aria-label="Soal ' + (k + 1) + (b.answers[k] !== null ? ', terjawab' : ', kosong') + (b.flags[k] ? ', ragu-ragu' : '') + '"' + (k === i ? ' aria-current="step"' : '') + '>' + (k + 1) + (b.flags[k] ? '<sup>?</sup>' : b.answers[k] !== null ? '<sup>✓</sup>' : '') + '</button>';
-        }).join('') + '</div><p class="small muted">✓ Terjawab · ? Ragu-ragu</p><button class="btn secondary sm-wide" id="sm-review-block">Tinjau & akhiri subtes</button><a class="sm-text-link" href="#/simak">Simpan & keluar</a></div><div class="sm-score-rule"><b>Aturan nilai</b><p class="small">' + (s.group === 'PEKA' ? 'Benar +4 · salah −1 · kosong 0' : 'Benar +1 · salah 0 · kosong 0') + '</p></div></aside></div>');
+        }).join('') + '</div><p class="small muted">✓ Terjawab · ? Ragu-ragu</p><button class="btn secondary sm-wide" id="sm-review-block">Tinjau & akhiri subtes</button>'+(exam.settings.sessionMode==='flexible'?'<button class="btn secondary sm-wide" id="sm-pause">Jeda & simpan</button>':'')+'<a class="sm-text-link" id="sm-exit" href="#/simak">'+(exam.settings.sessionMode==='flexible'?'Jeda & keluar':'Simpan & keluar')+'</a></div><div class="sm-score-rule"><b>Aturan nilai</b><p class="small">' + (s.group === 'PEKA' ? 'Benar +4 · salah −1 · kosong 0' : 'Benar +1 · salah 0 · kosong 0') + '</p></div></aside></div>');
       app.querySelectorAll('[data-sm-option]').forEach(function (el) { el.onclick = function () { choose(Number(el.dataset.smOption)); }; });
       app.querySelectorAll('[data-sm-confidence]').forEach(function(el){el.onclick=function(){if(expire()||b.revealed[i])return;b.confidence[i]=el.dataset.smConfidence;save();render();};});
+      var pauseButton=document.getElementById('sm-pause');if(pauseButton)pauseButton.onclick=function(){if(expire())return;track(true,false);engine.pause(exam,Date.now());if(save())render();};
+      if(exam.settings.sessionMode==='flexible')document.getElementById('sm-exit').onclick=function(e){e.preventDefault();if(expire())return;track(true,false);engine.pause(exam,Date.now());if(save())location.hash='#/simak';};
       wireFigures([q]);
       app.querySelectorAll('[data-sm-nav]').forEach(function (el) { el.onclick = function () { navigate(Number(el.dataset.smNav)); }; });
       document.getElementById('sm-flag').onchange = function (e) { if (expire()) return; b.flags[i] = e.target.checked; save(); render(); };
@@ -229,6 +245,16 @@
       var reveal = document.getElementById('sm-reveal'); if (reveal) reveal.onclick = function () { if (expire() || b.answers[i] === null) return; b.revealed[i] = true; save(); render(); };
       updateClock();
     }
+    function renderRest(){
+      tracking=false;lastTrack=Date.now();
+      var paused=exam.status==='paused',b=exam.blocks[exam.blockIndex],previous=exam.blocks[exam.blockIndex-1];
+      var summary=previous?'<p>Subtes selesai: <b>'+esc(engine.sections[previous.section].name)+'</b> · '+previous.answers.filter(function(a){return a!==null;}).length+'/'+previous.questions.length+' terjawab. Jawaban subtes ini sudah dikunci.</p>':'';
+      shell(paused?'Sesi dijeda.':'Subtes selesai. Istirahat dulu?',sessionName(exam),
+        '<section class="card sm-rest" aria-live="polite"><span class="sm-pill">'+(paused?'Timer berhenti':'Timer subtes berikutnya belum dimulai')+'</span><h2>'+esc(engine.sections[b.section].name)+'</h2>'+
+        (paused?'<p>Sisa waktu: <b>'+(exam.settings.timed?time(exam.remainingMs):'tanpa timer')+'</b>. Jawaban dan urutan soal tetap tersimpan.</p>':summary+'<p>Berikutnya: '+b.questions.length+' soal · '+time(b.duration)+' (menit:detik). Mulai saat Anda siap.</p>')+
+        '<p class="muted">Anda boleh menutup browser dan melanjutkan nanti. Soal disembunyikan selama jeda.</p><div class="row"><button class="btn" id="sm-resume">'+(paused?'Lanjutkan pengerjaan':'Mulai subtes berikutnya')+'</button><a class="btn secondary" href="#/simak">Istirahat & keluar</a></div><p id="sm-save-status" role="status" class="small muted">Sesi tersimpan di browser ini.</p></section>');
+      document.getElementById('sm-resume').onclick=function(){engine.resume(exam,Date.now());if(save())render();};
+    }
     function updateClock() {
       var el = document.getElementById('sm-clock'); if (!el) return;
       el.textContent = exam.deadline === null ? 'Tanpa timer' : time(exam.deadline - Date.now());
@@ -238,6 +264,7 @@
     interval = setInterval(function () { if (!expire()){updateClock();if(Date.now()-lastTimeSave>=15000){save();lastTimeSave=Date.now();}} }, 500);
     examView.keyHandler = function (e) {
       if (e.ctrlKey || e.metaKey || e.altKey || /INPUT|SELECT|TEXTAREA/.test(e.target.tagName) || app.querySelector('dialog[open]')) return;
+      if(!engine.active(exam))return;
       var b = exam.blocks[exam.blockIndex], index = letters.indexOf(e.key.toUpperCase());
       if (index >= 0 && index < b.orders[b.cur].length && e.key.length === 1) { e.preventDefault(); choose(b.orders[b.cur][index]); }
       else if (e.key === 'ArrowRight' && b.cur < b.questions.length - 1) { e.preventDefault(); navigate(b.cur + 1); }
@@ -258,7 +285,7 @@
       shell('Selesai. Saatnya memahami.', sessionName(attempt) + ' · ' + date(attempt.start),
         '<div class="sm-result-grid">' + summary + '</div><p class="sm-info small">Nilai mentah latihan, bukan skor standar UI atau prediksi kelulusan.' + (study.studyMode(attempt.settings.mode) ? ' Latihan dapat membuka pembahasan saat pengerjaan; hasilnya ditandai terpisah dari simulasi.' : '') + '</p>' +
         '<div class="row"><a class="btn" href="'+(attempt.settings.mode==='review'?'#/simak/notebook':'#/simak/setup/'+esc(attempt.settings.mode))+'">Atur sesi baru</a><a class="btn secondary" href="#/simak/notebook">Buku kesalahan</a><a class="btn secondary" href="#/simak/progress">Progres SIMAK</a><button class="btn ghost" id="sm-download-attempt">Unduh hasil</button></div>' +
-        '<section class="card"><h2>Strategi & ritme</h2>'+(report.totals.PEKA.max?'<p>PEKA: <b>'+report.totals.PEKA.right*4+'</b> poin jawaban benar − <b>'+report.totals.PEKA.wrong+'</b> penalti salah = <b>'+report.totals.PEKA.points+'</b>. Kosong: '+report.totals.PEKA.blank+' soal.</p>':'')+(report.totals.English.max?'<p>English: '+report.totals.English.blank+' soal kosong. Jawaban salah tidak dikenai penalti pada aturan nilai yang digunakan.</p>':'')+(pace.observed?'<div class="row"><span class="sm-pill">Waktu aktif '+time(pace.active)+'</span><span class="sm-pill">'+pace.slowCorrect+' benar di atas acuan waktu</span><span class="sm-pill">'+pace.fastWrong+' salah di bawah acuan waktu</span></div><p class="small muted">Acuan adalah rata-rata waktu subtes. Di atas 1,5× acuan atau di bawah 0,5× acuan ditandai untuk ditinjau; ini bukan batas waktu per soal. Waktu membaca bacaan bersama tercatat pada soal yang sedang dibuka.</p>':'<p class="small muted">Waktu per soal belum direkam pada sesi versi lama ini.</p>')+'</section>'+
+        '<section class="card"><h2>Strategi & ritme</h2><p>'+esc(rhythmName(attempt))+' · '+esc(levelName(attempt.settings.difficulty||'mixed'))+(attempt.pauseCount?' · '+attempt.pauseCount+' kali jeda':'')+'.</p>'+(report.totals.PEKA.max?'<p>PEKA: <b>'+report.totals.PEKA.right*4+'</b> poin jawaban benar − <b>'+report.totals.PEKA.wrong+'</b> penalti salah = <b>'+report.totals.PEKA.points+'</b>. Kosong: '+report.totals.PEKA.blank+' soal.</p>':'')+(report.totals.English.max?'<p>English: '+report.totals.English.blank+' soal kosong. Jawaban salah tidak dikenai penalti pada aturan nilai yang digunakan.</p>':'')+(pace.observed?'<div class="row"><span class="sm-pill">Waktu aktif '+time(pace.active)+'</span><span class="sm-pill">'+pace.slowCorrect+' benar di atas acuan waktu</span><span class="sm-pill">'+pace.fastWrong+' salah di bawah acuan waktu</span></div><p class="small muted">Acuan adalah rata-rata waktu subtes. Di atas 1,5× acuan atau di bawah 0,5× acuan ditandai untuk ditinjau; ini bukan batas waktu per soal. Waktu membaca bacaan bersama tercatat pada soal yang sedang dibuka.</p>':'<p class="small muted">Waktu per soal belum direkam pada sesi versi lama ini.</p>')+'</section>'+
         '<section class="card"><h2>Hasil per subtes</h2><div class="table-wrap"><table><thead><tr><th>Subtes</th><th>Benar</th><th>Salah</th><th>Kosong</th><th>Nilai mentah</th></tr></thead><tbody>' + report.rows.map(function (r) {
           return '<tr><td>' + esc(engine.sections[r.section].name) + '</td><td>' + r.right + '</td><td>' + r.wrong + '</td><td>' + r.blank + '</td><td>' + r.points + ' / ' + r.max + '</td></tr>';
         }).join('') + '</tbody></table></div></section><div class="sm-section-heading"><h2>Pembahasan</h2><div class="tabs">' + [['all','Semua'],['wrong','Salah / kosong'],['flag','Ragu-ragu'],['slow','Benar lambat'],['fast','Salah cepat']].map(function (f) { return '<button data-sm-filter="' + f[0] + '" class="' + (filter === f[0] ? 'on' : '') + '">' + f[1] + '</button>'; }).join('') + '</div></div><div id="sm-reviews"></div>');
@@ -271,7 +298,7 @@
         matched++;
         html += '<article class="card sm-review"><div class="row spread"><span class="sm-eyebrow">' + esc(engine.sections[b.section].name) + ' · ' + (i + 1) + '</span><span class="tag ' + (correct ? 'ok' : ans === null ? 'warn' : 'bad') + '">' + (correct ? 'Benar' : ans === null ? 'Kosong' : 'Salah') + (b.flags[i] ? ' · Ragu' : '') + '</span></div>' + passageHTML(q) + '<h3>' + esc(q.q) + '</h3>' + markedSentence(q,b.orders[i]) +figureHTML(q)+tableHTML(q)+
           b.orders[i].map(function (oi,k) { return '<div class="sm-review-option' + (oi === 0 ? ' sm-correct' : oi === ans ? ' sm-wrong' : '') + '"><b>' + letters[k] + '.</b> ' + esc(q.o[oi]) + (oi === 0 ? ' ✓ Jawaban benar' : '') + (oi === ans ? ' · Pilihan Anda' : '') + '</div>'; }).join('') +
-          solutionHTML(q)+(spent?'<p class="small muted">Waktu aktif: '+time(spent)+(b.confidence&&b.confidence[i]?' · Keyakinan: '+esc(b.confidence[i]):'')+'</p>':'')+notesHTML(q,notebookData)+'<div class="row spread small"><span class="muted">Soal latihan orisinal · ' + esc(q.skill) + '</span><button class="sm-link-button" data-sm-report="' + esc(q.id) + '">' + (reports[q.id] ? 'Ditandai untuk diperiksa ✓' : 'Tandai soal bermasalah') + '</button></div></article>';
+          solutionHTML(q)+(spent?'<p class="small muted">Waktu aktif: '+time(spent)+(b.confidence&&b.confidence[i]?' · Keyakinan: '+esc(b.confidence[i]):'')+'</p>':'')+notesHTML(q,notebookData)+'<div class="row spread small"><span class="muted">Soal latihan orisinal · ' + esc(q.skill)+(q.difficulty?' · '+esc(levelName(q.difficulty)):'') + '</span><button class="sm-link-button" data-sm-report="' + esc(q.id) + '">' + (reports[q.id] ? 'Ditandai untuk diperiksa ✓' : 'Tandai soal bermasalah') + '</button></div></article>';
       }); });
       document.getElementById('sm-reviews').innerHTML = matched ? html : '<div class="card">Tidak ada soal pada filter ini.</div>';
       app.querySelectorAll('[data-sm-filter]').forEach(function (el) { el.onclick = function () { filter = el.dataset.smFilter; render(); }; });
@@ -323,15 +350,15 @@
       var st = aggregated[q.section], right = b.answers[i] === 0;
       if (st.seen[q.id]) { st.repeat++; if (right) st.repeatRight++; }
       else { st.first++; if (right) st.firstRight++; st.seen[q.id] = true; }
-      if (!study.studyMode(a.settings.mode)) { st.sim++; if (right) st.simRight++; }
+      if (!study.studyMode(a.settings.mode) && a.settings.sessionMode!=='flexible') { st.sim++; if (right) st.simRight++; }
     }); }); });
     function accuracy(c,n) { return n ? Math.round(c*100/n) + '% (' + c + '/' + n + ')' : 'Belum ada data'; }
     shell('Lihat perkembangan Anda.', 'Riwayat dan hasil SIMAK tersimpan terpisah dari neurologi, di browser ini.',
       '<div class="sm-result-grid"><div class="card"><span class="sm-eyebrow">SESI SELESAI</span><div class="stat">' + attempts.length + '</div></div><div class="card"><span class="sm-eyebrow">CAKUPAN BANK SAAT INI</span><div class="stat">' + bank.filter(function (q) { return unique[q.id]; }).length + ' / ' + bank.length + '</div></div></div>' +
-      '<div class="sm-section-heading"><h2>Ketepatan per subtes</h2><a href="#/simak/setup/focus">Latihan fokus →</a></div><section class="card table-wrap"><table><thead><tr><th>Subtes</th><th>Pertama kali</th><th>Pengulangan</th><th>Simulasi saja</th></tr></thead><tbody>' + config.sections.map(function (s) {
+      '<div class="sm-section-heading"><h2>Ketepatan per subtes</h2><a href="#/simak/setup/focus">Latihan fokus →</a></div><section class="card table-wrap"><table><thead><tr><th>Subtes</th><th>Pertama kali</th><th>Pengulangan</th><th>Mode ujian saja</th></tr></thead><tbody>' + config.sections.map(function (s) {
         var a=aggregated[s.id] || {first:0,firstRight:0,repeat:0,repeatRight:0,sim:0,simRight:0};
         return '<tr><td>' + esc(s.name) + (a.first && a.first < 10 ? '<div class="small muted">Sampel masih sedikit</div>' : '') + '</td><td>' + accuracy(a.firstRight,a.first) + '</td><td>' + accuracy(a.repeatRight,a.repeat) + '</td><td>' + accuracy(a.simRight,a.sim) + '</td></tr>';
-      }).join('') + '</tbody></table></section><p class="small muted">Pertama kali berarti pertemuan pertama dengan soal, termasuk latihan fokus. Kolom simulasi mengecualikan latihan fokus yang dapat membuka pembahasan.</p><h2>Riwayat sesi</h2>' +
+      }).join('') + '</tbody></table></section><p class="small muted">Pertama kali berarti pertemuan pertama dengan soal, termasuk latihan fokus. Kolom mode ujian mengecualikan sesi fleksibel, latihan fokus, dan ulangan. Bandingkan hasil pada tingkat kesulitan yang sama.</p><h2>Riwayat sesi</h2>' +
       (attempts.length ? '<div class="sm-history">' + attempts.slice().reverse().map(function (a) { var totals=engine.score(a).totals; return '<a class="card sm-history-row" href="#/simak/result/' + esc(a.id) + '"><div><b>' + esc(sessionName(a)) + '</b><div class="small muted">' + date(a.start) + '</div></div><div class="small">' + ['PEKA','English'].filter(function (k) { return totals[k].max; }).map(function (k) { return k + ' ' + totals[k].points + '/' + totals[k].max; }).join(' · ') + ' →</div></a>'; }).join('') + '</div>' : '<div class="card">Belum ada sesi selesai. <a href="#/simak/setup/focus">Mulai latihan pertama</a>.</div>') +
       backupHTML()+
       '<button class="sm-link-button" id="sm-reset">Hapus progres SIMAK di browser ini</button>');

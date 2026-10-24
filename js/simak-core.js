@@ -34,6 +34,7 @@
       var key = q.section + '|' + q.q + '|' + (q.passage ? q.passage.id : '') + '|' + (q.table ? q.table.id : '') + '|' + JSON.stringify(q.figure || {}) + '|' + JSON.stringify(q.marked || []);
       if (!/^SM-[a-f0-9]{16}$/.test(q.id) || ids[q.id]) throw new Error('ID SIMAK tidak valid/duplikat: ' + q.id);
       if (!sectionMap[q.section] || !q.q || !q.e || q.origin !== 'original' || stems[key]) throw new Error('Soal SIMAK tidak valid: ' + q.id);
+      if (q.difficulty !== undefined && ['foundation','standard','challenge'].indexOf(q.difficulty)<0) throw new Error('Tingkat soal tidak valid: '+q.id);
       if (q.o.length < 4 || q.o.length > 5 || new Set(q.o).size !== q.o.length) throw new Error('Pilihan tidak valid: ' + q.id);
       if (q.marked && (q.marked.length !== q.o.length || q.marked.some(function (m) { return q.o[m.oi] !== m.text; }))) throw new Error('Penanda tidak valid: ' + q.id);
       if (q.passage && (!q.passage.id || !q.passage.title || !q.passage.text)) throw new Error('Bacaan tidak valid: ' + q.id);
@@ -66,7 +67,7 @@
   }
 
   function create(bank, settings, seen, now) {
-    bank = bank.filter(function(q){return (!settings.packageId||settings.packageId==='mixed'||q.package===settings.packageId)&&(!settings.skill||q.skill===settings.skill);});
+    bank = bank.filter(function(q){return (!settings.difficulty||settings.difficulty==='mixed'||q.difficulty===settings.difficulty)&&(!settings.packageId||settings.packageId==='mixed'||q.package===settings.packageId)&&(!settings.skill||q.skill===settings.skill);});
     var ids = settings.mode === 'full' ? sections.map(function (s) { return s.id; }) :
       settings.mode === 'peka' ? ['verbal', 'quant', 'logic'] :
       settings.mode === 'english' ? ['structure', 'reading'] : [settings.section];
@@ -85,7 +86,7 @@
     // Snapshots preserve historical review when the original bank changes in the future.
     blocks = JSON.parse(JSON.stringify(blocks));
     return { version: 1, id: 'SM-attempt-' + now + '-' + Math.random().toString(36).slice(2, 8),
-      settings: Object.assign({}, settings, { bank: 'simak' }), start: now, blockStart: now,
+      status: 'active', settings: Object.assign({sessionMode:'exam',difficulty:'mixed'}, settings, { bank: 'simak' }), start: now, blockStart: now,
       blockIndex: 0, blocks: blocks, deadline: settings.timed ? now + blocks[0].duration : null, end: null };
   }
 
@@ -95,27 +96,54 @@
     sections.forEach(function(s){var qs=questions.filter(function(q){return q.section===s.id;});if(!qs.length)return;
       blocks.push({section:s.id,questions:qs,answers:qs.map(function(){return null;}),flags:qs.map(function(){return false;}),revealed:qs.map(function(){return false;}),spent:qs.map(function(){return 0;}),confidence:qs.map(function(){return null;}),orders:qs.map(optionOrder),duration:Math.round(s.minutes*60000*qs.length/s.n),endedAt:null,cur:0});
     });
-    return {version:1,id:'SM-attempt-'+now+'-'+Math.random().toString(36).slice(2,8),settings:{bank:'simak',mode:'review',timed:false},start:now,blockStart:now,blockIndex:0,blocks:JSON.parse(JSON.stringify(blocks)),deadline:null,end:null};
+    return {version:1,id:'SM-attempt-'+now+'-'+Math.random().toString(36).slice(2,8),status:'active',settings:{bank:'simak',mode:'review',timed:false,sessionMode:'flexible',difficulty:'mixed'},start:now,blockStart:now,blockIndex:0,blocks:JSON.parse(JSON.stringify(blocks)),deadline:null,end:null};
   }
 
+  function active(exam) { return !exam.end && (!exam.status || exam.status === 'active'); }
   function advance(exam, now) {
+    if (!active(exam)) return false;
     var block = exam.blocks[exam.blockIndex];
     block.endedAt = now;
-    block.elapsed = Math.max(0, now - exam.blockStart);
-    if (exam.blockIndex === exam.blocks.length - 1) { exam.end = now; return false; }
+    block.elapsed = Math.max(0, now - exam.blockStart - (block.pauseMs || 0));
+    if (exam.blockIndex === exam.blocks.length - 1) { exam.end = now; exam.status = 'complete'; exam.deadline = null; return false; }
     exam.blockIndex++;
     exam.blockStart = now;
-    exam.deadline = exam.settings.timed ? now + exam.blocks[exam.blockIndex].duration : null;
+    if (exam.settings.sessionMode === 'flexible') {
+      exam.status = 'break'; exam.deadline = null; exam.breakAt = now;
+    } else {
+      exam.status = 'active';
+      exam.deadline = exam.settings.timed ? now + exam.blocks[exam.blockIndex].duration : null;
+    }
     return true;
   }
-
   function catchUp(exam, now) {
     var advanced = 0;
-    while (!exam.end && exam.deadline !== null && now >= exam.deadline) {
-      advance(exam, exam.deadline);
-      advanced++;
+    while (active(exam) && exam.deadline !== null && now >= exam.deadline) {
+      advance(exam, exam.deadline); advanced++;
     }
     return advanced;
+  }
+  function pause(exam, now) {
+    catchUp(exam, now);
+    if (!active(exam) || exam.settings.sessionMode !== 'flexible') return false;
+    exam.remainingMs = exam.settings.timed ? Math.max(0, exam.deadline - now) : null;
+    exam.pausedAt = now; exam.status = 'paused'; exam.deadline = null;
+    exam.pauseCount = (exam.pauseCount || 0) + 1;
+    return true;
+  }
+  function resume(exam, now) {
+    if (exam.end || exam.settings.sessionMode !== 'flexible') return false;
+    var block = exam.blocks[exam.blockIndex];
+    if (exam.status === 'paused') {
+      block.pauseMs = (block.pauseMs || 0) + Math.max(0, now - exam.pausedAt);
+      exam.deadline = exam.settings.timed ? now + exam.remainingMs : null;
+      delete exam.pausedAt; delete exam.remainingMs;
+    } else if (exam.status === 'break') {
+      exam.blockStart = now;
+      exam.deadline = exam.settings.timed ? now + block.duration : null;
+      delete exam.breakAt;
+    } else return false;
+    exam.status = 'active'; return true;
   }
 
   function score(exam) {
@@ -135,5 +163,5 @@
     return { rows: rows, totals: totals };
   }
 
-  window.SIMAK_ENGINE = { validate: validate, create: create, createReview:createReview, pick: pick, advance: advance, catchUp: catchUp, score: score, sections: sectionMap };
+  window.SIMAK_ENGINE = { validate: validate, create: create, createReview:createReview, pick: pick, advance: advance, catchUp: catchUp, pause:pause, resume:resume, active:active, score: score, sections: sectionMap };
 })();

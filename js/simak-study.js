@@ -49,6 +49,7 @@
     if(q.table){if(!object(q.table)||!Array.isArray(q.table.columns)||!Array.isArray(q.table.rows)||q.table.columns.length>20||q.table.rows.length>100)fail('tabel');
       if(q.table.columns.some(function(c){return typeof c!=='string';})||q.table.rows.some(function(row){return !Array.isArray(row)||row.length!==q.table.columns.length||row.some(function(c){return typeof c!=='string';});}))fail('isi tabel');}
     if(q.solution){if(!object(q.solution))fail('pembahasan');['shortcut','trap','rule','evidence'].forEach(function(k){if(q.solution[k]!==undefined&&typeof q.solution[k]!=='string')fail('teks pembahasan');});if(q.solution.steps&&(!Array.isArray(q.solution.steps)||q.solution.steps.some(function(s){return typeof s!=='string';})))fail('langkah pembahasan');}
+    if(q.difficulty!==undefined&&['foundation','standard','challenge'].indexOf(q.difficulty)<0)fail('tingkat soal');
     window.SIMAK_ENGINE.validate([q]);
     return q;
   }
@@ -56,6 +57,16 @@
     if(!object(exam)||!/^SM-attempt-[a-zA-Z0-9-]+$/.test(exam.id)||!object(exam.settings)||exam.settings.bank!=='simak'||['full','peka','english','focus','review'].indexOf(exam.settings.mode)<0||typeof exam.settings.timed!=='boolean'||!finite(exam.start)||!finite(exam.blockStart)||!Array.isArray(exam.blocks)||!exam.blocks.length||exam.blocks.length>5)fail('sesi');
     if(!Number.isInteger(exam.blockIndex)||exam.blockIndex<0||exam.blockIndex>=exam.blocks.length||!(exam.deadline===null||finite(exam.deadline))||!(exam.end===null||finite(exam.end))||complete&&exam.end===null)fail('waktu sesi');
     if(exam.settings.packageId!==undefined&&['A','B','mixed'].indexOf(exam.settings.packageId)<0||exam.settings.skill!==undefined&&(typeof exam.settings.skill!=='string'||exam.settings.skill.length>300))fail('paket atau keterampilan');
+    if(exam.settings.sessionMode===undefined)exam.settings.sessionMode='exam';
+    if(exam.settings.difficulty===undefined)exam.settings.difficulty='mixed';
+    if(['exam','flexible'].indexOf(exam.settings.sessionMode)<0||['mixed','foundation','standard','challenge'].indexOf(exam.settings.difficulty)<0)fail('mode sesi atau tingkat kesulitan');
+    if(exam.status===undefined)exam.status=exam.end===null?'active':'complete';
+    if(['active','paused','break','complete'].indexOf(exam.status)<0||((exam.status==='complete')!==(exam.end!==null)))fail('status sesi');
+    if(exam.status==='paused'||exam.status==='break'){
+      if(exam.settings.sessionMode!=='flexible'||exam.deadline!==null)fail('jeda sesi');
+      if(exam.status==='paused'&&(!finite(exam.pausedAt)||exam.pausedAt<exam.blockStart||(exam.settings.timed?!finite(exam.remainingMs):exam.remainingMs!==null)))fail('sisa waktu jeda');
+      if(exam.status==='break'&&(exam.blockIndex===0||!finite(exam.breakAt)))fail('istirahat antar-subtes');
+    }else if(exam.status==='active'&&exam.settings.timed&&exam.deadline===null)fail('timer aktif');
     var ids={};
     exam.blocks.forEach(function(b){
       if(!object(b)||!window.SIMAK_ENGINE.sections[b.section]||!Array.isArray(b.questions)||!b.questions.length||b.questions.length>1000||!finite(b.duration)||!Number.isInteger(b.cur)||b.cur<0||b.cur>=b.questions.length)fail('subtes');
@@ -69,8 +80,11 @@
       if(b.confidence===undefined)b.confidence=b.questions.map(function(){return null;});
       ['revealed','spent','confidence'].forEach(function(k){if(!Array.isArray(b[k])||b[k].length!==b.questions.length)fail('metadata jawaban');});
       if(b.revealed.some(function(x){return typeof x!=='boolean';})||b.spent.some(function(x){return !finite(x);})||b.confidence.some(function(x){return x!==null&&confidence.indexOf(x)<0;}))fail('metadata waktu atau keyakinan');
-      if(b.elapsed!==undefined&&!finite(b.elapsed))fail('durasi');
+      if(b.elapsed!==undefined&&!finite(b.elapsed)||b.pauseMs!==undefined&&!finite(b.pauseMs))fail('durasi');
+      if(exam.status==='paused'&&b===exam.blocks[exam.blockIndex]&&exam.remainingMs>b.duration)fail('sisa waktu melebihi durasi');
     });
+    if(exam.status==='break'&&(!finite(exam.blocks[exam.blockIndex-1].endedAt)||exam.blocks[exam.blockIndex].endedAt!==null))fail('urutan istirahat');
+    if(exam.status==='paused'&&exam.blocks[exam.blockIndex].endedAt!==null)fail('subtes jeda sudah selesai');
     if(complete)exam.score=window.SIMAK_ENGINE.score(exam);
     return exam;
   }
