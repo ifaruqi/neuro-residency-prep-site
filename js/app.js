@@ -219,7 +219,7 @@
       '<a class="card tile" href="#/materi"><b>Ringkasan Materi</b><span class="muted small">High-yield per topik sesuai frekuensi soal lalu.</span></a>' +
       '<a class="card tile" href="#/progres"><b>Progres & Topik Lemah</b><span class="muted small">Riwayat skor dan penguasaan per topik.</span></a>' +
       '</div>' +
-      '<p class="notice small">Soal disusun dari pengetahuan neurologi umum dan belum diverifikasi dengan Buku Ajar Neurologi FKUI. Jika ada soal yang meragukan, tekan <b>Laporkan</b> di halaman pembahasan.</p>';
+      '<p class="notice small">Setiap soal di Bank Buku Ajar memiliki rujukan halaman Buku Ajar Neurologi Ed. 2 (FKUI) yang mendukung jawabannya. Rujukan menunjukkan sumber, bukan jaminan bebas salah. Soal di luar buku hanya muncul bila opsi <b>Sertakan soal di luar Buku Ajar</b> diaktifkan, dan selalu diberi label. Jika ada soal yang meragukan, tekan <b>Laporkan soal</b> di halaman pembahasan.</p>';
     app.innerHTML = html;
   }
 
@@ -309,11 +309,12 @@
       var html = '<div class="exam-head"><div><b>Soal ' + (i + 1) + '</b> <span class="muted">/ ' + exam.qids.length + '</span>' +
         ' <span class="muted small">· ' + answered + ' terjawab</span></div>' +
         '<div class="timer" id="timer"></div></div>' +
-        '<div class="card"><div class="qtopic">' + esc(TOPIC[q.t].name) + '</div>' +
+        '<div class="card">' +
         '<div class="stem">' + esc(q.q) + '</div>' +
         order.map(function (oi, k) {
           return '<button class="opt' + (exam.answers[i] === oi ? ' sel' : '') + '" data-o="' + oi + '"><span class="key">' + LETTERS[k] + '.</span><span>' + esc(q.o[oi]) + '</span></button>';
         }).join('') +
+        (exam.answers[i] !== null ? '<div class="row" style="justify-content:flex-end"><button class="btn ghost small" id="clear">Hapus jawaban</button></div>' : '') +
         '<div class="row spread" style="margin-top:12px">' +
         '<button class="btn ghost" id="prev"' + (i === 0 ? ' disabled' : '') + '>← Sebelumnya</button>' +
         '<label class="check small"><input type="checkbox" id="flag"' + (exam.flags[i] ? ' checked' : '') + '> Ragu-ragu</label>' +
@@ -331,10 +332,12 @@
       app.querySelectorAll('.opt').forEach(function (b) {
         b.onclick = function () {
           var oi = parseInt(b.getAttribute('data-o'), 10);
-          exam.answers[i] = exam.answers[i] === oi ? null : oi;
+          exam.answers[i] = oi;
           save(); render();
         };
       });
+      var clear = document.getElementById('clear');
+      if (clear) clear.onclick = function () { exam.answers[i] = null; save(); render(); };
       app.querySelectorAll('.nav-grid button').forEach(function (b) {
         b.onclick = function () { exam.cur = parseInt(b.getAttribute('data-k'), 10); save(); render(); };
       });
