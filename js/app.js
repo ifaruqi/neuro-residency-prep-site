@@ -67,6 +67,33 @@
     }
   };
 
+  // Restore all related keys together, or roll back only the writes that succeeded.
+  // A failed setItem leaves its previous value intact; never remove that failed key.
+  function persistBackup(values) {
+    var keys = Object.keys(values), previous = {}, encoded = {}, changed = [];
+    try {
+      keys.forEach(function (k) {
+        previous[k] = localStorage.getItem('npx.' + k);
+        encoded[k] = JSON.stringify(values[k]);
+      });
+      keys.forEach(function (k) {
+        if (previous[k] === encoded[k]) return;
+        localStorage.setItem('npx.' + k, encoded[k]);
+        changed.push(k);
+      });
+    } catch (error) {
+      var restored = true;
+      // Free partially imported space before putting back the original bytes.
+      changed.forEach(function (k) { try { localStorage.removeItem('npx.' + k); } catch (_) { restored = false; } });
+      changed.forEach(function (k) {
+        try { if (previous[k] !== null) localStorage.setItem('npx.' + k, previous[k]); }
+        catch (_) { restored = false; }
+      });
+      throw new Error('Impor gagal; ruang penyimpanan tidak cukup atau tidak tersedia. ' +
+        (restored ? 'Progres sebelumnya tetap tersimpan.' : 'Pemulihan progres sebelumnya belum lengkap. Jangan tutup halaman; unduh cadangan dan coba lagi setelah penyimpanan tersedia.'));
+    }
+  }
+
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
       return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
@@ -229,6 +256,12 @@
   }
 
   function finishExam(exam, expired) {
+    var attempts = store.get('attempts', []);
+    // Also protect against a stale view (for example, the same session in another tab).
+    if (attempts.some(function (a) { return a.id === exam.id; })) {
+      location.hash = '#/hasil/' + exam.id;
+      return;
+    }
     var correct = 0, byTopic = {}, now = Date.now();
     exam.qids.forEach(function (id, i) {
       var q = QMAP[id];
@@ -256,7 +289,6 @@
       total: exam.qids.length,
       byTopic: byTopic
     };
-    var attempts = store.get('attempts', []);
     attempts.push(attempt);
     var seen = store.get('seen', {}), qstats = store.get('qstats', {});
     exam.qids.forEach(function (id, i) {
@@ -548,7 +580,7 @@
     if (!exam.spent) exam.spent = fill(n, 0);
     if (!exam.created) exam.created = exam.start;
     var study = isStudy(exam.settings), canPause = study || exam.settings.rhythm !== 'exam';
-    var segStart = exam.pausedAt ? null : Date.now();
+    var segStart = exam.pausedAt ? null : Date.now(), finished = false;
 
     function remaining() { return exam.limit ? exam.limit - ((exam.pausedAt || Date.now()) - exam.start) / 1000 : null; }
     function save() { store.set('current', exam); }
@@ -560,7 +592,17 @@
     }
     activeFlush = flush;
     function go(k) { flush(); exam.cur = k; save(); render(); window.scrollTo(0, 0); }
-    function finish(expired) { flush(true); clearTimer(); activeFlush = null; keyHandler = null; finishExam(exam, expired); }
+    function finish(expired) {
+      if (finished) return;
+      finished = true;
+      // A stale tab must not write its completed session back into npx.current.
+      if (!store.get('attempts', []).some(function (a) { return a.id === exam.id; })) flush(true);
+      clearTimer(); activeFlush = null; keyHandler = null;
+      // Expiry can happen while the non-blocking confirmation dialog is still open.
+      var pending = document.getElementById('nx-dialog');
+      if (pending) { pending.close(); pending.remove(); }
+      finishExam(exam, expired);
+    }
     function askFinish() {
       var left = exam.answers.filter(function (a) { return a === null; }).length;
       dialog('Selesaikan ' + modeName(exam.settings).toLowerCase() + '?', left ? left + ' soal belum dijawab.' : 'Semua soal sudah dijawab.', 'Selesai & lihat hasil', function () { finish(false); });
@@ -818,27 +860,76 @@
   function validBackup(x) {
     function fail(m) { throw new Error('Cadangan tidak valid: ' + m + '.'); }
     function isObj(v) { return !!v && typeof v === 'object' && !Array.isArray(v); }
-    function checkRun(a, what) {
+    function finite(v) { return typeof v === 'number' && Number.isFinite(v) && v >= 0; }
+    function idOK(v) { return typeof v === 'string' && /^[A-Za-z0-9-]{1,40}$/.test(v); }
+    function optionalArray(a, key, test) {
+      if (a[key] !== undefined && (!Array.isArray(a[key]) || a[key].length !== a.qids.length || !a[key].every(test))) fail(key);
+    }
+    function checkSettings(s) {
+      if (!isObj(s)) fail('pengaturan');
+      if (s.n !== undefined && s.n !== 'all' && !(Number.isInteger(s.n) && s.n > 0)) fail('jumlah soal');
+      if (s.topics !== undefined && (!Array.isArray(s.topics) || !s.topics.every(function (t) { return typeof t === 'string' && /^[A-Z]$/.test(t); }))) fail('topik');
+      if (s.timed !== undefined && typeof s.timed !== 'boolean') fail('pengaturan waktu');
+      if (s.secPerQ !== undefined && !finite(s.secPerQ)) fail('waktu per soal');
+      if (s.mode !== undefined && ['simulasi', 'latihan'].indexOf(s.mode) < 0) fail('mode');
+      if (s.rhythm !== undefined && ['flexible', 'exam'].indexOf(s.rhythm) < 0) fail('ritme');
+      if (s.bank !== undefined && ['buku', 'lama', 'review'].indexOf(s.bank) < 0) fail('bank soal');
+      if (s.review !== undefined && typeof s.review !== 'boolean') fail('mode ulangan');
+    }
+    function checkRun(a, what, active) {
       if (!isObj(a) || !Array.isArray(a.qids) || !Array.isArray(a.answers) || !Array.isArray(a.orders) || !Array.isArray(a.flags)) fail(what + ' rusak');
-      if (a.answers.length !== a.qids.length || a.orders.length !== a.qids.length || a.flags.length !== a.qids.length) fail(what + ' tidak lengkap');
-      a.qids.forEach(function (id) { if (typeof id !== 'string' || !/^[A-Za-z0-9-]{1,40}$/.test(id)) fail('ID soal'); });
-      a.answers.forEach(function (v) { if (v !== null && !(Number.isInteger(v) && v >= 0 && v < 5)) fail('jawaban'); });
-      a.orders.forEach(function (o) { if (!Array.isArray(o) || !o.every(function (v) { return Number.isInteger(v) && v >= 0 && v < 5; })) fail('urutan pilihan'); });
-      if (!isObj(a.settings)) fail('pengaturan');
+      if (!a.qids.length || a.answers.length !== a.qids.length || a.orders.length !== a.qids.length || a.flags.length !== a.qids.length) fail(what + ' tidak lengkap');
+      if (typeof a.id !== 'string' || !/^[a-z0-9]{1,20}$/i.test(a.id)) fail('ID sesi');
+      var ids = {};
+      a.qids.forEach(function (id, i) {
+        if (!idOK(id) || ids[id]) fail('ID soal');
+        ids[id] = true;
+        var q = QMAP[id], order = a.orders[i], answer = a.answers[i];
+        // Historical results may outlive bank changes; active sessions need their questions.
+        if (active && !q) fail('soal sesi aktif tidak tersedia pada bank di perangkat ini: ' + id);
+        if (!Array.isArray(order) || order.length < 2 || order.length > LETTERS.length ||
+          order.some(function (v, k) { return !Number.isInteger(v) || v < 0 || v >= order.length || order.indexOf(v) !== k; }) ||
+          (active && order.length !== q.o.length)) fail('urutan pilihan');
+        if (answer !== null && (!Number.isInteger(answer) || order.indexOf(answer) < 0)) fail('jawaban');
+      });
+      if (!a.flags.every(function (v) { return typeof v === 'boolean'; })) fail('tanda ragu');
+      optionalArray(a, 'conf', function (v) { return v === null || ['yakin', 'ragu', 'tebak'].indexOf(v) >= 0; });
+      optionalArray(a, 'revealed', function (v) { return typeof v === 'boolean'; });
+      optionalArray(a, 'spent', finite);
+      checkSettings(a.settings);
+      if (active) {
+        if (!Number.isInteger(a.cur) || a.cur < 0 || a.cur >= a.qids.length || !finite(a.start) || !finite(a.limit)) fail('sesi aktif');
+        if (a.created !== undefined && !finite(a.created)) fail('tanggal sesi');
+        if (a.pausedAt !== undefined && a.pausedAt !== null && (!finite(a.pausedAt) || a.pausedAt < a.start)) fail('jeda sesi');
+        if (a.pauseCount !== undefined && (!Number.isInteger(a.pauseCount) || a.pauseCount < 0)) fail('jumlah jeda');
+      }
     }
     if (!isObj(x) || x.schema !== 'neuro-backup-v1') fail('bukan berkas cadangan CBT Neurologi dari aplikasi ini');
     if (!Array.isArray(x.attempts)) fail('riwayat');
     x.attempts.forEach(function (a) {
       checkRun(a, 'riwayat');
-      if (typeof a.id !== 'string' || !/^[a-z0-9]{1,20}$/i.test(a.id) || typeof a.date !== 'number' || typeof a.correct !== 'number' || typeof a.total !== 'number' || !isObj(a.byTopic)) fail('riwayat');
+      if (!finite(a.date) || !Number.isInteger(a.correct) || a.correct < 0 || a.correct > a.qids.length || a.total !== a.qids.length || !isObj(a.byTopic)) fail('riwayat');
+      if (a.duration !== undefined && !finite(a.duration)) fail('durasi');
+      Object.keys(a.byTopic).forEach(function (t) {
+        var b = a.byTopic[t];
+        if (!/^[A-Z]$/.test(t) || !isObj(b) || !Number.isInteger(b.n) || b.n < 0 || !Number.isInteger(b.c) || b.c < 0 || b.c > b.n) fail('hasil per topik');
+      });
     });
-    if (x.current !== null && x.current !== undefined) { checkRun(x.current, 'sesi aktif'); if (typeof x.current.start !== 'number') fail('sesi aktif'); }
+    if (x.current !== null && x.current !== undefined) checkRun(x.current, 'sesi aktif', true);
     if (!isObj(x.notebook)) fail('buku kesalahan');
     Object.keys(x.notebook).forEach(function (id) {
       var it = x.notebook[id];
-      if (!/^[A-Za-z0-9-]{1,40}$/.test(id) || !isObj(it) || typeof it.due !== 'number' || (it.note !== undefined && typeof it.note !== 'string')) fail('buku kesalahan');
+      if (!idOK(id) || !isObj(it) || !finite(it.due) || (it.note !== undefined && (typeof it.note !== 'string' || it.note.length > 5000)) ||
+        (it.reason !== undefined && (typeof it.reason !== 'string' || it.reason.length > 100))) fail('buku kesalahan');
+      ['added', 'lastAttempt', 'updatedAt'].forEach(function (key) { if (it[key] !== undefined && !finite(it[key])) fail('tanggal catatan'); });
+      if (it.streak !== undefined && (!Number.isInteger(it.streak) || it.streak < 0 || it.streak > 5)) fail('jadwal ulasan');
     });
     if (!isObj(x.reported)) fail('laporan soal');
+    Object.keys(x.reported).forEach(function (id) {
+      var report = x.reported[id];
+      if (!idOK(id) || !isObj(report) || (report.note !== undefined && typeof report.note !== 'string') || (report.date !== undefined && !finite(report.date))) fail('laporan soal');
+    });
+    if (x.lastSettings !== undefined && x.lastSettings !== null) checkSettings(x.lastSettings);
     return x;
   }
   function backupHTML() {
@@ -900,9 +991,14 @@
           current = store.get('current', null) || imported.current || null; // keep this device's unfinished session
         }
         var stats = rebuildStats(attempts);
-        store.set('attempts', attempts); store.set('notebook', notebook); store.set('reported', reported); store.set('current', current);
-        store.set('seen', stats.seen); store.set('qstats', stats.qstats);
-        if (!store.get('lastSettings', null) && imported.lastSettings) store.set('lastSettings', imported.lastSettings);
+        var values = { attempts: attempts, notebook: notebook, reported: reported, current: current, seen: stats.seen, qstats: stats.qstats };
+        if (!store.get('lastSettings', null) && imported.lastSettings) values.lastSettings = imported.lastSettings;
+        try { persistBackup(values); }
+        catch (error) {
+          document.getElementById('import-preview').textContent = '';
+          document.getElementById('import-error').textContent = error.message;
+          return;
+        }
         viewProgress();
         document.getElementById('import-preview').textContent = 'Cadangan berhasil ' + (replace ? 'dipulihkan.' : 'digabungkan.');
       }
