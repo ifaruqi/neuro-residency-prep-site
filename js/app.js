@@ -46,7 +46,7 @@
   PASTQ.forEach(function (q) { if (PAPERS.indexOf(q.past.paper) < 0) PAPERS.push(q.past.paper); });
   PAPERS.sort();
 
-  function pickPast(settings) {
+  function pickPast(settings, n) {
     var list = PASTQ.filter(function (q) {
       return (settings.paper === 'all' || q.past.paper === settings.paper) && settings.topics.indexOf(q.t) >= 0;
     });
@@ -54,7 +54,7 @@
       return list.sort(function (a, b) { return a.past.no - b.past.no; });
     }
     var seen = store.get('seen', {});
-    return shuffle(list).sort(function (a, b) { return (seen[a.id] || 0) - (seen[b.id] || 0); }).slice(0, settings.n);
+    return shuffle(list).sort(function (a, b) { return (seen[a.id] || 0) - (seen[b.id] || 0); }).slice(0, n);
   }
 
   // ---------- storage ----------
@@ -147,7 +147,8 @@
   function fill(n, v) { var a = []; for (var i = 0; i < n; i++) a.push(v); return a; }
 
   function startExam(settings, list) {
-    var qs = list || (settings.bank === 'lama' ? pickPast(settings) : pickQuestions(settings.n, settings.topics, !!settings.outside));
+    var n = settings.n === 'all' ? Infinity : settings.n;
+    var qs = list || (settings.bank === 'lama' ? pickPast(settings, n) : pickQuestions(n, settings.topics, !!settings.outside));
     if (!qs.length) return false;
     var now = Date.now();
     var exam = {
@@ -465,6 +466,7 @@
       '</select></div></div>' +
       '<div class="field"><span>Jumlah soal</span><select id="n">' +
       [10, 25, 50, 75, 100].map(function (v) { return '<option' + (v === n ? ' selected' : '') + '>' + v + '</option>'; }).join('') +
+      '<option value="all"' + (n === 'all' ? ' selected' : '') + ' id="n-all">Semua soal topik terpilih</option>' +
       '</select></div>' +
       '<div class="field"><span>Waktu</span><select id="timed">' +
       '<option value="60"' + (timed ? ' selected' : '') + '>1 menit per soal</option>' +
@@ -493,6 +495,19 @@
         ? 'Latihan: pilih jawaban dan tingkat keyakinan, lalu buka pembahasan per soal. Jawaban dikunci setelah pembahasan dibuka. Bisa dijeda.'
         : 'Soal dibagi per topik sesuai bobot frekuensi soal lalu. Soal yang paling jarang Anda kerjakan diprioritaskan, sehingga setiap set berbeda.';
     }
+    // Label the "all" option with how many questions the current selection holds.
+    function countAll() {
+      var topics = [], outsideOn = document.getElementById('outside').checked, lama = document.getElementById('bank').value === 'lama';
+      boxes.forEach(function (b) { if (b.checked) topics.push(b.value); });
+      var c = 0;
+      if (lama) {
+        var pp = document.getElementById('paper').value;
+        c = PASTQ.filter(function (q) { return (pp === 'all' || q.past.paper === pp) && topics.indexOf(q.t) >= 0; }).length;
+      } else topics.forEach(function (t) { c += (counts[t] || 0) + (outsideOn ? extra[t] || 0 : 0); });
+      document.getElementById('n-all').textContent = 'Semua soal topik terpilih (' + c + ')';
+    }
+    countAll();
+    app.querySelectorAll('input[type=checkbox], #bank, #paper').forEach(function (el) { el.addEventListener('change', countAll); });
     hint();
     document.getElementById('mode').onchange = hint;
     document.getElementById('bank').onchange = function (e) {
@@ -503,15 +518,16 @@
     document.getElementById('outside').onchange = function (e) {
       app.querySelectorAll('.outside-count').forEach(function (el) { el.hidden = !e.target.checked; });
     };
-    document.getElementById('all').onclick = function () { boxes.forEach(function (b) { b.checked = true; }); };
-    document.getElementById('none').onclick = function () { boxes.forEach(function (b) { b.checked = false; }); };
+    document.getElementById('all').onclick = function () { boxes.forEach(function (b) { b.checked = true; }); countAll(); };
+    document.getElementById('none').onclick = function () { boxes.forEach(function (b) { b.checked = false; }); countAll(); };
     document.getElementById('go').onclick = function () {
       var err = document.getElementById('err');
       var topics = [];
       boxes.forEach(function (b) { if (b.checked) topics.push(b.value); });
       if (!topics.length) { err.textContent = 'Pilih minimal satu topik.'; return; }
       var sec = parseInt(document.getElementById('timed').value, 10);
-      var settings = { n: parseInt(document.getElementById('n').value, 10), timed: sec > 0, secPerQ: sec || 60, topics: topics,
+      var nv = document.getElementById('n').value;
+      var settings = { n: nv === 'all' ? 'all' : parseInt(nv, 10), timed: sec > 0, secPerQ: sec || 60, topics: topics,
         mode: document.getElementById('mode').value,
         rhythm: document.getElementById('rhythm').value,
         outside: document.getElementById('outside').checked,
@@ -933,7 +949,7 @@
     if (weak.length) {
       html += '<h2>Topik terlemah</h2><div class="card">' + weak.map(function (t) {
         return '<div class="weak-row"><span>' + esc(TOPIC[t].name) + ' — <b>' + pct(byTopic[t].c, byTopic[t].n) + '%</b></span>' +
-          '<span class="row"><a href="#/materi/' + t + '">Materi</a><a class="btn secondary small" href="#/setup?topic=' + t + '">Latihan topik ini</a></span></div>';
+          '<span class="row"><a href="#/materi/' + t + '">Materi</a><a class="btn secondary small" href="#/setup?topic=' + t + '&mode=latihan">Latihan topik ini</a></span></div>';
       }).join('') + '</div>';
     }
     var rows = Object.keys(byTopic).sort(function (a, b) { return pct(byTopic[a].c, byTopic[a].n) - pct(byTopic[b].c, byTopic[b].n); });
@@ -973,7 +989,7 @@
       app.innerHTML = subnav('materi') + '<a class="back" href="#/materi">← Semua topik</a>' +
         pageHead('Materi · CBT Neurologi', esc(t.name), 'Muncul ' + t.past + ' kali dalam 6 paket soal lalu (2023–2026).') +
         '<div class="card materi">' + MATERI[topic] + '</div>' +
-        '<a class="btn" href="#/setup?topic=' + topic + '">Latihan soal topik ini</a>';
+        '<a class="btn" href="#/setup?topic=' + topic + '&mode=latihan">Latihan soal topik ini</a>';
       return;
     }
     var html = subnav('materi') + pageHead('Materi · CBT Neurologi', 'Ringkasan materi.', 'High-yield per topik, diurutkan berdasarkan frekuensi kemunculan pada soal 2023–2026.') + '<div class="link-grid">';
