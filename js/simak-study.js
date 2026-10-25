@@ -73,7 +73,7 @@
     if(exam.settings.format!==undefined&&['reference','general'].indexOf(exam.settings.format)<0)fail('format sesi');
     var ids={};
     exam.blocks.forEach(function(b){
-      if(!object(b)||!window.SIMAK_ENGINE.sections[b.section]||!Array.isArray(b.questions)||!b.questions.length||b.questions.length>1000||!finite(b.duration)||!Number.isInteger(b.cur)||b.cur<0||b.cur>=b.questions.length)fail('subtes');
+      if(!object(b)||!window.SIMAK_ENGINE.sections[b.section]||!Array.isArray(b.questions)||!b.questions.length||b.questions.length>5000||!finite(b.duration)||!Number.isInteger(b.cur)||b.cur<0||b.cur>=b.questions.length)fail('subtes');
       ['answers','orders','flags'].forEach(function(k){if(!Array.isArray(b[k])||b[k].length!==b.questions.length)fail('jawaban atau urutan');});
       b.questions.forEach(function(q,i){safeQuestion(q);if(q.section!==b.section||ids[q.id])fail('identitas soal');ids[q.id]=true;
         if(b.answers[i]!==null&&(!Number.isInteger(b.answers[i])||b.answers[i]<0||b.answers[i]>=q.o.length))fail('indeks jawaban');

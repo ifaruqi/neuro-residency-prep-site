@@ -89,7 +89,7 @@
   }
 
   function create(bank, settings, seen, now) {
-    bank = bank.filter(function(q){return (!settings.difficulty||settings.difficulty==='mixed'||q.difficulty===settings.difficulty)&&(!settings.packageId||settings.packageId==='mixed'||q.package===settings.packageId)&&(!settings.skill||q.skill===settings.skill);});
+    bank = bank.filter(function(q){return (settings.mode==='focus'||!q.drillOnly)&&(!settings.difficulty||settings.difficulty==='mixed'||q.difficulty===settings.difficulty)&&(!settings.packageId||settings.packageId==='mixed'||q.package===settings.packageId)&&(!settings.skill||q.skill===settings.skill);});
     var ids = settings.mode === 'full' ? sections.map(function (s) { return s.id; }) :
       settings.mode === 'peka' ? ['verbal', 'quant', 'logic'] :
       settings.mode === 'english' ? ['structure', 'reading'] : [settings.section];
