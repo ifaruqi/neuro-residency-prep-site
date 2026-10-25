@@ -123,6 +123,7 @@ main.sm-app { max-width: 1120px; }
 .sm-notebook-item h3{overflow-wrap:anywhere;}
 .sm-notebook-solution{margin:16px 0;}
 .sm-import-preview{font-size:.9rem;margin:16px 0;}
+.sm-app .exp{overflow-wrap:anywhere;}
 .sm-app .exp p{margin:10px 0;}
 @media (max-width: 760px) {
   .sm-mode-grid, .sm-setup-grid { grid-template-columns: 1fr; }
