@@ -139409,7 +139409,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-correct-relative-base-in-two-bars"
   },
   {
-    "id": "SM-14de79b23ba1e9de",
+    "id": "SM-55208403bf405190",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -139424,7 +139424,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 2, tengah 14, kanan 4, bawah 3; Salib 2: atas 3, kiri 2, tengah 16, kanan 2, bawah 4; Salib 3: atas 5, kiri 3, tengah ?, kanan 2, bawah 2",
       "labels": {},
       "values": [
         [
@@ -139463,7 +139463,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-sum-of-opposite-products"
   },
   {
-    "id": "SM-200c8994b4adc30e",
+    "id": "SM-5ed7d837b1d544c4",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -139478,7 +139478,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 3, tengah 14, kanan 2, bawah 4; Salib 2: atas 3, kiri 2, tengah 14, kanan 4, bawah 2; Salib 3: atas 2, kiri 2, tengah 12, kanan 3, bawah ?",
       "labels": {},
       "values": [
         [
@@ -139517,7 +139517,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-bottom-product"
   },
   {
-    "id": "SM-991cda26639fa755",
+    "id": "SM-0d698552e01b9378",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B)×(L+R). Tentukan nilai ? pada salib ketiga.",
@@ -139532,7 +139532,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B)×(L+R).",
+      "alt": "Tiga salib angka. Aturan: C=(T+B)×(L+R). Salib 1: atas 2, kiri 3, tengah 25, kanan 2, bawah 3; Salib 2: atas 3, kiri 2, tengah 24, kanan 2, bawah 3; Salib 3: atas 4, kiri ?, tengah 28, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -139571,7 +139571,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-horizontal-sum"
   },
   {
-    "id": "SM-399cf295b2a84f90",
+    "id": "SM-41969705ee48ac8f",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B−L×R. Tentukan nilai ? pada salib ketiga.",
@@ -139586,7 +139586,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B−L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B−L×R. Salib 1: atas 5, kiri 1, tengah 13, kanan 2, bawah 3; Salib 2: atas 6, kiri 2, tengah 18, kanan 3, bawah 4; Salib 3: atas 7, kiri 3, tengah ?, kanan 2, bawah 2",
       "labels": {},
       "values": [
         [
@@ -139625,7 +139625,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-difference-of-products"
   },
   {
-    "id": "SM-40ba18a1138af737",
+    "id": "SM-d954b8698d517234",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B−L−R)/2. Tentukan nilai ? pada salib ketiga.",
@@ -139640,7 +139640,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B−L−R)/2.",
+      "alt": "Tiga salib angka. Aturan: C=(T+B−L−R)/2. Salib 1: atas 4, kiri 2, tengah 3, kanan 1, bawah 5; Salib 2: atas 5, kiri 1, tengah 4, kanan 3, bawah 7; Salib 3: atas 5, kiri 2, tengah ?, kanan 1, bawah 4",
       "labels": {},
       "values": [
         [
@@ -139679,7 +139679,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-half-difference-of-sums"
   },
   {
-    "id": "SM-4313a13db10c7ac1",
+    "id": "SM-f0a57a44d9cff6d1",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -139694,7 +139694,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 3, tengah 18, kanan 4, bawah 3; Salib 2: atas 3, kiri 2, tengah 18, kanan 3, bawah 4; Salib 3: atas 6, kiri 3, tengah ?, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -139733,7 +139733,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-sum-of-opposite-products"
   },
   {
-    "id": "SM-5dea957706d0a4bd",
+    "id": "SM-c1f26282f73a535b",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -139748,7 +139748,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 3, tengah 14, kanan 2, bawah 4; Salib 2: atas 3, kiri 3, tengah 18, kanan 4, bawah 2; Salib 3: atas 3, kiri 2, tengah 18, kanan 3, bawah ?",
       "labels": {},
       "values": [
         [
@@ -139787,7 +139787,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-bottom-product"
   },
   {
-    "id": "SM-d9de694935677eb9",
+    "id": "SM-7f8c79d5ed5af7dd",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B)×(L+R). Tentukan nilai ? pada salib ketiga.",
@@ -139802,7 +139802,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B)×(L+R).",
+      "alt": "Tiga salib angka. Aturan: C=(T+B)×(L+R). Salib 1: atas 2, kiri 3, tengah 25, kanan 2, bawah 3; Salib 2: atas 3, kiri 3, tengah 30, kanan 2, bawah 3; Salib 3: atas 4, kiri ?, tengah 35, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -139841,7 +139841,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-horizontal-sum"
   },
   {
-    "id": "SM-06304fe2a4879e79",
+    "id": "SM-2e133dfaea37cab9",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B−L×R. Tentukan nilai ? pada salib ketiga.",
@@ -139856,7 +139856,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B−L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B−L×R. Salib 1: atas 5, kiri 1, tengah 13, kanan 2, bawah 3; Salib 2: atas 6, kiri 2, tengah 18, kanan 3, bawah 4; Salib 3: atas 8, kiri 3, tengah ?, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -139895,7 +139895,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-difference-of-products"
   },
   {
-    "id": "SM-39f1a2bb2d010501",
+    "id": "SM-5a6a6550256b8f2c",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B−L−R)/2. Tentukan nilai ? pada salib ketiga.",
@@ -139910,7 +139910,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B−L−R)/2.",
+      "alt": "Tiga salib angka. Aturan: C=(T+B−L−R)/2. Salib 1: atas 4, kiri 2, tengah 3, kanan 1, bawah 5; Salib 2: atas 5, kiri 1, tengah 4, kanan 3, bawah 7; Salib 3: atas 6, kiri 2, tengah ?, kanan 1, bawah 5",
       "labels": {},
       "values": [
         [
@@ -139949,7 +139949,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-half-difference-of-sums"
   },
   {
-    "id": "SM-bbc45f6cad84c1d1",
+    "id": "SM-6dd297e88304aa55",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -139964,7 +139964,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 4, tengah 22, kanan 4, bawah 3; Salib 2: atas 3, kiri 2, tengah 20, kanan 4, bawah 4; Salib 3: atas 7, kiri 3, tengah ?, kanan 2, bawah 4",
       "labels": {},
       "values": [
         [
@@ -140003,7 +140003,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-sum-of-opposite-products"
   },
   {
-    "id": "SM-d876904911c881f6",
+    "id": "SM-bb27470820673c13",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -140018,7 +140018,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 3, tengah 14, kanan 2, bawah 4; Salib 2: atas 3, kiri 4, tengah 22, kanan 4, bawah 2; Salib 3: atas 4, kiri 2, tengah 26, kanan 3, bawah ?",
       "labels": {},
       "values": [
         [
@@ -140057,7 +140057,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-bottom-product"
   },
   {
-    "id": "SM-ae2819974c75df87",
+    "id": "SM-61aab5a4117536cb",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B)×(L+R). Tentukan nilai ? pada salib ketiga.",
@@ -140072,7 +140072,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B)×(L+R).",
+      "alt": "Tiga salib angka. Aturan: C=(T+B)×(L+R). Salib 1: atas 2, kiri 3, tengah 25, kanan 2, bawah 3; Salib 2: atas 3, kiri 4, tengah 36, kanan 2, bawah 3; Salib 3: atas 4, kiri ?, tengah 42, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -140111,7 +140111,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-horizontal-sum"
   },
   {
-    "id": "SM-0cbac747b62b9931",
+    "id": "SM-93427cdf141af8fd",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B−L×R. Tentukan nilai ? pada salib ketiga.",
@@ -140126,7 +140126,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B−L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B−L×R. Salib 1: atas 5, kiri 1, tengah 13, kanan 2, bawah 3; Salib 2: atas 6, kiri 2, tengah 18, kanan 3, bawah 4; Salib 3: atas 9, kiri 3, tengah ?, kanan 2, bawah 4",
       "labels": {},
       "values": [
         [
@@ -140165,7 +140165,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-difference-of-products"
   },
   {
-    "id": "SM-0b078970db121402",
+    "id": "SM-46984ef9153789cb",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B−L−R)/2. Tentukan nilai ? pada salib ketiga.",
@@ -140180,7 +140180,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B−L−R)/2.",
+      "alt": "Tiga salib angka. Aturan: C=(T+B−L−R)/2. Salib 1: atas 4, kiri 2, tengah 3, kanan 1, bawah 5; Salib 2: atas 5, kiri 1, tengah 4, kanan 3, bawah 7; Salib 3: atas 7, kiri 2, tengah ?, kanan 1, bawah 6",
       "labels": {},
       "values": [
         [
@@ -140219,7 +140219,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-half-difference-of-sums"
   },
   {
-    "id": "SM-e1abd06a86d20042",
+    "id": "SM-41fee312739f4ae3",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -140234,7 +140234,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 5, tengah 26, kanan 4, bawah 3; Salib 2: atas 3, kiri 2, tengah 22, kanan 5, bawah 4; Salib 3: atas 8, kiri 3, tengah ?, kanan 2, bawah 5",
       "labels": {},
       "values": [
         [
@@ -140273,7 +140273,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-sum-of-opposite-products"
   },
   {
-    "id": "SM-519ce898ffe168b0",
+    "id": "SM-dd567a251b8bfb15",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B+L×R. Tentukan nilai ? pada salib ketiga.",
@@ -140288,7 +140288,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B+L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B+L×R. Salib 1: atas 2, kiri 3, tengah 14, kanan 2, bawah 4; Salib 2: atas 3, kiri 5, tengah 26, kanan 4, bawah 2; Salib 3: atas 5, kiri 2, tengah 36, kanan 3, bawah ?",
       "labels": {},
       "values": [
         [
@@ -140327,7 +140327,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-bottom-product"
   },
   {
-    "id": "SM-e1d107ca3928636e",
+    "id": "SM-cd7e1832b4e94e02",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B)×(L+R). Tentukan nilai ? pada salib ketiga.",
@@ -140342,7 +140342,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B)×(L+R).",
+      "alt": "Tiga salib angka. Aturan: C=(T+B)×(L+R). Salib 1: atas 2, kiri 3, tengah 25, kanan 2, bawah 3; Salib 2: atas 3, kiri 5, tengah 42, kanan 2, bawah 3; Salib 3: atas 4, kiri ?, tengah 49, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -140381,7 +140381,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-inverse-horizontal-sum"
   },
   {
-    "id": "SM-8cc257cd50b39abb",
+    "id": "SM-0e858a7e4d729f73",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B−L×R. Tentukan nilai ? pada salib ketiga.",
@@ -140396,7 +140396,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B−L×R.",
+      "alt": "Tiga salib angka. Aturan: C=T×B−L×R. Salib 1: atas 5, kiri 1, tengah 13, kanan 2, bawah 3; Salib 2: atas 6, kiri 2, tengah 18, kanan 3, bawah 4; Salib 3: atas 10, kiri 3, tengah ?, kanan 2, bawah 5",
       "labels": {},
       "values": [
         [
@@ -140435,7 +140435,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-difference-of-products"
   },
   {
-    "id": "SM-26668d5bf9b20a0f",
+    "id": "SM-b047b18618128702",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B−L−R)/2. Tentukan nilai ? pada salib ketiga.",
@@ -140450,7 +140450,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B−L−R)/2.",
+      "alt": "Tiga salib angka. Aturan: C=(T+B−L−R)/2. Salib 1: atas 4, kiri 2, tengah 3, kanan 1, bawah 5; Salib 2: atas 5, kiri 1, tengah 4, kanan 3, bawah 7; Salib 3: atas 8, kiri 2, tengah ?, kanan 1, bawah 7",
       "labels": {},
       "values": [
         [
@@ -140489,7 +140489,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "standard-half-difference-of-sums"
   },
   {
-    "id": "SM-f0ff4071f0edcedd",
+    "id": "SM-2f0c857e6e34d73a",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=pT+qB+L−R, dengan p dan q sama pada semua salib. Tentukan nilai ? pada salib ketiga.",
@@ -140504,7 +140504,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=pT+qB+L−R, dengan p dan q sama pada semua salib.",
+      "alt": "Tiga salib angka. Aturan: C=pT+qB+L−R, dengan p dan q sama pada semua salib. Salib 1: atas 2, kiri 1, tengah 12, kanan 2, bawah 3; Salib 2: atas 3, kiri 2, tengah 13, kanan 1, bawah 2; Salib 3: atas 2, kiri 3, tengah ?, kanan 1, bawah 3",
       "labels": {},
       "values": [
         [
@@ -140544,7 +140544,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-infer-two-rule-coefficients"
   },
   {
-    "id": "SM-aa255d2041ef09fb",
+    "id": "SM-72e96ed6c3a3a22d",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B)²−(L+R)², semua angka tepi positif. Tentukan nilai ? pada salib ketiga.",
@@ -140559,7 +140559,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B)²−(L+R)², semua angka tepi positif.",
+      "alt": "Tiga salib angka. Aturan: C=(T+B)²−(L+R)², semua angka tepi positif. Salib 1: atas 5, kiri 1, tengah 55, kanan 2, bawah 3; Salib 2: atas 6, kiri 2, tengah 75, kanan 3, bawah 4; Salib 3: atas 7, kiri ?, tengah 65, kanan 2, bawah 2",
       "labels": {},
       "values": [
         [
@@ -140599,7 +140599,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-squared-rule-inverse-domain"
   },
   {
-    "id": "SM-c6cc9566717a421d",
+    "id": "SM-4e2327d5ed35ab05",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B/(L+R). Tentukan nilai ? pada salib ketiga.",
@@ -140614,7 +140614,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B/(L+R).",
+      "alt": "Tiga salib angka. Aturan: C=T×B/(L+R). Salib 1: atas 6, kiri 1, tengah 6, kanan 2, bawah 3; Salib 2: atas 8, kiri 2, tengah 8, kanan 2, bawah 4; Salib 3: atas 6, kiri 2, tengah 12, kanan 2, bawah ?",
       "labels": {},
       "values": [
         [
@@ -140654,7 +140654,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-rational-rule-inverse-product"
   },
   {
-    "id": "SM-694579b1a7fe4507",
+    "id": "SM-b30736bcb89ba90a",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=p(T+B)+q(L+R), p dan q sama pada semua salib. Tentukan nilai ? pada salib ketiga.",
@@ -140669,7 +140669,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=p(T+B)+q(L+R), p dan q sama pada semua salib.",
+      "alt": "Tiga salib angka. Aturan: C=p(T+B)+q(L+R), p dan q sama pada semua salib. Salib 1: atas 2, kiri 1, tengah 7, kanan 2, bawah 3; Salib 2: atas 3, kiri 2, tengah 11, kanan 1, bawah 4; Salib 3: atas 4, kiri 3, tengah ?, kanan 2, bawah 2",
       "labels": {},
       "values": [
         [
@@ -140709,7 +140709,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-infer-signed-coefficients"
   },
   {
-    "id": "SM-d3a1999b68103631",
+    "id": "SM-30021b270e1d9636",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6. Tentukan nilai ? pada salib ketiga.",
@@ -140724,7 +140724,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6.",
+      "alt": "Tiga salib angka. Aturan: C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6. Salib 1: atas 5, kiri 2, tengah 5, kanan 1, bawah 2; Salib 2: atas 6, kiri 1, tengah 6, kanan 2, bawah 3; Salib 3: atas ?, kiri 2, tengah 5, kanan 3, bawah 2",
       "labels": {},
       "values": [
         [
@@ -140764,7 +140764,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-modular-inverse-edge"
   },
   {
-    "id": "SM-266ec5ead2bc8030",
+    "id": "SM-abae1526d2864acf",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=pT+qB+L−R, dengan p dan q sama pada semua salib. Tentukan nilai ? pada salib ketiga.",
@@ -140779,7 +140779,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=pT+qB+L−R, dengan p dan q sama pada semua salib.",
+      "alt": "Tiga salib angka. Aturan: C=pT+qB+L−R, dengan p dan q sama pada semua salib. Salib 1: atas 2, kiri 1, tengah 12, kanan 2, bawah 3; Salib 2: atas 3, kiri 2, tengah 13, kanan 1, bawah 2; Salib 3: atas 3, kiri 3, tengah ?, kanan 1, bawah 4",
       "labels": {},
       "values": [
         [
@@ -140819,7 +140819,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-infer-two-rule-coefficients"
   },
   {
-    "id": "SM-e722aab220e3d2dc",
+    "id": "SM-9ecc3a7cae93474f",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B)²−(L+R)², semua angka tepi positif. Tentukan nilai ? pada salib ketiga.",
@@ -140834,7 +140834,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B)²−(L+R)², semua angka tepi positif.",
+      "alt": "Tiga salib angka. Aturan: C=(T+B)²−(L+R)², semua angka tepi positif. Salib 1: atas 5, kiri 1, tengah 55, kanan 2, bawah 3; Salib 2: atas 6, kiri 2, tengah 75, kanan 3, bawah 4; Salib 3: atas 8, kiri ?, tengah 96, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -140874,7 +140874,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-squared-rule-inverse-domain"
   },
   {
-    "id": "SM-9bfe671e55f92ac9",
+    "id": "SM-834c94f1e8ca18e8",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B/(L+R). Tentukan nilai ? pada salib ketiga.",
@@ -140889,7 +140889,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B/(L+R).",
+      "alt": "Tiga salib angka. Aturan: C=T×B/(L+R). Salib 1: atas 6, kiri 1, tengah 6, kanan 2, bawah 3; Salib 2: atas 8, kiri 2, tengah 8, kanan 2, bawah 4; Salib 3: atas 7, kiri 2, tengah 14, kanan 3, bawah ?",
       "labels": {},
       "values": [
         [
@@ -140929,7 +140929,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-rational-rule-inverse-product"
   },
   {
-    "id": "SM-43222553cd3d03ca",
+    "id": "SM-02968fcd393875ca",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=p(T+B)+q(L+R), p dan q sama pada semua salib. Tentukan nilai ? pada salib ketiga.",
@@ -140944,7 +140944,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=p(T+B)+q(L+R), p dan q sama pada semua salib.",
+      "alt": "Tiga salib angka. Aturan: C=p(T+B)+q(L+R), p dan q sama pada semua salib. Salib 1: atas 2, kiri 1, tengah 7, kanan 2, bawah 3; Salib 2: atas 3, kiri 2, tengah 11, kanan 1, bawah 4; Salib 3: atas 5, kiri 3, tengah ?, kanan 2, bawah 3",
       "labels": {},
       "values": [
         [
@@ -140984,7 +140984,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-infer-signed-coefficients"
   },
   {
-    "id": "SM-c688ddf3e471e1dc",
+    "id": "SM-fc40f31d6e194925",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6. Tentukan nilai ? pada salib ketiga.",
@@ -140999,7 +140999,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6.",
+      "alt": "Tiga salib angka. Aturan: C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6. Salib 1: atas 5, kiri 2, tengah 5, kanan 1, bawah 2; Salib 2: atas 6, kiri 1, tengah 6, kanan 2, bawah 3; Salib 3: atas ?, kiri 2, tengah 4, kanan 3, bawah 3",
       "labels": {},
       "values": [
         [
@@ -141039,7 +141039,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-modular-inverse-edge"
   },
   {
-    "id": "SM-efa0effb928ea115",
+    "id": "SM-5537a3ef622c0b1d",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=pT+qB+L−R, dengan p dan q sama pada semua salib. Tentukan nilai ? pada salib ketiga.",
@@ -141054,7 +141054,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=pT+qB+L−R, dengan p dan q sama pada semua salib.",
+      "alt": "Tiga salib angka. Aturan: C=pT+qB+L−R, dengan p dan q sama pada semua salib. Salib 1: atas 2, kiri 1, tengah 12, kanan 2, bawah 3; Salib 2: atas 3, kiri 2, tengah 13, kanan 1, bawah 2; Salib 3: atas 4, kiri 3, tengah ?, kanan 1, bawah 5",
       "labels": {},
       "values": [
         [
@@ -141094,7 +141094,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-infer-two-rule-coefficients"
   },
   {
-    "id": "SM-5082324ce0d00140",
+    "id": "SM-8dc6ae0b19d36dd7",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=(T+B)²−(L+R)², semua angka tepi positif. Tentukan nilai ? pada salib ketiga.",
@@ -141109,7 +141109,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=(T+B)²−(L+R)², semua angka tepi positif.",
+      "alt": "Tiga salib angka. Aturan: C=(T+B)²−(L+R)², semua angka tepi positif. Salib 1: atas 5, kiri 1, tengah 55, kanan 2, bawah 3; Salib 2: atas 6, kiri 2, tengah 75, kanan 3, bawah 4; Salib 3: atas 9, kiri ?, tengah 133, kanan 2, bawah 4",
       "labels": {},
       "values": [
         [
@@ -141149,7 +141149,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-squared-rule-inverse-domain"
   },
   {
-    "id": "SM-dab23f0c94eb1215",
+    "id": "SM-9e831d483b508e7d",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=T×B/(L+R). Tentukan nilai ? pada salib ketiga.",
@@ -141164,7 +141164,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=T×B/(L+R).",
+      "alt": "Tiga salib angka. Aturan: C=T×B/(L+R). Salib 1: atas 6, kiri 1, tengah 6, kanan 2, bawah 3; Salib 2: atas 8, kiri 2, tengah 8, kanan 2, bawah 4; Salib 3: atas 8, kiri 2, tengah 16, kanan 4, bawah ?",
       "labels": {},
       "values": [
         [
@@ -141204,7 +141204,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-rational-rule-inverse-product"
   },
   {
-    "id": "SM-aa46a7cfcec00b46",
+    "id": "SM-ead71ac859d14688",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C=p(T+B)+q(L+R), p dan q sama pada semua salib. Tentukan nilai ? pada salib ketiga.",
@@ -141219,7 +141219,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C=p(T+B)+q(L+R), p dan q sama pada semua salib.",
+      "alt": "Tiga salib angka. Aturan: C=p(T+B)+q(L+R), p dan q sama pada semua salib. Salib 1: atas 2, kiri 1, tengah 7, kanan 2, bawah 3; Salib 2: atas 3, kiri 2, tengah 11, kanan 1, bawah 4; Salib 3: atas 6, kiri 3, tengah ?, kanan 2, bawah 4",
       "labels": {},
       "values": [
         [
@@ -141259,7 +141259,7 @@ window.SIMAK_BANK = [
     "reasoningFamily": "challenge-infer-signed-coefficients"
   },
   {
-    "id": "SM-e937de1186faeb8f",
+    "id": "SM-5745df23ed746bbb",
     "section": "quant",
     "skill": "Pola angka bergambar",
     "q": "Pada salib, T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6. Tentukan nilai ? pada salib ketiga.",
@@ -141274,7 +141274,7 @@ window.SIMAK_BANK = [
     "origin": "original",
     "figure": {
       "kind": "numberCross",
-      "alt": "Tiga salib angka. T=atas, B=bawah, L=kiri, R=kanan, C=tengah. Aturan: C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6.",
+      "alt": "Tiga salib angka. Aturan: C adalah sisa pembagian T×B+L×R oleh 7; angka ? adalah integer 1 sampai 6. Salib 1: atas 5, kiri 2, tengah 5, kanan 1, bawah 2; Salib 2: atas 6, kiri 1, tengah 6, kanan 2, bawah 3; Salib 3: atas ?, kiri 2, tengah 5, kanan 3, bawah 4",
       "labels": {},
       "values": [
         [
