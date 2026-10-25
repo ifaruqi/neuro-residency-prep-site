@@ -67,6 +67,11 @@
   }
 
   function setup(mode) {
+    var query = {};
+    if (mode && mode.indexOf('?') >= 0) {
+      mode.split('?')[1].split('&').forEach(function (kv) { var p = kv.split('='); if (p[0]) query[decodeURIComponent(p[0])] = decodeURIComponent(p[1] || ''); });
+      mode = mode.split('?')[0];
+    }
     if (['full','peka','english','focus'].indexOf(mode) < 0) mode = 'full';
     var focused = mode === 'focus';
     var levelField='<label class="sm-field">Tingkat kesulitan<select id="sm-difficulty"><option value="mixed">Campuran</option><option value="foundation">Dasar</option><option value="standard">Standar</option><option value="challenge">Tantangan</option></select></label><p class="small muted">Level editorial untuk latihan, belum dikalibrasi terhadap ujian resmi. Setiap level memiliki cukup soal untuk simulasi lengkap; pilihan pada level yang sama dapat berulang.</p>';
@@ -97,7 +102,11 @@
       }).join('') + '<div class="sm-plan-total"><b>' + n + ' soal</b><span>' + minutes.toLocaleString('id-ID', { maximumFractionDigits: 1 }) + ' menit' + (focused && !document.getElementById('sm-timed').checked ? ' acuan' : '') + '</span></div>';
     }
     function skills(){var section=document.getElementById('sm-section').value,level=document.getElementById('sm-difficulty').value,all=Array.from(new Set(bank.filter(function(q){return q.section===section&&(level==='mixed'||q.difficulty===level);}).map(function(q){return q.skill;}))).sort();document.getElementById('sm-skill').innerHTML='<option value="">Semua keterampilan</option>'+all.map(function(s){return '<option value="'+esc(s)+'">'+esc(s)+' ('+count(section,s,level)+')</option>';}).join('');update();}
-    if (focused) { document.getElementById('sm-section').onchange=skills;['sm-count','sm-timed','sm-skill'].forEach(function (id) { document.getElementById(id).onchange = update; });skills(); }
+    if (focused) { document.getElementById('sm-section').onchange=skills;['sm-count','sm-timed','sm-skill'].forEach(function (id) { document.getElementById(id).onchange = update; });skills();
+      var sectionEl=document.getElementById('sm-section'),skillEl=document.getElementById('sm-skill');
+      if (query.section && sectionEl.querySelector('option[value="'+CSS.escape(query.section)+'"]')) { sectionEl.value=query.section; skills(); }
+      if (query.skill && skillEl.querySelector('option[value="'+CSS.escape(query.skill)+'"]')) { skillEl.value=query.skill; update(); }
+    }
     document.getElementById('sm-difficulty').onchange=focused?skills:update;
     document.getElementById('sm-session-mode').onchange=update;
     if(!focused)document.getElementById('sm-package').onchange=update;
@@ -293,6 +302,8 @@
     var attempt = read('attempts', []).find(function (a) { return a.id === id; });
     if (!attempt) { shell('Hasil tidak ditemukan.', 'Riwayat tersimpan pada browser tempat sesi dikerjakan.', '<a href="#/simak/progress">Kembali ke progres SIMAK</a>'); return; }
     var report = engine.score(attempt), pace=study.pacing(attempt), filter = 'all';
+    // Fixed packages (A/B/C) would repeat the same items, so a fresh set is offered only for drawn sessions.
+    var again = attempt.settings.mode !== 'review' && (!attempt.settings.packageId || attempt.settings.packageId === 'mixed');
     function render() {
       var reports = read('reported', {}),notebookData=read('notebook',{});
       var summary = ['PEKA','English'].filter(function (name) { return report.totals[name].max > 0; }).map(function (name) {
@@ -301,7 +312,7 @@
       }).join('');
       shell('Selesai. Saatnya memahami.', sessionName(attempt) + ' · ' + date(attempt.start),
         '<div class="sm-result-grid">' + summary + '</div><p class="sm-info small">Nilai mentah latihan, bukan skor standar UI atau prediksi kelulusan.' + (study.studyMode(attempt.settings.mode) ? ' Latihan dapat membuka pembahasan saat pengerjaan; hasilnya ditandai terpisah dari simulasi.' : '') + '</p>' +
-        '<div class="row"><a class="btn" href="'+(attempt.settings.mode==='review'?'#/simak/notebook':'#/simak/setup/'+esc(attempt.settings.mode))+'">Atur sesi baru</a><a class="btn secondary" href="#/simak/notebook">Buku kesalahan</a><a class="btn secondary" href="#/simak/progress">Progres SIMAK</a><button class="btn ghost" id="sm-download-attempt">Unduh hasil</button></div>' +
+        '<div class="row">'+(again?'<button class="btn" id="sm-again">Coba set lain</button>':'')+'<a class="btn'+(again?' secondary':'')+'" href="'+(attempt.settings.mode==='review'?'#/simak/notebook':'#/simak/setup/'+esc(attempt.settings.mode))+'">Atur sesi baru</a><a class="btn secondary" href="#/simak/notebook">Buku kesalahan</a><a class="btn secondary" href="#/simak/progress">Progres SIMAK</a><button class="btn ghost" id="sm-download-attempt">Unduh hasil</button></div>' +
         '<section class="card"><h2>Strategi & ritme</h2><p>'+esc(rhythmName(attempt))+' · '+esc(levelName(attempt.settings.difficulty||'mixed'))+(attempt.pauseCount?' · '+attempt.pauseCount+' kali jeda':'')+'.</p>'+(report.totals.PEKA.max?'<p>PEKA: <b>'+report.totals.PEKA.right*4+'</b> poin jawaban benar − <b>'+report.totals.PEKA.wrong+'</b> penalti salah = <b>'+report.totals.PEKA.points+'</b>. Kosong: '+report.totals.PEKA.blank+' soal.</p>':'')+(report.totals.English.max?'<p>English: '+report.totals.English.blank+' soal kosong. Jawaban salah tidak dikenai penalti pada aturan nilai yang digunakan.</p>':'')+(pace.observed?'<div class="row"><span class="sm-pill">Waktu aktif '+time(pace.active)+'</span><span class="sm-pill">'+pace.slowCorrect+' benar di atas acuan waktu</span><span class="sm-pill">'+pace.fastWrong+' salah di bawah acuan waktu</span></div><p class="small muted">Acuan adalah rata-rata waktu subtes. Di atas 1,5× acuan atau di bawah 0,5× acuan ditandai untuk ditinjau; ini bukan batas waktu per soal. Waktu membaca bacaan bersama tercatat pada soal yang sedang dibuka.</p>':'<p class="small muted">Waktu per soal belum direkam pada sesi versi lama ini.</p>')+'</section>'+
         '<section class="card"><h2>Hasil per subtes</h2><div class="table-wrap"><table><thead><tr><th>Subtes</th><th>Benar</th><th>Salah</th><th>Kosong</th><th>Nilai mentah</th></tr></thead><tbody>' + report.rows.map(function (r) {
           return '<tr><td>' + esc(engine.sections[r.section].name) + '</td><td>' + r.right + '</td><td>' + r.wrong + '</td><td>' + r.blank + '</td><td>' + r.points + ' / ' + r.max + '</td></tr>';
@@ -320,6 +331,14 @@
       document.getElementById('sm-reviews').innerHTML = matched ? html : '<div class="card">Tidak ada soal pada filter ini.</div>';
       app.querySelectorAll('[data-sm-filter]').forEach(function (el) { el.onclick = function () { filter = el.dataset.smFilter; render(); }; });
       app.querySelectorAll('[data-sm-report]').forEach(function (el) { el.onclick = function () { var id = el.dataset.smReport; if (reports[id]) delete reports[id]; else reports[id] = { date: Date.now() }; write('reported',reports); render(); }; });
+      var againButton = document.getElementById('sm-again');
+      if (againButton) againButton.onclick = function () {
+        function start() {
+          try { var exam = engine.create(bank, attempt.settings, read('seen', {}), Date.now()); if (!write('current', exam)) throw new Error('Tidak dapat menyimpan sesi. Periksa penyimpanan browser.'); location.hash = '#/simak/exam'; }
+          catch (err) { dialog('Sesi tidak dapat dimulai', err.message, 'Atur ulang', function () { location.hash = '#/simak/setup/' + attempt.settings.mode; }); }
+        }
+        if (read('current', null)) dialog('Ganti sesi tersimpan?', 'Sesi SIMAK yang belum selesai akan diganti. Riwayat sesi yang sudah selesai tetap tersedia.', 'Ganti & mulai', start); else start();
+      };
       document.getElementById('sm-download-attempt').onclick = function () { download('simak-' + attempt.id + '.json',attempt); };
       var qs=attempt.blocks.reduce(function(all,b){return all.concat(b.questions);},[]);wireFigures(qs);wireNotes(qs);
     }
@@ -337,7 +356,7 @@
     if(['all','due','wrong','uncertain'].indexOf(filter)<0)filter='due';
     var book=read('notebook',{}),list=study.queue(book,filter,Date.now()),all=Object.keys(book).length;
     shell('Belajar dari yang belum mantap.', 'Salah, kosong, dan ragu menjadi daftar ulasan. Catat alasan, lalu coba lagi pada hari berikutnya.',
-      '<div class="tabs">'+[['due','Jatuh tempo'],['all','Semua'],['wrong','Salah / kosong'],['uncertain','Benar tapi ragu']].map(function(f){return '<a class="btn '+(f[0]===filter?'':'secondary')+'" href="#/simak/notebook/'+f[0]+'">'+f[1]+'</a>';}).join('')+'</div><div class="sm-review-callout"><div><b>'+list.length+' soal pada daftar ini</b><p class="small muted">Total catatan: '+all+'. Jawaban benar yang diulang terlalu dekat tidak memperpanjang jadwal.</p></div><div class="row"><label class="sm-field">Jumlah<select id="sm-review-n"><option value="10">10 soal</option><option value="20">20 soal</option><option value="all">Semua pada daftar</option></select></label><button class="btn" id="sm-start-review"'+(!list.length?' disabled':'')+'>Mulai ulangan</button></div></div><p class="small muted">Jadwal latihan: 1, 3, 7, 14, lalu 30 hari setelah keberhasilan yang terpisah setidaknya 12 jam. Ini pengingat latihan, bukan penilaian penguasaan resmi.</p>'+
+      '<div class="tabs">'+[['due','Jatuh tempo'],['all','Semua'],['wrong','Salah / kosong'],['uncertain','Benar tapi ragu']].map(function(f){return '<a class="'+(f[0]===filter?'on':'')+'" href="#/simak/notebook/'+f[0]+'">'+f[1]+'</a>';}).join('')+'</div><div class="sm-review-callout"><div><b>'+list.length+' soal pada daftar ini</b><p class="small muted">Total catatan: '+all+'. Jawaban benar yang diulang terlalu dekat tidak memperpanjang jadwal.</p></div><div class="row"><label class="sm-field">Jumlah<select id="sm-review-n"><option value="10">10 soal</option><option value="20">20 soal</option><option value="all">Semua pada daftar</option></select></label><button class="btn" id="sm-start-review"'+(!list.length?' disabled':'')+'>Mulai ulangan</button></div></div><p class="small muted">Jadwal latihan: 1, 3, 7, 14, lalu 30 hari setelah keberhasilan yang terpisah setidaknya 12 jam. Ini pengingat latihan, bukan penilaian penguasaan resmi.</p>'+
       (list.length?list.map(function(item){var q=item.q;return '<article class="card sm-notebook-item"><div class="row spread"><span class="sm-eyebrow">'+esc(engine.sections[q.section].name)+' · '+esc(q.skill)+'</span><span class="tag">'+(item.due<=Date.now()?'Jatuh tempo':'Ulang '+date(item.due))+'</span></div><h3>'+esc(q.q)+'</h3>'+notesHTML(q,book)+'<details class="sm-notebook-solution"><summary>Lihat soal dan pembahasan</summary>'+passageHTML(q)+figureHTML(q)+tableHTML(q)+'<p><b>Jawaban:</b> '+esc(q.o[0])+'</p>'+solutionHTML(q)+'</details><button class="sm-link-button" data-sm-remove="'+q.id+'">Keluarkan dari daftar ulasan</button></article>';}).join(''):'<div class="card">'+(all?'Belum ada soal jatuh tempo pada filter ini. <a href="#/simak/notebook/all">Lihat semua catatan</a>.':'Belum ada catatan. Selesaikan latihan untuk mengumpulkan soal yang perlu ditinjau.')+'</div>'));
     document.getElementById('sm-start-review').onclick=function(){startReview(filter,document.getElementById('sm-review-n').value);};
     app.querySelectorAll('[data-sm-remove]').forEach(function(el){el.onclick=function(){var latest=read('notebook',{});delete latest[el.dataset.smRemove];write('notebook',latest);notebook(filter);};});
@@ -360,22 +379,32 @@
   }
 
   function progress() {
-    var attempts = read('attempts',[]), unique = {}, aggregated = {};
+    var attempts = read('attempts',[]), unique = {}, aggregated = {}, bySkill = {};
     attempts.forEach(function (a) { a.blocks.forEach(function (b) { b.questions.forEach(function (q,i) {
       unique[q.id] = true;
       if (!aggregated[q.section]) aggregated[q.section] = { first: 0, firstRight: 0, repeat: 0, repeatRight: 0, seen: {}, sim: 0, simRight: 0 };
       var st = aggregated[q.section], right = b.answers[i] === 0;
+      if (q.skill) { var sk = bySkill[q.section + '|' + q.skill] || (bySkill[q.section + '|' + q.skill] = { section: q.section, skill: q.skill, n: 0, c: 0 }); sk.n++; if (right) sk.c++; }
       if (st.seen[q.id]) { st.repeat++; if (right) st.repeatRight++; }
       else { st.first++; if (right) st.firstRight++; st.seen[q.id] = true; }
       if (!study.studyMode(a.settings.mode) && a.settings.sessionMode!=='flexible') { st.sim++; if (right) st.simRight++; }
     }); }); });
+    function weakSkills() {
+      var weak = Object.keys(bySkill).map(function (k) { return bySkill[k]; }).filter(function (s) { return s.n >= 3 && engine.sections[s.section]; })
+        .sort(function (a, b) { return a.c / a.n - b.c / b.n; }).slice(0, 3);
+      if (!weak.length) return '';
+      return '<h2>Keterampilan terlemah</h2><section class="card">' + weak.map(function (s) {
+        return '<div class="weak-row"><span>' + esc(engine.sections[s.section].name) + ' · ' + esc(s.skill) + ' — <b>' + Math.round(s.c * 100 / s.n) + '%</b> <span class="small muted">(' + s.c + '/' + s.n + ')</span></span>' +
+          '<a class="btn secondary small" href="#/simak/setup/focus?section=' + encodeURIComponent(s.section) + '&skill=' + encodeURIComponent(s.skill) + '">Latihan keterampilan ini</a></div>';
+      }).join('') + '</section>';
+    }
     function accuracy(c,n) { return n ? Math.round(c*100/n) + '% (' + c + '/' + n + ')' : 'Belum ada data'; }
     shell('Lihat perkembangan Anda.', 'Riwayat dan hasil SIMAK tersimpan terpisah dari neurologi, di browser ini.',
       '<div class="sm-result-grid"><div class="card"><span class="sm-eyebrow">SESI SELESAI</span><div class="stat">' + attempts.length + '</div></div><div class="card"><span class="sm-eyebrow">CAKUPAN BANK SAAT INI</span><div class="stat">' + bank.filter(function (q) { return unique[q.id]; }).length + ' / ' + bank.length + '</div></div></div>' +
       '<div class="sm-section-heading"><h2>Ketepatan per subtes</h2><a href="#/simak/setup/focus">Latihan fokus →</a></div><section class="card table-wrap"><table><thead><tr><th>Subtes</th><th>Pertama kali</th><th>Pengulangan</th><th>Mode ujian saja</th></tr></thead><tbody>' + config.sections.map(function (s) {
         var a=aggregated[s.id] || {first:0,firstRight:0,repeat:0,repeatRight:0,sim:0,simRight:0};
         return '<tr><td>' + esc(s.name) + (a.first && a.first < 10 ? '<div class="small muted">Sampel masih sedikit</div>' : '') + '</td><td>' + accuracy(a.firstRight,a.first) + '</td><td>' + accuracy(a.repeatRight,a.repeat) + '</td><td>' + accuracy(a.simRight,a.sim) + '</td></tr>';
-      }).join('') + '</tbody></table></section><p class="small muted">Pertama kali berarti pertemuan pertama dengan soal, termasuk latihan fokus. Kolom mode ujian mengecualikan sesi fleksibel, latihan fokus, dan ulangan. Bandingkan hasil pada tingkat kesulitan yang sama.</p><h2>Riwayat sesi</h2>' +
+      }).join('') + '</tbody></table></section><p class="small muted">Pertama kali berarti pertemuan pertama dengan soal, termasuk latihan fokus. Kolom mode ujian mengecualikan sesi fleksibel, latihan fokus, dan ulangan. Bandingkan hasil pada tingkat kesulitan yang sama.</p>' + weakSkills() + '<h2>Riwayat sesi</h2>' +
       (attempts.length ? '<div class="sm-history">' + attempts.slice().reverse().map(function (a) { var totals=engine.score(a).totals; return '<a class="card sm-history-row" href="#/simak/result/' + esc(a.id) + '"><div><b>' + esc(sessionName(a)) + '</b><div class="small muted">' + date(a.start) + '</div></div><div class="small">' + ['PEKA','English'].filter(function (k) { return totals[k].max; }).map(function (k) { return k + ' ' + totals[k].points + '/' + totals[k].max; }).join(' · ') + ' →</div></a>'; }).join('') + '</div>' : '<div class="card">Belum ada sesi selesai. <a href="#/simak/setup/focus">Mulai latihan pertama</a>.</div>') +
       backupHTML()+
       '<button class="sm-link-button" id="sm-reset">Hapus progres SIMAK di browser ini</button>');

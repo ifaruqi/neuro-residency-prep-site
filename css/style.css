@@ -45,6 +45,7 @@
   }
 }
 * { box-sizing: border-box; }
+[hidden] { display: none !important; }
 body {
   margin: 0;
   font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -237,11 +238,12 @@ th { font-weight: 600; font-size: .8rem; color: var(--muted); text-transform: up
 .tag.bad { background: var(--bad-soft); color: var(--bad); }
 .tag.warn { background: var(--warn-soft); color: var(--warn); }
 .tabs { display: flex; gap: 6px; flex-wrap: wrap; margin: 10px 0; }
-.tabs button {
+.tabs button, .tabs a {
+  display: inline-flex; align-items: center; text-decoration: none;
   min-height: 40px; padding: 6px 14px; border-radius: 99px; cursor: pointer; font: inherit; font-size: .88rem;
   border: 1px solid var(--border); background: var(--surface); color: var(--text);
 }
-.tabs button.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.tabs button.on, .tabs a.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
 .weak-row { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px; padding: 12px 0; border-bottom: 1px solid var(--border); }
 .weak-row:last-child { border-bottom: 0; }
 .materi-row .bar { margin-top: 10px; }
@@ -250,7 +252,35 @@ th { font-weight: 600; font-size: .8rem; color: var(--muted); text-transform: up
 .materi ul, .materi ol { padding-left: 20px; }
 textarea { font: inherit; width: 100%; border: 1px solid var(--border); border-radius: 8px; padding: 10px; background: var(--surface); color: var(--text); }
 
+/* Study tools shared with SIMAK: dialogs, review callout, confidence, notes */
+.dialog { max-width: min(470px, calc(100% - 32px)); padding: 28px; border: 1px solid var(--border); border-radius: 18px; background: var(--surface); color: var(--text); }
+.dialog h2 { margin-top: 0; }
+.dialog textarea { margin-bottom: 16px; }
+.dialog::backdrop { background: #0f221f88; backdrop-filter: blur(3px); }
+.callout { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; margin: 24px 0; padding: 20px; border: 1px solid var(--border); border-radius: 14px; background: var(--surface); }
+.callout p { margin: 6px 0 0; }
+.callout .field { margin: 0; }
+.confidence { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 16px 0; }
+.choice { border: 1px solid var(--border); border-radius: 99px; padding: 8px 14px; min-height: 40px; background: var(--surface); color: var(--text); cursor: pointer; font: inherit; font-size: .85rem; }
+.choice.on { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); font-weight: 600; }
+.choice:disabled { cursor: default; opacity: .7; }
+.notes { padding: 12px 0; border-top: 1px solid var(--border); margin: 16px 0 0; }
+.notes summary { cursor: pointer; font-size: .9rem; font-weight: 600; }
+.notes .field { margin: 14px 0 0; }
+.link-button { border: 0; background: transparent; padding: 8px 0; font: inherit; font-size: .85rem; text-decoration: underline; color: var(--accent); cursor: pointer; }
+.inline-error { color: var(--bad); margin: 10px 0 0; }
+.inline-error:empty { display: none; }
+.paused { text-align: center; padding: 48px 22px; }
+.paused .row { justify-content: center; }
+.paused p { max-width: 480px; margin: 0 auto 20px; }
+.keys { margin: 12px 0 0; }
+.legend .l-ok { background: var(--ok-soft); border-color: var(--ok); }
+.legend .l-bad { background: var(--bad-soft); border-color: var(--bad); }
+hr { border: 0; border-top: 1px solid var(--border); margin: 20px 0; }
+input[type=file] { font: inherit; font-size: .85rem; max-width: 100%; }
+
 @media (max-width: 760px) {
+  .keys { display: none; }
   .hero { grid-template-columns: 1fr; padding: 26px; gap: 24px; }
   .hero-facts { border-left: 0; border-top: 1px solid var(--ink-line); padding: 20px 0 0; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; gap: 20px 32px; }
   .hero-facts strong { font-size: 1.6rem; }
