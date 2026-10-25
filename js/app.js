@@ -200,19 +200,23 @@
   var timerHandle = null;
   function clearTimer() { if (timerHandle) { clearInterval(timerHandle); timerHandle = null; } }
 
-  // Top bar links follow the current test. The SIMAK link keeps class "sm-navlink" so js/simak.js
-  // recognises it (and marks it current) instead of injecting a second one.
+  // The top bar is the same test switcher on every page. The SIMAK link keeps class "sm-navlink" so
+  // js/simak.js recognises it (and marks it current) instead of injecting a second one.
   var NAV = document.querySelector('.topbar nav');
   function setNav(ctx) {
     if (!NAV) return;
-    var links = ctx === 'neuro'
-      ? [['#/neuro', 'Beranda'], ['#/setup', 'Try Out'], ['#/materi', 'Materi'], ['#/progres', 'Progres'], ['#/simak', 'SIMAK', 'sm-navlink']]
-      : [['#/simak', 'SIMAK', 'sm-navlink'], ['#/neuro', 'Neurologi']];
-    NAV.innerHTML = links.map(function (l) {
-      var on = (ctx === 'neuro' && l[0] === '#/neuro' && /^#\/?(neuro)?$/.test(location.hash)) ||
-        (l[0] !== '#/neuro' && l[0] !== '#/simak' && location.hash.indexOf(l[0]) === 0);
-      return '<a href="' + l[0] + '"' + (l[2] ? ' class="' + l[2] + '"' : '') + (on ? ' aria-current="page"' : '') + '>' + l[1] + '</a>';
-    }).join('');
+    NAV.innerHTML = '<a href="#/simak" class="sm-navlink">SIMAK</a>' +
+      '<a href="#/neuro"' + (ctx === 'neuro' ? ' aria-current="page"' : '') + '>CBT Neurologi</a>';
+  }
+
+  // Section links inside CBT Neurologi, mirroring the SIMAK sub-navigation.
+  function subnav(cur) {
+    return '<nav class="subnav">' + [['neuro', 'Ringkasan'], ['setup', 'Try Out'], ['materi', 'Materi'], ['progres', 'Progres']].map(function (l) {
+      return '<a href="#/' + l[0] + '"' + (l[0] === cur ? ' aria-current="page"' : '') + '>' + l[1] + '</a>';
+    }).join('') + '</nav>';
+  }
+  function pageHead(eyebrow, title, lead) {
+    return '<header class="page-head"><span class="eyebrow">' + eyebrow + '</span><h1>' + title + '</h1>' + (lead ? '<p>' + lead + '</p>' : '') + '</header>';
   }
 
   function readSimak(key, fallback) {
@@ -224,21 +228,21 @@
   function viewLanding() {
     var nAtt = store.get('attempts', []), nCur = store.get('current', null), nLast = nAtt[nAtt.length - 1];
     var sAtt = readSimak('attempts', []), sCur = readSimak('current', null);
-    var html = '<h1>Persiapan Seleksi PPDS Neurologi</h1><p class="muted">Pilih tes yang ingin dilatih.</p>';
-    if (sCur) html += '<div class="notice">Ada sesi SIMAK yang belum selesai. <a href="#/simak/exam">Lanjutkan SIMAK →</a></div>';
-    if (nCur) html += '<div class="notice">Ada try out Neurologi yang belum selesai. <a href="#/ujian">Lanjutkan Neurologi →</a></div>';
-    html += '<div class="test-cards">' +
-      '<a class="card test-card" id="sm-home-entry" href="#/simak">' +
-      '<span class="test-eyebrow">Tes 1</span><h2>SIMAK UI Pascasarjana</h2>' +
+    var html = pageHead('Seleksi PPDS Neurologi · FKUI', 'Dua tes, satu tempat berlatih.', 'Pilih tes yang ingin dilatih. Progres masing-masing tersimpan di perangkat ini.');
+    if (sCur) html += '<div class="notice"><span>Ada sesi SIMAK yang belum selesai.</span><a href="#/simak/exam">Lanjutkan SIMAK →</a></div>';
+    if (nCur) html += '<div class="notice"><span>Ada try out CBT Neurologi yang belum selesai.</span><a href="#/ujian">Lanjutkan try out →</a></div>';
+    html += '<div class="link-grid test-cards">' +
+      '<a class="card link-card test-card" id="sm-home-entry" href="#/simak">' +
+      '<span class="eyebrow">Tes 1</span><h2>SIMAK UI Pascasarjana</h2>' +
       '<p class="muted">PEKA dan Bahasa Inggris, dengan timer dan aturan nilai tiap subtes.</p>' +
-      '<div class="test-meta"><span><b id="sm-count">' + (window.SIMAK_BANK ? window.SIMAK_BANK.length : '…') + '</b> soal</span><span><b>' + sAtt.length + '</b> sesi selesai</span></div>' +
+      '<div class="test-meta"><span class="pill"><b id="sm-count">' + (window.SIMAK_BANK ? window.SIMAK_BANK.length : '…') + '</b> soal</span><span class="pill"><b>' + sAtt.length + '</b> sesi selesai</span></div>' +
       '<span class="btn">Masuk SIMAK →</span></a>' +
-      '<a class="card test-card" href="#/neuro">' +
-      '<span class="test-eyebrow">Tes 2</span><h2>CBT Neurologi</h2>' +
+      '<a class="card link-card test-card" href="#/neuro">' +
+      '<span class="eyebrow">Tes 2</span><h2>CBT Neurologi</h2>' +
       '<p class="muted">Simulasi CBT PPDS Neurologi FKUI; setiap jawaban berujuk ke halaman Buku Ajar Neurologi.</p>' +
-      '<div class="test-meta"><span><b>' + POOL.length + '</b> soal</span><span><b>' + nAtt.length + '</b> try out</span>' +
-      (nLast ? '<span>skor terakhir <b>' + pct(nLast.correct, nLast.total) + '%</b></span>' : '') + '</div>' +
-      '<span class="btn">Masuk Neurologi →</span></a>' +
+      '<div class="test-meta"><span class="pill"><b>' + POOL.length + '</b> soal</span><span class="pill"><b>' + nAtt.length + '</b> try out</span>' +
+      (nLast ? '<span class="pill">skor terakhir <b>' + pct(nLast.correct, nLast.total) + '%</b></span>' : '') + '</div>' +
+      '<span class="btn">Masuk CBT Neurologi →</span></a>' +
       '</div>';
     app.innerHTML = html;
     // The SIMAK bank script loads after this file; fill its count once everything has loaded.
@@ -252,23 +256,27 @@
     var attempts = store.get('attempts', []);
     var last = attempts[attempts.length - 1];
     var current = store.get('current', null);
-    var html = '<h1>Persiapan CBT PPDS Neurologi</h1>' +
-      '<p class="muted">Try out berbobot sesuai pola soal 2023–2026, pembahasan setiap soal, dan pelacakan topik lemah.</p>';
+    var html = subnav('neuro') + pageHead('Ruang latihan · CBT Neurologi', 'Latih soal, pahami rujukannya.',
+      'Try out berbobot sesuai pola soal 2023–2026, pembahasan setiap soal, dan pelacakan topik lemah.');
     if (current) {
-      html += '<div class="notice">Ada try out yang belum selesai. <a href="#/ujian">Lanjutkan</a></div>';
+      html += '<div class="notice"><span>Ada try out yang belum selesai.</span><a href="#/ujian">Lanjutkan try out →</a></div>';
     }
-    html += '<div class="grid">' +
-      '<div class="card"><div class="muted small">Bank soal</div><div class="stat">' + POOL.length + '</div><div class="small muted">' + TOPICS.length + ' topik</div></div>' +
-      '<div class="card"><div class="muted small">Try out selesai</div><div class="stat">' + attempts.length + '</div></div>' +
-      '<div class="card"><div class="muted small">Skor terakhir</div><div class="stat">' + (last ? pct(last.correct, last.total) + '%' : '–') + '</div></div>' +
-      '</div>' +
-      '<div class="grid">' +
-      '<a class="card tile" href="#/setup"><b>Mulai Try Out</b><span class="muted small">Simulasi campuran semua topik dengan timer.</span></a>' +
-      (PASTQ.length ? '<a class="card tile" href="#/setup?bank=lama"><b>Bank Soal Lama</b><span class="muted small">' + PASTQ.length + ' soal CBT 2023–2026, bisa per paket sesuai urutan asli.</span></a>' : '') +
-      '<a class="card tile" href="#/materi"><b>Ringkasan Materi</b><span class="muted small">High-yield per topik sesuai frekuensi soal lalu.</span></a>' +
-      '<a class="card tile" href="#/progres"><b>Progres & Topik Lemah</b><span class="muted small">Riwayat skor dan penguasaan per topik.</span></a>' +
-      '</div>' +
-      '<p class="notice small">Setiap soal di Bank Buku Ajar memiliki rujukan halaman Buku Ajar Neurologi Ed. 2 (FKUI) yang mendukung jawabannya. Rujukan menunjukkan sumber, bukan jaminan bebas salah. Soal di luar buku hanya muncul bila opsi <b>Sertakan soal di luar Buku Ajar</b> diaktifkan, dan selalu diberi label. Jika ada soal yang meragukan, tekan <b>Laporkan soal</b> di halaman pembahasan.</p>';
+    var modes = [['#/setup', 'Try out', 'Simulasi campuran', 'Semua topik sesuai bobot soal lalu, dengan timer 1 menit per soal.']];
+    if (PASTQ.length) modes.push(['#/setup?bank=lama', 'Bank Soal Lama', PASTQ.length + ' soal CBT 2023–2026', 'Per paket sesuai urutan asli, atau acak.']);
+    modes.push(['#/materi', 'Materi', 'Ringkasan high-yield', 'Per topik, diurutkan menurut frekuensi soal lalu.']);
+    modes.push(['#/progres', 'Progres', 'Topik lemah & riwayat', 'Skor per topik dan latihan terarah untuk yang paling lemah.']);
+    html += '<section class="hero"><div><span class="pill">' + POOL.length + ' soal · ' + TOPICS.length + ' topik · rujukan Buku Ajar</span>' +
+      '<h2>Setiap jawaban berujuk ke halaman Buku Ajar Neurologi.</h2>' +
+      '<p>Soal dibagi per topik sesuai bobot frekuensi soal lalu; soal yang paling jarang dikerjakan didahulukan, sehingga setiap set berbeda.</p>' +
+      '<a class="btn" href="#/setup">Atur try out →</a>' + (PASTQ.length ? '<a class="text-link" href="#/setup?bank=lama">Kerjakan Bank Soal Lama</a>' : '') + '</div>' +
+      '<div class="hero-facts"><div><strong>' + POOL.length + '</strong><span>soal di Bank Buku Ajar</span></div>' +
+      '<div><strong>' + attempts.length + '</strong><span>try out selesai di perangkat ini</span></div>' +
+      '<div><strong>' + (last ? pct(last.correct, last.total) + '%' : '–') + '</strong><span>skor terakhir</span></div></div></section>' +
+      '<div class="section-head"><h2>Pilih cara berlatih</h2><span class="muted small">Mulai dari try out, lalu ulang topik yang lemah</span></div>' +
+      '<div class="link-grid">' + modes.map(function (m, k) {
+        return '<a class="card link-card" href="' + m[0] + '"><span class="eyebrow">0' + (k + 1) + '</span><h3>' + m[1] + '</h3><b class="small">' + m[2] + '</b><p class="muted small">' + m[3] + '</p><span class="arrow" aria-hidden="true">↗</span></a>';
+      }).join('') + '</div>' +
+      '<div class="info small"><b>Tentang rujukan.</b><p>Setiap soal di Bank Buku Ajar memiliki rujukan halaman Buku Ajar Neurologi Ed. 2 (FKUI) yang mendukung jawabannya. Rujukan menunjukkan sumber, bukan jaminan bebas salah. Soal di luar buku hanya muncul bila opsi <b>Sertakan soal di luar Buku Ajar</b> diaktifkan, dan selalu diberi label. Jika ada soal yang meragukan, tekan <b>Laporkan soal</b> di halaman pembahasan.</p></div>';
     app.innerHTML = html;
   }
 
@@ -284,8 +292,8 @@
     var bank = params.bank || (last && last.bank) || 'buku';
     if (!PASTQ.length) bank = 'buku';
     var paper = (last && last.paper) || 'all', order = (last && last.order) || 'acak';
-    var html = '<h1>Atur Try Out</h1>' +
-      '<div class="card">' +
+    var html = subnav('setup') + pageHead('Try out · CBT Neurologi', 'Atur try out.', 'Pilih sumber soal, jumlah, waktu dan topik. Pengaturan terakhir diingat.') +
+      '<div class="setup-grid"><div class="card"><h2>Pengaturan</h2>' +
       '<div class="field"><span>Sumber soal</span><select id="bank">' +
       '<option value="buku"' + (bank === 'buku' ? ' selected' : '') + '>Bank Buku Ajar (' + POOL.length + ' soal)</option>' +
       (PASTQ.length ? '<option value="lama"' + (bank === 'lama' ? ' selected' : '') + '>Bank Soal Lama — soal CBT tahun lalu (' + PASTQ.length + ' soal)</option>' : '') +
@@ -307,19 +315,17 @@
       '<option value="60"' + (timed ? ' selected' : '') + '>1 menit per soal</option>' +
       '<option value="0"' + (!timed ? ' selected' : '') + '>Tanpa batas waktu</option>' +
       '</select></div>' +
-      '<div class="field"><span>Topik</span>' +
-      '<div class="row small"><a href="javascript:void 0" id="all">Pilih semua</a><a href="javascript:void 0" id="none">Kosongkan</a></div>' +
-      TOPICS.map(function (t) {
+      '<label class="check" id="outside-wrap"' + (bank === 'lama' ? ' hidden' : '') + '><input type="checkbox" id="outside"' + (outside ? ' checked' : '') + '>' +
+      '<span><b>Sertakan soal di luar Buku Ajar</b><br><span class="small muted">' + OUTSIDE.length + ' soal (terutama neuroanatomi dan serebelum) yang jawabannya tidak ditemukan di Buku Ajar Neurologi. Ditandai jelas saat pembahasan.</span></span></label>' +
+      '<p class="small muted">Soal dibagi per topik sesuai bobot frekuensi soal lalu. Soal yang paling jarang Anda kerjakan diprioritaskan, sehingga setiap set berbeda.</p>' +
+      '<button class="btn" id="go">Mulai try out →</button></div>' +
+      '<div class="card"><div class="row spread"><h2>Topik</h2><span class="row small"><a href="javascript:void 0" id="all">Pilih semua</a><a href="javascript:void 0" id="none">Kosongkan</a></span></div>' +
+      '<div class="topic-list">' + TOPICS.map(function (t) {
         return '<label class="check"><input type="checkbox" value="' + t.id + '"' + (preset.indexOf(t.id) >= 0 ? ' checked' : '') + '>' +
           '<span>' + esc(t.name) + ' <span class="muted small">(' + (counts[t.id] || 0) + ' soal' +
           (extra[t.id] ? '<span class="outside-count"' + (outside ? '' : ' hidden') + '> + ' + extra[t.id] + ' di luar buku</span>' : '') +
           ')</span></span></label>';
-      }).join('') +
-      '</div>' +
-      '<label class="check" id="outside-wrap"' + (bank === 'lama' ? ' hidden' : '') + '><input type="checkbox" id="outside"' + (outside ? ' checked' : '') + '>' +
-      '<span><b>Sertakan soal di luar Buku Ajar</b><br><span class="small muted">' + OUTSIDE.length + ' soal (terutama neuroanatomi dan serebelum) yang jawabannya tidak ditemukan di Buku Ajar Neurologi. Ditandai jelas saat pembahasan.</span></span></label>' +
-      '<p class="small muted">Soal dibagi per topik sesuai bobot frekuensi soal lalu. Soal yang paling jarang Anda kerjakan diprioritaskan, sehingga setiap set berbeda.</p>' +
-      '<button class="btn" id="go">Mulai</button></div>';
+      }).join('') + '</div></div></div>';
     app.innerHTML = html;
     var boxes = app.querySelectorAll('input[type=checkbox]:not(#outside)');
     document.getElementById('bank').onchange = function (e) {
@@ -355,27 +361,28 @@
     function render() {
       var i = exam.cur, q = QMAP[exam.qids[i]], order = exam.orders[i];
       var answered = exam.answers.filter(function (a) { return a !== null; }).length;
-      var html = '<div class="exam-head"><div><b>Soal ' + (i + 1) + '</b> <span class="muted">/ ' + exam.qids.length + '</span>' +
-        ' <span class="muted small">· ' + answered + ' terjawab</span></div>' +
+      var html = '<div class="exam-top"><div><span class="eyebrow">CBT Neurologi</span><div><b>Soal ' + (i + 1) + '</b> <span class="muted">/ ' + exam.qids.length + '</span>' +
+        ' <span class="muted small">· ' + answered + ' terjawab</span></div></div>' +
         '<div class="timer" id="timer"></div></div>' +
-        '<div class="card">' +
+        '<div class="exam-layout"><div class="card">' +
         '<div class="stem">' + esc(q.q) + '</div>' +
         order.map(function (oi, k) {
           return '<button class="opt' + (exam.answers[i] === oi ? ' sel' : '') + '" data-o="' + oi + '"><span class="key">' + LETTERS[k] + '.</span><span>' + esc(q.o[oi]) + '</span></button>';
         }).join('') +
         (exam.answers[i] !== null ? '<div class="row" style="justify-content:flex-end"><button class="btn ghost small" id="clear">Hapus jawaban</button></div>' : '') +
-        '<div class="row spread" style="margin-top:12px">' +
+        '<div class="exam-actions">' +
         '<button class="btn ghost" id="prev"' + (i === 0 ? ' disabled' : '') + '>← Sebelumnya</button>' +
         '<label class="check small"><input type="checkbox" id="flag"' + (exam.flags[i] ? ' checked' : '') + '> Ragu-ragu</label>' +
         (i < exam.qids.length - 1 ? '<button class="btn" id="next">Berikutnya →</button>' : '<button class="btn" id="submit2">Selesai</button>') +
         '</div></div>' +
-        '<div class="card"><div class="row spread"><b>Navigasi soal</b><button class="btn secondary" id="submit">Selesai & lihat hasil</button></div>' +
-        '<div class="nav-grid" style="margin-top:10px">' +
+        '<aside class="card exam-side"><h2>Navigasi soal</h2>' +
+        '<div class="legend"><span><i class="l-ans"></i>Terjawab</span><span><i class="l-flag"></i>Ragu-ragu</span></div>' +
+        '<div class="nav-grid">' +
         exam.qids.map(function (_, k) {
           var c = (k === i ? ' cur' : '') + (exam.flags[k] ? ' flag' : exam.answers[k] !== null ? ' ans' : '');
           return '<button class="' + c + '" data-k="' + k + '">' + (k + 1) + '</button>';
         }).join('') +
-        '</div><p class="small muted">Biru = terjawab, kuning = ragu-ragu.</p></div>';
+        '</div><button class="btn secondary" id="submit">Selesai & lihat hasil</button></aside></div>';
       app.innerHTML = html;
 
       app.querySelectorAll('.opt').forEach(function (b) {
@@ -443,11 +450,11 @@
     var p = pct(a.correct, a.total);
 
     function render() {
-      var html = '<h1>Hasil Try Out</h1><p class="muted">' + fmtDate(a.date) + ' · durasi ' + fmtTime(a.duration) + '</p>' +
-        '<div class="grid"><div class="card"><div class="muted small">Skor</div><div class="stat">' + p + '%</div><div class="small">' + a.correct + ' dari ' + a.total + ' benar</div></div>' +
-        '<div class="card"><div class="muted small">Tidak dijawab</div><div class="stat">' + a.answers.filter(function (x) { return x === null; }).length + '</div></div>' +
-        '<div class="card"><div class="muted small">Ditandai ragu</div><div class="stat">' + a.flags.filter(Boolean).length + '</div></div></div>' +
-        '<div class="row"><button class="btn" id="again">Coba Set Lain</button><a class="btn secondary" href="#/setup">Ubah pengaturan</a></div>' +
+      var html = subnav('') + pageHead('Hasil · CBT Neurologi', 'Hasil try out.', fmtDate(a.date) + ' · durasi ' + fmtTime(a.duration)) +
+        '<div class="grid"><div class="card"><span class="eyebrow">Skor</span><div class="stat">' + p + '%</div><div class="small muted">' + a.correct + ' dari ' + a.total + ' benar</div></div>' +
+        '<div class="card"><span class="eyebrow">Tidak dijawab</span><div class="stat">' + a.answers.filter(function (x) { return x === null; }).length + '</div></div>' +
+        '<div class="card"><span class="eyebrow">Ditandai ragu</span><div class="stat">' + a.flags.filter(Boolean).length + '</div></div></div>' +
+        '<div class="row" style="margin-top:18px"><button class="btn" id="again">Coba Set Lain</button><a class="btn secondary" href="#/setup">Ubah pengaturan</a></div>' +
         '<h2>Per topik</h2><div class="card">' + topicTable(a.byTopic) + '</div>' +
         '<h2>Pembahasan</h2><div class="tabs">' +
         [['all', 'Semua'], ['wrong', 'Salah/kosong'], ['flag', 'Ragu-ragu']].map(function (f) {
@@ -471,7 +478,7 @@
           '<div class="exp"><b>Pembahasan.</b> ' + esc(q.e) +
           (q.quote ? '<div class="small" style="margin-top:6px"><i>Buku Ajar: “' + esc(q.quote) + '”</i></div>' : '') +
           (q.past && q.past.agree === false ? '<div class="small" style="margin-top:6px"><span class="tag warn">Kunci di rekap soal: ' + esc(q.past.key || '-') + '</span> Jawaban di sini mengikuti ' + (q.grounded ? 'Buku Ajar' : 'literatur standar') + '.</div>' : '') + '</div>' +
-          '<div class="row spread small" style="margin-top:8px">' + (q.grounded ? '<span class="muted">Sumber: ' + esc(q.src) + '</span>' : '<span class="tag warn">' + (q.past ? 'Tidak ditemukan di Buku Ajar — jawaban dari literatur standar' : 'Di luar Buku Ajar — pengetahuan umum, tidak ditemukan di buku') + '</span>') +
+          '<div class="row spread small" style="margin-top:12px">' + (q.grounded ? '<span class="muted">Sumber: ' + esc(q.src) + '</span>' : '<span class="tag warn">' + (q.past ? 'Tidak ditemukan di Buku Ajar — jawaban dari literatur standar' : 'Di luar Buku Ajar — pengetahuan umum, tidak ditemukan di buku') + '</span>') +
           '<button class="btn ghost small" data-r="' + qid + '">' + (reported[qid] ? 'Dilaporkan ✓' : 'Laporkan soal') + '</button></div></div>';
       });
       app.innerHTML = html;
@@ -511,21 +518,21 @@
     POOL.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
     var coverage = Object.keys(qstats).filter(function (id) { return QMAP[id]; }).length;
 
-    var html = '<h1>Progres</h1>';
+    var html = subnav('progres') + pageHead('Progres · CBT Neurologi', 'Progres', 'Penguasaan per topik dan riwayat try out di perangkat ini.');
     if (!attempts.length) {
       app.innerHTML = html + '<div class="card">Belum ada try out. <a href="#/setup">Mulai sekarang</a>.</div>';
       return;
     }
     var weak = Object.keys(byTopic).filter(function (t) { return byTopic[t].n >= 3; })
       .sort(function (x, y) { return pct(byTopic[x].c, byTopic[x].n) - pct(byTopic[y].c, byTopic[y].n); }).slice(0, 3);
-    html += '<div class="grid"><div class="card"><div class="muted small">Try out</div><div class="stat">' + attempts.length + '</div></div>' +
-      '<div class="card"><div class="muted small">Soal unik dikerjakan</div><div class="stat">' + coverage + '<span class="small muted"> / ' + POOL.length + '</span></div></div>' +
-      '<div class="card"><div class="muted small">Rata-rata 3 terakhir</div><div class="stat">' +
+    html += '<div class="grid"><div class="card"><span class="eyebrow">Try out</span><div class="stat">' + attempts.length + '</div></div>' +
+      '<div class="card"><span class="eyebrow">Soal unik dikerjakan</span><div class="stat">' + coverage + '<span class="small muted"> / ' + POOL.length + '</span></div></div>' +
+      '<div class="card"><span class="eyebrow">Rata-rata 3 terakhir</span><div class="stat">' +
       Math.round(attempts.slice(-3).reduce(function (s, a) { return s + pct(a.correct, a.total); }, 0) / Math.min(3, attempts.length)) + '%</div></div></div>';
     if (weak.length) {
       html += '<h2>Topik terlemah</h2><div class="card">' + weak.map(function (t) {
-        return '<div class="row spread" style="padding:6px 0"><span>' + esc(TOPIC[t].name) + ' — <b>' + pct(byTopic[t].c, byTopic[t].n) + '%</b></span>' +
-          '<span class="row"><a href="#/materi/' + t + '">Materi</a><a class="btn secondary" href="#/setup?topic=' + t + '">Latihan topik ini</a></span></div>';
+        return '<div class="weak-row"><span>' + esc(TOPIC[t].name) + ' — <b>' + pct(byTopic[t].c, byTopic[t].n) + '%</b></span>' +
+          '<span class="row"><a href="#/materi/' + t + '">Materi</a><a class="btn secondary small" href="#/setup?topic=' + t + '">Latihan topik ini</a></span></div>';
       }).join('') + '</div>';
     }
     html += '<h2>Penguasaan per topik (semua try out)</h2><div class="card">' + topicTable(byTopic) + '</div>';
@@ -536,7 +543,7 @@
     var rep = Object.keys(reported);
     if (rep.length) {
       html += '<h2>Soal yang dilaporkan</h2><div class="card"><p class="small muted">Salin teks di bawah ini dan kirimkan untuk diperiksa.</p>' +
-        '<textarea readonly style="width:100%;min-height:120px;font:inherit;font-size:.85rem">' +
+        '<textarea readonly style="min-height:120px;font-size:.85rem">' +
         esc(rep.map(function (id) { return id + ' | ' + (QMAP[id] ? QMAP[id].q.slice(0, 80) : '?') + ' | ' + (reported[id].note || ''); }).join('\n')) +
         '</textarea></div>';
     }
@@ -553,19 +560,19 @@
   function viewMateri(topic) {
     if (topic && MATERI[topic]) {
       var t = TOPIC[topic];
-      app.innerHTML = '<p><a href="#/materi">← Semua topik</a></p><h1>' + esc(t.name) + '</h1>' +
-        '<p class="muted small">Muncul ' + t.past + ' kali dalam 6 paket soal lalu (2023–2026).</p>' +
+      app.innerHTML = subnav('materi') + '<a class="back" href="#/materi">← Semua topik</a>' +
+        pageHead('Materi · CBT Neurologi', esc(t.name), 'Muncul ' + t.past + ' kali dalam 6 paket soal lalu (2023–2026).') +
         '<div class="card materi">' + MATERI[topic] + '</div>' +
         '<a class="btn" href="#/setup?topic=' + topic + '">Latihan soal topik ini</a>';
       return;
     }
-    var html = '<h1>Ringkasan Materi</h1><p class="muted">Diurutkan berdasarkan frekuensi kemunculan pada soal 2023–2026.</p>';
+    var html = subnav('materi') + pageHead('Materi · CBT Neurologi', 'Ringkasan materi.', 'High-yield per topik, diurutkan berdasarkan frekuensi kemunculan pada soal 2023–2026.') + '<div class="link-grid">';
     var maxPast = Math.max.apply(null, TOPICS.map(function (x) { return x.past; }));
     TOPICS.forEach(function (x) {
-      html += '<a class="card tile" href="#/materi/' + x.id + '"><div class="row spread"><b>' + esc(x.name) + '</b><span class="small muted">' + x.past + ' soal lalu</span></div>' +
+      html += '<a class="card tile materi-row" href="#/materi/' + x.id + '"><div class="row spread"><b>' + esc(x.name) + '</b><span class="small muted">' + x.past + ' soal lalu</span></div>' +
         '<div class="bar"><i style="width:' + Math.round(100 * x.past / maxPast) + '%"></i></div></a>';
     });
-    app.innerHTML = html;
+    app.innerHTML = html + '</div>';
   }
 
   function route() {

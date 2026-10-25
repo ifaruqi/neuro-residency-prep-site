@@ -29,7 +29,10 @@
   function sessionName(a) { return modeName(a.settings.mode)+(a.settings.packageId&&a.settings.packageId!=='mixed'?' · Paket '+a.settings.packageId:'')+(a.settings.skill?' · '+a.settings.skill:'')+(a.settings.format==='reference'?' · Format acuan':'')+' · '+rhythmName(a)+(a.settings.difficulty&&a.settings.difficulty!=='mixed'?' · '+levelName(a.settings.difficulty):''); }
   function sectionList(mode, section) { return config.sections.filter(function (s) { return mode === 'full' || (mode === 'peka' && s.group === 'PEKA') || (mode === 'english' && s.group === 'English') || (mode === 'focus' && s.id === section); }); }
   function shell(title, subtitle, body) {
-    app.innerHTML = '<div class="sm-subnav"><a href="#/simak">SIMAK Pascasarjana</a><a href="#/simak/notebook">Buku kesalahan</a><a href="#/simak/progress">Progres SIMAK</a></div>' +
+    var section = (location.hash.split('/')[2] || '').split('?')[0];
+    app.innerHTML = '<nav class="sm-subnav">' + [['', 'Ringkasan'], ['notebook', 'Buku kesalahan'], ['progress', 'Progres']].map(function (l) {
+      return '<a href="#/simak' + (l[0] ? '/' + l[0] : '') + '"' + (l[0] === section ? ' aria-current="page"' : '') + '>' + l[1] + '</a>';
+    }).join('') + '</nav>' +
       '<header class="sm-heading"><span class="sm-eyebrow">RUANG LATIHAN · SIMAK UI</span><h1>' + esc(title) + '</h1><p class="muted">' + esc(subtitle) + '</p></header>' +
       (!storageOK ? '<p class="notice" role="alert">Penyimpanan browser tidak tersedia atau penuh. Jawaban tidak dapat disimpan dengan aman. Aktifkan penyimpanan sebelum memulai sesi baru.</p>' : '') + body;
   }
