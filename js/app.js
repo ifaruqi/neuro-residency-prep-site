@@ -31,7 +31,8 @@
   QB.forEach(function (q) { q.grounded = !q.nib && q.src !== 'AI'; });
   var POOL = QB.filter(function (q) { return q.grounded; });
   var OUTSIDE = QB.filter(function (q) { return !q.grounded; });
-  function poolFor(outside) { return outside ? QB : POOL; }
+  // bank 'campur' adds the past-paper items (private copy only) to the book bank for topic drills.
+  function poolFor(outside, bank) { var base = outside ? QB : POOL; return bank === 'campur' ? base.concat(PASTQ) : base; }
 
   // Bank Soal Lama: rewritten past-paper items (data/past.js). Kept separate from the Buku Ajar bank.
   var PASTQ = (window.PAST || []).map(function (r) {
@@ -135,11 +136,11 @@
   }
 
   // Quota per topic proportional to weight; least-seen questions first.
-  function pickQuestions(n, topics, outside) {
+  function pickQuestions(n, topics, outside, bank) {
     var seen = store.get('seen', {});
     var pools = {};
     topics.forEach(function (t) {
-      pools[t] = shuffle(poolFor(outside).filter(function (q) { return q.t === t; }))
+      pools[t] = shuffle(poolFor(outside, bank).filter(function (q) { return q.t === t; }))
         .sort(function (a, b) { return (seen[a.id] || 0) - (seen[b.id] || 0); });
     });
     var total = topics.reduce(function (s, t) { return s + pools[t].length; }, 0);
@@ -175,7 +176,7 @@
 
   function startExam(settings, list) {
     var n = settings.n === 'all' ? Infinity : settings.n;
-    var qs = list || (settings.bank === 'lama' ? pickPast(settings, n) : pickQuestions(n, settings.topics, !!settings.outside));
+    var qs = list || (settings.bank === 'lama' ? pickPast(settings, n) : pickQuestions(n, settings.topics, !!settings.outside, settings.bank));
     if (!qs.length) return false;
     var now = Date.now();
     var exam = {
@@ -474,6 +475,8 @@
     var counts = {}, extra = {};
     POOL.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
     OUTSIDE.forEach(function (q) { extra[q.t] = (extra[q.t] || 0) + 1; });
+    var pastCounts = {};
+    PASTQ.forEach(function (q) { pastCounts[q.t] = (pastCounts[q.t] || 0) + 1; });
     var bank = params.bank || (last && last.bank) || 'buku';
     if (!PASTQ.length || bank === 'review') bank = 'buku';
     var paper = (last && last.paper) || 'all', order = (last && last.order) || 'acak';
@@ -485,7 +488,8 @@
       '</select></div>' +
       '<div class="field"><span>Sumber soal</span><select id="bank">' +
       '<option value="buku"' + (bank === 'buku' ? ' selected' : '') + '>Bank Buku Ajar (' + POOL.length + ' soal)</option>' +
-      (PASTQ.length ? '<option value="lama"' + (bank === 'lama' ? ' selected' : '') + '>Bank Soal Lama — soal CBT tahun lalu (' + PASTQ.length + ' soal)</option>' : '') +
+      (PASTQ.length ? '<option value="lama"' + (bank === 'lama' ? ' selected' : '') + '>Bank Soal Lama — soal CBT tahun lalu (' + PASTQ.length + ' soal)</option>' +
+        '<option value="campur"' + (bank === 'campur' ? ' selected' : '') + '>Buku Ajar + Bank Soal Lama — untuk drill topik (' + (POOL.length + PASTQ.length) + ' soal)</option>' : '') +
       '</select></div>' +
       '<div id="lama-opts"' + (bank === 'lama' ? '' : ' hidden') + '>' +
       '<div class="field"><span>Paket</span><select id="paper"><option value="all">Semua paket</option>' +
@@ -535,7 +539,10 @@
       if (lama) {
         var pp = document.getElementById('paper').value;
         c = PASTQ.filter(function (q) { return (pp === 'all' || q.past.paper === pp) && topics.indexOf(q.t) >= 0; }).length;
-      } else topics.forEach(function (t) { c += (counts[t] || 0) + (outsideOn ? extra[t] || 0 : 0); });
+      } else {
+        var campur = document.getElementById('bank').value === 'campur';
+        topics.forEach(function (t) { c += (counts[t] || 0) + (outsideOn ? extra[t] || 0 : 0) + (campur ? pastCounts[t] || 0 : 0); });
+      }
       document.getElementById('n-all').textContent = 'Semua soal topik terpilih (' + c + ')';
     }
     countAll();
