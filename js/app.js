@@ -1122,6 +1122,7 @@
     switch (path[0]) {
       case '': return viewLanding();
       case 'simak': return; // rendered by js/simak.js
+      case 'cek-soal': return; // TEMPORARY: rendered by js/cek-soal.js
       case 'neuro': return viewHome();
       case 'setup': return viewSetup(params);
       case 'ujian': return viewExam();
