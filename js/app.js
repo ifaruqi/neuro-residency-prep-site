@@ -29,8 +29,14 @@
   // Grounded = answer verified against the book with a page citation. Questions outside the book are only
   // included when the user opts in ("Sertakan soal di luar Buku Ajar").
   QB.forEach(function (q) { q.grounded = !q.nib && q.src !== 'AI'; });
-  var POOL = QB.filter(function (q) { return q.grounded; });
-  var OUTSIDE = QB.filter(function (q) { return !q.grounded; });
+  // Exception agreed on 6 Nov 2026: basic anatomy that past papers test but the Buku Ajar does not teach
+  // (brain development, sensory receptors, cerebellar nuclei and laterality, epidural vs subdural on CT).
+  // These join the regular bank, labelled as outside the book.
+  var CORE_OUTSIDE = ['A-1nbv9zd', 'A-u1qdjf', 'C-nq7vr6', 'C-5kadx', 'F-1mo5qa6', 'F-122doss', 'F-1yzj8gu', 'F-1oaikqh',
+    'K-1ao1fux', 'K-yulmqn', 'K-vbhype'];
+  QB.forEach(function (q) { if (CORE_OUTSIDE.indexOf(q.id) >= 0) q.coreOutside = true; });
+  var POOL = QB.filter(function (q) { return q.grounded || q.coreOutside; });
+  var OUTSIDE = QB.filter(function (q) { return !q.grounded && !q.coreOutside; });
   // bank 'campur' adds the past-paper items (private copy only) to the book bank for topic drills.
   function poolFor(outside, bank) { var base = outside ? QB : POOL; return bank === 'campur' ? base.concat(PASTQ) : base; }
 
@@ -370,6 +376,7 @@
   function fmtMs(ms) { return fmtTime(ms / 1000); }
 
   function sourceHTML(q) {
+    if (q.coreOutside) return '<span class="tag warn">Di luar Buku Ajar — anatomi dasar standar, dimasukkan karena sering keluar di soal lalu</span>';
     return q.grounded ? '<span class="muted">Sumber: ' + esc(q.src) + '</span>'
       : '<span class="tag warn">' + (q.past ? 'Tidak ditemukan di Buku Ajar — jawaban dari literatur standar' : 'Di luar Buku Ajar — pengetahuan umum, tidak ditemukan di buku') + '</span>';
   }
