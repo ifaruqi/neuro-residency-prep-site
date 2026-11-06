@@ -299,3 +299,8 @@ input[type=file] { font: inherit; font-size: .85rem; max-width: 100%; }
   .exam-top { padding: 12px; }
   .stat { font-size: 2rem; }
 }
+
+/* Question difficulty labels on explanations */
+.level-lanjutan, .level-spesifik { text-transform: none; letter-spacing: 0; font-weight: 600; }
+.level-lanjutan { color: var(--accent); }
+.level-spesifik { color: var(--warn); }

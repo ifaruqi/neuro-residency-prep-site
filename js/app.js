@@ -135,12 +135,43 @@
     return shuffle(idx);
   }
 
+  // Difficulty labels from the ChatGPT rating, calibrated with Nadira (data/levels.js): 'l' lanjutan,
+  // 's' spesifik; anything unlabelled (incl. past-paper and outside-book items) counts as inti.
+  var LEVELS = window.LEVELS || {};
+  function levelOf(q) { return LEVELS[q.id] === 's' ? 'spesifik' : LEVELS[q.id] === 'l' ? 'lanjutan' : 'inti'; }
+  var LEVEL_NAMES = ['inti', 'lanjutan', 'spesifik'];
+  // 'campur' (default) mixes levels like the exam; the others restrict which levels are drawn.
+  var MIX = { inti: 0.6, lanjutan: 0.3, spesifik: 0.1 };
+  var LEVEL_SETS = { campur: LEVEL_NAMES, inti: ['inti'], dasar: ['inti', 'lanjutan'], spesifik: ['spesifik'] };
+  function levelAllowed(level) { return LEVEL_SETS[level] || LEVEL_NAMES; }
+
+  // Within a topic quota, draw levels in MIX proportions; a level that runs short is filled from the others.
+  function takeMixed(pool, k) {
+    var by = { inti: [], lanjutan: [], spesifik: [] };
+    pool.forEach(function (q) { by[levelOf(q)].push(q); });
+    // Floors first, then the leftover slots go to levels drawn by their fractional parts, so the
+    // expected share of each level matches MIX without ever exceeding k.
+    var want = {}, frac = {}, got = 0;
+    LEVEL_NAMES.forEach(function (l) { var x = k * MIX[l]; want[l] = Math.floor(x); frac[l] = x - want[l]; got += want[l]; });
+    for (var left = k - got; left > 0; left--) {
+      var sum = LEVEL_NAMES.reduce(function (a, l) { return a + frac[l]; }, 0), r = Math.random() * sum;
+      for (var j = 0; j < LEVEL_NAMES.length; j++) { r -= frac[LEVEL_NAMES[j]]; if (r <= 0 || j === LEVEL_NAMES.length - 1) break; }
+      want[LEVEL_NAMES[j]]++; frac[LEVEL_NAMES[j]] = 0;
+    }
+    got = 0;
+    LEVEL_NAMES.forEach(function (l) { want[l] = Math.min(want[l], by[l].length); got += want[l]; });
+    LEVEL_NAMES.forEach(function (l) { var add = Math.min(k - got, by[l].length - want[l]); if (add > 0) { want[l] += add; got += add; } });
+    var out = [];
+    LEVEL_NAMES.forEach(function (l) { out = out.concat(by[l].slice(0, want[l])); });
+    return out.slice(0, k);
+  }
+
   // Quota per topic proportional to weight; least-seen questions first.
-  function pickQuestions(n, topics, outside, bank) {
+  function pickQuestions(n, topics, outside, bank, level) {
     var seen = store.get('seen', {});
-    var pools = {};
+    var pools = {}, allowed = levelAllowed(level);
     topics.forEach(function (t) {
-      pools[t] = shuffle(poolFor(outside, bank).filter(function (q) { return q.t === t; }))
+      pools[t] = shuffle(poolFor(outside, bank).filter(function (q) { return q.t === t && allowed.indexOf(levelOf(q)) >= 0; }))
         .sort(function (a, b) { return (seen[a.id] || 0) - (seen[b.id] || 0); });
     });
     var total = topics.reduce(function (s, t) { return s + pools[t].length; }, 0);
@@ -162,7 +193,9 @@
       if (!progressed) break;
     }
     var picked = [];
-    topics.forEach(function (t) { picked = picked.concat(pools[t].slice(0, quota[t])); });
+    topics.forEach(function (t) {
+      picked = picked.concat(level === 'campur' || !level ? takeMixed(pools[t], quota[t]) : pools[t].slice(0, quota[t]));
+    });
     return shuffle(picked);
   }
 
@@ -176,7 +209,7 @@
 
   function startExam(settings, list) {
     var n = settings.n === 'all' ? Infinity : settings.n;
-    var qs = list || (settings.bank === 'lama' ? pickPast(settings, n) : pickQuestions(n, settings.topics, !!settings.outside, settings.bank));
+    var qs = list || (settings.bank === 'lama' ? pickPast(settings, n) : pickQuestions(n, settings.topics, !!settings.outside, settings.bank, settings.level || 'campur'));
     if (!qs.length) return false;
     var now = Date.now();
     var exam = {
@@ -346,7 +379,11 @@
       (q.past && q.past.agree === false ? '<div class="small" style="margin-top:6px"><span class="tag warn">Kunci di rekap soal: ' + esc(q.past.key || '-') + '</span> Jawaban di sini mengikuti ' + (q.grounded ? 'Buku Ajar' : 'literatur standar') + '.</div>' : '') +
       '</div>';
   }
-  function qLabel(q) { return esc(TOPIC[q.t] ? TOPIC[q.t].name : q.t) + (q.past ? ' · ' + esc(q.past.paper) + ' no. ' + q.past.no : ''); }
+  function qLabel(q) {
+    var l = levelOf(q);
+    return esc(TOPIC[q.t] ? TOPIC[q.t].name : q.t) + (q.past ? ' · ' + esc(q.past.paper) + ' no. ' + q.past.no : '') +
+      (l !== 'inti' ? ' · <span class="level-' + l + '">' + l + '</span>' : '');
+  }
 
   var REASONS = ['Salah konsep', 'Lupa fakta', 'Salah baca soal', 'Terburu-buru', 'Menebak'];
   function notesHTML(id) {
@@ -446,6 +483,7 @@
       ['#/setup?mode=latihan', 'Latihan', 'Pembahasan per soal', 'Jawab, pilih tingkat keyakinan, lalu buka pembahasan dan rujukan buku langsung.']];
     if (PASTQ.length) modes.push(['#/setup?bank=lama', 'Bank Soal Lama', PASTQ.length + ' soal CBT 2023–2026', 'Per paket sesuai urutan asli, atau acak.']);
     modes.push(['#/kesalahan', 'Buku kesalahan', 'Ulangan terjadwal', 'Soal salah, kosong, dan ragu diulang pada hari ke-1, 3, 7, 14, lalu 30.']);
+    modes.push(['#/setup?level=spesifik&mode=latihan', 'Soal spesifik', 'Pendalaman', 'Soal yang lebih rinci, terpisah dari try out biasa; di try out campuran porsinya kecil.']);
     modes.push(['#/materi', 'Materi', 'Ringkasan high-yield', 'Per topik, diurutkan menurut frekuensi soal lalu.']);
     modes.push(['#/progres', 'Progres', 'Topik lemah & riwayat', 'Ketepatan pertama kali dan pengulangan per topik, plus cadangan data.']);
     html += '<section class="hero"><div><span class="pill">' + POOL.length + ' soal · ' + TOPICS.length + ' topik · rujukan Buku Ajar</span>' +
@@ -475,11 +513,10 @@
     var counts = {}, extra = {};
     POOL.forEach(function (q) { counts[q.t] = (counts[q.t] || 0) + 1; });
     OUTSIDE.forEach(function (q) { extra[q.t] = (extra[q.t] || 0) + 1; });
-    var pastCounts = {};
-    PASTQ.forEach(function (q) { pastCounts[q.t] = (pastCounts[q.t] || 0) + 1; });
     var bank = params.bank || (last && last.bank) || 'buku';
     if (!PASTQ.length || bank === 'review') bank = 'buku';
     var paper = (last && last.paper) || 'all', order = (last && last.order) || 'acak';
+    var level = params.level || (params.topic || params.mode ? 'campur' : (last && last.level)) || 'campur';
     function opt(v, label, cur) { return '<option value="' + v + '"' + (v === cur ? ' selected' : '') + '>' + label + '</option>'; }
     var html = subnav('setup') + pageHead('Try out · CBT Neurologi', 'Atur try out.', 'Pilih mode, sumber soal, jumlah, waktu dan topik. Pengaturan terakhir diingat.') +
       '<div class="setup-grid"><div class="card"><h2>Pengaturan</h2>' +
@@ -500,6 +537,11 @@
       '<div class="field"><span>Urutan</span><select id="order">' +
       opt('acak', 'Acak (sesuai jumlah soal)', order) + opt('urut', 'Satu paket utuh, urut nomor asli', order) +
       '</select></div></div>' +
+      '<div class="field" id="level-wrap"' + (bank === 'lama' ? ' hidden' : '') + '><span>Tingkat soal</span><select id="level">' +
+      opt('campur', 'Campuran seperti ujian (±60% inti, 30% lanjutan, 10% spesifik)', level) +
+      opt('inti', 'Inti saja', level) + opt('dasar', 'Inti + lanjutan', level) +
+      opt('spesifik', 'Spesifik saja (pendalaman)', level) +
+      '</select></div>' +
       '<div class="field"><span>Jumlah soal</span><select id="n">' +
       [10, 25, 50, 75, 100].map(function (v) { return '<option' + (v === n ? ' selected' : '') + '>' + v + '</option>'; }).join('') +
       '<option value="all"' + (n === 'all' ? ' selected' : '') + ' id="n-all">Semua soal topik terpilih</option>' +
@@ -540,19 +582,22 @@
         var pp = document.getElementById('paper').value;
         c = PASTQ.filter(function (q) { return (pp === 'all' || q.past.paper === pp) && topics.indexOf(q.t) >= 0; }).length;
       } else {
-        var campur = document.getElementById('bank').value === 'campur';
-        topics.forEach(function (t) { c += (counts[t] || 0) + (outsideOn ? extra[t] || 0 : 0) + (campur ? pastCounts[t] || 0 : 0); });
+        var allowed = levelAllowed(document.getElementById('level').value);
+        c = poolFor(outsideOn, document.getElementById('bank').value).filter(function (q) {
+          return topics.indexOf(q.t) >= 0 && allowed.indexOf(levelOf(q)) >= 0;
+        }).length;
       }
       document.getElementById('n-all').textContent = 'Semua soal topik terpilih (' + c + ')';
     }
     countAll();
-    app.querySelectorAll('input[type=checkbox], #bank, #paper').forEach(function (el) { el.addEventListener('change', countAll); });
+    app.querySelectorAll('input[type=checkbox], #bank, #paper, #level').forEach(function (el) { el.addEventListener('change', countAll); });
     hint();
     document.getElementById('mode').onchange = hint;
     document.getElementById('bank').onchange = function (e) {
       var lama = e.target.value === 'lama';
       document.getElementById('lama-opts').hidden = !lama;
       document.getElementById('outside-wrap').hidden = lama;
+      document.getElementById('level-wrap').hidden = lama;
     };
     document.getElementById('outside').onchange = function (e) {
       app.querySelectorAll('.outside-count').forEach(function (el) { el.hidden = !e.target.checked; });
@@ -571,6 +616,7 @@
         rhythm: document.getElementById('rhythm').value,
         outside: document.getElementById('outside').checked,
         bank: document.getElementById('bank').value,
+        level: document.getElementById('level').value,
         paper: document.getElementById('paper') ? document.getElementById('paper').value : 'all',
         order: document.getElementById('order') ? document.getElementById('order').value : 'acak' };
       confirmReplace(function () { if (!startExam(settings)) err.textContent = 'Tidak ada soal untuk topik yang dipilih.'; });
